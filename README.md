@@ -9,5 +9,5 @@
 ```bash model/download_model.sh```
 
 ## Run the example
-```python example.py```
+```python main.py```
 
