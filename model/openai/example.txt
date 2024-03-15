@@ -1,0 +1,14 @@
+
+This is an example to help you
+
+User Goal Instruction:
+You are planning your trip in CambridgeYou are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>maharajah tandoori restaurant</span>Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>5 people</span> at <span class='emphasis'>16:00</span> on <span class='emphasis'>monday</span>Make sure you get the <span class='emphasis'>reference number</span>You are also looking for a <span class='emphasis'>train</span>. The train should be on <span class='emphasis'>the same day as the restaurant booking</span> and should depart from <span class='emphasis'>stevenage</span>The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 12:30</span>Make sure you get <span class='emphasis'>departure time</span> and <span class='emphasis'>price</span>
+
+Conversation:
+User:  I would like to make a reservation at the Maharajah Tandoori restaurant for my trip to Cambridge.
+System:  For when and how many?
+User:  Can you book a table for 5 people at 16:00 on monday?
+System:  Booking was successful. The table will be reserved for 15 minutes.
+Reference number is : ZB0MA4IZ. May I help you further?
+User:  Yes, I also need a train for the same day. We are coming from Stevenage.
+System:  Train TR9013 will get you from Stevenage to Cambridge at 14:43. It departs at 13.54. Would you like to book a ticket?
