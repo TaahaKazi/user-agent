@@ -6,7 +6,7 @@
 ```bash download_multiwoz.sh```
 
 ## Download pptod model
-```bash model/download_model.sh```
+```bash model/download_pptod.sh```
 
 ## Run the example
 ```python main.py```
