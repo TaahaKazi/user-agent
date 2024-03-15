@@ -1,5 +1,5 @@
 from extraction.utils import *
-#from model.pptod.pptod import PPtod
+from model.pptod.pptod import PPtod
 from model.openai.gpt3 import GPT3
 if __name__ == '__main__':
 
@@ -9,7 +9,7 @@ if __name__ == '__main__':
     frames = iter_data(DATA_PATH, REFERENCE_LIST_FILE, initial_msg_flag=True, conv_hist_flag=False)
 
     # Initialize the TOD model
-    #client_model = PPtod()
+    client_model = PPtod()
 
     # Initialize the user-agent model
     user_model = GPT3()
