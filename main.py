@@ -17,7 +17,7 @@ if __name__ == '__main__':
     debug = True
 
     if debug:
-        frames = frames[:1]
+        frames = frames[2:4]
 
     # Iterate over frames
     for frame in frames:
@@ -29,6 +29,10 @@ if __name__ == '__main__':
             # Update frame
             frame.update_frame({"role": "user_agent", "content": user_response})
 
+            # Check if the conversation is over
+            if user_response == ' <COMPLETE_CONVERSATION>':
+                break
+
             # Get client model response
             client_response = client_model.get_response(frame)
             print("System: ", client_response)
@@ -37,5 +41,15 @@ if __name__ == '__main__':
 
             # Check if the conversation is over
             if debug:
-                if len(frame.conv_history) == 6:
+                if len(frame.conv_history) == 20:
                     break
+
+    print("Frames over")
+
+    # Save the frames to a file
+
+    with open('output.jsonl', 'w') as f:
+        for frame in frames:
+            out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}
+            f.write(json.dumps(out_dict))
+            f.write('\n')
