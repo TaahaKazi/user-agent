@@ -8,6 +8,10 @@
 ## Download pptod model
 ```bash model/download_pptod.sh```
 
+## Add your openai-key in the below file 
+```open_ai_key.json```
+### The format should be as {"key": "sk-*******"}
+
 ## Run the example
 ```python main.py```
 
