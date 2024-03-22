@@ -1,0 +1,4 @@
+# Stopping Criteria: Done
+# API Token Counter: Done
+# Chat completion sending conversation again and again: Need Help
+# Implementing Agent with GPT-3: WIP
