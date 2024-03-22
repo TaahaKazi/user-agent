@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
             # Check if the conversation is over
             if debug:
-                if len(frame.conv_history) == 20:
+                if len(frame.conv_history) == 30:
                     break
 
     print("Frames over")

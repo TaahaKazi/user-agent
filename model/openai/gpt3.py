@@ -3,11 +3,15 @@ import json
 
 
 class GPT3:
-    def __init__(self):
+    def __init__(self, example=True):
         key_lookup = json.load(open('open_ai_key.json'))
         self.model = OpenAI(api_key=key_lookup['key'])
         # code to read text from a file and store it in a variable as string
-        self.example = str(open('model/openai/example.txt', 'r').read())
+        if example:
+            self.example = str(open('model/openai/example.txt', 'r').read())
+        else:
+            self.example = ""
+        self.log = open('model/openai/log.txt', 'w')
 
     def get_response(self, frame):
 
@@ -51,7 +55,11 @@ class GPT3:
                 prompt=initial_msg,
                 temperature=0,
                 max_tokens=30,
+                stop=["System:"]
             )
             res = completion.choices[0].text
             res_str = res.split('\n')[0]
+
+            # log tokens called
+            self.log.write(str(completion.usage)+ '\n')
             return res_str
