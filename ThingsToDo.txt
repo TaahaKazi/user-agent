@@ -2,4 +2,4 @@
 # API Token Counter: Done
 # Chat completion sending conversation again and again: Need Help [Seems like a ]
 # Implementing Agent with GPT-3: Done, but needs improvement in prompting
-# Printing the conversation: Clean up
+# Printing the conversation: Done
