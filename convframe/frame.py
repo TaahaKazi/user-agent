@@ -23,9 +23,9 @@ class Frame:
         """
         for i, msg in enumerate(self.conv_history):
             if i % 2 == 0:
-                print("User: ", msg)
+                print("User: ", msg['content'])
             else:
-                print("System: ", msg)
+                print("System: ", msg['content'])
         return
 
     def update_frame(self, response):
