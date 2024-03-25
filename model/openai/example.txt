@@ -18,3 +18,5 @@ System:  You're all set.  Reference number is NJB87PAP.  Is there anything else 
 User:  No, this is all I will need. Thank you.
 System:  Thank for calling us today.  I hope you have a good trip.
 User:  <COMPLETE_CONVERSATION>
+
+If you think the conversation is complete or being repetitive, please type ' <COMPLETE_CONVERSATION>' in the chat.

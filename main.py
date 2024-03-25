@@ -41,7 +41,7 @@ if __name__ == '__main__':
     debug = True
 
     if debug:
-        frames = frames[70:75]
+        frames = frames[100:105]
 
     # Iterate over frames
     for frame in frames:
