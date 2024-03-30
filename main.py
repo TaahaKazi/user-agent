@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
     # Save the frames to a file
 
-    with open('output.jsonl', 'w') as f:
+    with open('output_store/output.jsonl', 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}
             f.write(json.dumps(out_dict))
