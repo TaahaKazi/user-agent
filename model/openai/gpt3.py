@@ -4,14 +4,14 @@ import json
 
 class GPT3:
     def __init__(self, example=True):
-        key_lookup = json.load(open('folder/user-agent/open_ai_key.json'))
+        key_lookup = json.load(open('open_ai_key.json'))
         self.model = OpenAI(api_key=key_lookup['key'])
         # code to read text from a file and store it in a variable as string
         if example:
-            self.example = str(open('folder/user-agent/model/openai/example.txt', 'r').read())
+            self.example = str(open('model/openai/example.txt', 'r').read())
         else:
             self.example = ""
-        self.log = open('folder/user-agent/model/openai/log.txt', 'w')
+        self.log = open('model/openai/log.txt', 'w')
 
     def get_response(self, frame):
 

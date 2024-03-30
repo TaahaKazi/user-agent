@@ -1,39 +1,32 @@
 from extraction.utils import *
 from model.pptod.pptod import PPtod
 from model.openai.gpt3 import GPT3
-from model.bot.tod_gpt import TODSystem
-# import model.bot.model
 import sys
-sys.path.append('model/bot')
+import os
+
+current_directory = os.getcwd()
+full_path = os.path.join(current_directory, 'model')
+full_path = os.path.join(full_path, 'bot')
+print(full_path)
+sys.path.append(full_path)
+
+from model.bot.tod_gpt import TODSystem
+
+
 if __name__ == '__main__':
+
+    current_directory = os.getcwd()
+    full_path = os.path.join(current_directory, 'model')
+    full_path = os.path.join(full_path, 'bot')
+    print(full_path)
+    sys.path.append(full_path)
+
+    a = input("Enter something:")
 
     # Collect list of frames from multiwoz data
     DATA_PATH = 'multiwoz/data/MultiWOZ_2.1/data.json'
     REFERENCE_LIST_FILE = 'multiwoz/data/MultiWOZ_2.1/valListFile.txt'
     frames = iter_data(DATA_PATH, REFERENCE_LIST_FILE, initial_msg_flag=True, conv_hist_flag=False)
-
-    # Initialize the TOD model
-    # client_model = PPtod()
-
-    client_model = TODSystem(
-        cache_dir="",
-        model_name="gpt-3.5-turbo-instruct",
-        faiss_db="model/bot/multiwoz-context-db.vec",
-        num_examples=2,
-        dials_total=100,
-        database_path="model/bot/multiwoz_database",
-        dataset="multiwoz",
-        context_size=3,
-        ontology="model/bot/ontology.json",
-        output="results",
-        run_name="",
-        use_gt_state=False,
-        use_gt_domain=False,
-        use_zero_shot=False,
-        verbose=True,
-        goal_data=None,
-        debug=True,
-    )
 
     # Initialize the user-agent model
     user_model = GPT3()
@@ -41,7 +34,7 @@ if __name__ == '__main__':
     debug = True
 
     if debug:
-        frames = frames[100:105]
+        frames = frames[100:101]
 
     # Iterate over frames
     for frame in frames:
