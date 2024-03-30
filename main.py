@@ -1,28 +1,18 @@
 from extraction.utils import *
-from model.pptod.pptod import PPtod
-from model.openai.gpt3 import GPT3
+from model.GPT.gpt3 import GPT3
 import sys
 import os
-
+from utils import conv_json_to_text
+import datetime
 current_directory = os.getcwd()
 full_path = os.path.join(current_directory, 'model')
 full_path = os.path.join(full_path, 'bot')
-print(full_path)
 sys.path.append(full_path)
 
 from model.bot.tod_gpt import TODSystem
 
 
 if __name__ == '__main__':
-
-    current_directory = os.getcwd()
-    full_path = os.path.join(current_directory, 'model')
-    full_path = os.path.join(full_path, 'bot')
-    print(full_path)
-    sys.path.append(full_path)
-
-    a = input("Enter something:")
-
     # Collect list of frames from multiwoz data
     DATA_PATH = 'multiwoz/data/MultiWOZ_2.1/data.json'
     REFERENCE_LIST_FILE = 'multiwoz/data/MultiWOZ_2.1/valListFile.txt'
@@ -86,9 +76,12 @@ if __name__ == '__main__':
     print("Frames over")
 
     # Save the frames to a file
-
-    with open('output_store/output.jsonl', 'w') as f:
+    output_file = 'output_store/output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
+    with open(output_file, 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}
             f.write(json.dumps(out_dict))
             f.write('\n')
+
+    # Convert the jsonl file to a text file
+    conv_json_to_text(output_file)

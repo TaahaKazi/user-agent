@@ -8,10 +8,10 @@ class GPT3:
         self.model = OpenAI(api_key=key_lookup['key'])
         # code to read text from a file and store it in a variable as string
         if example:
-            self.example = str(open('model/openai/example.txt', 'r').read())
+            self.example = str(open('model/GPT/example.txt', 'r').read())
         else:
             self.example = ""
-        self.log = open('model/openai/log.txt', 'w')
+        self.log = open('model/GPT/log.txt', 'w')
 
     def get_response(self, frame):
 

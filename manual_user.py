@@ -1,5 +1,5 @@
 from extraction.utils import *
-from model.openai.gpt3 import GPT3
+from model.GPT.gpt3 import GPT3
 from model.manual.human import ManualUser
 import datetime
 from utils import conv_json_to_text
