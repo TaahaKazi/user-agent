@@ -22,7 +22,7 @@ class gpt3():
             {} Please simplify your answer by only replying with Yes or No. Nothing else.".format(dialogue, goal)
         
         completion = self.model.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-instruct",
             prompt=prompt_completion,
             temperature=0,
             max_tokens=10,
@@ -38,7 +38,7 @@ class gpt3():
             Please only reply a numeric rating from 1 to 5, where 5 represents most likely human.".format(dialogue, agent)
         
         completion = self.model.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-instruct",
             prompt=prompt_naturalness,
             temperature=0,
             max_tokens=10,

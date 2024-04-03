@@ -1,0 +1,260 @@
+Conversation 1
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+3
+Speech naturalness of TOD System: 
+
+3
+MTLD of User Simulator: 35.84
+HD-D of User Simulator: 0.6969086021505376
+MTLD of TOD System: 22.5
+HD-D of TOD System: 0.5060538944259871
+
+Conversation 2
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 40.15058949624866
+HD-D of User Simulator: 0.7532634052383942
+MTLD of TOD System: 49.96069228512761
+HD-D of TOD System: 0.6867565581789953
+
+Conversation 3
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 64.0
+HD-D of User Simulator: 0.7928305444335322
+MTLD of TOD System: 40.255072463768116
+HD-D of TOD System: 0.7373592436148378
+
+Conversation 4
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+3
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 44.16627991836771
+HD-D of User Simulator: 0.7270726577920312
+MTLD of TOD System: 73.03881448044427
+HD-D of TOD System: 0.7577837815460664
+
+Conversation 5
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 24.916666666666664
+HD-D of User Simulator: 0.628849551989259
+MTLD of TOD System: 47.46575391586393
+HD-D of TOD System: 0.6582845137875626
+
+Conversation 6
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 30.65771812080537
+HD-D of User Simulator: 0.7365757070266602
+MTLD of TOD System: 49.27547434996486
+HD-D of TOD System: 0.6510825740102272
+
+Conversation 7
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 63.00000000000002
+HD-D of User Simulator: 0.8316912972085385
+MTLD of TOD System: 61.69936708860759
+HD-D of TOD System: 0.7804182757540974
+
+Conversation 8
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 62.22222222222223
+HD-D of User Simulator: 0.7625986551779573
+MTLD of TOD System: 47.5231884057971
+HD-D of TOD System: 0.7042860548895439
+
+Conversation 9
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 64.98550724637681
+HD-D of User Simulator: 0.7774178937408935
+MTLD of TOD System: 43.63540019762846
+HD-D of TOD System: 0.6742396367995949
+
+Conversation 10
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 57.78476821192052
+HD-D of User Simulator: 0.7409809887738352
+MTLD of TOD System: 33.21381952326901
+HD-D of TOD System: 0.6497189424779622
+
+Conversation 11
+Task Completion: No
+Speech naturalness of User Simulator: 
+
+3
+Speech naturalness of TOD System: 
+
+2
+MTLD of User Simulator: 38.0
+HD-D of User Simulator: 0.5723091512565198
+MTLD of TOD System: 34.09991039426523
+HD-D of TOD System: 0.470995091477019
+
+Conversation 12
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 50.14812665782493
+HD-D of User Simulator: 0.731921591664361
+MTLD of TOD System: 59.177457404980345
+HD-D of TOD System: 0.7799131772862173
+
+Conversation 13
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 40.64358472746897
+HD-D of User Simulator: 0.7239634088610488
+MTLD of TOD System: 24.590044742729305
+HD-D of TOD System: 0.6058810107059873
+
+Conversation 14
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 29.72098569157393
+HD-D of User Simulator: 0.7013394528748765
+MTLD of TOD System: 42.472117202268436
+HD-D of TOD System: 0.7382677942163539
+
+Conversation 15
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 42.93670886075949
+HD-D of User Simulator: 0.7454073126253851
+MTLD of TOD System: 52.25
+HD-D of TOD System: 0.7201157649549784
+
+Conversation 16
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 53.158667326406075
+HD-D of User Simulator: 0.7683181016514352
+MTLD of TOD System: 21.501725625539258
+HD-D of TOD System: 0.582040832455848
+
+Conversation 17
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+3
+Speech naturalness of TOD System: 
+
+3
+MTLD of User Simulator: 52.11052719386053
+HD-D of User Simulator: 0.7814611543162372
+MTLD of TOD System: 35.775
+HD-D of TOD System: 0.6914984599090392
+
+Conversation 18
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+3
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 52.297777777777796
+HD-D of User Simulator: 0.7768893387314444
+MTLD of TOD System: 33.88297872340425
+HD-D of TOD System: 0.5968292719758381
+
+Conversation 19
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+4
+Speech naturalness of TOD System: 
+
+4
+MTLD of User Simulator: 56.809789972899736
+HD-D of User Simulator: 0.7499250186771652
+MTLD of TOD System: 50.44426229508197
+HD-D of TOD System: 0.6892492772473775
+
+Conversation 20
+Task Completion: Yes
+Speech naturalness of User Simulator: 
+
+3
+Speech naturalness of TOD System: 
+
+3
+MTLD of User Simulator: 52.88235294117647
+HD-D of User Simulator: 0.7720551502990023
+MTLD of TOD System: 41.25148514851485
+HD-D of TOD System: 0.6951705325942328
+
