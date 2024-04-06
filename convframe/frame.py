@@ -8,6 +8,7 @@ class Frame:
         self.mode = None
         self.instruct_message = instruct_message
         self.conv_history = conv_history
+        self.verbose = None
 
     def get_initial_msg(self):
         """
@@ -21,12 +22,29 @@ class Frame:
         This method iterates over the conversation history.
         Odd indices are system messages and even indices are user messages.
         """
-        for i, msg in enumerate(self.conv_history):
-            if i % 2 == 0:
-                print("User: ", msg['content'])
-            else:
-                print("System: ", msg['content'])
+
+        current_conv = ""
+        for msg in self.conv_history:
+            if msg['role'] == 'user_agent':
+                msg_str = "User: " + msg['content'] + "\n"
+                current_conv = current_conv + msg_str
+
+            if msg['role'] == 'tod_system':
+                msg_str = "System: " + msg['content'] + "\n" + "\n"
+                current_conv = current_conv + msg_str
+
+            if msg['role'] == 'thought':
+                msg_str = "Thought: " + msg['content'] + "\n"
+                current_conv = current_conv + msg_str
+
+
+        print(current_conv)
         return
 
     def update_frame(self, response):
         self.conv_history.append(response)
+
+    def update_verbose_frame(self, response):
+        # Add the verbose response to the verbose list
+        self.verbose.append(response)
+        return

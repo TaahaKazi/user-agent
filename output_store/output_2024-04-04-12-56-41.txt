@@ -1,0 +1,863 @@
+Conversation 1
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>worth house</span> Make sure you get <span class='emphasis'>hotel type</span>, <span class='emphasis'>whether they have internet</span>, and <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 13:00</span> The train should leave on <span class='emphasis'>friday</span> and should depart from <span class='emphasis'>peterborough</span> Make sure you get <span class='emphasis'>departure time</span> 
+thought: You are a user chatting with a chatbot. You will be given a User Goal Instruction. You have to now act as if you are the user and start the conversation.This is an example to help you
+
+User Goal Instruction:
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>chinese</span> food and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 16:15</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>5 people</span> Make sure you get the <span class='emphasis'>reference number</span>
+
+Converting it into a dictionary:
+
+user_goals = {
+    "restaurant": {
+        "cuisine": "Chinese",
+        "location": "centre of Cambridge",
+        "requirements": {
+            "address": {"value": "", "status": "pending"},
+            "postcode": {"value": "", "status": "pending"},
+            "price range": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "departure_time": {"value": "after 16:15", "status": "pending"},
+        "day": {"value": "Sunday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Cambridge", "status": "pending"},
+            "to": {"value": "Norwich", "status": "pending"}
+        },
+        "group_size": {"value": 5, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a Chinese restaurant in Cambridge's center without specifying a price range, indicating an initial stage of the restaurant goal.
+user_goals["restaurant"]["status"] = "in progress"
+User: I'm looking for a local place in Cambridge to dine in the centre that serves chinese food.
+System: I have restaurants matching your criteria in all price ranges. Do you have a preference on price?
+
+Thought: The system's response initiates the decision process on price range, but the restaurant goal remains incomplete as specific details are not yet provided.
+Goal Update:
+# No update needed here as the status remains "in progress".
+User: I need the address, postcode and the price range.
+System: Ok how about Charlie Chan, located at Regent Street City Centre. Postcode is cb21db with a cheap price. Can I help you further today?
+
+Thought: The system provides details fulfilling the restaurant requirements. The user's restaurant goal is now complete with all details provided.
+Goal Update:
+user_goals["restaurant"]["requirements"]["address"]["value"] = "Regent Street City Centre"
+user_goals["restaurant"]["requirements"]["address"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["postcode"]["value"] = "cb21db"
+user_goals["restaurant"]["requirements"]["postcode"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["price range"]["value"] = "cheap"
+user_goals["restaurant"]["requirements"]["price range"]["status"] = "complete"
+user_goals["restaurant"]["status"] = "complete"
+User: I also need a train. The train should leave after 16:15 and should leave on sunday.
+System: Can I have more information for the train you're needing? Where are you departing from and arriving to?
+
+Thought: The user provides initial details for the train booking but needs to specify departure and arrival locations for progress.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["status"] = "in progress"
+user_goals["train_booking"]["day"]["status"] = "in progress"
+User: I am leaving from Cambridge and going to Norwich.
+System: I have train TR1840 leaving at 16:36 is that okay?
+
+Thought: The system proposes a train that fits the user's criteria. The train booking goal is progressing, with specific details beginning to be confirmed.
+Goal Update:
+user_goals["train_booking"]["journey"]["from"]["status"] = "complete"
+user_goals["train_booking"]["journey"]["to"]["status"] = "complete"
+user_goals["train_booking"]["departure_time"]["value"] = "16:36"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "in progress"
+User: book for 5 people and get me the reference number
+System: You're all set. Reference number is NJB87PAP. Is there anything else I can help you with today?
+
+Thought: The system completes the train booking, providing a reference number and fulfilling the user's second major goal. All specific details are now confirmed.
+Goal Update:
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+user_goals["train_booking"]["booking_detail"]["value"] = "NJB87PAP"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+User: No, this is all I will need. Thank you.
+System: Thank for calling us today. I hope you have a good trip.
+
+Thought: The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+User:  <COMPLETE_CONVERSATION>
+
+If you think the conversation is complete or being repetitive, please type ' <COMPLETE_CONVERSATION>' in the chat.
+
+Now do it for the following user goal
+User Goal Instruction: 
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>worth house</span> Make sure you get <span class='emphasis'>hotel type</span>, <span class='emphasis'>whether they have internet</span>, and <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 13:00</span> The train should leave on <span class='emphasis'>friday</span> and should depart from <span class='emphasis'>peterborough</span> Make sure you get <span class='emphasis'>departure time</span> 
+
+Converting it into a dictionary:
+
+user_goals = {
+    "hotel": {
+        "name": "Worth House",
+        "requirements": {
+            "hotel type": {"value": "", "status": "pending"},
+            "internet": {"value": "", "status": "pending"},
+            "postcode": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "arrival_time": {"value": "by 13:00", "status": "pending"},
+        "day": {"value": "Friday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Peterborough", "status": "pending"},
+            "to": {"value": "Cambridge", "status": "pending"}
+        },
+        "departure_time": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a specific hotel in Cambridge, indicating an initial stage of the hotel goal.
+user_goals["hotel"]["status"] = "in progress"
+
+user_agent: I'm looking for a hotel called Worth House in Cambridge.
+tod_system: Great! Its a 4 star hotel
+thought:  The system provides a detail fulfilling the hotel requirements. The user's hotel goal is now complete with all details provided.
+Goal Update:
+user_goals["hotel"]["requirements"]["hotel type"]["value"] = "4 star"
+user_goals["hotel"]["requirements"]["hotel type"]["status"] = "complete"
+user_goals["hotel"]["status"] = "complete"
+
+user_agent: Does the hotel have internet and what is the postcode?
+tod_system: yes it has internet
+thought:  The system provides details fulfilling the hotel requirements. The user's hotel goal is now complete with all details provided.
+Goal Update:
+user_goals["hotel"]["requirements"]["internet"]["value"] = "yes"
+user_goals["hotel"]["requirements"]["internet"]["status"] = "complete"
+user_goals["hotel"]["requirements"]["postcode"]["value"] = "unknown"
+user_goals["hotel"]["requirements"]["postcode"]["status"] = "complete"
+user_goals["hotel"]["status"] = "complete"
+
+user_agent: I also need a train. The train should go to cambridge and should arrive by 13:00.
+tod_system: where do you want to depart from?
+thought:  The user provides initial details for the train booking but needs to specify departure location for progress.
+Goal Update:
+user_goals["train_booking"]["arrival_time"]["status"] = "in progress"
+
+user_agent: I am departing from Peterborough.
+tod_system: cool, i have a train arriving by 11:00
+thought:  The system proposes a train that fits the user's criteria. The train booking goal is progressing, with specific details beginning to be confirmed.
+Goal Update:
+user_goals["train_booking"]["journey"]["from"]["status"] = "complete"
+user_goals["train_booking"]["journey"]["to"]["status"] = "complete"
+user_goals["train_booking"]["arrival_time"]["value"] = "11:00"
+user_goals["train_booking"]["arrival_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "in progress"
+
+user_agent: What time does the train depart?
+tod_system: 9:00 am
+thought:  The system provides the departure time, fulfilling the train booking goal.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["value"] = "9:00 am"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+
+user_agent: <COMPLETE_CONVERSATION>
+Conversation 2
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>arrive by 21:00</span> The train should depart from <span class='emphasis'>leicester</span> and should go to <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>departure time</span>, <span class='emphasis'>train ID</span>, and <span class='emphasis'>travel time</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free parking</span> The hotel should be in the <span class='emphasis'>moderate</span> price range and should be in the <span class='emphasis'>north</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>the same day</span> Make sure you get the <span class='emphasis'>reference number</span> 
+thought: You are a user chatting with a chatbot. You will be given a User Goal Instruction. You have to now act as if you are the user and start the conversation.This is an example to help you
+
+User Goal Instruction:
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>chinese</span> food and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 16:15</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>5 people</span> Make sure you get the <span class='emphasis'>reference number</span>
+
+Converting it into a dictionary:
+
+user_goals = {
+    "restaurant": {
+        "cuisine": "Chinese",
+        "location": "centre of Cambridge",
+        "requirements": {
+            "address": {"value": "", "status": "pending"},
+            "postcode": {"value": "", "status": "pending"},
+            "price range": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "departure_time": {"value": "after 16:15", "status": "pending"},
+        "day": {"value": "Sunday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Cambridge", "status": "pending"},
+            "to": {"value": "Norwich", "status": "pending"}
+        },
+        "group_size": {"value": 5, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a Chinese restaurant in Cambridge's center without specifying a price range, indicating an initial stage of the restaurant goal.
+user_goals["restaurant"]["status"] = "in progress"
+User: I'm looking for a local place in Cambridge to dine in the centre that serves chinese food.
+System: I have restaurants matching your criteria in all price ranges. Do you have a preference on price?
+
+Thought: The system's response initiates the decision process on price range, but the restaurant goal remains incomplete as specific details are not yet provided.
+Goal Update:
+# No update needed here as the status remains "in progress".
+User: I need the address, postcode and the price range.
+System: Ok how about Charlie Chan, located at Regent Street City Centre. Postcode is cb21db with a cheap price. Can I help you further today?
+
+Thought: The system provides details fulfilling the restaurant requirements. The user's restaurant goal is now complete with all details provided.
+Goal Update:
+user_goals["restaurant"]["requirements"]["address"]["value"] = "Regent Street City Centre"
+user_goals["restaurant"]["requirements"]["address"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["postcode"]["value"] = "cb21db"
+user_goals["restaurant"]["requirements"]["postcode"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["price range"]["value"] = "cheap"
+user_goals["restaurant"]["requirements"]["price range"]["status"] = "complete"
+user_goals["restaurant"]["status"] = "complete"
+User: I also need a train. The train should leave after 16:15 and should leave on sunday.
+System: Can I have more information for the train you're needing? Where are you departing from and arriving to?
+
+Thought: The user provides initial details for the train booking but needs to specify departure and arrival locations for progress.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["status"] = "in progress"
+user_goals["train_booking"]["day"]["status"] = "in progress"
+User: I am leaving from Cambridge and going to Norwich.
+System: I have train TR1840 leaving at 16:36 is that okay?
+
+Thought: The system proposes a train that fits the user's criteria. The train booking goal is progressing, with specific details beginning to be confirmed.
+Goal Update:
+user_goals["train_booking"]["journey"]["from"]["status"] = "complete"
+user_goals["train_booking"]["journey"]["to"]["status"] = "complete"
+user_goals["train_booking"]["departure_time"]["value"] = "16:36"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "in progress"
+User: book for 5 people and get me the reference number
+System: You're all set. Reference number is NJB87PAP. Is there anything else I can help you with today?
+
+Thought: The system completes the train booking, providing a reference number and fulfilling the user's second major goal. All specific details are now confirmed.
+Goal Update:
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+user_goals["train_booking"]["booking_detail"]["value"] = "NJB87PAP"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+User: No, this is all I will need. Thank you.
+System: Thank for calling us today. I hope you have a good trip.
+
+Thought: The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+User:  <COMPLETE_CONVERSATION>
+
+If you think the conversation is complete or being repetitive, please type ' <COMPLETE_CONVERSATION>' in the chat.
+
+Now do it for the following user goal
+User Goal Instruction: 
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>arrive by 21:00</span> The train should depart from <span class='emphasis'>leicester</span> and should go to <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>departure time</span>, <span class='emphasis'>train ID</span>, and <span class='emphasis'>travel time</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free parking</span> The hotel should be in the <span class='emphasis'>moderate</span> price range and should be in the <span class='emphasis'>north</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>the same day</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+Converting it into a dictionary:
+
+user_goals = {
+    "train": {
+        "day": {"value": "Monday", "status": "pending"},
+        "arrival_time": {"value": "by 21:00", "status": "pending"},
+        "journey": {
+            "from": {"value": "Leicester", "status": "pending"},
+            "to": {"value": "Cambridge", "status": "pending"}
+        },
+        "requirements": {
+            "departure time": {"value": "", "status": "pending"},
+            "train ID": {"value": "", "status": "pending"},
+            "travel time": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "hotel_booking": {
+        "type": {"value": "guesthouse", "status": "pending"},
+        "amenities": {"value": "free parking", "status": "pending"},
+        "price range": {"value": "moderate", "status": "pending"},
+        "location": {"value": "north", "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "group_size": {"value": 4, "status": "pending"},
+        "duration": {"value": 4, "status": "pending"},
+        "start_date": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a train and hotel in Cambridge without specifying specific details, indicating an initial stage of both goals.
+user_goals["train"]["status"] = "in progress"
+user_goals["hotel_booking"]["status"] = "in progress"
+
+user_agent: I'm looking for a train and a place to stay in Cambridge.
+tod_system: ohk, what kind of hotel are you looking for?
+thought:  The system prompts for more information on the hotel, indicating the hotel booking goal is in progress.
+Goal Update:
+# No update needed here as the status remains "in progress".
+
+user_agent: I need a guesthouse with free parking in the moderate price range in the north.
+tod_system: Cool, I have a guesthouse that matches your requirements
+thought:  The system provides a hotel that fulfills the user's criteria. The hotel booking goal is now complete with all details provided.
+Goal Update:
+user_goals["hotel_booking"]["type"]["value"] = "guesthouse"
+user_goals["hotel_booking"]["type"]["status"] = "complete"
+user_goals["hotel_booking"]["amenities"]["value"] = "free parking"
+user_goals["hotel_booking"]["amenities"]["status"] = "complete"
+user_goals["hotel_booking"]["price range"]["value"] = "moderate"
+user_goals["hotel_booking"]["price range"]["status"] = "complete"
+user_goals["hotel_booking"]["location"]["value"] = "north"
+user_goals["hotel_booking"]["location"]["status"] = "complete"
+user_goals["hotel_booking"]["status"] = "complete"
+
+user_agent: I also need a train. The train should leave on monday and should arrive by 21:00.
+tod_system: where do you want depart from?
+thought:  The system prompts for more information on the train, indicating the train goal is in progress.
+Goal Update:
+user_goals["train"]["day"]["status"] = "in progress"
+user_goals["train"]["arrival_time"]["status"] = "in progress"
+
+user_agent: I am leaving from Leicester and going to Cambridge.
+tod_system: cool, I have a train that arrives by 20:00
+thought:  The system provides a train that fulfills the user's criteria. The train goal is now complete with all details provided.
+Goal Update:
+user_goals["train"]["journey"]["from"]["value"] = "Leicester"
+user_goals["train"]["journey"]["from"]["status"] = "complete"
+user_goals["train"]["journey"]["to"]["value"] = "Cambridge"
+user_goals["train"]["journey"]["to"]["status"] = "complete"
+user_goals["train"]["status"] = "complete"
+
+user_agent: Can I get the departure time, train ID, and travel time?
+tod_system: departure time is 9:00, train ID is 213 and travel time is 90 mins
+thought:  The system provides specific details for the train, fulfilling the user's requirements and completing the train goal.
+Goal Update:
+user_goals["train"]["requirements"]["departure time"]["value"] = "9:00"
+user_goals["train"]["requirements"]["departure time"]["status"] = "complete"
+user_goals["train"]["requirements"]["train ID"]["value"] = "213"
+user_goals["train"]["requirements"]["train ID"]["status"] = "complete"
+user_goals["train"]["requirements"]["travel time"]["value"] = "90 mins"
+user_goals["train"]["requirements"]["travel time"]["status"] = "complete"
+
+user_agent: Book the hotel for 4 people and 4 nights starting from today.
+tod_system: Sure, I can book the hotel for you
+thought:  The system confirms the hotel booking, fulfilling the user's second major goal. All specific details are now confirmed.
+Goal Update:
+user_goals["hotel_booking"]["group_size"]["value"] = 4
+user_goals["hotel_booking"]["group_size"]["status"] = "complete"
+user_goals["hotel_booking"]["duration"]["value"] = 4
+user_goals["hotel_booking"]["duration"]["status"] = "complete"
+user_goals["hotel_booking"]["start_date"]["value"] = "today"
+user_goals["hotel_booking"]["start_date"]["status"] = "complete"
+user_goals["hotel_booking"]["booking_detail"]["value"] = "NJB87PAP"
+user_goals["hotel_booking"]["booking_detail"]["status"] = "complete"
+user_goals["hotel_booking"]["status"] = "complete"
+
+user_agent: Thank you for your help.
+tod_system: Sure
+thought:  The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+
+user_agent: <COMPLETE_CONVERSATION>
+Conversation 3
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>acorn guest house</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>7 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> Make sure you get <span class='emphasis'>address</span> 
+thought: You are a user chatting with a chatbot. You will be given a User Goal Instruction. You have to now act as if you are the user and start the conversation.This is an example to help you
+
+User Goal Instruction:
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>chinese</span> food and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 16:15</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>5 people</span> Make sure you get the <span class='emphasis'>reference number</span>
+
+Converting it into a dictionary:
+
+user_goals = {
+    "restaurant": {
+        "cuisine": "Chinese",
+        "location": "centre of Cambridge",
+        "requirements": {
+            "address": {"value": "", "status": "pending"},
+            "postcode": {"value": "", "status": "pending"},
+            "price range": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "departure_time": {"value": "after 16:15", "status": "pending"},
+        "day": {"value": "Sunday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Cambridge", "status": "pending"},
+            "to": {"value": "Norwich", "status": "pending"}
+        },
+        "group_size": {"value": 5, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a Chinese restaurant in Cambridge's center without specifying a price range, indicating an initial stage of the restaurant goal.
+user_goals["restaurant"]["status"] = "in progress"
+User: I'm looking for a local place in Cambridge to dine in the centre that serves chinese food.
+System: I have restaurants matching your criteria in all price ranges. Do you have a preference on price?
+
+Thought: The system's response initiates the decision process on price range, but the restaurant goal remains incomplete as specific details are not yet provided.
+Goal Update:
+# No update needed here as the status remains "in progress".
+User: I need the address, postcode and the price range.
+System: Ok how about Charlie Chan, located at Regent Street City Centre. Postcode is cb21db with a cheap price. Can I help you further today?
+
+Thought: The system provides details fulfilling the restaurant requirements. The user's restaurant goal is now complete with all details provided.
+Goal Update:
+user_goals["restaurant"]["requirements"]["address"]["value"] = "Regent Street City Centre"
+user_goals["restaurant"]["requirements"]["address"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["postcode"]["value"] = "cb21db"
+user_goals["restaurant"]["requirements"]["postcode"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["price range"]["value"] = "cheap"
+user_goals["restaurant"]["requirements"]["price range"]["status"] = "complete"
+user_goals["restaurant"]["status"] = "complete"
+User: I also need a train. The train should leave after 16:15 and should leave on sunday.
+System: Can I have more information for the train you're needing? Where are you departing from and arriving to?
+
+Thought: The user provides initial details for the train booking but needs to specify departure and arrival locations for progress.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["status"] = "in progress"
+user_goals["train_booking"]["day"]["status"] = "in progress"
+User: I am leaving from Cambridge and going to Norwich.
+System: I have train TR1840 leaving at 16:36 is that okay?
+
+Thought: The system proposes a train that fits the user's criteria. The train booking goal is progressing, with specific details beginning to be confirmed.
+Goal Update:
+user_goals["train_booking"]["journey"]["from"]["status"] = "complete"
+user_goals["train_booking"]["journey"]["to"]["status"] = "complete"
+user_goals["train_booking"]["departure_time"]["value"] = "16:36"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "in progress"
+User: book for 5 people and get me the reference number
+System: You're all set. Reference number is NJB87PAP. Is there anything else I can help you with today?
+
+Thought: The system completes the train booking, providing a reference number and fulfilling the user's second major goal. All specific details are now confirmed.
+Goal Update:
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+user_goals["train_booking"]["booking_detail"]["value"] = "NJB87PAP"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+User: No, this is all I will need. Thank you.
+System: Thank for calling us today. I hope you have a good trip.
+
+Thought: The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+User:  <COMPLETE_CONVERSATION>
+
+If you think the conversation is complete or being repetitive, please type ' <COMPLETE_CONVERSATION>' in the chat.
+
+Now do it for the following user goal
+User Goal Instruction: 
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>acorn guest house</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>7 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> Make sure you get <span class='emphasis'>address</span> 
+
+Converting it into a dictionary:
+
+user_goals = {
+    "hotel_booking": {
+        "hotel_name": "Acorn Guest House",
+        "group_size": {"value": 7, "status": "pending"},
+        "nights": {"value": 4, "status": "pending"},
+        "start_day": {"value": "Friday", "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    },
+    "places_to_go": {
+        "type": "museum",
+        "requirements": {
+            "address": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a particular hotel in Cambridge, indicating an initial stage of the hotel booking goal.
+user_goals["hotel_booking"]["status"] = "in progress"
+
+user_agent: I'm looking for a hotel in Cambridge called Acorn Guest House.
+tod_system: Great! 
+thought:  The system acknowledges the user's request and prompts for further details to progress the hotel booking goal.
+Goal Update:
+# No update needed here as the status remains "in progress".
+
+user_agent: I need to book it for 7 people and 4 nights starting from friday.
+tod_system: Yes that works!
+thought:  The system confirms the user's request and prompts for further details to progress the hotel booking goal.
+Goal Update:
+user_goals["hotel_booking"]["group_size"]["value"] = 7
+user_goals["hotel_booking"]["group_size"]["status"] = "complete"
+user_goals["hotel_booking"]["nights"]["value"] = 4
+user_goals["hotel_booking"]["nights"]["status"] = "complete"
+user_goals["hotel_booking"]["start_day"]["value"] = "Friday"
+user_goals["hotel_booking"]["start_day"]["status"] = "complete"
+
+user_agent: Can you provide me with the reference number?
+tod_system: 41234
+thought:  The system provides the reference number and fulfills the user's request for the hotel booking goal.
+Goal Update:
+user_goals["hotel_booking"]["booking_detail"]["value"] = "41234"
+user_goals["hotel_booking"]["booking_detail"]["status"] = "complete"
+user_goals["hotel_booking"]["status"] = "complete"
+
+user_agent: Thank you. Can you also recommend any museums in town?
+tod_system: The sherlock museum is great
+thought:  The system provides a recommendation for a museum, fulfilling the user's request for the places to go goal.
+Goal Update:
+user_goals["places_to_go"]["type"] = "museum"
+user_goals["places_to_go"]["requirements"]["address"]["value"] = "Sherlock Museum"
+user_goals["places_to_go"]["requirements"]["address"]["status"] = "complete"
+user_goals["places_to_go"]["status"] = "complete"
+
+user_agent: That sounds interesting. Can you provide me with the address?
+tod_system: 221B baker streer
+thought:  The system provides the address for the recommended museum, fulfilling the user's request for the places to go goal.
+Goal Update:
+user_goals["places_to_go"]["requirements"]["address"]["value"] = "221B Baker Street"
+user_goals["places_to_go"]["requirements"]["address"]["status"] = "complete"
+user_goals["places_to_go"]["status"] = "complete"
+
+user_agent: Thank you for your help. That's all I need.
+tod_system: Your welcome
+thought:  The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+
+user_agent: <COMPLETE_CONVERSATION>
+Conversation 4
+You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>leave after 16:45</span> The train should depart from <span class='emphasis'>stevenage</span> and should go to <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>7 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+thought: You are a user chatting with a chatbot. You will be given a User Goal Instruction. You have to now act as if you are the user and start the conversation.This is an example to help you
+
+User Goal Instruction:
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>chinese</span> food and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 16:15</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>5 people</span> Make sure you get the <span class='emphasis'>reference number</span>
+
+Converting it into a dictionary:
+
+user_goals = {
+    "restaurant": {
+        "cuisine": "Chinese",
+        "location": "centre of Cambridge",
+        "requirements": {
+            "address": {"value": "", "status": "pending"},
+            "postcode": {"value": "", "status": "pending"},
+            "price range": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "departure_time": {"value": "after 16:15", "status": "pending"},
+        "day": {"value": "Sunday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Cambridge", "status": "pending"},
+            "to": {"value": "Norwich", "status": "pending"}
+        },
+        "group_size": {"value": 5, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a Chinese restaurant in Cambridge's center without specifying a price range, indicating an initial stage of the restaurant goal.
+user_goals["restaurant"]["status"] = "in progress"
+User: I'm looking for a local place in Cambridge to dine in the centre that serves chinese food.
+System: I have restaurants matching your criteria in all price ranges. Do you have a preference on price?
+
+Thought: The system's response initiates the decision process on price range, but the restaurant goal remains incomplete as specific details are not yet provided.
+Goal Update:
+# No update needed here as the status remains "in progress".
+User: I need the address, postcode and the price range.
+System: Ok how about Charlie Chan, located at Regent Street City Centre. Postcode is cb21db with a cheap price. Can I help you further today?
+
+Thought: The system provides details fulfilling the restaurant requirements. The user's restaurant goal is now complete with all details provided.
+Goal Update:
+user_goals["restaurant"]["requirements"]["address"]["value"] = "Regent Street City Centre"
+user_goals["restaurant"]["requirements"]["address"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["postcode"]["value"] = "cb21db"
+user_goals["restaurant"]["requirements"]["postcode"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["price range"]["value"] = "cheap"
+user_goals["restaurant"]["requirements"]["price range"]["status"] = "complete"
+user_goals["restaurant"]["status"] = "complete"
+User: I also need a train. The train should leave after 16:15 and should leave on sunday.
+System: Can I have more information for the train you're needing? Where are you departing from and arriving to?
+
+Thought: The user provides initial details for the train booking but needs to specify departure and arrival locations for progress.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["status"] = "in progress"
+user_goals["train_booking"]["day"]["status"] = "in progress"
+User: I am leaving from Cambridge and going to Norwich.
+System: I have train TR1840 leaving at 16:36 is that okay?
+
+Thought: The system proposes a train that fits the user's criteria. The train booking goal is progressing, with specific details beginning to be confirmed.
+Goal Update:
+user_goals["train_booking"]["journey"]["from"]["status"] = "complete"
+user_goals["train_booking"]["journey"]["to"]["status"] = "complete"
+user_goals["train_booking"]["departure_time"]["value"] = "16:36"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "in progress"
+User: book for 5 people and get me the reference number
+System: You're all set. Reference number is NJB87PAP. Is there anything else I can help you with today?
+
+Thought: The system completes the train booking, providing a reference number and fulfilling the user's second major goal. All specific details are now confirmed.
+Goal Update:
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+user_goals["train_booking"]["booking_detail"]["value"] = "NJB87PAP"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+User: No, this is all I will need. Thank you.
+System: Thank for calling us today. I hope you have a good trip.
+
+Thought: The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+User:  <COMPLETE_CONVERSATION>
+
+If you think the conversation is complete or being repetitive, please type ' <COMPLETE_CONVERSATION>' in the chat.
+
+Now do it for the following user goal
+User Goal Instruction: 
+You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>leave after 16:45</span> The train should depart from <span class='emphasis'>stevenage</span> and should go to <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>7 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+Converting it into a dictionary:
+
+user_goals = {
+    "train_booking": {
+        "departure_time": {"value": "after 16:45", "status": "pending"},
+        "day": {"value": "Monday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Stevenage", "status": "pending"},
+            "to": {"value": "Cambridge", "status": "pending"}
+        },
+        "group_size": {"value": 7, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a train on Monday leaving after 16:45 from Stevenage to Cambridge for a group of 7 people.
+user_goals["train_booking"]["status"] = "in progress"
+
+user_agent: Hi, I'm looking for a train on Monday that leaves after 16:45 from Stevenage to Cambridge for 7 people.
+tod_system: Sure, I have 4 trains for the same
+thought:  The system provides multiple options for the user to choose from, indicating progress in the train booking goal.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["status"] = "in progress"
+user_goals["train_booking"]["day"]["status"] = "in progress"
+user_goals["train_booking"]["journey"]["from"]["status"] = "in progress"
+user_goals["train_booking"]["journey"]["to"]["status"] = "in progress"
+user_goals["train_booking"]["group_size"]["status"] = "in progress"
+
+user_agent: Can you give me more details about the trains?
+tod_system: The first train leaves at 17:00 on Monday
+thought:  The system provides specific details for the first train, indicating progress in the train booking goal.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["value"] = "17:00"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+
+user_agent: That sounds good. Can I book it for 7 people?
+tod_system: Sure
+thought:  The user confirms the train and group size, indicating progress in the train booking goal.
+Goal Update:
+user_goals["train_booking"]["group_size"]["value"] = 7
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+
+user_agent: Great, can I get the reference number?
+tod_system: 312345
+thought:  The system provides the reference number, fulfilling the train booking goal.
+Goal Update:
+user_goals["train_booking"]["booking_detail"]["value"] = "312345"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+
+user_agent: Thank you, that's all I needed.
+tod_system: Your welcome!
+thought:  The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+
+user_agent: <COMPLETE_CONVERSATION>
+Conversation 5
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>moderate</span> price range and should serve <span class='emphasis'>jamaican</span> food The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>lebanese</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>14:45</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be <span class='emphasis'>in the same area as the restaurant</span> and should be in the type of <span class='emphasis'>college</span> Make sure you get <span class='emphasis'>entrance fee</span> and <span class='emphasis'>address</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+thought: You are a user chatting with a chatbot. You will be given a User Goal Instruction. You have to now act as if you are the user and start the conversation.This is an example to help you
+
+User Goal Instruction:
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>chinese</span> food and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 16:15</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>5 people</span> Make sure you get the <span class='emphasis'>reference number</span>
+
+Converting it into a dictionary:
+
+user_goals = {
+    "restaurant": {
+        "cuisine": "Chinese",
+        "location": "centre of Cambridge",
+        "requirements": {
+            "address": {"value": "", "status": "pending"},
+            "postcode": {"value": "", "status": "pending"},
+            "price range": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "departure_time": {"value": "after 16:15", "status": "pending"},
+        "day": {"value": "Sunday", "status": "pending"},
+        "journey": {
+            "from": {"value": "Cambridge", "status": "pending"},
+            "to": {"value": "Norwich", "status": "pending"}
+        },
+        "group_size": {"value": 5, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a Chinese restaurant in Cambridge's center without specifying a price range, indicating an initial stage of the restaurant goal.
+user_goals["restaurant"]["status"] = "in progress"
+User: I'm looking for a local place in Cambridge to dine in the centre that serves chinese food.
+System: I have restaurants matching your criteria in all price ranges. Do you have a preference on price?
+
+Thought: The system's response initiates the decision process on price range, but the restaurant goal remains incomplete as specific details are not yet provided.
+Goal Update:
+# No update needed here as the status remains "in progress".
+User: I need the address, postcode and the price range.
+System: Ok how about Charlie Chan, located at Regent Street City Centre. Postcode is cb21db with a cheap price. Can I help you further today?
+
+Thought: The system provides details fulfilling the restaurant requirements. The user's restaurant goal is now complete with all details provided.
+Goal Update:
+user_goals["restaurant"]["requirements"]["address"]["value"] = "Regent Street City Centre"
+user_goals["restaurant"]["requirements"]["address"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["postcode"]["value"] = "cb21db"
+user_goals["restaurant"]["requirements"]["postcode"]["status"] = "complete"
+user_goals["restaurant"]["requirements"]["price range"]["value"] = "cheap"
+user_goals["restaurant"]["requirements"]["price range"]["status"] = "complete"
+user_goals["restaurant"]["status"] = "complete"
+User: I also need a train. The train should leave after 16:15 and should leave on sunday.
+System: Can I have more information for the train you're needing? Where are you departing from and arriving to?
+
+Thought: The user provides initial details for the train booking but needs to specify departure and arrival locations for progress.
+Goal Update:
+user_goals["train_booking"]["departure_time"]["status"] = "in progress"
+user_goals["train_booking"]["day"]["status"] = "in progress"
+User: I am leaving from Cambridge and going to Norwich.
+System: I have train TR1840 leaving at 16:36 is that okay?
+
+Thought: The system proposes a train that fits the user's criteria. The train booking goal is progressing, with specific details beginning to be confirmed.
+Goal Update:
+user_goals["train_booking"]["journey"]["from"]["status"] = "complete"
+user_goals["train_booking"]["journey"]["to"]["status"] = "complete"
+user_goals["train_booking"]["departure_time"]["value"] = "16:36"
+user_goals["train_booking"]["departure_time"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "in progress"
+User: book for 5 people and get me the reference number
+System: You're all set. Reference number is NJB87PAP. Is there anything else I can help you with today?
+
+Thought: The system completes the train booking, providing a reference number and fulfilling the user's second major goal. All specific details are now confirmed.
+Goal Update:
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+user_goals["train_booking"]["booking_detail"]["value"] = "NJB87PAP"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+User: No, this is all I will need. Thank you.
+System: Thank for calling us today. I hope you have a good trip.
+
+Thought: The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+User:  <COMPLETE_CONVERSATION>
+
+If you think the conversation is complete or being repetitive, please type ' <COMPLETE_CONVERSATION>' in the chat.
+
+Now do it for the following user goal
+User Goal Instruction: 
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>moderate</span> price range and should serve <span class='emphasis'>jamaican</span> food The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>lebanese</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>14:45</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be <span class='emphasis'>in the same area as the restaurant</span> and should be in the type of <span class='emphasis'>college</span> Make sure you get <span class='emphasis'>entrance fee</span> and <span class='emphasis'>address</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+
+Converting it into a dictionary:
+
+user_goals = {
+    "restaurant": {
+        "cuisine": "Jamaican",
+        "location": "centre of Cambridge",
+        "requirements": {
+            "price range": {"value": "moderate", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "train_booking": {
+        "booking_time": {"value": "14:45 on Saturday", "status": "pending"},
+        "group_size": {"value": 1, "status": "pending"},
+        "booking_detail": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    },
+    "attraction": {
+        "type": "college",
+        "location": "same area as restaurant",
+        "requirements": {
+            "entrance fee": {"value": "", "status": "pending"},
+            "address": {"value": "", "status": "pending"}
+        },
+        "status": "incomplete"
+    },
+    "taxi_booking": {
+        "pickup_time": {"value": "by the booked time", "status": "pending"},
+        "contact_number": {"value": "", "status": "pending"},
+        "car_type": {"value": "", "status": "pending"},
+        "status": "incomplete"
+    }
+}
+
+Starting the conversation:
+Thought: The user initiates a search for a restaurant in Cambridge's center that serves Jamaican food and is in the moderate price range, indicating an initial stage of the restaurant goal.
+user_goals["restaurant"]["status"] = "in progress"
+
+user_agent: I'm looking for a place to dine in the centre of Cambridge that serves jamaican food and is in the moderate price range.
+tod_system: Great I found a restaurant named Bobs Hotel
+thought:  The system provides a restaurant that fits the user's criteria. The user's restaurant goal is now complete with all details provided.
+Goal Update:
+user_goals["restaurant"]["requirements"]["price range"]["value"] = "moderate"
+user_goals["restaurant"]["requirements"]["price range"]["status"] = "complete"
+user_goals["restaurant"]["status"] = "complete"
+
+user_agent: I also need to book a table for 1 person at 14:45 on Saturday.
+tod_system: cool, I can book that table
+thought:  The system confirms the booking for the user's desired time and date, fulfilling the train booking goal.
+Goal Update:
+user_goals["train_booking"]["booking_time"]["value"] = "14:45 on Saturday"
+user_goals["train_booking"]["booking_time"]["status"] = "complete"
+user_goals["train_booking"]["group_size"]["value"] = 1
+user_goals["train_booking"]["group_size"]["status"] = "complete"
+user_goals["train_booking"]["status"] = "complete"
+
+user_agent: Can I also get the reference number for the booking?
+tod_system: 23432
+thought:  The system provides the reference number for the booking, fulfilling the user's request and completing the train booking goal.
+Goal Update:
+user_goals["train_booking"]["booking_detail"]["value"] = "23432"
+user_goals["train_booking"]["booking_detail"]["status"] = "complete"
+
+user_agent: I also need to find a place to go in town, preferably a college in the same area as the restaurant.
+tod_system: 
+thought:  The system confirms the user's request for an attraction in the same area as the restaurant, indicating progress towards the attraction goal.
+Goal Update:
+user_goals["attraction"]["location"] = "same area as restaurant"
+user_goals["attraction"]["status"] = "in progress"
+
+user_agent: Can you also get me the entrance fee and address for the attraction?
+tod_system: The fee is 50$ and the address is 221 B Baker street
+thought:  The system provides the entrance fee and address for the attraction, fulfilling the user's request and completing the attraction goal.
+Goal Update:
+user_goals["attraction"]["requirements"]["entrance fee"]["value"] = "50$"
+user_goals["attraction"]["requirements"]["entrance fee"]["status"] = "complete"
+user_goals["attraction"]["requirements"]["address"]["value"] = "221 B Baker street"
+user_goals["attraction"]["requirements"]["address"]["status"] = "complete"
+user_goals["attraction"]["status"] = "complete"
+
+user_agent: I also need to book a taxi to commute between the restaurant and the attraction, making sure it arrives by the booked time.
+tod_system: Sure, I have booked a cab
+thought:  The system confirms the booking for a taxi that will arrive by the booked time, fulfilling the taxi booking goal.
+Goal Update:
+user_goals["taxi_booking"]["pickup_time"]["value"] = "by the booked time"
+user_goals["taxi_booking"]["pickup_time"]["status"] = "complete"
+user_goals["taxi_booking"]["status"] = "complete"
+
+user_agent: Can I also get the contact number and car type for the taxi?
+tod_system: contact number is 123456 and car type is black sedan
+thought:  The system provides the contact number and car type for the taxi, fulfilling the user's request and completing the taxi booking goal.
+Goal Update:
+user_goals["taxi_booking"]["contact_number"]["value"] = "123456"
+user_goals["taxi_booking"]["contact_number"]["status"] = "complete"
+user_goals["taxi_booking"]["car_type"]["value"] = "black sedan"
+user_goals["taxi_booking"]["car_type"]["status"] = "complete"
+
+user_agent: That's all I need, thank you.
+tod_system: Your welcome
+thought:  The conversation concludes with all user goals fully addressed and completed, reflected in the detailed updates to the user goals dictionary.
+
+user_agent: <COMPLETE_CONVERSATION>
