@@ -2,14 +2,13 @@ from openai import OpenAI
 import json
 import regex as re
 
-
-class GPT3Verbose:
+class GPT3Thought:
     def __init__(self, example=True):
         key_lookup = json.load(open('open_ai_key.json'))
         self.model = OpenAI(api_key=key_lookup['key'])
         # code to read text from a file and store it in a variable as string
         if example:
-            self.example = str(open('model/GPT/example_verbose_tracking.txt', 'r').read())
+            self.example = str(open('model/GPT/example_thought_only.txt', 'r').read())
         else:
             self.example = ""
         self.log = open('model/GPT/log.txt', 'w')
@@ -23,7 +22,7 @@ class GPT3Verbose:
                     "You are a user chatting with a chatbot. You will be given a User Goal Instruction. You have to " \
                     "now act as if you are the user and start the conversation." + self.example + '\n\n' +
                     "Now do it for the following user goal" + "\n" + "User Goal Instruction: " +
-                    "\n" + frame.instruct_message + "\n\n" + "Converting it into a dictionary:")
+                    "\n" + frame.instruct_message + "\n\n" + "Starting the conversation:" + "\n" + "Thought:")
 
             try:
                 completion = self.model.completions.create(
@@ -34,30 +33,27 @@ class GPT3Verbose:
                     stop=["System:"]
                 )
                 res = completion.choices[0].text
-                # Code to extract "User: " response and Thought response
-                # Define regex pattern to match User messages
-                user_pattern = r'(.*)(User:\s*(.*))'
-
-                # Find all matches of User messages in the conversation
-                matches = re.findall(user_pattern, res)
-
-                match = matches[-1]
-
-                if match:
-                    before_user = initial_msg + res.split(match[1])[0]
-                    after_user = match[2]
-                else:
-                    print("The pattern 'User: ' was not found in the text.")
-                    before_user = ""
-                    after_user = ""
-
-                # log tokens called
-                self.log.write(str(completion.usage) + '\n')
-
             except:
-                before_user = "My engine failed"
-                after_user = "Use my previous response"
+                res = "NO RESPONSE FOUND"
+            # Code to extract "User: " response and Thought response
+            # Define regex pattern to match User messages
+            user_pattern = r'(.*)(User:\s*(.*))'
 
+            # Find all matches of User messages in the conversation
+            matches = re.findall(user_pattern, res)
+
+            match = matches[-1]
+
+            if match:
+                before_user = initial_msg + res.split(match[1])[0]
+                after_user = match[2]
+            else:
+                print("The pattern 'User: ' was not found in the text.")
+                before_user = ""
+                after_user = ""
+
+            # log tokens called
+            self.log.write(str(completion.usage) + '\n')
             return before_user, after_user
 
         else:
@@ -86,27 +82,25 @@ class GPT3Verbose:
                     stop=["System:"]
                 )
                 res = completion.choices[0].text
-                # Code to extract "User: " response and Thought response
-                # Define regex pattern to match User messages
-                user_pattern = r'(.*)(User:\s*(.*))'
-
-                # Find all matches of User messages in the conversation
-                matches = re.findall(user_pattern, res)
-
-                match = matches[-1]
-
-                if match:
-                    before_user = res.split(match[1])[0]
-                    after_user = match[2]
-                else:
-                    print("The pattern 'User: ' was not found in the text.")
-                    before_user = ""
-                    after_user = ""
-
-                # log tokens called
-                self.log.write(str(completion.usage) + '\n')
-
             except:
+                res = "NO RESPONSE FOUND"
+            # Code to extract "User: " response and Thought response
+            # Define regex pattern to match User messages
+            user_pattern = r'(.*)(User:\s*(.*))'
+
+            # Find all matches of User messages in the conversation
+            matches = re.findall(user_pattern, res)
+
+            match = matches[-1]
+
+            if match:
+                before_user = res.split(match[1])[0]
+                after_user = match[2]
+            else:
+                print("The pattern 'User: ' was not found in the text.")
                 before_user = ""
                 after_user = ""
+
+            # log tokens called
+            self.log.write(str(completion.usage) + '\n')
             return before_user, after_user

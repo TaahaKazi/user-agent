@@ -1,6 +1,5 @@
 from extraction.utils import *
-from model.GPT.gpt3 import GPT3
-from model.GPT.gpt3_verbose import GPT3Verbose
+from model.GPT.gpt3_verbose_thought import GPT3Thought
 import datetime
 from utils import conv_json_to_text
 import os
@@ -19,7 +18,7 @@ def main():
     frames = iter_data(DATA_PATH, REFERENCE_LIST_FILE, initial_msg_flag=True, conv_hist_flag=False)
 
     # Initialize the user-agent model
-    user_model = GPT3Verbose()
+    user_model = GPT3Thought()
 
     # Setting Debug flag for testing
     debug = True
@@ -77,7 +76,7 @@ def main():
     print("Frames over")
 
     # Save the frames to a file
-    output_file = 'output_store/' + 'verbose_' + 'output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
+    output_file = 'output_store/' + 'output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
     with open(output_file, 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}
