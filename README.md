@@ -15,6 +15,6 @@ bash download_bot_model.sh
 ```open_ai_key.json```
 ### The format should be as {"key": "sk-*******"}
 
-## Run the example
-```bash run.sh```
+## Run the verbose example
+```bash verbose_run.sh```
 
