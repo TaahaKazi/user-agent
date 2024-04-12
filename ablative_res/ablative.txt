@@ -1,0 +1,1056 @@
+0
+Initial message:
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>worth house</span> Make sure you get <span class='emphasis'>hotel type</span>, <span class='emphasis'>whether they have internet</span>, and <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 13:00</span> The train should leave on <span class='emphasis'>friday</span> and should depart from <span class='emphasis'>peterborough</span> Make sure you get <span class='emphasis'>departure time</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a hotel called Worth House in Cambridge.
+tod_system: Absolutely. The [name] is located in the [area]. It offers free wifi and parking. They are located at [address]. Can I assist you in booking a room?
+user_agent: Yes, I also need a train. The train should go to Cambridge and should arrive by 13:00.
+tod_system: I have found 5 trains that match your criteria. The first train, TR0378, leaves London Kings Cross at 05:17 and arrives in Cambridge at 06:08. The second train, TR9276, leaves London Kings Cross at 07:17 and arrives in Cambridge at 08:08. The third train, TR3899, leaves London Kings Cross at 09:17 and arrives in Cambridge at 10:08. The fourth train, TR5720, leaves London Kings Cross at 11:17 and arrives in Cambridge at 12:08. The fifth train, TR3194, leaves London Kings Cross at 13:17 and arrives in Cambridge at 14:08. Would you like me to book a ticket for you on one of these trains?
+user_agent: I need the train to depart from Peterborough on Friday.
+tod_system: I have found 5 trains that match your criteria. The first train, TR0378, leaves Peterborough at 05:17 and arrives in Cambridge at 06:08. The second train, TR9276, leaves Peterborough at 07:17 and arrives in Cambridge at 08:08. The third train, TR3899, leaves Peterborough at 09:17 and arrives in Cambridge at 10:08. The fourth train, TR5720, leaves Peterborough at 11:17 and arrives in Cambridge at 12:08. The fifth train, TR3194, leaves Peterborough at 13:17 and arrives in Cambridge at 14:08. Would you like me to book a ticket for you on one of these trains?
+user_agent: Yes, please book a ticket for the first train, TR0378.
+tod_system: Booking was successful. The fee is [price] and the reference number is [ref] .
+user_agent: Thank you, that's all I need.
+tod_system: Booking was successful. The fee is 16.50 pounds and the reference number is 00001230. Thank you for using our services.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a hotel called Worth House.
+tod_system: Absolutely. The [name] is located in the [area]. It offers free wifi and parking. They are located at [address]. Can I assist you in booking a room?
+user_agent:  I also need a train. The train should go to Cambridge and should arrive by 13:00.
+tod_system: Absolutely. The [train] to [destination] will arrive at [arriveby]. Would you like me to book a ticket for you?
+user_agent:  Yes, please. I also need the departure time.
+tod_system: Your train has been booked! The price is [price] and the reference number is [ref] . The train ID is [trainid]. Have a wonderful day.
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a particular hotel called Worth House in Cambridge.
+tod_system: Absolutely. The [name] is located in the [area]. It offers free wifi and parking. They are located at [address]. Can I assist you in booking a room?
+user_agent: I also need a train. The train should go to Cambridge and should arrive by 13:00 on friday.
+tod_system: The [name] is located in the [area]. It offers free wifi and parking. They are located at [address]. Can I assist you in booking a room? As for the train, there are several options available for you on Friday. The [trainid] leaves from [departure] at [leaveat] and arrives in [destination] at [arriveby]. The price for this train is [price]. Would you like me to book this train for you?
+user_agent: Yes, please book the train for me.
+tod_system: The [name] is located in the [area]. It offers free wifi and parking. They are located at [address]. Can I assist you in booking a room? As for the train, the [trainid] leaves from [departure] at [leaveat] and arrives in [destination] at [arriveby]. The price for this train is [price]. I have booked the train for you.
+user_agent: No, that's all I need. Thank you.
+tod_system: Thank you for choosing Worth House. I have booked the train with ID TR5686 for you. The train will depart from London Kings Cross at 9:17 and arrive in Cambridge at 10:08. The cost for this train is 23.60 pounds. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+1
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>arrive by 21:00</span> The train should depart from <span class='emphasis'>leicester</span> and should go to <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>departure time</span>, <span class='emphasis'>train ID</span>, and <span class='emphasis'>travel time</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free parking</span> The hotel should be in the <span class='emphasis'>moderate</span> price range and should be in the <span class='emphasis'>north</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>the same day</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a train and a place to stay in Cambridge.
+tod_system: There are [choice] trains to [destination]. Where will you be departing from?
+user_agent: I will be departing from Leicester.
+tod_system: There are 5 trains available to Cambridge. Would you like to leave at 05:09, 06:09, 07:09, 08:09, or 09:09?
+user_agent: I would like to leave at 07:09.
+tod_system: The [trainid] train leaves [departure] at [leaveat]. I can book you a seat on it if you'd like. Would you also like me to find a place for you to stay in Cambridge?
+user_agent: Yes, please find a place for me to stay.
+tod_system: I have found a few options for places to stay in Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have found 3 options for places to stay in Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have booked you a seat on the [trainid] train leaving [departure] at [leaveat]. Your reference number is [ref]. I have also found 3 options for places to stay in Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have booked you a seat on the TR7753 train leaving Leicester at 07:09. Your reference number is 00001885. I have also found 3 options for places to stay in Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have booked you a seat on the TR7753 train leaving Leicester at 07:09. Your reference number is 00001885. I have also found 3 options for places to stay in Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have booked you a seat on the TR7753 train leaving Leicester at 07:09. Your reference number is 00001885. I have also found 3 options for places to stay in Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have booked you a seat on the TR7753 train leaving Leicester at 07:09. Your reference number is 00001885. I have also found 3 options for places to stay in Cambridge. Would you like me to book one for you?
+
+
+Vanilla:
+user_agent:  I need information about trains in Cambridge.
+tod_system: Sure, I can help you with that. Can you please specify your departure station and the time of departure or arrival?
+user_agent:  I need a train that leaves on monday and arrives by 21:00. It should depart from Leicester and go to Cambridge.
+tod_system: I have found several trains departing from [departure] on [day] and arriving in [destination] by [arriveby]. Would you like me to book a seat for you on one of these trains?
+user_agent:  Yes, please. Can you also get me the departure time, train ID, and travel time?
+tod_system: I have found 5 trains departing from Leicester on Monday and arriving in Cambridge by 21:00. The first train leaves at 05:09 and arrives at 06:54, with a travel time of 105 minutes. The train ID is TR3173. Would you like me to book a seat for you on this train?
+user_agent:  Yes, please book it for 4 people.
+tod_system: Booking was successful, the total fee is [price] payable at the station. Reference number is : [ref] . The departure time for train TR3173 is 05:09, with a travel time of 105 minutes.
+user_agent:  Thank you. Now, I also need a place to stay. Can you help me find a guesthouse in the north that includes free parking and is
+tod_system: Sure, I can help you with that. I have found several guesthouses in the north that offer free parking. Would you like me to provide you with a list of options?
+user_agent:  Yes, please. Can you also make sure it's in the moderate price range?
+tod_system: I have found 5 guesthouses in the north that offer free parking and are in the moderate price range. The options are [name1], [name2], [name3], [name4], and [name5]. Would you like me to book a room for you at one of these guesthouses?
+user_agent:  Yes, please book it for 4 people and 4 nights starting from today.
+tod_system: Booking was successful, the total fee is 151.20 pounds payable at the station. Reference number is : 00001883 . The departure time for train TR3173 is 05:09, with a travel time of 105 minutes. I have found 5 guesthouses in the north that offer free parking and are in the moderate price range. The options are Acorn Guest House, Arbury Lodge Guesthouse, Archway House, Ashley Hotel, and Hamilton Lodge. Would you like me to book a room for you at one of these guesthouses?
+user_agent:  Yes, please book it for 4 people and 4 nights starting from today.
+tod_system: Booking was successful, the total fee is 151.20 pounds payable at the station. Reference number is : 00001883 . The departure time for train TR3173 is 05:09, with a travel time of 105 minutes. I have found 5 guesthouses in the north that offer free parking and are in the moderate price range. The options are Acorn Guest House, Arbury Lodge Guesthouse, Archway House, Ashley Hotel, and Hamilton Lodge. Would you like me to book a room for you at one of these guesthouses?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I need a train that leaves on Monday and arrives in Cambridge by 21:00. It should depart from Leicester.
+tod_system: I have found several trains departing from Leicester on Monday and arriving in Cambridge by 21:00. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: Yes, I would like to book a ticket for one of those trains. Can you provide me with the departure time, train ID, and travel time for each option?
+tod_system: The departure time for each option is [leaveat], the train ID is [trainid], and the travel time is [duration]. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: Can you also tell me the price for each option?
+tod_system: The departure time for each option is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: Yes, I would like to book a ticket for the train that departs at [leaveat] with the train ID [trainid] and travel time [duration]. Can you provide me with the reference number?
+tod_system: Sure thing. The departure time for the train is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. The reference number for this train is [ref]. Would you like to book a ticket for this train? If so, please provide the reference number.
+user_agent: Yes, I would like to book a ticket for this train. Can you also help me find a place to stay in Cambridge?
+tod_system: I have found several trains departing from Leicester on Monday and arriving in Cambridge by 21:00. The departure time for each option is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: Yes, I would like to book a hotel in Cambridge. It should be a guesthouse with free parking, in the moderate price range, and located in the north.
+tod_system: The departure time for each option is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: Yes, I would like to book a hotel in Cambridge. Can you provide me with options that meet my criteria?
+tod_system: I have found [choice] guesthouses in the [area] area of Cambridge that have [parking] parking and are in the [pricerange] price range. Would you like to book a room at one of these guesthouses? If so, please provide the reference number for the guesthouse you would like to book.
+user_agent: Yes, I would like to book a room at the guesthouse in the [area] area with [parking] parking and in the [pricerange] price range. Can you provide me with the reference number?
+tod_system: The departure time for each option is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book. I have found [choice] guesthouses in the [area] area of Cambridge that have [parking] parking and are in the [pricerange] price range. Would you like to book a room at one of these guesthouses? If so, please provide the reference number for the guesthouse you would like to book. The departure time for the train is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. The reference number for this train is [ref]. Would you like to book a ticket for this train? If so, please provide the reference number. The reference number for the guesthouse is [ref]. Would you like to book a room at this guesthouse? If so, please provide the reference number.
+user_agent: Yes, I would like to book a room at this guesthouse. Can you also help me book it for 4 people and 4 nights starting from today?
+tod_system: The departure time for each option is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book. I have found [choice] guesthouses in the [area] area of Cambridge that have [parking] parking and are in the [pricerange] price range. Would you like to book a room at one of these guesthouses? If so, please provide the reference number for the guesthouse you would like to book. The departure time for the train is [leaveat], the train ID is [trainid], the travel time is [duration], and the price is [price]. The reference number for this train is [ref]. Would you like to book a ticket for this train? If so, please provide the reference number. The reference number for the guesthouse is [ref]. Would you like to book a room at this guesthouse? If so, please provide the reference number. The booking was successful. Your reference number is [ref]. Would you like me to help you book a train or hotel for any other dates or locations?
+user_agent: No, that's all for now. Thank you.
+tod_system: 
+
+
+
+2
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>acorn guest house</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>7 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> Make sure you get <span class='emphasis'>address</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a hotel in Cambridge called Acorn Guest House.
+tod_system: I have found 1 hotel matching your request. The hotel is called Acorn Guest House and it is located at 154 Chesterton Road, North Cambridge. Their phone number is 01223353888 and their postcode is CB41DA. Would you like to book a room? If so, please provide the reference number 00000001.
+user_agent: Yes, I would like to book a room for 7 people for 4 nights starting from Friday.
+tod_system: Your booking has been successfully made. The reference number is 00000001.
+user_agent: Can you also recommend any museums in town?
+tod_system: Sure, there are many great museums in Cambridge. Some popular ones include the Fitzwilliam Museum, the Museum of Archaeology and Anthropology, and the Sedgwick Museum of Earth Sciences. Would you like me to provide more information about any of these museums?
+user_agent: Can you give me the address for the Fitzwilliam Museum?
+tod_system: The Fitzwilliam Museum is located at Trumpington Street, Cambridge CB2 1RB. It is open from 10am to 5pm daily and admission is free. Would you like me to provide more information about the museum or any other attractions in Cambridge?
+user_agent: No, that's all the information I need. Thank you.
+tod_system: You're welcome. Have a great stay at the Acorn Guest House and enjoy your visit to the Fitzwilliam Museum. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a particular hotel in Cambridge called acorn guest house.
+tod_system: I have found 1 hotel matching your request. The hotel is called [acorn guest house], located at [154 chesterton road], with phone number [01223353888] and postcode [cb41da]. Would you like to book this hotel?
+user_agent:  Yes, I would like to book it for 7 people and 4 nights starting from friday.
+tod_system: I have booked you into the Acorn Guest House for 7 people for 4 nights starting from Friday. Your reference number is B0WC4956. Is there anything else I can help you with?
+user_agent:  Yes, I am also looking for places to go in town. Can you recommend any museums?
+tod_system: There are several museums in the centre of Cambridge that you may be interested in. These include the Broughton House Gallery, Cambridge Contemporary Art, Castle Galleries, the Museum of Archaeology and Anthropology, and Primavera. Would you like me to provide you with more information about any of these museums?
+user_agent:  Yes, can you give me the address for the Museum of Archaeology and Anthropology?
+tod_system: The Museum of Archaeology and Anthropology is located at the University of Cambridge, Downing Street, [postcode]. Their phone number is [phone]. Would you like me to provide you with more information about any other museums?
+user_agent:  No, that's all for now. Thank you.
+tod_system: The address for the Museum of Archaeology and Anthropology is [address]. Their phone number is [phone]. Is there anything else I can help you with?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a hotel in Cambridge called Acorn Guest House.
+tod_system: I have found 1 hotel matching your request. The hotel is called acorn guest house and it is located at 154 Chesterton Road, Cambridge, CB4 1DA. Their phone number is 01223 353888. Would you like to book a room? If so, please provide the reference number 00000001.
+user_agent: Yes, I would like to book a room for 7 people for 4 nights starting from Friday.
+tod_system: Your booking at acorn guest house has been successfully made with reference number 00000001. Is there anything else I can assist you with?
+user_agent: No, that's all for the hotel. Thank you.
+tod_system: Goodbye. Enjoy your trip.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+3
+Initial message:
+You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>leave after 16:45</span> The train should depart from <span class='emphasis'>stevenage</span> and should go to <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>7 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: Hi, I'm looking for a train on Monday that leaves after 16:45 from Stevenage to Cambridge for 7 people.
+tod_system: There are 5 trains available on Monday from Stevenage to Cambridge after 16:45 for 7 people. The trains are TR9175, TR2494, TR8265, TR9062, and TR9013. The prices for each train are 12.80 pounds. Would you like to book one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: I would like to book train TR9175.
+tod_system: You are all booked for the TR9175 train. The price is 12.80 pounds. Your reference number is 00002758. Is there anything else I can help you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: You're welcome. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I need a train that leaves on monday after 16:45 from Stevenage to Cambridge.
+tod_system: I found several trains departing from Stevenage to Cambridge on Monday after 16:45. Would you like to arrive by a certain time or leave at a specific time?
+user_agent:  I need to arrive in Cambridge by 19:00.
+tod_system: The [trainid] train departs from [departure] on [day] at [leaveat] and arrives in [destination] by [arriveby]. Would you like to book this train?
+user_agent:  Yes, please book it for 7 people.
+tod_system: Booking was successful, the total fee is [price] payable at the station. Reference number is : [ref] .
+user_agent:  Thank you for your help.
+tod_system: The TR9013 train departs from Stevenage on Monday at 13:54 and arrives in Cambridge by 14:43. Would you like to book this train for 7 people?
+user_agent:  No, I need a train that leaves after 16:45.
+tod_system: Booking was successful, the total fee is 89.60 pounds payable at the station. Reference number is : 00002762. You're welcome, have a safe trip!
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I need to find a train for Monday leaving after 16:45 from Stevenage to Cambridge for 7 people.
+tod_system: I found 5 trains leaving after 16:45 from Stevenage to Cambridge on Monday for 7 people. The trains are TR9175, TR2494, TR8265, TR9062, and TR9013. The prices are 12.80 pounds each. Would you like to book one of these trains? If so, please provide the reference number.
+user_agent: Yes, I would like to book train TR9175. Can I get the reference number?
+tod_system: Your booking for train TR9175 has been confirmed. Your reference number is 00002758. The total fee is 89.60 pounds. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your booking for train TR9175 has been confirmed. Your reference number is 00002758. The total fee is 89.60 pounds. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+4
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>moderate</span> price range and should serve <span class='emphasis'>jamaican</span> food The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>lebanese</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>14:45</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be <span class='emphasis'>in the same area as the restaurant</span> and should be in the type of <span class='emphasis'>college</span> Make sure you get <span class='emphasis'>entrance fee</span> and <span class='emphasis'>address</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to dine in the centre of Cambridge that serves jamaican food and is in the moderate price range.
+tod_system: There are no Jamaican restaurants in the moderate price range in [area]. Do you have another cuisine or price range preference?
+user_agent: How about a restaurant that serves lebanese food?
+tod_system: There is one Lebanese restaurant in the moderate price range in [area], [choice] [pricerange]. Would you like their address?
+user_agent: Yes, please provide the address.
+tod_system: The address of [name] restaurant is [address], postcode [postcode], [postcode]. Is there anything else I can help you with?
+user_agent: No, that's all for the restaurant. Thank you.
+tod_system: Thank you for using our services.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to dine in the centre that serves jamaican food and is in the moderate price range.
+tod_system: There are no Jamaican restaurants in the moderate price range in the centre. Would you like a different cuisine or price range?
+user_agent:  How about a restaurant that serves lebanese food?
+tod_system: Yes, [name] is a great [food] restaurant in the [pricerange] price range. Would you like their address?
+user_agent:  Yes, please give me the address.
+tod_system: The address of [name] restaurant is [address], postcode [postcode], [postcode].
+user_agent:  I would like to book a table for 1 person at 14:45 on saturday.
+tod_system: Your booking at [name] for 1 person on Saturday at 14:45 has been successfully made. Your reference number is [ref].
+user_agent:  I am also looking for places to go in town. The attraction should be in the same area as the restaurant and should be in the type of college
+tod_system: There are no Jamaican restaurants in the moderate price range in the centre. Would you like a different cuisine or price range?
+user_agent:  No, I would like to know the entrance fee and address of the attraction.
+tod_system: The entrance fee for [name] is [entrancefee]. The address is [address], postcode [postcode], [postcode].
+user_agent:  I also need to book a taxi to commute between the two places. I want to make sure it arrives at the restaurant by the booked time.
+tod_system: Your booking at [name] for 1 person on Saturday at 14:45 has been successfully made. Your reference number is [ref]. The entrance fee for [name] is [entrancefee]. The address is [address], postcode [postcode], [postcode]. Your car is a [type]. Contact number: [phone]. Anything else?
+user_agent:  No, that's all. Thank you.
+tod_system: Your booking at Ali Baba for 1 person on Saturday at 14:45 has been successfully made. Your reference number is 00000024. The entrance fee for Christ's College is free. The address is Saint Andrew's Street, postcode CB2 3BU. Your car is a Honda. Contact number: 42619441214. Anything else?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to dine in the centre of Cambridge that serves Jamaican food and is in the moderate price range.
+tod_system: There are no Jamaican restaurants in the moderate price range in [area]. Do you have another cuisine or price range preference?
+user_agent: How about a restaurant that serves Lebanese food?
+tod_system: There is one Lebanese restaurant in the moderate price range in [area], [choice] [pricerange]. Would you like their address?
+user_agent: Yes, please provide the address.
+tod_system: The address of [name] restaurant is [address], postcode [postcode], [postcode]. Is there anything else I can help you with?
+user_agent: I also need to find an attraction in the same area as the restaurant. It should be a college.
+tod_system: The address of Ali Baba restaurant is 59 Hills Road City Centre, postcode CB21NT. As for a college attraction in the same area, there are several options such as Christ's College, Downing College, Emmanuel College, Gonville and Caius College, and Jesus College. Would you like me to provide more information about any of these colleges?
+user_agent: Yes, please provide more information about Christ's College.
+tod_system: Christ's College is a constituent college of the University of Cambridge. It was founded in 1505 by Lady Margaret Beaufort and has a rich history and beautiful architecture. The address of Christ's College is St Andrew's Street, Cambridge CB2 3BU. Is there anything else I can help you with?
+user_agent: Yes, I also need to book a taxi to commute between the restaurant and the college. Can you help me with that?
+tod_system: The address of Ali Baba restaurant is 59 Hills Road City Centre, postcode CB21NT. As for a college attraction in the same area, there are several options such as Christ's College, Downing College, Emmanuel College, Gonville and Caius College, and Jesus College. Would you like me to provide more information about any of these colleges?
+user_agent: Yes, please provide more information about Christ's College.
+tod_system: The address of Ali Baba restaurant is 59 Hills Road City Centre, postcode CB21NT. As for a college attraction in the same area, there are several options such as Christ's College, Downing College, Emmanuel College, Gonville and Caius College, and Jesus College. Would you like me to provide more information about any of these colleges?
+user_agent: Yes, please provide more information about Christ's College.
+tod_system: The address of Ali Baba restaurant is 59 Hills Road City Centre, postcode CB21NT. As for a college attraction in the same area, there are several options such as Christ's College, Downing College, Emmanuel College, Gonville and Caius College, and Jesus College. Would you like me to provide more information about any of these colleges?
+user_agent: Yes, please provide more information about Christ's College.
+tod_system: The address of Ali Baba restaurant is 59 Hills Road City Centre, postcode CB21NT. As for a college attraction in the same area, there are several options such as Christ's College, Downing College, Emmanuel College, Gonville and Caius College, and Jesus College. Would you like me to provide more information about any of these colleges?
+user_agent: Yes, please provide more information about Christ's College.
+tod_system: The address of Ali Baba restaurant is 59 Hills Road City Centre, postcode CB21NT. As for a college attraction in the same area, there are several options such as Christ's College, Downing College, Emmanuel College, Gonville and Caius College, and Jesus College. Would you like me to provide more information about any of these colleges?
+
+
+
+5
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>cheap</span> price range and should be in the <span class='emphasis'>east</span> The hotel should <span class='emphasis'>include free parking</span> and should be in the type of <span class='emphasis'>guesthouse</span> Make sure you get <span class='emphasis'>star of the hotel</span>, <span class='emphasis'>whether they have internet</span>, and <span class='emphasis'>phone number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> and should be in the <span class='emphasis'>west</span> Make sure you get <span class='emphasis'>postcode</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in Cambridge that is cheap and in the east. I also need free parking and a guesthouse type.
+tod_system: There are [choice] [pricerange] places to stay. Is there an area you'd like to stay in?
+user_agent: I need the star of the hotel, whether they have internet, and the phone number.
+tod_system: How about [name]? It is a [stars] star [type] and has free internet and free parking. The phone number is [phone].
+user_agent: I also need places to go in town. The attraction should be in the type of museum and should be in the west.
+tod_system: There are 3 cheap guesthouses in the east area. Is there an area you'd like to stay in?
+user_agent: I need the postcode.
+tod_system: There are 3 cheap guesthouses in the east area. How about [name]? It is a [stars] star [type] and has free internet and free parking. The phone number is [phone]. For a museum, I recommend [name] at [address], post code [postcode]. The entrance fee is [entrancefee]. Is there anything else you need?
+user_agent: No, that's all I need. Thank you.
+tod_system: How about Leverton House? It is a 4 star guesthouse and has free internet and free parking. The phone number is 01223292094. For a museum, I recommend Kettle's Yard at Castle Street, post code cb30aq. The entrance fee is free. Is there anything else you need?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in Cambridge that is cheap and in the east.
+tod_system: There are 3 [pricerange] [type]s in the [area] area. Would you like me to book one for you?
+user_agent:  Yes, please. I also need free parking and it should be a guesthouse.
+tod_system: I'm sorry, there are no guest houses in the east area with free parking. Would you like me to search for another area or criteria?
+user_agent:  No, that's okay. Can you give me the star rating, internet availability, and phone number for the hotel?
+tod_system: I have found 3 guesthouses in the east area with free parking. Would you like me to book one for you?
+user_agent:  Yes, please. Also, can you recommend any museums in the west area?
+tod_system: I have booked the Autumn House guesthouse for you. The star rating is 4, internet is available, and the phone number is 01223575122. For museums in the west area, I recommend the Fitzwilliam Museum and the Museum of Archaeology and Anthropology. Would you like me to provide their addresses and phone numbers?
+user_agent:  Yes, please. And can you also give me the postcodes for both museums?
+tod_system: The postcode for the Fitzwilliam Museum is CB2 1RB and the phone number is 01223335000. The postcode for the Museum of Archaeology and Anthropology is CB2 3DZ and the phone number is 01223335300. Is there anything else I can help you with?
+user_agent:  No, that's all for now. Thank you.
+tod_system: The postcode for the [name] is [postcode]. The postcode for the [name] is [postcode]. Is there anything else I can help you with?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in Cambridge that's cheap and in the east. I also need free parking and prefer a guesthouse.
+tod_system: There are [choice] [pricerange] places to stay. Is there an area you'd like to stay in?
+user_agent: I need the star rating, internet availability, and phone number for the hotel.
+tod_system: How about [name]? It is a [stars] star [type] and has free internet and free parking. The phone number is [phone].
+user_agent: I'm also looking for places to go in town. I want to visit a museum in the west.
+tod_system: There are 3 cheap guesthouses in the east. Is there an area you'd like to stay in?
+user_agent: I need the postcode for the museum.
+tod_system: There are 3 cheap guesthouses in the east. How about [name]? It is a [stars] star [type] and has free internet and free parking. The phone number is [phone]. There are 4 museums in the west. How about [name]? The postcode is [postcode]. Is there anything else you need today?
+user_agent: No, that's all for now. Thank you.
+tod_system: You have a few options for cheap guesthouses in the east. How about Allenbell? It is a 4 star guesthouse with free internet and parking. The phone number is 01223210353. Is there an area you'd like to stay in? There are also 4 museums in the west. How about Cafe Jello Gallery? The postcode is cb30af. Is there anything else you need today?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+6
+Initial message:
+You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>east</span> The hotel should be in the <span class='emphasis'>cheap</span> price range Make sure you get <span class='emphasis'>star of the hotel</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>cinema</span> Make sure you get <span class='emphasis'>phone number</span>, <span class='emphasis'>area</span>, and <span class='emphasis'>entrance fee</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in the east of Cambridge. I prefer a guesthouse.
+tod_system: I have found 5 guesthouses in the east of Cambridge. Would you like me to provide you with more information about any of them?
+user_agent: Yes, please. Can you tell me about the cheapest one?
+tod_system: The cheapest guesthouse in the east of Cambridge is [name]. It is a [stars] star [type] with free internet and free parking. Would you like to book a room?
+user_agent: Yes, please book a room for me.
+tod_system: Your room at [name] has been successfully booked. Your reference number is [reference].
+user_agent: Can you also suggest some places to go in town?
+tod_system: Sure, there are many great places to visit in Cambridge. Some popular options include the Cambridge University Botanic Garden, the Fitzwilliam Museum, and the King's College Chapel. Would you like me to provide more information about any of these places?
+user_agent: Yes, please tell me more about the Cambridge University Botanic Garden.
+tod_system: The Cambridge University Botanic Garden is a beautiful attraction with over 8,000 different plant species. It is located in the south of Cambridge and is open daily from 10am to 6pm. Would you like the address or phone number?
+user_agent: Yes, please give me the phone number and area.
+tod_system: The phone number for the Cambridge University Botanic Garden is [phone] and it is located in the south of Cambridge. Can I assist you with anything else?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your room at [name] has been successfully booked. Your reference number is [reference]. The Cambridge University Botanic Garden is located in the south of Cambridge and their phone number is [phone]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a guesthouse in the east that is cheap.
+tod_system: [name] is [pricerange] in the [area].
+user_agent:  I need the star of the hotel.
+tod_system: The [name] is [pricerange] in the [area] and has [stars] stars.
+user_agent:  I also need places to go in town.
+tod_system: The Allenbell is cheap in the east and has 4 stars. For places to go in town, please specify a name, area, or type.
+user_agent:  I am looking for a cinema.
+tod_system: The Allenbell is cheap in the east and has 4 stars. For places to go in town, please specify a name, area, or type.
+user_agent:  I need the phone number, area, and entrance fee.
+tod_system: The Allenbell is cheap in the east and has 4 stars. For places to go in town, please specify a name, area, or type.
+user_agent:  I am looking for a cinema in the east.
+tod_system: The Allenbell is cheap in the east and has 4 stars. For places to go in town, please specify a name, area, or type.
+user_agent:  I need the phone number, area, and entrance fee.
+tod_system: The Allenbell is cheap in the east and has 4 stars. For places to go in town, please specify a name, area, or type.
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in Cambridge. I want a guesthouse in the east that is cheap.
+tod_system: There are [choice] [pricerange] guesthouses in the [area] of Cambridge. Would you like me to book one for you?
+user_agent: Yes, please book one for me.
+tod_system: I have 3 options of cheap guesthouses in the east of Cambridge. Would you like me to book one for you?
+user_agent: I also need to know the star of the hotel.
+tod_system: There are 3 cheap guesthouses in the east of Cambridge. Would you like me to book one for you?
+user_agent: I also need to know the star of the hotel.
+tod_system: There are 3 [pricerange] guesthouses in the [area] of Cambridge. The options are [hotel_name], [hotel_name], and [hotel_name]. Would you like me to book one for you?
+user_agent: I also need to know the star of the hotel.
+tod_system: There are 3 cheap guesthouses in the east of Cambridge. The options are Allenbell, Autumn House, and Leverton House. Would you like me to book one for you?
+user_agent: Yes, please book Autumn House for me.
+tod_system: The star rating for Autumn House is [stars]. The address is [address]. The post code is [postcode]. Do you want me to book it for you?
+user_agent: Yes, please book it for me.
+tod_system: The star rating for Autumn House is 3. The address is [address]. The post code is [postcode]. Your reservation has been successfully booked. Your reference number is [reference]. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your reservation at Autumn House has been successfully booked. Your reference number is HCQFAEJ3. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+7
+Initial message:
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>south</span> and should be in the type of <span class='emphasis'>park</span> Make sure you get <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should depart from <span class='emphasis'>stansted airport</span> The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>arrive by 16:30</span> Make sure you get <span class='emphasis'>price</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for places to go in the south of Cambridge, specifically a park.
+tod_system: There are 2 total parks in the south of Cambridge, both of which are free. Sheep's Green and Lammas Land Park Fen Causeway and Wandlebury Country Park are both free to enter.
+user_agent: Thank you, that's all I needed for places to go. Now I need a train. The train should go to Cambridge and depart from Stansted Airport.
+tod_system: Sure, I can help you find a train. What day and time would you like to depart from Stansted Airport?
+user_agent: I need to leave on Monday and arrive in Cambridge by 16:30.
+tod_system: I found 5 trains leaving Stansted Airport on Monday, with the earliest one arriving in Cambridge at 16:52. Would you like me to book you on train TR1188, leaving at 05:24 and arriving at 05:52?
+user_agent: Yes, that works for me. How much will it cost?
+tod_system: The cost for train TR1188 is [price]. Would you like me to book this train for you?
+user_agent: Yes, please book it for me.
+tod_system: The cost for train TR1188 is 10.10 pounds. Would you like me to book this train for you?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for places to go in the south of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent:  I need the address.
+tod_system: Sure, the address for [name] is [address], [postcode]. Is there anything else you need?
+user_agent:  Yes, I also need a train. The train should go to Cambridge and depart from Stansted Airport. It should leave on Monday and arrive by 
+tod_system: I have the [trainid] leaving at [leaveat] and arriving at [arriveby]. Would you like me to book that for you?
+user_agent:  Yes, please book it for me and get me the price.
+tod_system: The address for Nusha is unit g6, cambridge leisure park, clifton road, cb17dy. The train ID is TR3304 leaving at 09:24 and arriving at 09:52. The price is 10.10 pounds. Would you like me to book that for you?
+user_agent:  Yes, please book it for me.
+tod_system: The address for Nusha is unit g6, cambridge leisure park, clifton road, cb17dy. The train ID is TR3304 leaving at 09:24 and arriving at 09:52. The price is 10.10 pounds. Would you like me to book that for you?
+user_agent:  Yes, please book it for me.
+tod_system: The address for Nusha is unit g6, cambridge leisure park, clifton road, cb17dy. The train ID is TR3304 leaving at 09:24 and arriving at 09:52. The price is 10.10 pounds. Would you like me to book that for you?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for places to go in Cambridge's south, preferably a park. I also need a train that goes to Cambridge from Stansted Airport on Monday and arrives by 16:30.
+tod_system: I found [choice] trains that arrive by 16:30 on Monday. What is your destination?
+user_agent: My destination is Cambridge.
+tod_system: I found [choice] trains that arrive by 16:30 on Monday. The train that departs from [departure] at [leaveat] and arrives at [destination] at [arriveby] is [trainid]. Would you like me to book that seat for you?
+user_agent: Yes, please book that train for me.
+tod_system: Booking was successful, the total fee is [price] payable at the station . Reference number is : [ref] .
+user_agent: Thank you. Can you also give me the address of the park in Cambridge's south?
+tod_system: I found 5 trains that arrive by 16:30 on Monday. The train that departs from Stansted Airport at 09:24 and arrives at Cambridge at 09:52 is TR3304. Would you like me to book that seat for you?
+user_agent: No, I need the address of the park in Cambridge's south.
+tod_system: The park you are looking for is called "Sheep's Green and Lammas Land Park Fen Causeway". The address is Fen Causeway, Newnham Road, Cambridge CB2 2AD. The phone number is 01223 302580. Would you like me to book a train for you to get there?
+user_agent: No, thank you. That's all I need.
+tod_system: The park you are looking for is called "Sheep's Green and Lammas Land Park Fen Causeway". The address is Fen Causeway, Newnham Road, Cambridge CB2 2AD. The phone number is 01223 302580. Would you like me to book a train for you to get there?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+8
+Initial message:
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free wifi</span> and should <span class='emphasis'>include free parking</span> The hotel should have <span class='emphasis'>a star of 2</span> and should be in the <span class='emphasis'>expensive</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>1 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>thursday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>london liverpool street</span> and should go to <span class='emphasis'>cambridge</span> The train should be on <span class='emphasis'>the same day as the hotel booking</span> and should <span class='emphasis'>leave after 09:15</span> Make sure you get <span class='emphasis'>arrival time</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in Cambridge with free wifi and free parking. It should have a 2 star rating and be in the expensive price range.
+tod_system: The [name] is a great choice. It is located at [address], [postcode] and their phone number is [phone]. Would you like to book a room?
+user_agent: Yes, I would like to book a room for 1 person and 3 nights starting from Thursday.
+tod_system: The [name] is a great choice. It is located at [address], [postcode] and their phone number is [phone]. I have booked a room for 1 person and 3 nights starting from thursday. The reference number is [ref]. Is there anything else I can assist you with?
+user_agent: No, that's all for the hotel. Thank you.
+tod_system: Thank you for booking with us. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in Cambridge that includes free wifi and free parking.
+tod_system: We have quite a [choice] lodgings which offer both. Do you have a preference as to what type of lodging, a guesthouse or hotel?
+user_agent:  I would like a hotel with a 2 star rating and in the expensive price range.
+tod_system: The [pricerange] [stars] star [type] is the [name], located at [address], [postcode], with a phone number of [phone]. Would you like to book a room?
+user_agent:  Yes, I would like to book a room for 1 person and 3 nights starting from Thursday.
+tod_system: Booking at the cambridge hotel was successful. Your reference number is [ref] . Do you need anything else?
+user_agent:  I also need a train. The train should depart from london liverpool street and go to cambridge on the same day as the hotel booking.
+tod_system: Your booking at the Cambridge Hotel for 1 person and 3 nights starting from Thursday was successful. The reference number is [ref] . As for the train, I have found a train leaving London Liverpool Street at 13:39 and arriving in Cambridge at 15:07. The train ID is TR3257 and the price is 16.60 pounds. Would you like to book this train as well?
+user_agent:  Yes, please book the train for me.
+tod_system: Your booking at the Cambridge Hotel for 1 person and 3 nights starting from Thursday was successful. The reference number is [ref] . As for the train, I have found a train leaving London Liverpool Street at [leaveat] and arriving in Cambridge at [arriveby]. The train ID is [trainid] and the price is [price]. Would you like to book this train as well?
+user_agent:  Yes, please book the train for me.
+tod_system: Your booking at the Cambridge Hotel for 1 person and 3 nights starting from Thursday was successful. The reference number is 00000244. As for the train, I have found a train leaving London Liverpool Street at 13:39 and arriving in Cambridge at 15:07. The train ID is TR3257 and the price is 16.60 pounds. Would you like to book this train as well?
+user_agent:  No, that's all I need. Thank you.
+tod_system: Your booking at the Cambridge Hotel for 1 person and 3 nights starting from Thursday was successful. The reference number is 00000244. As for the train, I have found a train leaving London Liverpool Street at 13:39 and arriving in Cambridge at 15:07. The train ID is TR3257 and the price is 16.60 pounds. Would you like to book this train as well?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in Cambridge that includes free wifi and parking, has a 2 star rating, and is in the expensive price range.
+tod_system: The [name] is a [type] located at [address] in the [area] of Cambridge. Their phone number is [phone] and their postcode is [postcode]. Would you like to book a room?
+user_agent: Yes, I would like to book a room for 1 person and 3 nights starting from Thursday.
+tod_system: I'm sorry, there are no hotels in Cambridge that meet all of your criteria. Would you like to try a different area or price range?
+user_agent: No, I really need a hotel in Cambridge. Can you please check again?
+tod_system: I'm sorry, there are no hotels in Cambridge that meet all of your criteria. Would you like to try a different area or price range?
+user_agent: Okay, can you please check for a hotel with a 2 star rating and free wifi and parking in a different price range?
+tod_system: I have found the [name] in the [area] of Cambridge. Their phone number is [phone] and their postcode is [postcode]. Would you like me to book a reservation for you today?
+user_agent: Yes, please book a reservation for me. Can I also get the reference number?
+tod_system: Yes, I have successfully booked a room for you at the [name]. Your reference number is [reference]. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: I have successfully booked a room for you at the [name]. Your reference number is [reference]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+9
+Initial message:
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free parking</span> and should <span class='emphasis'>include free wifi</span> The hotel should be in the type of <span class='emphasis'>guesthouse</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>sunday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>tuesday</span> and should <span class='emphasis'>leave after 18:00</span> The train should go to <span class='emphasis'>london kings cross</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in Cambridge that includes free parking and wifi.
+tod_system: I recommend the [name]. It's located in the [area] and offers free parking and wifi. Would you like me to book a reservation for you?
+user_agent: Yes, please book it for 5 people and 2 nights starting from sunday.
+tod_system: The booking for [bookpeople] people at the [name] arriving on [bookday] for [bookstay] was successful. Your Reference number is : [ref] . Can I assist you any further?
+user_agent: No, I also need to book a train. The train should leave on tuesday and should leave after 18:00.
+tod_system: The booking for 5 people at the Acorn Guest House arriving on Sunday for 2 nights was successful. Your Reference number is : 00000001 . Can I assist you any further?
+user_agent: Yes, please book the train for the same group of people.
+tod_system: The booking for 5 people at the Acorn Guest House arriving on Sunday for 2 nights was successful. Your Reference number is : 00000001 . Can I assist you any further?
+user_agent: No, that's all for now. Thank you.
+tod_system: The booking for 5 people at the Acorn Guest House arriving on Sunday for 2 nights was successful. Your Reference number is : 00000001 . Can I assist you any further?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in Cambridge. I need free parking and wifi.
+tod_system: I have [5] options for you. What area would you like to stay in?
+user_agent:  I would like a guesthouse.
+tod_system: I have [5] options for you. [choice] offer free wifi and parking. The [name] has [stars] or the [name] has a [stars]-star rating.
+user_agent:  I would like to book the guesthouse for 5 people and 2 nights starting from sunday.
+tod_system: The [name] and the [name] are both located in the [area] area and have [stars]-star ratings. They both offer free WIFI and parking. Would you like me to book [bookpeople] rooms for [bookstay] nights starting from [bookdate]? Your reference number is [ref].
+user_agent:  Yes, please book the guesthouse for 5 people and 2 nights starting from sunday.
+tod_system: I have found [2] guesthouses in the Cambridge area that meet your criteria. The Bridge Guest House and the Lovell Lodge both have a 3-star rating and offer free WIFI and parking. Would you like me to book [5] rooms for [2] nights starting from [sunday]? Your reference number is [12345].
+user_agent:  Yes, that sounds perfect. Thank you.
+tod_system: I have found [2] guesthouses in the Cambridge area that meet your criteria. The Bridge Guest House and the Lovell Lodge both have a 3-star rating and offer free WIFI and parking. Would you like me to book [5] rooms for [2] nights starting from [sunday]? Your reference number is [12345].
+user_agent:  No, that's all I need. Thank you.
+tod_system: I have found [2] guesthouses in the Cambridge area that meet your criteria. The Bridge Guest House and the Lovell Lodge both have a 3-star rating and offer free WIFI and parking. Would you like me to book [5] rooms for [2] nights starting from [sunday]? Your reference number is [12345].
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in Cambridge that includes free parking and wifi. Do you have any guesthouses available?
+tod_system: There are [choice] guesthouses available. Would you like me to list them for you?
+user_agent: Yes, please list them for me.
+tod_system: I have [choice] guesthouses available. The [name] has [stars] or the [name] has a [stars]-star rating.
+user_agent: I'll go with the [name] guesthouse.
+tod_system: Great, I have successfully booked the [name] guesthouse for you. Your reference number is [reference].
+user_agent: Thank you. Now, I also need to book a train for the same group of people.
+tod_system: Sure thing. I have successfully booked the [name] guesthouse for you. Your reference number is [reference]. Would you also like me to help you book a train for the same group of people?
+user_agent: Yes, please help me book a train for the same group of people.
+tod_system: I have successfully booked the [name] guesthouse for you. Your reference number is [reference]. Would you also like me to help you book a train for the same group of people?
+user_agent: Yes, please help me book a train for the same group of people.
+tod_system: Thank you for using our system! Your booking for the [name] guesthouse has been successful. Your reference number is [reference]. I have also successfully booked a train for the same group of people. Your reference number for the train is [reference].
+user_agent: Thank you for your help. That's all I need for now.
+tod_system: It was a pleasure to assist you. Your booking for the [name] guesthouse has been successful. Your reference number is [reference]. I have also successfully booked a train for the same group of people. Your reference number for the train is [reference]. Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+10
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free wifi</span> and should be in the <span class='emphasis'>moderate</span> price range The hotel should be in the <span class='emphasis'>south</span> and should have <span class='emphasis'>a star of 4</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>sunday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>arrive by 10:45</span> and should depart from <span class='emphasis'>peterborough</span> The train should go to <span class='emphasis'>cambridge</span> and should be on <span class='emphasis'>the same day as the hotel booking</span> Make sure you get <span class='emphasis'>price</span> and <span class='emphasis'>travel time</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in Cambridge with free wifi, moderate price range, and a 4-star rating.
+tod_system: There are [choice] [pricerange] places to stay with [internet] and [stars] stars. Is there an area you'd like to stay in?
+user_agent: I would like to stay in the south.
+tod_system: Aylesbray Lodge Guest House is perfect for you. It is located at 5 Mowbray Road and you can call in at 01223240089. Would you like me to book a room for you?
+user_agent: Yes, please book a room for 4 people for 2 nights starting from Sunday.
+tod_system: Your reservation for 4 people at Aylesbray Lodge Guest House this Sunday for 2 days 2 nights was successful. Your Reference number is : SWWMG3BG. Thank you for choosing Aylesbray Lodge Guest House.
+user_agent: Can you also help me find a train? The train should arrive by 10:45 and depart from Peterborough.
+tod_system: There are 5 moderate places to stay with free internet and 4 stars in the south area. Aylesbray Lodge Guest House is perfect for you. It is located at 5 Mowbray Road and you can call in at 01223240089. Would you like me to book a room for you?
+user_agent: Yes, please book a train for me. It should go to Cambridge on the same day as the hotel booking.
+tod_system: I found 5 moderate places to stay with free internet and 4 stars in the south area. Aylesbray Lodge Guest House is perfect for you. It is located at 5 Mowbray Road and you can call in at 01223240089. Would you like me to book a room for you?
+user_agent: Yes, please book a train for me. It should go to Cambridge on the same day as the hotel booking.
+tod_system: There are 5 moderate places to stay with free internet and 4 stars in the south area. Aylesbray Lodge Guest House is perfect for you. It is located at 5 Mowbray Road and you can call in at 01223240089. Would you like me to book a room for you? Also, I found 5 trains departing from Peterborough to Cambridge on the same day as your hotel booking. The train will arrive in Cambridge at 10:45. Would you like me to book a train for you?
+user_agent: Yes, please book the train that arrives in Cambridge at 10:45.
+tod_system: Your reservation for 4 people at Aylesbray Lodge Guest House this Sunday for 2 days 2 nights was successful. Your Reference number is : SWWMG3BG. Thank you for choosing Aylesbray Lodge Guest House. Also, your train reservation for 4 people from Peterborough to Cambridge on Sunday was successful. Your Reference number is : 00001306. Thank you for choosing our train service.
+user_agent: Thank you for your help. That's all I need.
+tod_system: You are more than welcome. Enjoy your stay at Aylesbray Lodge Guest House and your train journey from Peterborough to Cambridge. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in Cambridge that includes free wifi and is in the moderate price range.
+tod_system: Sure, I found a few options for you. [ashley hotel], located on [74 chesterton road], has free wifi and is in the moderate price range. Would you like me to book a room for you?
+user_agent:  Yes, that sounds good. I also need a hotel in the south with a 4 star rating.
+tod_system: Great, I found [ashley hotel] in the south area with a 4 star rating. Can I book a room for you? Your reference number is [12345].
+user_agent:  Yes, please book it for 4 people and 2 nights starting from Sunday.
+tod_system: Your booking is complete! Your reference number is 12345. Enjoy your stay!
+user_agent:  I also need a train that arrives by 10:45 and departs from Peterborough to Cambridge on the same day as the hotel booking.
+tod_system: I was able to book a room for 4 people at [ashley hotel] in the south area with a 4 star rating for 2 nights starting from Sunday. Your reference number is [12345]. For your train, I recommend taking the TR3021, leaving at 05:19 and arriving at 06:09. Your reference number for the train is [00001078]. Enjoy your stay and safe travels!
+user_agent:  Thank you for all your help.
+tod_system: Your hotel booking at [ashley hotel] in the south area with a 4 star rating for 2 nights starting from Sunday has been confirmed. Your reference number is [12345]. For your train, I have booked the TR3021, leaving at 05:19 and arriving at 06:09. Your reference number for the train is [00001078]. Enjoy your stay and safe travels!
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in Cambridge's south with free wifi and a moderate price range.
+tod_system: I found [choice] [pricerange] places to stay in the [area] area. Would you like me to book one for you?
+user_agent: Yes, please. I also need a hotel with a 4-star rating.
+tod_system: I have found Aylesbray Lodge Guest House, located at 5 Mowbray Road in the South area. Their phone number is 01223240089 and their postcode is CB17SR. Would you like me to book a room for you? Your reference number is 00000010.
+user_agent: Yes, please book a room for 4 people for 2 nights starting from Sunday.
+tod_system: I was able to book a room for you at Aylesbray Lodge Guest House. Your reference number is 00000010. Is there anything else I can assist you with?
+user_agent: Yes, I also need a train. The train should arrive by 10:45 and depart from Peterborough.
+tod_system: I have found Aylesbray Lodge Guest House, located at 5 Mowbray Road in the South area. Their phone number is 01223240089 and their postcode is CB17SR. Would you like me to book a room for you? Your reference number is 00000010. I also found a train that arrives in Peterborough at 10:45 and departs from Cambridge at 07:06. The train ID is TR3074 and the price is 13.20 pounds. Would you like me to book this train for you?
+user_agent: Yes, please book the train for me.
+tod_system: I have booked a room for 4 people at Aylesbray Lodge Guest House for 2 nights starting from Sunday. Your reference number is 00000010. I have also booked a train for you that arrives in Peterborough at 10:45 and departs from Cambridge at 07:06. The train ID is TR3074 and the price is 13.20 pounds. Your reference number is 00001311. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: I have booked a room for 4 people at Aylesbray Lodge Guest House for 2 nights starting from Sunday. Your reference number is 00000010. I have also booked a train for you that arrives in Peterborough at 10:45 and departs from Cambridge at 07:06. The train ID is TR3074 and the price is 13.20 pounds. Your reference number is 00001311. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+11
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free wifi</span> and should be in the <span class='emphasis'>expensive</span> price range The hotel should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>star of the hotel</span> and <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>indian</span> food and should be in the <span class='emphasis'>same price range as the hotel</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>7 people</span> at <span class='emphasis'>15:15</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in the centre of Cambridge with free wifi and an expensive price range. I also need a place to dine with indian food in the same price range.
+tod_system: There are [choice] [pricerange] places to stay. Is there an area you'd like to stay in?
+user_agent: I need the star of the hotel and the postcode.
+tod_system: How about [name]? It is a [stars] star [type] and has free internet and free parking. The postcode is [postcode].
+user_agent: I also need a restaurant. Can you give me the star of the restaurant and the postcode?
+tod_system: There are [choice] [pricerange] places to stay. Is there an area you'd like to stay in? How about [name]? It is a [stars] star [type] and has free internet and free parking. The postcode is [postcode]. For dining, there are [choice] [pricerange] Indian restaurants in the [area]. Would you like the name and postcode for one of those?
+user_agent: I want to book a table for 7 people at 15:15 on saturday.
+tod_system: [name] is a [stars] star [type] located at [address] and has free internet and free parking. The postcode is [postcode]. For dining, [name] is a [stars] star [type] located at [address] and has free internet and free parking. The postcode is [postcode]. The restaurant [name] is located at [address] and the postcode is [postcode]. Your booking reference is [reference]. Is there anything else I can help you with?
+user_agent: I also need a taxi to commute between the two places. I want to make sure it arrives by the booked time.
+tod_system: Thank you for providing your preferences. Based on your requirements, there are 2 expensive hotels in the centre of Cambridge with free wifi and parking. Would you like to stay at the Gonville Hotel or the University Arms Hotel? Both are 3 and 4 star hotels respectively. The postcode for the Gonville Hotel is CB1 1LY and the postcode for the University Arms Hotel is CB2 1AD. For dining, there are 2 expensive Indian restaurants in the centre of Cambridge. Would you like the name and postcode for the Maharaja or the Curry King? Both are highly rated and have free wifi and parking. The postcode for the Maharaja is CB1 1LY and the postcode for the Curry King is CB2 1AD. Your booking reference for the Maharaja is 00000018. Is there anything else I can help you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: Thank you for providing your preferences. Based on your requirements, there are 2 expensive hotels in the centre of Cambridge with free wifi and parking. Would you like to stay at the Gonville Hotel or the University Arms Hotel? Both are 3 and 4 star hotels respectively. The postcode for the Gonville Hotel is CB1 1LY and the postcode for the University Arms Hotel is CB2 1AD. For dining, there are 2 expensive Indian restaurants in the centre of Cambridge. Would you like the name and postcode for the Maharaja or the Curry King? Both are highly rated and have free wifi and parking. The postcode for the Maharaja is CB1 1LY and the postcode for the Curry King is CB2 1AD. Your booking reference for the Maharaja is 00000018. For your taxi, I have booked a red Lexus taxi that will arrive at the hotel at 15:15. The phone number for the taxi is 91554768884. Is there anything else I can help you with?
+user_agent: 
+tod_system: Thank you for providing your preferences. Based on your requirements, there are 2 expensive hotels in the centre of Cambridge with free wifi and parking. Would you like to stay at the Gonville Hotel or the University Arms Hotel? Both are 3 and 4 star hotels respectively. The postcode for the Gonville Hotel is CB1 1LY and the postcode for the University Arms Hotel is CB2 1AD. For dining, there are 2 expensive Indian restaurants in the centre of Cambridge. Would you like the name and postcode for the Maharaja or the Curry King? Both are highly rated and have free wifi and parking. The postcode for the Maharaja is CB1 1LY and the postcode for the Curry King is CB2 1AD. Your booking reference for the Maharaja is 00000018. For your taxi, I have booked a red Lexus taxi that will arrive at the hotel at 15:15. The phone number for the taxi is 91554768884. Is there anything else I can help you with?
+user_agent: 
+tod_system: Thank you for providing your preferences. Based on your requirements, there are 2 expensive hotels in the centre of Cambridge with free wifi and parking. Would you like to stay at the Gonville Hotel or the University Arms Hotel? Both are 3 and 4 star hotels respectively. The postcode for the Gonville Hotel is CB1 1LY and the postcode for the University Arms Hotel is CB2 1AD. For dining, there are 2 expensive Indian restaurants in the centre of Cambridge. Would you like the name and postcode for the Maharaja or the Curry King? Both are highly rated and have free wifi and parking. The postcode for the Maharaja is CB1 1LY and the postcode for the Curry King is CB2 1AD. Your booking reference for the Maharaja is 00000018. For your taxi, I have booked a red Lexus taxi that will arrive at the hotel at 15:15. The phone number for the taxi is 91554768884. Is there anything else I can help you with?
+user_agent: 
+tod_system: Thank you for providing your preferences. Based on your requirements, there are 2 expensive hotels in the centre of Cambridge with free wifi and parking. Would you like to stay at the Gonville Hotel or the University Arms Hotel? Both are 3 and 4 star hotels respectively. The postcode for the Gonville Hotel is CB1 1LY and the postcode for the University Arms Hotel is CB2 1AD. For dining, there are 2 expensive Indian restaurants in the centre of Cambridge. Would you like the name and postcode for the Maharaja or the Curry King? Both are highly rated and have free wifi and parking. The postcode for the Maharaja is CB1 1LY and the postcode for the Curry King is CB2 1AD. Your booking reference for the Maharaja is 00000018. For your taxi, I have booked a red Lexus taxi that will arrive at the hotel at 15:15. The phone number for the taxi is 91554768884. Is there anything else I can help you with?
+user_agent: 
+tod_system: 
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in the centre of Cambridge that includes free wifi and is in the expensive price range.
+tod_system: I'm sorry, there are currently no hotels in our database that match your criteria. Would you like me to expand your search to include nearby areas?
+user_agent:  Yes, please expand the search.
+tod_system: I have 2 results in the nearby areas that match your criteria. The first one is [name], located at [address], with a phone number of [phone] and a postcode of [postcode]. The second one is [name], located at [address], with a phone number of [phone] and a postcode of [postcode]. Would you like to book one of these hotels?
+user_agent:  I'll go with the first one. Can you also get me the star of the hotel?
+tod_system: The only hotels that match your criteria are in the nearby areas. The first one is [name], located at [address], with a phone number of [phone] and a postcode of [postcode]. It has [stars] stars. Would you like to book this hotel?
+user_agent:  Yes, please book the first hotel for me.
+tod_system: Sure, your booking reference is [ref]. Your room is booked at [name], located at [address], with a phone number of [phone] and a postcode of [postcode]. It has [stars] stars. Is there anything else I can assist you with?
+user_agent:  Yes, I also need a place to dine. The restaurant should serve indian food and should be in the same price range as the hotel.
+tod_system: Your booking at gonville hotel is successful. Your room is booked at gonville hotel, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. It has 3 stars. Is there anything else I can assist you with?
+user_agent:  Yes, I need to book a table for 7 people at 15:15 on saturday.
+tod_system: Your booking at gonville hotel is successful. Your room is booked at gonville hotel, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. It has 3 stars. Your table is also booked at gonville hotel's restaurant, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. Is there anything else I can assist you with?
+user_agent:  Yes, I also need to book a taxi to commute between the two places.
+tod_system: Your booking at gonville hotel is successful. Your room is booked at gonville hotel, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. It has 3 stars. Your table is also booked at gonville hotel's restaurant, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. Your taxi is booked and will arrive at 14:45 on Saturday to take you from gonville hotel to gonville hotel's restaurant. Is there anything else I can assist you with?
+user_agent:  No, that's all. Thank you.
+tod_system: Your booking at gonville hotel is successful. Your room is booked at gonville hotel, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. It has 3 stars. Your table is also booked at gonville hotel's restaurant, located at gonville place, with a phone number of 01223366611 and a postcode of cb11ly. Your taxi is booked and will arrive at 14:45 on Saturday to take you from gonville hotel to gonville hotel's restaurant. Is there anything else I can assist you with?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in Cambridge's center with free wifi and in the expensive price range.
+tod_system: [gonville hotel], [gonville place], [01223366611], [cb11ly]. Can I book a room for you?
+user_agent: Yes, that sounds good. Can you also recommend a restaurant in the same price range as the hotel?
+tod_system: [gonville hotel], [gonville place], [01223366611], [cb11ly]. Can I book a room for you? [reference] Yes, I can recommend [stazione restaurant and coffee bar], [Market Hill City Centre], [01223352607], [cb23nj] for a restaurant in the same price range as the hotel.
+user_agent: Yes, please book a table for 7 people at 15:15 on Saturday.
+tod_system: You are booked into [gonville hotel]. Your reference number is [00000018]. I have also booked a table for 7 people at 15:15 on Saturday at [stazione restaurant and coffee bar]. Your reference number for the restaurant is [00000008]. Is there anything else I can assist you with?
+user_agent: Yes, I also need a taxi to commute between the two places.
+tod_system: You are booked into [gonville hotel]. Your reference number is [00000018]. I have also booked a table for 7 people at 15:15 on Saturday at [stazione restaurant and coffee bar]. Your reference number for the restaurant is [00000008]. Is there anything else I can assist you with? [type] [taxi], [phone] [01223366611]
+user_agent: No, that's all. Thank you.
+tod_system: You are booked into [gonville hotel]. Your reference number is [00000018]. I have also booked a table for 7 people at 15:15 on Saturday at [stazione restaurant and coffee bar]. Your reference number for the restaurant is [00000008]. Is there anything else I can assist you with? [type] [taxi], [phone] [01223366611]
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+12
+Initial message:
+You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free wifi</span> and should have <span class='emphasis'>a star of 3</span> The hotel should be in the type of <span class='emphasis'>hotel</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: Hi, I'm looking for a place to stay with free wifi and a 3-star rating.
+tod_system: The following hotels match your criteria: [bridge guest house], [hamilton lodge], [hobsons house]. Would you like me to book one of these for you?
+user_agent: Yes, please book the [bridge guest house] for 3 people and 2 nights starting from Monday.
+tod_system: [bridge guest house] is a [type] located at [address], [postcode] with a [stars] star rating. They offer free wifi and parking. Your reservation reference number is [ref].
+user_agent: Thank you for booking the hotel for me. That's all I need for now.
+tod_system: Thank you for booking the [bridge guest house] for 3 people and 2 nights starting from monday. It is a [type] located at [address], [postcode] with a [stars] star rating. They offer free wifi and parking. Your reservation reference number is [ref]. That's all I need for now.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a hotel that includes free wifi and has a star of 3.
+tod_system: I have [choice] hotels in that category. Both are [pricerange] and have [stars] stars each. Both offer free wifi and parking. Do you prefer the south or centre of town?
+user_agent:  I would like a hotel in the centre.
+tod_system: The [name] would be the place then. It's [pricerange], [stars]-star rated with free wifi and free parking. Would you like me to book a room for you?
+user_agent:  Yes, please book a room for 3 people for 2 nights starting from monday.
+tod_system: Booking at gonville hotel was successful. Your reference number is [00000018] . Do you need anything else?
+user_agent:  No, that's all. Thank you.
+tod_system: You're welcome. Have a nice day.
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a hotel that includes free wifi and has a 3 star rating.
+tod_system: We have 5 options that meet those criteria, do you have additional requirements or would you like me to suggest one for you?
+user_agent: I need a hotel for 3 people and 2 nights starting from Monday.
+tod_system: There are still a [choice] of selections to choose from. How about the [name]? It is a [pricerange] [type] that fits your criteria. Its location is [address]. Your booking reference is [ref].
+user_agent: That sounds perfect. Can you book it for me and provide the reference number?
+tod_system: I have found the [choice] of selections that meet your criteria. The [name] is a [pricerange] [type] that fits your criteria. Its location is [address]. Your booking reference is [ref].
+user_agent: Thank you, that's all I need.
+tod_system: Thank you, have a good stay. Goodbye.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+13
+Initial message:
+You are planning your trip in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>west</span> Make sure you get <span class='emphasis'>attraction type</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should <span class='emphasis'>leave after 16:45</span> The train should go to <span class='emphasis'>kings lynn</span> and should leave on <span class='emphasis'>wednesday</span> Once you find the train you want to make a booking for <span class='emphasis'>1 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for places to go in the west of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent: I need the attraction type, postcode, and entrance fee.
+tod_system: Sure, there are a few options in the west of Cambridge. One of them is [name], which is a [type]. It is located at [postcode], and the entrance fee is [entrancefee]. Would you like me to provide more options?
+user_agent: I also need a train. The train should depart from cambridge and should leave after 16:45.
+tod_system: There are several trains that leave Cambridge after 16:45. Can you please tell me your destination so I can find the most appropriate one for you?
+user_agent: I am going to Kings Lynn.
+tod_system: There are [choice] trains, do you have a preferred day?
+user_agent: I want to book for 1 person and get the reference number.
+tod_system: Booking was successful, the total fee is [price] payable at the station. Reference number is : [ref] . Would you also like information on [name], located at [address], [postcode], and can be contacted at [phone]? The entrance fee is [entrancefee].
+user_agent: No, that's all I need. Thank you.
+tod_system: I have found [choice] trains that leave Cambridge after 16:45 and arrive at Kings Lynn. Would you like me to book a ticket for you?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for places to go in the west.
+tod_system: There are mostly museums and colleges in the west. Would you be interested in one of those?
+user_agent:  I need the attraction type, postcode, and entrance fee.
+tod_system: [name] is a [type], it is located on [address], post code [postcode] and the entrance fee is [entrancefee] pounds.
+user_agent:  I also need a train. The train should depart from cambridge and should leave after 16:45.
+tod_system: There are 5 trains that depart from Cambridge after 16:45. The train ID is [trainid], it leaves at [leaveat], and arrives at London Kings Cross by [arriveby]. The entrance fee for [name] is [entrancefee] pounds. Is this okay?
+user_agent:  Yes, that sounds good. Can I book for 1 person?
+tod_system: The attraction type is [type], the postcode is [postcode], and the entrance fee is [entrancefee] pounds. The train ID is [trainid], it leaves at [leaveat], and arrives at London Kings Cross by [arriveby]. The entrance fee for [name] is [entrancefee] pounds. I have booked the train for 1 person. The reference number is [ref] and the price is [price] payable at the station. Anything else I can do?
+user_agent:  No, that's all. Thank you.
+tod_system: The attraction type is museum, the postcode is cb30aq, and the entrance fee is 3.50 pounds. The train ID is TR6110, it leaves at 16:45, and arrives at London Kings Cross by 17:36. The entrance fee for Cambridge and County Folk Museum is 3.50 pounds. Is this okay?
+user_agent:  Yes, that's perfect. Thank you for your help.
+tod_system: The attraction type is museum, the postcode is cb30aq, and the entrance fee is 3.50 pounds. The train ID is TR6110, it leaves at 16:45, and arrives at London Kings Cross by 17:36. The entrance fee for Cambridge and County Folk Museum is 3.50 pounds. Is this okay?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for places to go in the west of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent: I also need a train. The train should depart from Cambridge and leave after 16:45, going to Kings Lynn on Wednesday.
+tod_system: There are a few places in the west of Cambridge that you might be interested in. Would you like to visit the Cafe Jello Gallery at 13 Magdalene Street, CB3 0AF? You can contact them at 01223312112. Or perhaps the Cambridge and County Folk Museum at 2-3 Castle Street, CB3 0AQ? Their entrance fee is 3.50 pounds. Do you need anything else?
+user_agent: No, that's all for the attractions. Can you help me with the train now?
+tod_system: I found a few trains that match your request. The first one is TR5159, departing from Cambridge at 05:11 and arriving in Kings Lynn at 05:58. The price for this train is 9.80 pounds. Would you like to book this train?
+user_agent: Yes, please book that train for 1 person and get me the reference number.
+tod_system: Your booking for train TR5159 was successful, the total fee is 9.80 pounds payable at the station. Your reference number is 00000318. Is there anything else that I can do for you?
+user_agent: No, that's all for now. Thank you.
+tod_system: I'm happy to help. Your booking for train TR5159 was successful, the total fee is 9.80 pounds payable at the station. Your reference number is 00000318. Is there anything else that I can do for you?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+14
+Initial message:
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>christmas</span> food and should be <span class='emphasis'>in the same area as the attraction</span> The restaurant should be in the <span class='emphasis'>moderate</span> price range If there is no such restaurant, how about one that serves <span class='emphasis'>turkish</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>8 people</span> at <span class='emphasis'>12:45</span> on <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for places to go in the centre of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent: Yes, I also need a restaurant. It should serve christmas food and be in the same area as the attraction.
+tod_system: There are no restaurants serving christmas food in the centre of Cambridge. Would you like me to search for a restaurant in a different area?
+user_agent: No, I would prefer a restaurant in the same area as the attraction. Can you find one in the moderate price range?
+tod_system: I'm sorry, there are no restaurants serving Christmas food in the centre of Cambridge. Would you like me to search for a restaurant in a different area?
+user_agent: Yes, please search for a restaurant in the moderate price range.
+tod_system: I'm sorry, there are no restaurants serving Christmas food in the centre of Cambridge. Would you like me to search for a restaurant in a different area?
+user_agent: No, I'll just go with the Turkish restaurant. Can you find one in the same area as the attraction?
+tod_system: Yes, we have [choice] Turkish restaurants in the [area]. Do you have a preference in price range?
+user_agent: Moderate price range please.
+tod_system: Would you like to book a table at [name]? It serves [food] food and is located at [address], [postcode]. You can contact them at [phone]. Your booking reference is [ref].
+user_agent: Yes, please book a table for 8 people at 12:45 on Friday.
+tod_system: I'm sorry, there are no restaurants serving Christmas food in the centre of Cambridge. Would you like me to search for a restaurant in a different area?
+user_agent: No, that's all I need. Thank you.
+tod_system: I'm sorry, there are no restaurants serving Christmas food in the centre of Cambridge. Would you like me to search for a restaurant in a different area?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for places to go in the centre of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent:  I also need a restaurant that serves christmas food in the same area as the attraction.
+tod_system: Yes, there is a restaurant called [name] that serves christmas food in the centre of Cambridge. It is located at [address], [postcode], and you can contact them at [phone]. Is there anything else I can assist you with?
+user_agent:  Is the restaurant in the moderate price range?
+tod_system: Yes, there is a restaurant called [name] that serves christmas food in the centre of Cambridge. It is located at [address], [postcode], and you can contact them at [phone]. Is there anything else I can assist you with?
+user_agent:  Actually, can you recommend a restaurant that serves turkish food?
+tod_system: Yes, there is a restaurant called [name] that serves turkish food in the centre of Cambridge. It is located at [address], [postcode], and you can contact them at [phone]. Is there anything else I can assist you with?
+user_agent:  I want to book a table for 8 people at 12:45 on friday.
+tod_system: You are booked into [name] for 8 people at 12:45 on Friday. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent:  No, that's all I need. Thank you.
+tod_system: Yes, there is a restaurant called [name] that serves turkish food in the centre of Cambridge. It is located at [address], [postcode], and you can contact them at [phone]. You are booked into [name] for 8 people at 12:45 on Friday. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for places to go in the centre of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent: I also need a restaurant. It should serve christmas food and be in the same area as the attraction.
+tod_system: There are no restaurants serving christmas food in the centre of Cambridge. Would you like me to search for a restaurant in a different area?
+user_agent: Yes, please search for a restaurant that serves turkish food.
+tod_system: There are [choice] [food] restaurants in the [area]. Is there a specific price range you would like?
+user_agent: Moderate price range would be good.
+tod_system: How about [name]? It serves [food] food and it is in [area].
+user_agent: Yes, that sounds good. Can I book a table for 8 people at 12:45 on Friday?
+tod_system: Yes, you can book a table for 8 people at 12:45 on Friday at [name]. Your reference number is [ref].
+user_agent: Thank you, that's all I need.
+tod_system: Yes, you can book a table for 8 people at 12:45 on Friday at [name]. Your reference number is [ref].
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+15
+Initial message:
+You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>east</span> and should be in the <span class='emphasis'>cheap</span> price range The hotel should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>6 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>thursday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a hotel in the east with free parking and a cheap price range.
+tod_system: Sorry, there are no hotels in the database that match your criteria.
+user_agent: Are there any hotels in the east with free parking, regardless of price range?
+tod_system: I'm sorry, there are no hotels in the east with free parking.
+user_agent: Okay, then I'll just look for a hotel in the east with a cheap price range.
+tod_system: I'm sorry, there are no hotels in the east with free parking. However, there are several hotels in the east with a cheap price range. Would you like me to book a room at [name] for you?
+user_agent: Yes, please book a room for 6 people for 4 nights starting from Thursday.
+tod_system: No problem. Your reference number is [ref] .
+user_agent: Thank you for your help.
+tod_system: Your booking was successful. Reference number is: VHYO8IC0. Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in the east that includes free parking.
+tod_system: Hello, yes there are [choice] places to stay in the [area] part of town with parking. What price range are you looking for?
+user_agent:  I need a cheap price range.
+tod_system: There are [choice] places in the [area] part of town with free parking and a [pricerange] price range. Would you like me to book one for you?
+user_agent:  Yes, please. I need it for 6 people and 4 nights starting from thursday.
+tod_system: I have found [choice] places in the [area] part of town with free parking and a [pricerange] price range. Would you like me to book one for you?
+user_agent:  Yes, please. Can I get the reference number?
+tod_system: I have booked a room for you at [name] for [bookpeople] people starting [bookstay] from [area]. The reference number is [ref].
+user_agent:  Thank you for your help.
+tod_system: I have booked a room for you at [name] for [bookpeople] people starting [bookstay] from [area]. The reference number is [ref]. Is there anything else I can help you with?
+user_agent:  No, that's all. Thank you.
+tod_system: Your booking at [name] for [bookpeople] people starting [bookstay] from [area] has been successful. The reference number is [ref]. Is there anything else I can help you with?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a hotel in the east with free parking.
+tod_system: [allenbell] is a [guesthouse] with free parking in the [east]. Would you like to make a booking?
+user_agent: Yes, I need to book for 6 people and 4 nights starting from Thursday.
+tod_system: I was able to book you at [allenbell], the reference number is [00000003]. Can I help you with anything else?
+user_agent: No, that's all for now. Thank you.
+tod_system: Thank you for using our service. Your booking at [allenbell] is confirmed. Your reference number is [00000003]. Have a great stay! Goodbye.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+16
+Initial message:
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 17:15</span> and should go to <span class='emphasis'>birmingham new street</span> The train should leave on <span class='emphasis'>friday</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>moderate</span> price range and should have <span class='emphasis'>a star of 3</span> The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>west</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>the same group of people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>wednesday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: Hi, I'm looking for a train from Cambridge to Birmingham New Street on Friday after 17:15.
+tod_system: There are 5 trains available from Cambridge to Birmingham New Street on Friday after 17:15. The trains are TR9678, TR8310, TR5408, TR4141, and TR3732. The prices for these trains are 75.10 pounds. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: I would like to book a ticket for TR9678.
+tod_system: Your ticket for train TR9678 has been booked. The reference number is [ref].
+user_agent: I am also looking for a place to stay. I need a hotel in the moderate price range with a 3 star rating, in the type of guesthouse, and in the west.
+tod_system: The Hobsons House guesthouse is available for your stay. The address is 96 Barton Road, the phone number is 01223304906, and the postcode is CB39LH. Would you like to book a room? If so, please provide the reference number for the room you would like to book.
+user_agent: Yes, I would like to book a room at Hobsons House guesthouse.
+tod_system: Your ticket for train TR9678 has been booked. The reference number is 00002092. Your room at Hobsons House guesthouse has also been booked. The reference number is 00000020. Thank you for using our services. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I need a train that leaves after 17:15 and goes to Birmingham New Street on Friday.
+tod_system: What is your departure station?
+user_agent:  I am departing from Cambridge.
+tod_system: There are 5 trains leaving on that date from [departure] to [destination] after [leaveat], arriving at [arriveby] with prices ranging from [price]. Would you like to book?
+user_agent:  Yes, I would like to book for 4 people.
+tod_system: Booking was successful, the total fee is [price] payable at the station . Reference number is : [ref] .
+user_agent:  I also need a place to stay for 2 nights starting from Wednesday.
+tod_system: Your booking for 4 people on Friday, leaving at 17:15 from Cambridge to Birmingham New Street has been confirmed. The total fee is 300.40 pounds payable at the station. Your reference number is 00002092. Would you like me to book a hotel for you for 2 nights starting from Wednesday?
+user_agent:  Yes, please. I need a moderate priced guesthouse in the west.
+tod_system: Your booking for 4 people on Friday, leaving at 17:15 from Cambridge to Birmingham New Street has been confirmed. The total fee is 300.40 pounds payable at the station. Your reference number is 00002092. I have also booked a moderate priced guesthouse in the west for 2 nights starting from Wednesday. The guesthouse is called [name], located at [address], [postcode], with a phone number of [phone]. Anything else I can assist you with?
+user_agent:  No, that's all. Thank you.
+tod_system: Thank you for booking with us. Your train from Cambridge to Birmingham New Street on Friday, leaving at 17:15 has been confirmed. The total fee is 300.40 pounds payable at the station. Your reference number is 00002092. I have also booked a moderate priced guesthouse in the west for 2 nights starting from Wednesday. The guesthouse is called Allenbell, located at 517a Coldham Lane, CB13JS, with a phone number of 01223210353. Is there anything else I can assist you with?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a train that leaves after 17:15 on Friday to Birmingham New Street.
+tod_system: I have found 5 trains that match your request. The first train leaves at 17:15 from Cambridge and arrives at 20:38 in Birmingham New Street. The train ID is TR9678 and the price is 75.10 pounds. Would you like to book this train? If so, please provide the reference number 00002092.
+user_agent: Yes, please book the train for 4 people and provide the reference number.
+tod_system: All right, I have booked the train for 4 people and the reference number is [ref] . Is there anything else I can assist you with?
+user_agent: I also need a place to stay. Can you help me find a guesthouse in the west area for 2 nights starting from Wednesday?
+tod_system: I have found 3 guesthouses in the west area that are available for 2 nights starting from Wednesday. The first guesthouse is the West End Guesthouse, located at [address], with a price of 85.00 pounds per night. The second guesthouse is the Westside Guesthouse, located at [address], with a price of 90.00 pounds per night. The third guesthouse is the Westfield Guesthouse, located at [address], with a price of 95.00 pounds per night. Would you like to book any of these guesthouses? If so, please provide the reference number 00002097.
+user_agent: Please book the West End Guesthouse for the same group of people and provide the reference number.
+tod_system: I have successfully booked the West End Guesthouse for 4 people for 2 nights starting from Wednesday. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your booking for the train with the reference number [ref] and the West End Guesthouse with the reference number [ref] has been successfully completed. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+17
+Initial message:
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> Make sure you get <span class='emphasis'>area</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>birmingham new street</span> and should <span class='emphasis'>leave after 20:00</span> The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>wednesday</span> Once you find the train you want to make a booking for <span class='emphasis'>3 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for places to go in Cambridge, specifically a museum. Can you help me find one?
+tod_system: There are [choice] [type] in the [area]. Might I recommend the [name]?
+user_agent: Can you tell me more about the area?
+tod_system: There are 5 museums in the Cambridge area. Might I recommend the Cambridge and County Folk Museum? It's located in the west and has a moderate entrance fee of 3.50 pounds.
+user_agent: Thank you, that sounds perfect. Now, I also need a train to Birmingham New Street that leaves after 20:00 on Wednesday.
+tod_system: There are 5 museums in the Cambridge area. Might I recommend the Cambridge and County Folk Museum? It's located in the west and has a moderate entrance fee of 3.50 pounds. Would you like me to find a train for you to Birmingham New Street that leaves after 20:00 on Wednesday?
+user_agent: Yes, please find a train for me. I need to book for 3 people and get the reference number.
+tod_system: The reference number is [ref]. Is there anything else that I can do for you?
+user_agent: No, that's all for now. Thank you for your help.
+tod_system: I'm glad I could help. Your total for the three tickets is [price]. You can pay at the station.
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for places to go in Cambridge. I'm interested in museums.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. The entrance fee is [entrancefee]. Do you need anything else?
+user_agent:  I also need a train. The train should go to birmingham new street and should leave after 20:00.
+tod_system: I found a few museums in Cambridge that might interest you. There is the Broughton House Gallery located at 98 King Street, CB1 1LN. You can contact them at 01223314960 and the entrance fee is free. There is also the Byard Art located at 14 King's Parade, CB2 1SJ. You can contact them at 01223464646 and the entrance fee is also free. Lastly, there is the Cambridge and County Folk Museum located at 2-3 Castle Street, CB3 0AQ. You can contact them at 01223355159 and the entrance fee is 3.50 pounds. Would you like me to book any of these for you? Also, I found a train that leaves Cambridge at 20:00 and arrives at Birmingham New Street at 22:43. The train ID is TR7269 and the price is 75.10 pounds. Would you like me to book this train for you?
+user_agent:  Yes, please book the train for 3 people and get me the reference number.
+tod_system: Sure, I have booked the train for 3 people. The reference number is 00002018. Is there anything else I can assist you with?
+user_agent:  No, that's all for now. Thank you.
+tod_system: I have found a few museums in Cambridge that might interest you. There is the Broughton House Gallery located at 98 King Street, CB1 1LN. You can contact them at 01223314960 and the entrance fee is free. There is also the Byard Art located at 14 King's Parade, CB2 1SJ. You can contact them at 01223464646 and the entrance fee is also free. Lastly, there is the Cambridge and County Folk Museum located at 2-3 Castle Street, CB3 0AQ. You can contact them at 01223355159 and the entrance fee is 3.50 pounds. Would you like me to book any of these for you? Also, I found a train that leaves Cambridge at 20:00 and arrives at Birmingham New Street at 22:43. The train ID is TR7269 and the price is 75.10 pounds. Would you like me to book this train for you?
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: Hi, I'm looking for some places to go in Cambridge. Do you have any recommendations for museums in the area?
+tod_system: There are several museums in Cambridge, such as the Broughton House Gallery, Byard Art, Cafe Jello Gallery, Cambridge and County Folk Museum, and Cambridge Artworks. Would you like me to provide more information on any of these?
+user_agent: Can you tell me more about the Cambridge and County Folk Museum?
+tod_system: The Cambridge and County Folk Museum is located at 2-3 Castle Street in the west area of Cambridge. Their phone number is 01223355159 and their entrance fee is 3.50 pounds. Would you like me to provide more information on any other museums?
+user_agent: That sounds interesting, but can you also tell me about the Cambridge Artworks?
+tod_system: Cambridge Artworks is located at 5 Green's Road in the east area of Cambridge. Their phone number is 01223355159 and their entrance fee is free. Would you like me to provide more information on any other museums?
+user_agent: No, that's all the information I need for now. Thank you.
+tod_system: You're welcome. Is there anything else I can assist you with today?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+18
+Initial message:
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>west</span> and should be in the type of <span class='emphasis'>hotel</span> The hotel should <span class='emphasis'>include free wifi</span> and should be in the <span class='emphasis'>expensive</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>thursday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 16:45</span> and should be on <span class='emphasis'>the same day as the hotel booking</span> The train should depart from <span class='emphasis'>kings lynn</span> and should go to <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to stay in the west of Cambridge. I need free wifi and it should be in the expensive price range.
+tod_system: Sure, I found [name] located in the [area] area. The address is [address], phone number is [phone], and the postcode is [postcode]. Would you like me to book a room for you?
+user_agent: Yes, please book a room for 3 people for 4 nights starting from Thursday.
+tod_system: I have successfully booked a room for 3 people at [name] starting from Thursday for 4 nights. Your reference number is [reference].
+user_agent: Thank you. Now I also need a train that leaves after 16:45 on the same day as the hotel booking. It should depart from Kings Lynn and go to Cambridge.
+tod_system: I have successfully booked a room for 3 people at Huntingdon Marriott Hotel located in the west area. The address is kingfisher way, hinchinbrook business park, huntingdon, phone number is 01480446000, and the postcode is pe296fl. Your reference number is [ref]. I have also found a train for you that leaves after 16:45 on Thursday from Kings Lynn and goes to Cambridge. The train ID is TR3447 and the price is 9.80 pounds. Would you like me to book it for you?
+user_agent: Yes, please book the train for the same group of people.
+tod_system: The reference number for your train is [ref].
+user_agent: Thank you for your help. That's all I need for now.
+tod_system: You're welcome. I have successfully booked a room for 3 people at Huntingdon Marriott Hotel located in the west area. The address is kingfisher way, hinchinbrook business park, huntingdon, phone number is 01480446000, and the postcode is pe296fl. Your reference number is [ref]. I have also found a train for you that leaves after 16:45 on Thursday from Kings Lynn and goes to Cambridge. The train ID is TR3447 and the price is 9.80 pounds. The reference number for your train is [ref]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+
+Vanilla:
+user_agent:  I'm looking for a place to stay in the west that includes free wifi and is in the expensive price range.
+tod_system: I found [huntingdon marriott hotel], [kingfisher way, hinchinbrook business park, huntingdon], [01480446000] or [pe296fl] for you. Would you like me to book it for you?
+user_agent:  Yes, please book it for 3 people and 4 nights starting from thursday.
+tod_system: Sure thing. I've got you booked for [bookstay] days starting [bookday] for [bookpeople] guests at the [huntingdon marriott hotel]. Your reference number is [ref]. Can I help you with anything else today?
+user_agent:  I also need a train. The train should leave after 16:45 and should be on the same day as the hotel booking.
+tod_system: I found a train for thursday after 16:45 leaving cambridge going to london kings cross. Would you like to book it?
+user_agent:  Yes, please book it for the same group of people.
+tod_system: I've got you booked for [bookstay] days starting [bookday] for [bookpeople] guests at the [huntingdon marriott hotel]. Your reference number is [ref]. I also found a train for thursday after 16:45 leaving cambridge going to london kings cross. Would you like me to book it for the same group of people?
+user_agent:  Yes, please book it.
+tod_system: I've got you booked for [bookstay] days starting [bookday] for [bookpeople] guests at the [huntingdon marriott hotel]. Your reference number is [ref]. I also found a train for thursday after 16:45 leaving cambridge going to london kings cross. Your reference number is [ref]. Can I help you with anything else today?
+user_agent:  No, that's all I need. Thank you.
+tod_system: You are all set for your trip. Have a great day!
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to stay in the west of Cambridge. Do you have any recommendations?
+tod_system: There are [choice] places to stay in the [area] of Cambridge. Is there a price range you'd like to stay in?
+user_agent: I'm looking for a hotel that includes free wifi and is in the expensive price range.
+tod_system: How about [name]? It is a [stars] star [type] and has free internet and free parking.
+user_agent: That sounds perfect. I want to book it for 3 people and 4 nights starting from Thursday.
+tod_system: Great! Your booking reference is [reference]. The hotel is [name], located at [address], [postcode]. Their phone number is [phone].
+user_agent: I also need a train. The train should leave after 16:45 and should be on the same day as the hotel booking.
+tod_system: I have found [choice] trains that meet your criteria. The train [trainid] leaves Cambridge at [leaveat] and arrives at London Kings Cross at [arriveby]. The price for [bookpeople] people is [price]. Would you like me to book this train for you?
+user_agent: Yes, please book the train for the same group of people.
+tod_system: Your hotel booking at [name] for 3 people for 4 nights starting from Thursday has been successful. Your booking reference is [reference]. The hotel is located at [address], [postcode]. Their phone number is [phone]. I have also booked the train [trainid] for the same group of people. It leaves Cambridge at [leaveat] and arrives at London Kings Cross at [arriveby]. The total price for [bookpeople] people is [price]. Thank you for using our services!
+user_agent: Thank you for your help. That's all I need for my trip to Cambridge.
+tod_system: There are [choice] places to stay in the [area] of Cambridge. Is there a price range you'd like to stay in? How about [name]? It is a [stars] star [type] and has free internet and free parking. Great! Your booking reference is [reference]. The hotel is located at [address], [postcode]. Their phone number is [phone]. I have also booked the train [trainid] for the same group of people. It leaves Cambridge at [leaveat] and arrives at London Kings Cross at [arriveby]. The total price for [bookpeople] people is [price]. Thank you for using our services!
+user_agent: <COMPLETE_CONVERSATION>
+
+
+
+19
+Initial message:
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>moderate</span> price range and should be in the <span class='emphasis'>centre</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>11:30</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free wifi</span> The hotel should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>the same group of people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>the same day</span> If the booking fails how about <span class='emphasis'>1 nights</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+
+
+Verbose: [CoT + UserState Grounding]
+user_agent: I'm looking for a place to dine in the centre of Cambridge with a moderate price range.
+tod_system: I have a [food] place and a [food], which would you prefer?
+user_agent: I'll go with the first option.
+tod_system: I have found [choice] restaurants. One is [name], and the other is [name], would you like me to book one for you?
+user_agent: Yes, please book a table for 1 person at 11:30 on Saturday.
+tod_system: I have successfully booked a table for 1 person at [name]. The table will be reserved for 15 minutes. Reference number is : [ref] .
+user_agent: I also need a place to stay. It should be a guesthouse with free wifi and parking.
+tod_system: I have found 2 guesthouses that fit your requirements. One is [name], and the other is [name]. Would you like me to book one for you?
+user_agent: Yes, please book [name] for the same group of people for 4 nights starting from [date].
+tod_system: I have successfully booked a table for 1 person at [name]. The table will be reserved for 15 minutes. Reference number is : [ref] . Would you also like me to book [name] for the same group of people for 4 nights starting from [date]?
+user_agent: If the booking fails, how about 1 night?
+tod_system: I have successfully booked a table for 1 person at restaurant one seven. The table will be reserved for 15 minutes. Reference number is : 00000013. Would you also like me to book Doubletree by Hilton Cambridge for the same group of people for 4 nights starting from [date]?
+user_agent: I also need a taxi to commute between the two places. I want to make sure it arrives at the restaurant by the booked time.
+tod_system: I have successfully booked a table for 1 person at restaurant one seven. The table will be reserved for 15 minutes. Reference number is : 00000013. Would you also like me to book Doubletree by Hilton Cambridge for the same group of people for 4 nights starting from [date]?
+user_agent: 
+tod_system: I have found 2 guesthouses that fit your requirements. One is [name], and the other is [name]. Would you like me to book one for you?
+user_agent: 
+tod_system: I have successfully booked a table for 1 person at restaurant one seven. The table will be reserved for 15 minutes. Reference number is : 00000013. Would you also like me to book Doubletree by Hilton Cambridge for the same group of people for 4 nights starting from [date]?
+user_agent: 
+tod_system: I have successfully booked a table for 1 person at restaurant one seven. The table will be reserved for 15 minutes. Reference number is : 00000013. Would you also like me to book Doubletree by Hilton Cambridge for the same group of people for 4 nights starting from [date]?
+
+
+Vanilla:
+user_agent:  I'm looking for a place to dine in the centre that is in the moderate price range.
+tod_system: You're in luck, we have 5 moderate restaurants in the centre. Cuisine offerings vary from italian to modern european. What sounds good to you today?
+user_agent:  I need a place to dine at 11:30 on saturday for 1 person.
+tod_system: Yes, there are 5 moderate restaurants in the centre. Can I make a dinner reservation for you at one of them?
+user_agent:  Yes, please book a table for me.
+tod_system: I have made a reservation for you at [name] for 11:30 on Saturday. The reference number is [ref]. Would you like the address or phone number?
+user_agent:  No, that's okay. I also need a place to stay for 4 nights starting from the same day.
+tod_system: I have made a reservation for you at De Luca Cucina and Bar for 11:30 on Saturday. The reference number is 00000016. Would you like the address or phone number?
+user_agent:  Yes, please give me the address and phone number.
+tod_system: The booking was successful. The table will be reserved for 15 minutes. Reference number is : 00000016. The address is 83 Regent Street and the phone number is 01223356666. For your hotel reservation, I have booked you a room at De Luca Cucina and Bar for 4 nights starting from Saturday. The reference number is 00000016. Would you like the address or phone number for the hotel as well?
+user_agent:  No, that's okay. I also need a taxi to commute between the two places.
+tod_system: I have booked a taxi for you to commute between De Luca Cucina and Bar and your hotel. The type of the car is [type] and the phone number is [phone].
+user_agent:  Thank you for all your help.
+tod_system: You're welcome! Have a great time!
+user_agent:  <COMPLETE_CONVERSATION>
+
+
+Only Thought: [CoT]
+user_agent: I'm looking for a place to dine in the centre of Cambridge with a moderate price range.
+tod_system: I have a [food] place and a [food], which would you prefer?
+user_agent: I'll go with the [food] place.
+tod_system: [name] matches your request. It is located at [address], the phone number is [phone].
+user_agent: I also need to book a table for 1 person at 11:30 on Saturday.
+tod_system: [name] matches your request. It is located at [address], the phone number is [phone]. Would you like to book a table for 1 person at 11:30 on Saturday?
+user_agent: Yes, please book the table for me.
+tod_system: I have a [food] place and a [food], which would you prefer?
+user_agent: I'm looking for a guesthouse with free wifi and parking.
+tod_system: I have [choice] [type] that meet your criteria. Would you like me to book one for you?
+user_agent: Yes, please book it for the same group of people for 4 nights starting from the same day.
+tod_system: I have [choice] [type] that meet your criteria. Would you like me to book one for you?
+user_agent: If the booking fails, can you book it for 1 night?
+tod_system: I made a reservation for you at [name] for [bookstay] nights starting [bookday]. Your reference is [ref] . Is there anything else I can help you with?
+user_agent: I also need to book a taxi to commute between the two places.
+tod_system: I have a guesthouse that meets your criteria. Would you like me to book it for you?
+user_agent: Yes, please book it for me.
+tod_system: I have a restaurant and a restaurant, which would you prefer?
+user_agent: I need a taxi to arrive at the restaurant by the booked time.
+tod_system: I have a guesthouse that meets your criteria. Would you like me to book it for you?
+
+
+
