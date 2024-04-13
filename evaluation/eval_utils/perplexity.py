@@ -37,6 +37,6 @@ def get_perplexity(dialogue='', model_ckpt='openai-community/gpt2-large', normal
 
     ppl = torch.exp(torch.stack(nlls).mean()).detach().cpu().numpy()
     
-    if normalized: return 1 / (1 + np.exp(-ppl))
-    else: return ppl
+    if normalized: return float(1 / (1 + np.exp(-ppl)))
+    else: return float(ppl)
     
