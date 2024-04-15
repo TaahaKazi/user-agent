@@ -59,13 +59,15 @@ def parse_abl_res(filepath):
     buffer = []
 
     def add_to_dict():
-        if current_key and mode and buffer:
+        if current_key is not None and mode and buffer:
             # Join the buffer into a single string and strip extra newlines
             results[current_key][mode] = '\n'.join(buffer).strip()
             buffer.clear()
 
     with open(filepath, 'r') as file:
         for line in file:
+            # print("current_key:", current_key, mode)
+            # if results: print(results[0])
             line = line.strip()
             if line.isdigit():  # This is the conv_id
                 if current_key is not None:
@@ -98,5 +100,6 @@ def parse_abl_res(filepath):
             print(v)
             print(result[:100])
     '''
+    # print(results[0])
 
     return results

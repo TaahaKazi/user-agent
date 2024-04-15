@@ -6,8 +6,8 @@ from openai import AzureOpenAI
 
 class gpt3_azure():
 
-    def __init__(self, key_filepath) -> None:
-        openai_key = json.load(open(key_filepath))
+    def __init__(self, key_filepath, usage_filepath) -> None:
+        openai_key = json.load(open(key_filepath))['key']
 
         self.client = AzureOpenAI(
             azure_endpoint = "https://uiuc-convai.openai.azure.com/", 
@@ -15,7 +15,7 @@ class gpt3_azure():
             api_version="2024-02-15-preview"
         )
 
-        self.log = open('azure_openai_usage_log.txt', 'w')
+        self.log = open(usage_filepath, 'w')
         self.log.write(datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")+'\n')
 
     def eval_completion(self, user_goal='', dialogue=''):

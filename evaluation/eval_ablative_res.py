@@ -17,7 +17,8 @@ if __name__ == '__main__':
     # evaluate task completion and language naturalness using gpt
     # eval_model = gpt3()
     key_filepath = '../azure_openai_key.json'
-    eval_model = gpt3_azure(key_filepath)
+    usage_filepath = '../azure_openai_usage_log.txt'
+    eval_model = gpt3_azure(key_filepath, usage_filepath)
 
     results = {}
     
@@ -27,13 +28,14 @@ if __name__ == '__main__':
         results[conv_id] = {}
         for v in variants:
             # evaluate task completion
-            #response_completion = eval_model.eval_completion(user_goal, convs[v])
-            #task_completion = "Yes" if 'yes' in response_completion.lower() else "No"
+            response_completion = eval_model.eval_completion(user_goal, convs[v])
+            task_completion = "Yes" if 'yes' in response_completion.lower() else "No"
+            # print(v, convs[v])
 
             # evaluate language naturalness of each agent
-            #naturalness_user, naturalness_llm = eval_model.eval_naturalness(convs[v]).split(",")
+            naturalness_user, naturalness_llm = eval_model.eval_naturalness(convs[v]).split(",")
 
-            task_completion, naturalness_user, naturalness_llm = 1, 1, 1
+            # task_completion, naturalness_user, naturalness_llm = 1, 1, 1
 
             # compute the diversity score
             user_speech, tod_speech = parse_conv(convs[v])
@@ -52,7 +54,7 @@ if __name__ == '__main__':
             }
     
     # save the results
-    output_dir = "eval_results"
+    output_dir = "../eval_results"
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "abl_res" + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.txt')
 

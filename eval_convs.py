@@ -15,8 +15,8 @@ if __name__ == '__main__':
     convs = parse_txt(conv_path)
 
     # evaluate task completion and language naturalness using gpt
-    # eval_model = gpt3()
-    eval_model = gpt3_azure()
+    eval_model = gpt3()
+    # eval_model = gpt3_azure()
 
     results = {}
     
