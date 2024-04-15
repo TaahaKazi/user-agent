@@ -11,9 +11,12 @@ cd model
 bash download_bot_model.sh
 ```
 
-## Add your openai-key in the below file 
+## Add your openai-key in the following file 
 ```open_ai_key.json```
-### The format should be as {"key": "sk-*******"}
+### or
+```azure_openai_key.json```
+### The format should be as {"key": "*******"}
+
 
 ## Run the verbose example
 ```bash verbose_run.sh```

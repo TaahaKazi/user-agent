@@ -51,3 +51,52 @@ def parse_conv(conv):
 
     # Return the concatenated speech for each agent
     return [' '.join(user_speech), ' '.join(tod_system_speech)]
+
+def parse_abl_res(filepath):
+    results = {}
+    current_key = None
+    mode = None
+    buffer = []
+
+    def add_to_dict():
+        if current_key and mode and buffer:
+            # Join the buffer into a single string and strip extra newlines
+            results[current_key][mode] = '\n'.join(buffer).strip()
+            buffer.clear()
+
+    with open(filepath, 'r') as file:
+        for line in file:
+            line = line.strip()
+            if line.isdigit():  # This is the conv_id
+                if current_key is not None:
+                    add_to_dict()  # Save the last section before resetting
+                current_key = int(line)
+                results[current_key] = {}
+                mode = None
+            elif line.startswith('Initial message:'):
+                if mode: add_to_dict()
+                mode = 'goal'
+            elif line.startswith('Verbose:'):
+                if mode: add_to_dict()
+                mode = 'verbose'
+            elif line.startswith('Vanilla:'):
+                if mode: add_to_dict()
+                mode = 'vanilla'
+            elif line.startswith('Only Thought:'):
+                if mode: add_to_dict()
+                mode = 'CoT'
+            elif line:
+                buffer.append(line)
+
+        # Add the last buffered section to the dictionary
+        if mode: add_to_dict()
+    
+    '''
+    for conv_id, v_results in results.items():
+        print(conv_id)
+        for v, result in v_results.items():
+            print(v)
+            print(result[:100])
+    '''
+
+    return results

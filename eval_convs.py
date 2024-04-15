@@ -4,6 +4,7 @@ import json
 import datetime
 
 from evaluation.gpt.gpt_eval import gpt3
+from evaluation.gpt.gpt_azure_eval import gpt3_azure
 from evaluation.utils import *
 from evaluation.mtld.lexical_diversity.lexical_diversity import *
 
@@ -14,7 +15,8 @@ if __name__ == '__main__':
     convs = parse_txt(conv_path)
 
     # evaluate task completion and language naturalness using gpt
-    eval_model = gpt3()
+    # eval_model = gpt3()
+    eval_model = gpt3_azure()
 
     results = {}
     
@@ -24,8 +26,7 @@ if __name__ == '__main__':
         task_completion = "Yes" if 'yes' in response_completion.lower() else "No"
 
         # evaluate language naturalness of each agent
-        naturalness_user = eval_model.eval_naturalness(conv, 'user simulator')
-        naturalness_llm = eval_model.eval_naturalness(conv, 'TOD system')
+        naturalness_user, naturalness_llm = eval_model.eval_naturalness(conv).split(",")
 
         # compute the diversity score
         user_speech, tod_speech = parse_conv(conv)
