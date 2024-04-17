@@ -3,13 +3,13 @@ import json
 import regex as re
 
 
-class GPT3Verbose:
+class GPT4Verbose:
     def __init__(self, example=True):
         key_lookup = json.load(open('open_ai_key.json'))
         self.model = OpenAI(api_key=key_lookup['key'])
         # code to read text from a file and store it in a variable as string
         if example:
-            self.example = str(open('model/GPT/example_verbose_tracking_repitition.txt', 'r').read())
+            self.example = str(open('model/GPT/example_verbose_tracking_repitition_gpt4.txt', 'r').read())
         else:
             self.example = ""
         self.log = open('model/GPT/log.txt', 'w')
@@ -26,14 +26,19 @@ class GPT3Verbose:
                     "\n" + frame.instruct_message + "\n\n" + "Converting it into a dictionary:")
 
             try:
-                completion = self.model.completions.create(
-                    model="gpt-3.5-turbo-instruct",
-                    prompt=initial_msg,
+                completion = self.model.chat.completions.create(
+                    model="gpt-4-turbo",
+                    messages=[
+                        {"role": "user", "content": initial_msg}
+                    ],
                     temperature=0,
-                    max_tokens=1000,
+                    max_tokens=3000,
                     stop=["System:"]
                 )
-                res = completion.choices[0].text
+
+                res = completion.choices[0].message.content
+
+                # print(res)
                 # Code to extract "User: " response and Thought response
                 # Define regex pattern to match User messages
                 user_pattern = r'(.*)(User:\s*(.*))'
@@ -55,6 +60,7 @@ class GPT3Verbose:
                 self.log.write(str(completion.usage) + '\n')
 
             except Exception as e:
+
                 print(e)
                 before_user = "My engine failed"
                 after_user = "Use my previous response"
@@ -79,14 +85,18 @@ class GPT3Verbose:
             current_conv = current_conv + "Thought: "
 
             try:
-                completion = self.model.completions.create(
-                    model="gpt-3.5-turbo-instruct",
-                    prompt=current_conv,
+
+                completion = self.model.chat.completions.create(
+                    model="gpt-4-turbo",
+                    messages=[
+                        {"role": "user", "content": current_conv}
+                    ],
                     temperature=0,
-                    max_tokens=1000,
+                    max_tokens=3000,
                     stop=["System:"]
                 )
-                res = completion.choices[0].text
+
+                res = completion.choices[0].message.content
                 # Code to extract "User: " response and Thought response
                 # Define regex pattern to match User messages
                 user_pattern = r'(.*)(User:\s*(.*))'
@@ -107,8 +117,7 @@ class GPT3Verbose:
                 # log tokens called
                 self.log.write(str(completion.usage) + '\n')
 
-            except Exception as e:
-                print(e)
-                before_user = "My engine failed"
-                after_user = "Use my previous response"
+            except:
+                before_user = ""
+                after_user = ""
             return before_user, after_user
