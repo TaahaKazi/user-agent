@@ -62,6 +62,7 @@ def main():
 
             # Get client model response
             client_response = client_model.run(frame.conv_history[-1]['content'])
+            print("Thought: ", thought_response)
             print("User: ", user_response)
             print("System: ", client_response)
 
@@ -76,7 +77,7 @@ def main():
     print("Frames over")
 
     # Save the frames to a file
-    output_file = 'output_store/' + 'output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
+    output_file = 'output_store/' + '50_thought_output' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
     with open(output_file, 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}
