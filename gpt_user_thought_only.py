@@ -23,7 +23,7 @@ def main():
     # Setting Debug flag for testing
     debug = True
     if debug:
-        frames = frames[100:120]
+        frames = frames[150:200]
 
     # Iterate over frames
     for frame in frames:
