@@ -82,25 +82,26 @@ class GPT3Thought:
                     stop=["System:"]
                 )
                 res = completion.choices[0].text
+                # Code to extract "User: " response and Thought response
+                # Define regex pattern to match User messages
+                user_pattern = r'(.*)(User:\s*(.*))'
+
+                # Find all matches of User messages in the conversation
+                matches = re.findall(user_pattern, res)
+
+                match = matches[-1]
+
+                if match:
+                    before_user = res.split(match[1])[0]
+                    after_user = match[2]
+                else:
+                    print("The pattern 'User: ' was not found in the text.")
+                    before_user = ""
+                    after_user = ""
+                    # log tokens called
+                    self.log.write(str(completion.usage) + '\n')
+
+                return before_user, after_user
             except:
                 res = "NO RESPONSE FOUND"
-            # Code to extract "User: " response and Thought response
-            # Define regex pattern to match User messages
-            user_pattern = r'(.*)(User:\s*(.*))'
-
-            # Find all matches of User messages in the conversation
-            matches = re.findall(user_pattern, res)
-
-            match = matches[-1]
-
-            if match:
-                before_user = res.split(match[1])[0]
-                after_user = match[2]
-            else:
-                print("The pattern 'User: ' was not found in the text.")
-                before_user = ""
-                after_user = ""
-
-            # log tokens called
-            self.log.write(str(completion.usage) + '\n')
-            return before_user, after_user
+                return "NO RESPONSE", "NO RESPONSE FOUND"

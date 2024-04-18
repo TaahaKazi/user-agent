@@ -24,7 +24,7 @@ def main():
     # Setting Debug flag for testing
     debug = True
     if debug:
-        frames = frames[100:120]
+        frames = frames[150:200]
 
     # Iterate over frames
     for frame in frames:
@@ -59,6 +59,10 @@ def main():
 
             # Check if the conversation is over
             if user_response == '<COMPLETE_CONVERSATION>':
+                break
+            if user_response == '<REPETITION>':
+                break
+            if not user_response:
                 break
 
             # Get client model response
