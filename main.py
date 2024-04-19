@@ -24,7 +24,7 @@ if __name__ == '__main__':
     debug = True
 
     if debug:
-        frames = frames[100:101]
+        frames = frames[150:200]
 
     # Iterate over frames
     for frame in frames:
@@ -59,7 +59,10 @@ if __name__ == '__main__':
             # Check if the conversation is over
             if user_response == ' <COMPLETE_CONVERSATION>':
                 break
-
+            if user_response == ' <REPETITION>':
+                break
+            if not user_response:
+                break
             # Get client model response
 
             client_response = client_model.run(frame.conv_history[-1]['content'])
@@ -76,7 +79,7 @@ if __name__ == '__main__':
     print("Frames over")
 
     # Save the frames to a file
-    output_file = 'output_store/output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
+    output_file = 'output_store/50_vanilla_output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
     with open(output_file, 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}

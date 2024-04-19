@@ -8,7 +8,7 @@ class GPT3Thought:
         self.model = OpenAI(api_key=key_lookup['key'])
         # code to read text from a file and store it in a variable as string
         if example:
-            self.example = str(open('model/GPT/example_thought_only.txt', 'r').read())
+            self.example = str(open('model/GPT/example_thought_only_repetition.txt', 'r').read())
         else:
             self.example = ""
         self.log = open('model/GPT/log.txt', 'w')
