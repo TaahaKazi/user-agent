@@ -1,5 +1,5 @@
 Conversation 1:
-You are looking for a place to stay.. The hotel should have a star of 4 and should be in the cheap price range. The hotel should include free parking. Once you find the hotel you want to book it for 2 people and 5 nights starting from tuesday. Make sure you get the reference number.
+You are looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>cheap</span> price range The hotel should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for a place to stay with a 4-star rating and a cheap price range.
 System: I have found several hotels that match your criteria. Would you like me to provide you with a list of available hotels in a specific area or price range?
 User: I need a hotel with free parking included.
@@ -15,7 +15,7 @@ System: Thank you for choosing our service. Your booking was successful and your
 User: <COMPLETE_CONVERSATION>
 
 Conversation 2:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for a place to dine.. The restaurant should be in the west and should serve british food. Make sure you get postcode, price range, and phone number. You are also looking for a train.. The train should depart from birmingham new street and should arrive by 21:45. The train should go to cambridge and should leave on saturday. Once you find the train you want to make a booking for 4 people. Make sure you get the reference number.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>west</span> and should serve <span class='emphasis'>british</span> food Make sure you get <span class='emphasis'>postcode</span>, <span class='emphasis'>price range</span>, and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>birmingham new street</span> and should <span class='emphasis'>arrive by 21:45</span> The train should go to <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>saturday</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for a local place in Cambridge to dine in the west that serves British food.
 System: There are [choice] restaurants in the [area] that serve [food] food ranging from [pricerange] to [pricerange]. Is there a particular price range you are looking for?
 User: I need the postcode, price range, and phone number.
@@ -33,7 +33,7 @@ System: Your booking was successful. You will owe 60.08 pounds at the station an
 User: <COMPLETE_CONVERSATION>
 
 Conversation 3:
-You want to book a taxi.. The taxi should go to wandlebury country park and should leave after 19:30. The taxi should depart from meze bar restaurant. Make sure you get car type and contact number.
+You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>wandlebury country park</span> and should <span class='emphasis'>leave after 19:30</span> The taxi should depart from <span class='emphasis'>meze bar restaurant</span> Make sure you get <span class='emphasis'>car type</span> and <span class='emphasis'>contact number</span> 
 User:  I need to book a taxi.
 System: I can assist you with booking a taxi. What type of car would you like and what is the phone number for the taxi company?
 User:  I need a taxi that can take me to Wandlebury Country Park and leaves after 19:30.
@@ -47,7 +47,7 @@ System: Have a safe trip! Contact us again if you need further assistance. Goodb
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 4:
-You are planning your trip in. Cambridge. You are looking for places to go in town.. The attraction should be in the west and should be in the type of theatre. If there is no such attraction, how about one that is in the type of museum. Make sure you get phone number and entrance fee. You are also looking for a train.. The train should arrive by 16:15 and should go to kings lynn. The train should leave on tuesday and should depart from cambridge. Once you find the train you want to make a booking for 4 people. Make sure you get the reference number.
+You are planning your trip in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>west</span> and should be in the type of <span class='emphasis'>theatre</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of museum</span> Make sure you get <span class='emphasis'>phone number</span> and <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>arrive by 16:15</span> and should go to <span class='emphasis'>kings lynn</span> The train should leave on <span class='emphasis'>tuesday</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: A theatre would be great, but if there are no theatres, a museum would be fine too.
 System: There are [choice] great [type] to choose from. Is there a specific area of town you are looking to visit?
 User: I'm looking for something in the west of Cambridge.
@@ -70,7 +70,7 @@ User: Yes, please book the train for 4 people.
 System: Booking was successful, the total fee is [price] payable at the station . Reference number is : [ref] . The Cambridge and County Folk Museum is located at 2-3 Castle Street and the entrance fee is 3.50 pounds.
 
 Conversation 5:
-You are traveling to. Cambridge and excited about seeing local tourist attractions. You are looking for places to go in town.. The attraction should be in the type of college and should be in the centre. Make sure you get postcode. You are also looking for a particular hotel.. Its name is called aylesbray lodge guest house. Once you find the hotel you want to book it for 5 people and 3 nights starting from saturday. Make sure you get the reference number. You also want to book a taxi to commute between the two places. You want to leave the hotel by 15:30. Make sure you get contact number and car type.
+You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>aylesbray lodge guest house</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>15:30</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I'm looking for places to go in town, specifically colleges in the center.
 System: There are a whopping 5 colleges in the centre of town. Would you like me to suggest one for you?
 User: Yes, please suggest one for me.
@@ -88,7 +88,7 @@ System: Thank you for using the Cambridge TownInfo Centre. Your booking referenc
 User: <COMPLETE_CONVERSATION>
 
 Conversation 6:
-You are planning your trip in. Cambridge. You are looking for a place to stay.. The hotel should include free parking and should include free wifi. The hotel should be in the expensive price range and should be in the type of guesthouse. If there is no such hotel, how about one that is in the moderate price range. Once you find the hotel you want to book it for 6 people and 3 nights starting from monday. Make sure you get the reference number. You are also looking for a particular attraction.. Its name is called saint catharine's college. Make sure you get address and phone number. You also want to book a taxi to commute between the two places. You want to leave the hotel by 07:00. Make sure you get contact number and car type.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free parking</span> and should <span class='emphasis'>include free wifi</span> The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the type of <span class='emphasis'>guesthouse</span> If there is no such hotel, how about one that is in the <span class='emphasis'>moderate</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>6 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>saint catharine's college</span> Make sure you get <span class='emphasis'>address</span> and <span class='emphasis'>phone number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>07:00</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I'm looking for a place to stay in Cambridge that includes free parking and free wifi. I prefer a guesthouse in the expensive price range, but if there isn't one, a moderate priced hotel will do.
 System: I'm sorry, there are no guesthouses in the expensive price range that include free parking and wifi. However, there is a moderately priced hotel called [name] that fits your requirements. It is located in Cambridge and has free parking and wifi. Would you like to book a room?
 User: Yes, I would like to book a room for 6 people and 3 nights starting from Monday.
@@ -102,7 +102,7 @@ System: You're all set! I have booked a room for 6 people at the Ashley Hotel fo
 User: <COMPLETE_CONVERSATION>
 
 Conversation 7:
-You are looking for information in. Cambridge. You are looking for places to go in town.. The attraction should be in the centre and should be in the type of architecture. Make sure you get postcode and phone number. You are also looking for a train.. The train should leave on thursday and should arrive by 16:30. The train should go to cambridge and should depart from birmingham new street. Once you find the train you want to make a booking for 4 people. Make sure you get the reference number.
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>architecture</span> Make sure you get <span class='emphasis'>postcode</span> and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>thursday</span> and should <span class='emphasis'>arrive by 16:30</span> The train should go to <span class='emphasis'>cambridge</span> and should depart from <span class='emphasis'>birmingham new street</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for places to go in the centre of Cambridge with a specific type of architecture.
 System: There are several options for architecture in the [area]. Would you like to visit [name], [name], or [name]?
 User: Can you give me the postcodes and phone numbers for each of those options?
@@ -118,7 +118,7 @@ System: Your booking for 4 people was successful. The total fee is 300.40 GBP an
 User: <COMPLETE_CONVERSATION>
 
 Conversation 8:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for a particular restaurant.. Its name is called pizza express. Once you find the restaurant you want to book a table for 2 people at 18:00 on saturday. Make sure you get the reference number. You are also looking for a train.. The train should depart from cambridge and should leave on sunday. The train should go to norwich and should leave after 19:15. Make sure you get arrival time, travel time, and price.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>pizza express</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>2 people</span> at <span class='emphasis'>18:00</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should <span class='emphasis'>leave after 19:15</span> Make sure you get <span class='emphasis'>arrival time</span>, <span class='emphasis'>travel time</span>, and <span class='emphasis'>price</span> 
 User:  I'm looking for a particular restaurant called pizza express.
 System: It's a [pricerange] [food] place in the [area] at [address] [postcode]. The phone number is [phone]. Would you like more info?
 User:  Yes, I would like to book a table for 2 people at 18:00 on saturday.
@@ -134,7 +134,7 @@ System: You are all set. Your table at Pizza Express is booked for 2 people at 1
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 9:
-You are planning your trip in. Cambridge. You are looking for a restaurant.. The restaurant should serve polynesian food and should be in the east. The restaurant should be in the expensive price range. If there is no such restaurant, how about one that serves british food. Make sure you get phone number and address. You are also looking for a train.. The train should arrive by 17:45 and should go to broxbourne. The train should depart from cambridge and should leave on wednesday. Once you find the train you want to make a booking for 2 people. Make sure you get the reference number.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>polynesian</span> food and should be in the <span class='emphasis'>east</span> The restaurant should be in the <span class='emphasis'>expensive</span> price range If there is no such restaurant, how about one that serves <span class='emphasis'>british</span> food Make sure you get <span class='emphasis'>phone number</span> and <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>arrive by 17:45</span> and should go to <span class='emphasis'>broxbourne</span> The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>wednesday</span> Once you find the train you want to make a booking for <span class='emphasis'>2 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User:  I'm looking for a restaurant in the east that serves polynesian food.
 System: Sorry, but there aren't any restaurants of that type in the east. Would you like to try a different cuisine?
 User:  How about a restaurant that serves british food?
@@ -150,7 +150,7 @@ System: The Grafton Hotel Restaurant is located at 619 Newmarket Road Fen Ditton
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 10:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for a particular restaurant.. Its name is called rice boat. Once you find the restaurant you want to book a table for 1 people at 13:30 on monday. Make sure you get the reference number. You are also looking for places to go in town.. The attraction should be in the centre and should be in the type of college. Make sure you get postcode and entrance fee.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>rice boat</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>13:30</span> on <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>college</span> Make sure you get <span class='emphasis'>postcode</span> and <span class='emphasis'>entrance fee</span> 
 User: I'm looking for a particular restaurant called Rice Boat in Cambridge.
 System: I'm sorry, there are no restaurants matching your search criteria. Would you like me to search for a different restaurant?
 User: Yes, please search for Rice Boat restaurant.
@@ -173,7 +173,7 @@ User: No, that's all I need. Thank you.
 System: [name] on [address] is [entrancefee], the postcode is [postcode] and their phone number is [phone]. Can I help with anything else?
 
 Conversation 11:
-You are looking for a restaurant.. The restaurant should be in the centre and should be in the expensive price range. Make sure you get address, food type, and postcode.
+You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>expensive</span> price range Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>food type</span>, and <span class='emphasis'>postcode</span> 
 User: I'm looking for a restaurant in the centre of Cambridge with an expensive price range.
 System: What type of food would you like?
 User: I need the address, food type, and postcode.
@@ -183,7 +183,7 @@ System: You're welcome! Goodbye!
 User: <COMPLETE_CONVERSATION>
 
 Conversation 12:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for a restaurant.. The restaurant should serve scandinavian food and should be in the east. The restaurant should be in the moderate price range. If there is no such restaurant, how about one that serves indian food. Once you find the restaurant you want to book a table for 1 people at 13:15 on tuesday. Make sure you get the reference number. You are also looking for a train.. The train should depart from cambridge and should leave on wednesday. The train should go to stevenage and should arrive by 15:00. Make sure you get price and travel time.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>scandinavian</span> food and should be in the <span class='emphasis'>east</span> The restaurant should be in the <span class='emphasis'>moderate</span> price range If there is no such restaurant, how about one that serves <span class='emphasis'>indian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>13:15</span> on <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>wednesday</span> The train should go to <span class='emphasis'>stevenage</span> and should <span class='emphasis'>arrive by 15:00</span> Make sure you get <span class='emphasis'>price</span> and <span class='emphasis'>travel time</span> 
 User: I'm looking for a local restaurant in the east of Cambridge that serves Scandinavian food with a moderate price range.
 System: I'm sorry, there are no [pricerange] [food] restaurants in the [area] of Cambridge. Would you like to search for a different area or cuisine?
 User: How about an Indian restaurant?
@@ -201,7 +201,7 @@ System: I have successfully booked a table for 1 person at [name] on Tuesday at 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 13:
-You are looking for information in. Cambridge. You are looking for places to go in town.. The attraction should be in the type of entertainment. Make sure you get entrance fee, address, and phone number. You are also looking for a restaurant.. The restaurant should be in the centre and should be in the cheap price range. The restaurant should serve italian food. Once you find the restaurant you want to book a table for 5 people at 11:30 on tuesday. Make sure you get the reference number. You also want to book a taxi to commute between the two places. You want to make sure it arrives the restaurant by the booked time. Make sure you get contact number and car type.
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>entertainment</span> Make sure you get <span class='emphasis'>entrance fee</span>, <span class='emphasis'>address</span>, and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>italian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>5 people</span> at <span class='emphasis'>11:30</span> on <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I'm looking for places to go in Cambridge for entertainment.
 System: There are several entertainment options in Cambridge, including [name], [name], [name], [name], and [name]. Would you like more details on any of these options?
 User: Can you tell me more about [name]?
@@ -224,7 +224,7 @@ User: Use my previous response
 System: I have booked a table for 5 people at 11:30 on Tuesday at [restaurant_name]. Your reference number is [ref]. I have also booked a [type] taxi for you, which will arrive at [restaurant_name] at 11:30. The phone number for the taxi is [phone]. Is there anything else you'd like me to do?
 
 Conversation 14:
-You are planning your trip in. Cambridge. You are looking for a train.. The train should go to stansted airport and should depart from cambridge. The train should leave on tuesday and should arrive by 14:30. Make sure you get departure time, price, and travel time. You are also looking for a place to stay.. The hotel should be in the north and should have a star of 0. The hotel doesn't need to include internet and should include free parking. If there is no such hotel, how about one that has free wifi. Once you find the hotel you want to book it for 5 people and 4 nights starting from friday. If the booking fails how about 3 nights. Make sure you get the reference number.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>stansted airport</span> and should depart from <span class='emphasis'>cambridge</span> The train should leave on <span class='emphasis'>tuesday</span> and should <span class='emphasis'>arrive by 14:30</span> Make sure you get <span class='emphasis'>departure time</span>, <span class='emphasis'>price</span>, and <span class='emphasis'>travel time</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>north</span> and should have <span class='emphasis'>a star of 0</span> The hotel <span class='emphasis'>doesn't need to include internet</span> and should <span class='emphasis'>include free parking</span> If there is no such hotel, how about one that has <span class='emphasis'>free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>friday</span> If the booking fails how about <span class='emphasis'>3 nights</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User:  I need a train that goes to Stansted Airport and departs from Cambridge.
 System: I found 5 trains from Cambridge to Stansted Airport on Monday. The earliest train leaves at 05:40 and arrives at 06:08. The reference number for this train is 00001484. Would you like to book this train?
 User:  No, I need the train to leave on Tuesday and arrive by 14:30.
@@ -242,7 +242,7 @@ System: You are welcome. Can I assist with anything else today?
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 15:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for places to go in town.. The attraction should be in the type of college and should be in the centre. Make sure you get entrance fee. You are also looking for a restaurant.. The restaurant should serve gastropub food and should be in the expensive price range. Once you find the restaurant you want to book a table for 7 people at 14:45 on thursday. Make sure you get the reference number. You also want to book a taxi to commute between the two places. You want to make sure it arrives the restaurant by the booked time. Make sure you get contact number and car type.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>gastropub</span> food and should be in the <span class='emphasis'>expensive</span> price range Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>7 people</span> at <span class='emphasis'>14:45</span> on <span class='emphasis'>thursday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User:  I'm looking for places to go in town. I want to visit a college in the centre.
 System: There are a few colleges in the centre of town. Some options are [name] on [address], [name] on [address], and [name] on [address]. Do you have a preference?
 User:  I want to know the entrance fee for each of those colleges.
@@ -260,7 +260,7 @@ System: Your table for 7 people at 14:45 on Thursday at The Slug and Lettuce has
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 16:
-You are looking for information in. Cambridge. You are looking for a train.. The train should leave on friday and should go to cambridge. The train should depart from ely and should arrive by 20:30. Make sure you get train. ID. You are also looking for a particular hotel.. Its name is called huntingdon marriott hotel. Make sure you get star of the hotel and postcode.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>friday</span> and should go to <span class='emphasis'>cambridge</span> The train should depart from <span class='emphasis'>ely</span> and should <span class='emphasis'>arrive by 20:30</span> Make sure you get <span class='emphasis'>train ID</span> You are also looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>huntingdon marriott hotel</span> Make sure you get <span class='emphasis'>star of the hotel</span> and <span class='emphasis'>postcode</span> 
 User: I need a train that leaves on Friday and goes to Cambridge. It should depart from Ely and arrive by 20:30.
 System: I have 5 trains leaving Ely for Cambridge on Friday. The first train, TR8519, leaves at 05:35 and arrives in Cambridge at 05:52. The second train, TR8510, leaves at 07:35 and arrives in Cambridge at 07:52. The third train, TR3976, leaves at 09:35 and arrives in Cambridge at 09:52. The fourth train, TR0212, leaves at 11:35 and arrives in Cambridge at 11:52. The fifth train, TR0236, leaves at 13:35 and arrives in Cambridge at 13:52. Did you have a specific time in mind?
 User: I need the train ID for the train that leaves at 11:35.
@@ -274,7 +274,7 @@ System: The train with the ID TR0212 leaves at 11:35 and arrives in Cambridge at
 User: <COMPLETE_CONVERSATION>
 
 Conversation 17:
-You are looking for information in. Cambridge. You are looking for a train.. The train should depart from cambridge and should leave after 09:15. The train should leave on wednesday and should go to london liverpool street. Make sure you get arrival time. You are also looking for places to go in town.. The attraction should be in the centre and should be in the type of entertainment. If there is no such attraction, how about one that is in the type of college. Make sure you get entrance fee.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should <span class='emphasis'>leave after 09:15</span> The train should leave on <span class='emphasis'>wednesday</span> and should go to <span class='emphasis'>london liverpool street</span> Make sure you get <span class='emphasis'>arrival time</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>entertainment</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of college</span> Make sure you get <span class='emphasis'>entrance fee</span> 
 User:  I need information about trains departing from Cambridge.
 System: There are [choice] different options for trains departing [departure]. What date and time do you need a train on?
 User:  I need a train that leaves after 09:15 on Wednesday.
@@ -288,7 +288,7 @@ System: Your ticket has been successfully booked. The total fee is [price]. Your
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 18:
-You are traveling to. Cambridge and excited about seeing local tourist attractions. You are looking for a particular attraction.. Its name is called cherry hinton hall and grounds. Make sure you get address, area, and entrance fee. You are also looking for a place to dine.. The restaurant should serve modern european food and should be in the moderate price range. The restaurant should be in the south. Once you find the restaurant you want to book a table for 7 people at 11:30 on monday. Make sure you get the reference number.
+You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>cherry hinton hall and grounds</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>area</span>, and <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>modern european</span> food and should be in the <span class='emphasis'>moderate</span> price range The restaurant should be in the <span class='emphasis'>south</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>7 people</span> at <span class='emphasis'>11:30</span> on <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for a specific attraction called Cherry Hinton Hall and Grounds.
 System: The Cherry Hinton Hall and Grounds is located at [address], in the [area] area. Their phone number is [phone] and their postcode is [postcode]. Is there anything else I can assist you with?
 User: I also need a place to dine. The restaurant should serve modern european food and should be in the moderate price range. It should be in the south.
@@ -300,7 +300,7 @@ System: Certainly, your Reference number is : 00000006 .
 User: <COMPLETE_CONVERSATION>
 
 Conversation 19:
-You want to book a taxi.. The taxi should go to university arms hotel and should depart from royal standard. The taxi should arrive by 15:45. Make sure you get contact number and car type.
+You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>university arms hotel</span> and should depart from <span class='emphasis'>royal standard</span> The taxi should <span class='emphasis'>arrive by 15:45</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I need to book a taxi to go from Royal Standard to University Arms Hotel. It needs to arrive by 15:45.
 System: I have found a red volkswagen taxi that can pick you up from royal standard and take you to university arms hotel. Please confirm if you would like to book this taxi.
 User: Yes, that sounds good. Can I get the contact number and car type?
@@ -310,7 +310,7 @@ System: Certainly, the contact number is [phone]. Is there anything else?
 User: <COMPLETE_CONVERSATION>
 
 Conversation 20:
-You are planning your trip in. Cambridge. You are looking for a train.. The train should leave on saturday and should depart from cambridge. The train should leave after 15:30 and should go to stansted airport. Make sure you get price. You are also looking for a restaurant.. The restaurant should be in the west and should serve indian food. Once you find the restaurant you want to book a table for 1 people at 10:15 on the same day. If the booking fails how about 9:15. Make sure you get the reference number.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>saturday</span> and should depart from <span class='emphasis'>cambridge</span> The train should <span class='emphasis'>leave after 15:30</span> and should go to <span class='emphasis'>stansted airport</span> Make sure you get <span class='emphasis'>price</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>west</span> and should serve <span class='emphasis'>indian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>10:15</span> on <span class='emphasis'>the same day</span> If the booking fails how about <span class='emphasis'>9:15</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I need to find a train that leaves Cambridge on Saturday after 15:30 and goes to Stansted Airport.
 System: I found 5 trains leaving Cambridge on Saturday after 15:30 and going to Stansted Airport. The earliest train leaves at 15:40 and arrives at 16:08. The latest train leaves at 19:40 and arrives at 20:08. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
 User: I need the price for the train ticket.
@@ -326,7 +326,7 @@ System: Your train ticket has been successfully booked for the 10:08 train leavi
 User: <COMPLETE_CONVERSATION>
 
 Conversation 21:
-You want to book a taxi.. The taxi should go to university arms hotel and should depart from royal standard. The taxi should arrive by 15:45. Make sure you get contact number and car type.
+You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>university arms hotel</span> and should depart from <span class='emphasis'>royal standard</span> The taxi should <span class='emphasis'>arrive by 15:45</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User:  I need to book a taxi.
 System: I can assist you with booking a taxi. What type of car would you like and what is the phone number for the taxi company?
 User:  I need the taxi to go to the University Arms Hotel and depart from the Royal Standard.
@@ -336,7 +336,7 @@ System: Glad I could help. Have a great day!
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 22:
-You are planning your trip in. Cambridge. You are looking for a place to stay.. The hotel should be in the expensive price range and should be in the south. The hotel should have a star of 4. If there is no such hotel, how about one that is in the moderate price range. Once you find the hotel you want to book it for 2 people and 4 nights starting from saturday. Make sure you get the reference number. You are also looking for a train.. The train should leave after 20:15 and should leave on sunday. The train should depart from cambridge and should go to stansted airport. Once you find the train you want to make a booking for the same group of people. Make sure you get the reference number.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the <span class='emphasis'>south</span> The hotel should have <span class='emphasis'>a star of 4</span> If there is no such hotel, how about one that is in the <span class='emphasis'>moderate</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 20:15</span> and should leave on <span class='emphasis'>sunday</span> The train should depart from <span class='emphasis'>cambridge</span> and should go to <span class='emphasis'>stansted airport</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User:  I'm looking for a place to stay in the south that is expensive and has a 4 star rating.
 System: I'm sorry, there are no hotels that match your criteria.
 User:  How about a hotel in the moderate price range?
@@ -352,7 +352,7 @@ System: Thank you for using our service. Your hotel booking at Aylesbray Lodge G
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 23:
-You are looking for information in. Cambridge. You are looking for a place to dine.. The restaurant should be in the centre and should be in the cheap price range. The restaurant should serve scandinavian food. If there is no such restaurant, how about one that serves modern european food. Make sure you get address, postcode, and phone number. You are also looking for a train.. The train should depart from bishops stortford and should go to cambridge. The train should leave on monday and should leave after 13:15. Once you find the train you want to make a booking for 6 people. Make sure you get the reference number.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>scandinavian</span> food If there is no such restaurant, how about one that serves <span class='emphasis'>modern european</span> food Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>bishops stortford</span> and should go to <span class='emphasis'>cambridge</span> The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>leave after 13:15</span> Once you find the train you want to make a booking for <span class='emphasis'>6 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for a place to dine in the centre of Cambridge that serves Scandinavian food. If there's no such restaurant, I'm open to one that serves modern European food.
 System: There are no restaurants available that serve scandinavian food. Would you like to try a restaurant that serves modern european food?
 User: Yes, that would be great. Can you give me the address, postcode, and phone number for the restaurant?
@@ -366,7 +366,7 @@ System: You are welcome. Your total for the six tickets is [price]. You can pay 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 24:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for a particular restaurant.. Its name is called maharajah tandoori restaurant. Make sure you get price range. You are also looking for a train.. The train should leave on thursday and should leave after 09:45. The train should depart from broxbourne and should go to cambridge. Make sure you get travel time.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>maharajah tandoori restaurant</span> Make sure you get <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>thursday</span> and should <span class='emphasis'>leave after 09:45</span> The train should depart from <span class='emphasis'>broxbourne</span> and should go to <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>travel time</span> 
 User: I'm looking for a particular restaurant called Maharajah Tandoori Restaurant and a train for Thursday.
 System: I'm sorry, I couldn't find any information about the Maharajah Tandoori Restaurant. Could you please provide me with the location of the restaurant?
 User: The restaurant is located in Cambridge.
@@ -380,7 +380,7 @@ System: The train that meets your criteria is TR8194 which leaves Broxbourne at 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 25:
-You are looking for information in. Cambridge. You are looking for a particular attraction.. Its name is called all saints church. Make sure you get area. You are also looking for a place to dine.. The restaurant should be in the centre and should be in the expensive price range. Make sure you get phone number, postcode, and address.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>all saints church</span> Make sure you get <span class='emphasis'>area</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>expensive</span> price range Make sure you get <span class='emphasis'>phone number</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>address</span> 
 User: I'm looking for a particular attraction in Cambridge called All Saints Church. Can you help me find it?
 System: Sure thing! All Saints Church is located at Jesus Lane in postcode CB58BS. The entrance is free. Is there anything else I can help you with?
 User: Yes, I also need a restaurant in the centre with an expensive price range.
@@ -392,7 +392,7 @@ System: The phone number for Curry Garden is 01223302330, the post code is CB21D
 User: <COMPLETE_CONVERSATION>
 
 Conversation 26:
-You are looking for a place to stay.. The hotel should be in the type of guesthouse and should include free wifi. The hotel should have a star of 4 and should be in the east. Once you find the hotel you want to book it for 2 people and 4 nights starting from monday. Make sure you get the reference number.
+You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free wifi</span> The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>east</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User:  I'm looking for a guesthouse that includes free wifi and has a 4 star rating in the east.
 System: I have found [choice] options, is there a price range you were looking for?
 User:  I need the reference number for the hotel I want to book for 2 people and 4 nights starting from monday.
@@ -402,7 +402,7 @@ System: The [choice] options are available. The [name] is a [pricerange] [type] 
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 27:
-You want to book a taxi.. The taxi should go to sitar tandoori and should leave after 19:30. The taxi should depart from la tasca. Make sure you get contact number and car type.
+You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>sitar tandoori</span> and should <span class='emphasis'>leave after 19:30</span> The taxi should depart from <span class='emphasis'>la tasca</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I need a taxi to go to Sitar Tandoori from La Tasca after 19:30.
 System: I have found a yellow honda taxi that can take you from la tasca to sitar tandoori. Their phone number is 46115885912. Would you like me to book it for you?
 User: Yes, please book it for me.
@@ -412,7 +412,7 @@ System: Thank you. We are always here to help with your bookings.
 User: <COMPLETE_CONVERSATION>
 
 Conversation 28:
-You are looking for information in. Cambridge. You are looking for a particular restaurant.. Its name is called meghna. Once you find the restaurant you want to book a table for 4 people at 17:30 on wednesday. Make sure you get the reference number. You are also looking for a train.. The train should go to cambridge and should arrive by 11:00. The train should be on the same day as the restaurant booking and should depart from norwich. Once you find the train you want to make a booking for the same group of people. Make sure you get the reference number.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>meghna</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>4 people</span> at <span class='emphasis'>17:30</span> on <span class='emphasis'>wednesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 11:00</span> The train should be on <span class='emphasis'>the same day as the restaurant booking</span> and should depart from <span class='emphasis'>norwich</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User:  I'm looking for a particular restaurant called Meghna in Cambridge.
 System: I'm sorry, I couldn't find any restaurants matching your request.
 User:  Can you please check again? I really need to find this restaurant.
@@ -445,7 +445,7 @@ User:  No, I'll just look for a different restaurant myself. Thank you.
 System: I apologize, I was not able to find the restaurant [name] in [area]. Would you like me to search for a different restaurant in [area]?
 
 Conversation 29:
-You are looking for a place to dine.. The restaurant should be in the west and should be in the cheap price range. The restaurant should serve polish food. If there is no such restaurant, how about one that serves italian food. Make sure you get address.
+You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>west</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>polish</span> food If there is no such restaurant, how about one that serves <span class='emphasis'>italian</span> food Make sure you get <span class='emphasis'>address</span> 
 User: I'm looking for a restaurant in the west that serves polish food and is cheap.
 System: There are no restaurants that meet that criteria. Would you like me to look for Polish food in another area?
 User: Yes, please. How about Italian food instead?
@@ -457,7 +457,7 @@ System: You're welcome, thanks for contacting us and have a wonderful day!
 User: <COMPLETE_CONVERSATION>
 
 Conversation 30:
-You are looking for information in. Cambridge. You are looking for places to go in town.. The attraction should be in the centre and should be in the type of architecture. Make sure you get postcode and phone number. You are also looking for a train.. The train should leave on thursday and should arrive by 16:30. The train should go to cambridge and should depart from birmingham new street. Once you find the train you want to make a booking for 4 people. Make sure you get the reference number.
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>architecture</span> Make sure you get <span class='emphasis'>postcode</span> and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>thursday</span> and should <span class='emphasis'>arrive by 16:30</span> The train should go to <span class='emphasis'>cambridge</span> and should depart from <span class='emphasis'>birmingham new street</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for places to go in the centre of Cambridge with a specific type of architecture.
 System: There are several options for architecture in the [area]. Would you like to visit [name], [name], or [name]?
 User: I need the postcode and phone number for the place I choose.
@@ -473,7 +473,7 @@ System: There are several options for architecture in the centre of Cambridge. W
 User: <COMPLETE_CONVERSATION>
 
 Conversation 31:
-You are looking for a restaurant.. The restaurant should serve steakhouse food and should be in the moderate price range. The restaurant should be in the centre. If there is no such restaurant, how about one that serves spanish food. Make sure you get phone number.
+You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>steakhouse</span> food and should be in the <span class='emphasis'>moderate</span> price range The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>spanish</span> food Make sure you get <span class='emphasis'>phone number</span> 
 User:  I'm looking for a restaurant in the centre that serves steakhouse food.
 System: I'm sorry, there are no steakhouse restaurants in the centre area. Would you like me to search for a different type of food or a different area?
 User:  How about a restaurant that serves spanish food?
@@ -485,7 +485,7 @@ System: [name] is a [food] restaurant located in the [area] part of town, and th
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 32:
-You are looking for a restaurant.. The restaurant should serve steakhouse food and should be in the moderate price range. The restaurant should be in the centre. If there is no such restaurant, how about one that serves spanish food. Make sure you get phone number.
+You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>steakhouse</span> food and should be in the <span class='emphasis'>moderate</span> price range The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>spanish</span> food Make sure you get <span class='emphasis'>phone number</span> 
 User: I'm looking for a restaurant in the center that serves steakhouse food in the moderate price range.
 System: I'm sorry, there are no restaurants in our database that match your criteria. Would you like me to search for a different type of food or price range?
 User: How about a restaurant that serves Spanish food?
@@ -497,7 +497,7 @@ System: Thank you for using Cambridge TownInfo centre! Your booking at La Tasca 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 33:
-You are looking for information in. Cambridge. You are looking for places to go in town.. The attraction should be in the type of swimmingpool and should be in the north. Make sure you get address. You are also looking for a place to stay.. The hotel should be in the expensive price range and should be in the type of hotel. The hotel should have a star of 4 and should include free parking. Once you find the hotel you want to book it for 5 people and 2 nights starting from monday. Make sure you get the reference number. You also want to book a taxi to commute between the two places. You want to leave the hotel by 14:00. Make sure you get contact number and car type.
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>swimmingpool</span> and should be in the <span class='emphasis'>north</span> Make sure you get <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the type of <span class='emphasis'>hotel</span> The hotel should have <span class='emphasis'>a star of 4</span> and should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>14:00</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I'm looking for places to go in Cambridge, specifically a swimming pool in the north.
 System: There are two [type] to go to in the [area]. Would you rather go to [jesus green outdoor pool], [between victoria road and the river], [01223302579] or [cb43px] or [kings hedges learner pool], [jedburgh court, kings hedges], [01223353248] or [cb42xh]?
 User: I'll go to Jesus Green Outdoor Pool.
@@ -520,7 +520,7 @@ User: No, I'll just find a hotel on my own.
 System: There are no hotels in the database that match your criteria. Would you like to find another hotel?
 
 Conversation 34:
-You are looking for a place to dine.. The restaurant should be in the west and should be in the cheap price range. The restaurant should serve polish food. If there is no such restaurant, how about one that serves italian food. Make sure you get address.
+You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>west</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>polish</span> food If there is no such restaurant, how about one that serves <span class='emphasis'>italian</span> food Make sure you get <span class='emphasis'>address</span> 
 User: I'm looking for a place to dine in the west that serves polish food. If there are no polish restaurants, how about one that serves italian food?
 System: There are no restaurants that serve Polish food in the west area. Would you like me to look for Italian food in the west area instead?
 User: Yes, please look for italian food in the west area.
@@ -532,7 +532,7 @@ System: Have a great day!
 User: <COMPLETE_CONVERSATION>
 
 Conversation 35:
-You are traveling to. Cambridge and excited about seeing local tourist attractions. You are looking for a place to stay.. The hotel should have a star of 4 and should be in the cheap price range. The hotel should be in the east and should include free wifi. Once you find the hotel you want to book it for 3 people and 5 nights starting from tuesday. Make sure you get the reference number. You are also looking for places to go in town.. The attraction should be in the same area as the hotel and should be in the type of college. If there is no such attraction, how about one that is in the type of museum. Make sure you get postcode.
+You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>cheap</span> price range The hotel should be in the <span class='emphasis'>east</span> and should <span class='emphasis'>include free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be <span class='emphasis'>in the same area as the hotel</span> and should be in the type of <span class='emphasis'>college</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of museum</span> Make sure you get <span class='emphasis'>postcode</span> 
 User: I'm looking for a place to stay in Cambridge that has a 4-star rating and is in the cheap price range.
 System: There are [choice] [pricerange] places to stay. Is there an area you'd like to stay in?
 User: I need a hotel in the east with free wifi.
@@ -552,7 +552,7 @@ System: You are booked at the [name], [address], [phone], [postcode]. Reference 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 36:
-You are looking for information in. Cambridge. You are looking for a place to stay.. The hotel should be in the type of guesthouse and should be in the moderate price range. The hotel should include free wifi. Once you find the hotel you want to book it for 4 people and 4 nights starting from saturday. Make sure you get the reference number. You are also looking for a train.. The train should be on the same day as the hotel booking and should depart from leicester. The train should go to cambridge and should leave after 18:45. Once you find the train you want to make a booking for the same group of people. Make sure you get the reference number.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>moderate</span> price range The hotel should <span class='emphasis'>include free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should be on <span class='emphasis'>the same day as the hotel booking</span> and should depart from <span class='emphasis'>leicester</span> The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>leave after 18:45</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User:  I'm looking for a guesthouse in Cambridge that is in the moderate price range and includes free wifi.
 System: We have [choice] guesthouses in Cambridge that are in the moderate price range and offer free WiFi. Would you like me to book one for you?
 User:  Yes, please. I need it for 4 people and 4 nights starting from saturday.
@@ -566,7 +566,7 @@ System: Thank you for booking with us. Your hotel reference number is [reference
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 37:
-You are looking for information in. Cambridge. You are looking for a particular attraction.. Its name is called all saints church. Make sure you get area. You are also looking for a place to dine.. The restaurant should be in the centre and should be in the expensive price range. Make sure you get phone number, postcode, and address.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>all saints church</span> Make sure you get <span class='emphasis'>area</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>expensive</span> price range Make sure you get <span class='emphasis'>phone number</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>address</span> 
 User: I'm looking for a place called All Saints Church and a restaurant in the centre with an expensive price range.
 System: I'm sorry, I couldn't find any restaurants in the centre with an expensive price range. Would you like me to search for a different area or price range?
 User: No, that's okay. Can you just give me the area for All Saints Church?
@@ -578,7 +578,7 @@ System: Thank you for using this system!
 User: <COMPLETE_CONVERSATION>
 
 Conversation 38:
-You want to book a taxi.. The taxi should go to wandlebury country park and should leave after 19:30. The taxi should depart from meze bar restaurant. Make sure you get car type and contact number.
+You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>wandlebury country park</span> and should <span class='emphasis'>leave after 19:30</span> The taxi should depart from <span class='emphasis'>meze bar restaurant</span> Make sure you get <span class='emphasis'>car type</span> and <span class='emphasis'>contact number</span> 
 User: I need a taxi to go to Wandlebury Country Park, leaving after 19:30 from Meze Bar Restaurant.
 System: I have found a red lexus taxi that can pick you up at 19:30 from meze bar restaurant and take you to wandlebury country park. The phone number is 99734351869. Would you like me to book it for you?
 User: Yes, please book it for me.
@@ -588,7 +588,7 @@ System: You're welcome, have a great time at Wandlebury Country Park!
 User: <COMPLETE_CONVERSATION>
 
 Conversation 39:
-You want to book a taxi.. The taxi should depart from museum of classical archaeology and should arrive by 09:00. The taxi should go to ugly duckling. Make sure you get car type and contact number.
+You want to book a <span class='emphasis'>taxi</span>. The taxi should depart from <span class='emphasis'>museum of classical archaeology</span> and should <span class='emphasis'>arrive by 09:00</span> The taxi should go to <span class='emphasis'>ugly duckling</span> Make sure you get <span class='emphasis'>car type</span> and <span class='emphasis'>contact number</span> 
 User: I need to book a taxi from the museum of classical archaeology to the ugly duckling, arriving by 09:00.
 System: I can arrange that for you. The taxi will be a grey Lexus and the phone number is 65162642631. Is there anything else I can assist you with?
 User: No, that's all for now. Thank you.
@@ -596,7 +596,7 @@ System: You're welcome. Have a great day!
 User: <COMPLETE_CONVERSATION>
 
 Conversation 40:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for a particular restaurant.. Its name is called pizza express. Once you find the restaurant you want to book a table for 2 people at 18:00 on saturday. Make sure you get the reference number. You are also looking for a train.. The train should depart from cambridge and should leave on sunday. The train should go to norwich and should leave after 19:15. Make sure you get arrival time, travel time, and price.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>pizza express</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>2 people</span> at <span class='emphasis'>18:00</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should <span class='emphasis'>leave after 19:15</span> Make sure you get <span class='emphasis'>arrival time</span>, <span class='emphasis'>travel time</span>, and <span class='emphasis'>price</span> 
 User: I'm looking for a particular restaurant called Pizza Express.
 System: It's a [pricerange] [food] place in the [area] at [address] [postcode]. The phone number is [phone]. Would you like more info?
 User: Yes, I would like to book a table for 2 people at 18:00 on Saturday.
@@ -612,7 +612,7 @@ System: Thank you for using our service. Your restaurant reservation for 2 peopl
 User: <COMPLETE_CONVERSATION>
 
 Conversation 41:
-You are planning your trip in. Cambridge. You are looking for a place to stay.. The hotel should include free parking and should include free wifi. The hotel should be in the expensive price range and should be in the type of guesthouse. If there is no such hotel, how about one that is in the moderate price range. Once you find the hotel you want to book it for 6 people and 3 nights starting from monday. Make sure you get the reference number. You are also looking for a particular attraction.. Its name is called saint catharine's college. Make sure you get address and phone number. You also want to book a taxi to commute between the two places. You want to leave the hotel by 07:00. Make sure you get contact number and car type.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free parking</span> and should <span class='emphasis'>include free wifi</span> The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the type of <span class='emphasis'>guesthouse</span> If there is no such hotel, how about one that is in the <span class='emphasis'>moderate</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>6 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>saint catharine's college</span> Make sure you get <span class='emphasis'>address</span> and <span class='emphasis'>phone number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>07:00</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User:  I need a place to stay in Cambridge that includes free parking and free wifi.
 System: I recommend the [name]. It's located in the [area] and has both free parking and wifi. Would you like me to book a reservation for you?
 User:  Yes, please. I also need a hotel in the expensive price range and in the type of guesthouse.
@@ -645,7 +645,7 @@ User:  Yes, please search for a hotel in the moderate price range.
 System: I'm sorry, there are no guesthouses in the moderate price range with free parking and wifi. Would you like me to search for a different type of accommodation or price range?
 
 Conversation 42:
-You are looking for information in. Cambridge. You are looking for places to go in town.. The attraction should be in the type of swimmingpool and should be in the north. Make sure you get address. You are also looking for a place to stay.. The hotel should be in the expensive price range and should be in the type of hotel. The hotel should have a star of 4 and should include free parking. Once you find the hotel you want to book it for 5 people and 2 nights starting from monday. Make sure you get the reference number. You also want to book a taxi to commute between the two places. You want to leave the hotel by 14:00. Make sure you get contact number and car type.
+You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>swimmingpool</span> and should be in the <span class='emphasis'>north</span> Make sure you get <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the type of <span class='emphasis'>hotel</span> The hotel should have <span class='emphasis'>a star of 4</span> and should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>14:00</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User:  I'm looking for places to go in Cambridge that are in the north and are swimming pools.
 System: There are two [type]s in the [area]. Would you rather go to [name] or [name]?
 User:  I need the address for the swimming pool.
@@ -678,7 +678,7 @@ User:  I need a hotel with a star of 4 and free parking.
 System: There are two swimming pools in the north. Would you rather go to Jesus Green Outdoor Pool or Kings Hedges Learner Pool? The Jesus Green Outdoor Pool is located at between Victoria Road and the River. Is there anything else I can help you with today?
 
 Conversation 43:
-You are looking for information in. Cambridge. You are looking for a train.. The train should go to norwich and should leave after 17:45. The train should depart from cambridge and should leave on tuesday. Once you find the train you want to make a booking for 2 people. Make sure you get the reference number. You are also looking for places to go in town.. The attraction should be in the centre and should be in the type of entertainment. If there is no such attraction, how about one that is in the type of architecture. Make sure you get address.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>norwich</span> and should <span class='emphasis'>leave after 17:45</span> The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>tuesday</span> Once you find the train you want to make a booking for <span class='emphasis'>2 people</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>entertainment</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of architecture</span> Make sure you get <span class='emphasis'>address</span> 
 User: I'm looking for a train to Norwich that leaves after 17:45 on Tuesday.
 System: I found [choice] trains that match your request. The next train to Norwich on Tuesday after 17:45 is the TR9942, leaving at 09:36 and arriving at 10:55. Would you like to book this train? If so, please provide the reference number [ref] for your booking.
 User: Yes, please book the TR9942 train for 2 people and provide the reference number.
@@ -692,7 +692,7 @@ System: The [attraction_name] is located in the [attraction_area] of Cambridge. 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 44:
-You are traveling to. Cambridge and excited about seeing local tourist attractions. You are looking for a place to stay.. The hotel should have a star of 4 and should be in the cheap price range. The hotel should be in the east and should include free wifi. Once you find the hotel you want to book it for 3 people and 5 nights starting from tuesday. Make sure you get the reference number. You are also looking for places to go in town.. The attraction should be in the same area as the hotel and should be in the type of college. If there is no such attraction, how about one that is in the type of museum. Make sure you get postcode.
+You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>cheap</span> price range The hotel should be in the <span class='emphasis'>east</span> and should <span class='emphasis'>include free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be <span class='emphasis'>in the same area as the hotel</span> and should be in the type of <span class='emphasis'>college</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of museum</span> Make sure you get <span class='emphasis'>postcode</span> 
 User:  I'm looking for a place to stay in the east that has a 4 star rating and is cheap.
 System: I have found the [name]. It meets all of your criteria, is in the [pricerange] price range, and provides internet and parking. Would you like me to book it?
 User:  Yes, I would like to book it for 3 people and 5 nights starting from tuesday.
@@ -706,7 +706,7 @@ System: Thank you for using our services. Have a great day!
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 45:
-You are looking for information in. Cambridge. You are looking for a place to stay.. The hotel should be in the type of guesthouse and should be in the moderate price range. The hotel should include free wifi. Once you find the hotel you want to book it for 4 people and 4 nights starting from saturday. Make sure you get the reference number. You are also looking for a train.. The train should be on the same day as the hotel booking and should depart from leicester. The train should go to cambridge and should leave after 18:45. Once you find the train you want to make a booking for the same group of people. Make sure you get the reference number.
+You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>moderate</span> price range The hotel should <span class='emphasis'>include free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should be on <span class='emphasis'>the same day as the hotel booking</span> and should depart from <span class='emphasis'>leicester</span> The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>leave after 18:45</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for a place to stay in Cambridge. I want a guesthouse with moderate pricing and free wifi.
 System: I found 5 guesthouses in Cambridge that match your criteria. Would you like me to provide you with the details of each one?
 User: Yes, please give me the details.
@@ -722,7 +722,7 @@ System: Your hotel booking at the Lensfield Hotel in Cambridge for 4 people and 
 User: <COMPLETE_CONVERSATION>
 
 Conversation 46:
-You are traveling to. Cambridge and looking forward to try local restaurants. You are looking for places to go in town.. The attraction should be in the type of college and should be in the centre. Make sure you get entrance fee. You are also looking for a restaurant.. The restaurant should serve gastropub food and should be in the expensive price range. Once you find the restaurant you want to book a table for 7 people at 14:45 on thursday. Make sure you get the reference number. You also want to book a taxi to commute between the two places. You want to make sure it arrives the restaurant by the booked time. Make sure you get contact number and car type.
+You are traveling to Cambridge and looking forward to try local restaurants You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>gastropub</span> food and should be in the <span class='emphasis'>expensive</span> price range Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>7 people</span> at <span class='emphasis'>14:45</span> on <span class='emphasis'>thursday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
 User: I'm looking for places to go in the centre of Cambridge. I want to visit a college and have a nice gastropub meal.
 System: I was unable to find any [type] in the [area].
 User: Can you help me find a college and a gastropub restaurant in the centre of Cambridge?
@@ -736,7 +736,7 @@ System: I found Christ's College, Corpus Christi, Downing College, Emmanuel Coll
 User: <COMPLETE_CONVERSATION>
 
 Conversation 47:
-You are looking for a place to stay.. The hotel should be in the type of guesthouse and should include free wifi. The hotel should have a star of 4 and should be in the east. Once you find the hotel you want to book it for 2 people and 4 nights starting from monday. Make sure you get the reference number.
+You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free wifi</span> The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>east</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> 
 User: I'm looking for a guesthouse in the east with a 4-star rating and free wifi.
 System: We have [choice] guesthouses in the [area] area with a [stars] star rating and free WiFi. Would you like me to book one of these for you?
 User: Yes, please. Can you also make sure it includes free wifi?
@@ -759,7 +759,7 @@ User: Yes, please book a room for 2 people for 4 nights starting from Monday.
 System: I am sorry, there are no 3-star hotels in the east area with free wifi. Can I help you find another place to stay?
 
 Conversation 48:
-You are looking for a place to dine.. The restaurant should be in the west and should be in the cheap price range. The restaurant should serve polish food. If there is no such restaurant, how about one that serves italian food. Make sure you get address.
+You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>west</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>polish</span> food If there is no such restaurant, how about one that serves <span class='emphasis'>italian</span> food Make sure you get <span class='emphasis'>address</span> 
 User:  I'm looking for a place to dine in the west that serves polish food.
 System: There are no restaurants that meet that criteria. Would you like me to look for Polish food in another area?
 User:  Yes, how about Italian food instead?
@@ -771,7 +771,7 @@ System: You're welcome! Your reservation has been successfully made at La Marghe
 User:  <COMPLETE_CONVERSATION>
 
 Conversation 49:
-You are planning your trip in. Cambridge. You are looking for a train.. The train should leave on friday and should go to cambridge. The train should leave after 18:45 and should depart from norwich. Once you find the train you want to make a booking for 1 people. Make sure you get the reference number. You are also looking for a place to stay.. The hotel should have a star of 4 and should be in the south. The hotel should be in the type of guesthouse and should be in the moderate price range. Make sure you get whether they have free parking and address.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>friday</span> and should go to <span class='emphasis'>cambridge</span> The train should <span class='emphasis'>leave after 18:45</span> and should depart from <span class='emphasis'>norwich</span> Once you find the train you want to make a booking for <span class='emphasis'>1 people</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>south</span> The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>moderate</span> price range Make sure you get <span class='emphasis'>whether they have free parking</span> and <span class='emphasis'>address</span> 
 User: I need a train that leaves on friday and goes to cambridge, leaving after 18:45. I also need a place to stay in the south with a star rating of 4 and in the moderate price range.
 System: I have found 5 trains that match your request. Would you like to depart from London Kings Cross?
 User: Yes, I will be departing from Norwich.
@@ -783,7 +783,7 @@ System: Yes, the hotel does have free parking. Is there anything else I can help
 User: <COMPLETE_CONVERSATION>
 
 Conversation 50:
-You are planning your trip in. Cambridge. You are looking for a particular attraction.. Its name is called magdalene college. Make sure you get area and phone number. You are also looking for a train.. The train should go to cambridge and should depart from bishops stortford. The train should leave on sunday and should leave after 21:45. Make sure you get price and arrival time.
+You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>magdalene college</span> Make sure you get <span class='emphasis'>area</span> and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should depart from <span class='emphasis'>bishops stortford</span> The train should leave on <span class='emphasis'>sunday</span> and should <span class='emphasis'>leave after 21:45</span> Make sure you get <span class='emphasis'>price</span> and <span class='emphasis'>arrival time</span> 
 User: I'm looking for a particular attraction called Magdalene College in Cambridge.
 System: I'm sorry, I couldn't find any information on Magdalene College in Cambridge. Would you like me to search for a different attraction?
 User: No, that's okay. Can you help me find a train instead?
@@ -797,3 +797,4 @@ System: The train [trainid3] departing from Bishops Stortford and arriving in Ca
 User: Yes, I would like to book a ticket for train [trainid3]. Can you give me the reference number?
 System: The reference number for train [trainid3] is [ref]. Would you like to book a ticket for this train?
 User: <COMPLETE_CONVERSATION>
+
