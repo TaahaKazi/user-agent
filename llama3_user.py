@@ -1,6 +1,5 @@
 from extraction.utils import *
-from model.GPT.gpt3 import GPT3
-from model.GPT.gpt3_verbose import GPT3Verbose
+from model.GPT.llama3 import LLAMA3
 import datetime
 from utils import conv_json_to_text
 import os
@@ -11,20 +10,20 @@ full_path = os.path.join(full_path, 'bot')
 sys.path.append(full_path)
 from model.bot.tod_gpt import TODSystem
 
-def main():
 
+def main():
     # Collect list of frames from multiwoz data
     DATA_PATH = 'multiwoz/data/MultiWOZ_2.1/data.json'
     REFERENCE_LIST_FILE = 'multiwoz/data/MultiWOZ_2.1/valListFile.txt'
     frames = iter_data(DATA_PATH, REFERENCE_LIST_FILE, initial_msg_flag=True, conv_hist_flag=False)
 
     # Initialize the user-agent model
-    user_model = GPT3Verbose()
+    user_model = LLAMA3()
 
     # Setting Debug flag for testing
     debug = True
     if debug:
-        frames = frames[150:200]
+        frames = frames[150:151]
 
     # Iterate over frames
     for frame in frames:
@@ -60,14 +59,17 @@ def main():
             # Check if the conversation is over
             if user_response == '<COMPLETE_CONVERSATION>':
                 break
+
             if user_response == '<REPETITION>':
                 break
+
             if not user_response:
                 break
 
+            print("User: ", user_response)
             # Get client model response
             client_response = client_model.run(frame.conv_history[-1]['content'])
-            print("User: ", user_response)
+
             print("System: ", client_response)
 
             # Update frame
@@ -81,7 +83,8 @@ def main():
     print("Frames over")
 
     # Save the frames to a file
-    output_file = 'output_store/' + 'ablative_verbose_' + 'output_' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
+    output_file = 'output_store/' + '50_ablative_gpt_4' + 'verbose_' + 'output_' + datetime.datetime.now().strftime(
+        "%Y-%m-%d-%H-%M-%S") + '.jsonl'
     with open(output_file, 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}
@@ -90,5 +93,6 @@ def main():
 
     # Convert the jsonl file to a text file
     conv_json_to_text(output_file)
+
 
 main()

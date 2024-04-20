@@ -1,4 +1,5 @@
 from extraction.utils import *
+from model.GPT.gpt4 import GPT4
 from model.GPT.gpt4_verbose import GPT4Verbose
 import datetime
 from utils import conv_json_to_text
@@ -23,7 +24,7 @@ def main():
     # Setting Debug flag for testing
     debug = True
     if debug:
-        frames = frames[102:103]
+        frames = frames[150:200]
 
     # Iterate over frames
     for frame in frames:
@@ -82,7 +83,7 @@ def main():
     print("Frames over")
 
     # Save the frames to a file
-    output_file = 'output_store/' + 'gpt_4' + 'verbose_' + 'output_' + datetime.datetime.now().strftime(
+    output_file = 'output_store/' + '50_ablative_gpt_4' + 'verbose_' + 'output_' + datetime.datetime.now().strftime(
         "%Y-%m-%d-%H-%M-%S") + '.jsonl'
     with open(output_file, 'w') as f:
         for frame in frames:
