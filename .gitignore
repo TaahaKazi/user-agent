@@ -4,3 +4,5 @@ model/pptod
 azure_openai_key.json
 evaluation/human_eval/batch_to_model.txt
 evaluation/human_eval/model_to_batch.txt
+llama3
+output_store
