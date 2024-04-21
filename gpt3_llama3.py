@@ -1,6 +1,5 @@
 from extraction.utils import *
 from model.GPT.gpt3 import GPT3
-from model.GPT.llama3 import LLAMA3
 import sys
 import os
 from utils import conv_json_to_text
@@ -20,7 +19,7 @@ if __name__ == '__main__':
     frames = iter_data(DATA_PATH, REFERENCE_LIST_FILE, initial_msg_flag=True, conv_hist_flag=False)
 
     # Initialize the user-agent model
-    user_model = LLAMA3()
+    user_model = GPT3()
 
     debug = True
 
@@ -93,7 +92,7 @@ if __name__ == '__main__':
     print("Frames over")
 
     # Save the frames to a file
-    output_file = 'output_store/llama3_llama3' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
+    output_file = 'output_store/gpt3_llama3' + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + '.jsonl'
     with open(output_file, 'w') as f:
         for frame in frames:
             out_dict = {"initial_message": frame.instruct_message, "conv_history": frame.conv_history}

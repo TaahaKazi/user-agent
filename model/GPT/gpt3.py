@@ -28,7 +28,7 @@ class GPT3:
                 model="gpt-3.5-turbo-instruct",
                 prompt=initial_msg,
                 temperature=0,
-                max_tokens=30,
+                max_tokens=100,
             )
             res = completion.choices[0].text
             res_str = res.split('\n')[0]
@@ -54,7 +54,7 @@ class GPT3:
                 model="gpt-3.5-turbo-instruct",
                 prompt=initial_msg,
                 temperature=0,
-                max_tokens=30,
+                max_tokens=100,
                 stop=["System:"]
             )
             res = completion.choices[0].text
