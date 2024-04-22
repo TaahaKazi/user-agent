@@ -4,7 +4,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 2 # too much repetitions; does not follow conversation flows; 
 Coherence for user simulator: 2
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 2 
 Task Completion: Yes 
@@ -12,7 +12,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 2 
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 3 
 Task Completion: Yes 
@@ -20,7 +20,7 @@ Naturalness for user simulator: 4 # repetitive syntax patterns
 Naturalness for TOD system: 2 
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 4 
 Task Completion: Yes 
@@ -28,7 +28,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 4 
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 5 
 Task Completion: Yes 
@@ -36,7 +36,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 3 
 Coherence for user simulator: 2
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 6 
 Task Completion: Yes 
@@ -44,14 +44,15 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 2 
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
-Conversation: 7 Task Completion: Yes 
+Conversation: 7
+Task Completion: Yes 
 Naturalness for user simulator: 4 
 Naturalness for TOD system: 2 
 Coherence for user simulator: 3
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 8 
 Task Completion: Yes 
@@ -59,7 +60,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 4 
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 9 
 Task Completion: Yes 
@@ -67,7 +68,7 @@ Naturalness for user simulator: 5
 Naturalness for TOD system: 4 
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 10 
 Task Completion: No
@@ -75,7 +76,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 2 
 Coherence for user simulator: 3
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 11 
 Task Completion: No
@@ -83,7 +84,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 2 
 Coherence for user simulator: 2
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 12 
 Task Completion: Yes 
@@ -91,7 +92,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 4
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1 
+Dialogue-level diversity for user simulator: 1 
 
 Conversation: 13 
 Task Completion: No 
@@ -99,7 +100,7 @@ Naturalness for user simulator: 1
 Naturalness for TOD system: 1 
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 14 
 Task Completion: Yes 
@@ -107,15 +108,15 @@ Naturalness for user simulator: 1
 Naturalness for TOD system: 1 
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
-Conversation: 15 Task 
-Completion: Yes 
+Conversation: 15
+Task Completion: Yes 
 Naturalness for user simulator: 2 
 Naturalness for TOD system: 1 
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 16 
 Task Completion: No 
@@ -123,7 +124,7 @@ Naturalness for user simulator: 2
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 3
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 17
 Task Completion: Yes 
@@ -131,7 +132,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 2
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 18 
 Task Completion: Yes 
@@ -139,7 +140,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 1
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 19
 Task Completion: Yes 
@@ -147,7 +148,7 @@ Naturalness for user simulator: 2
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 20 
 Task Completion: Yes 
@@ -155,7 +156,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 21 
 Task Completion: Yes 
@@ -163,7 +164,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 22 
 Task Completion: Yes 
@@ -171,7 +172,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 23 
 Task Completion: Yes 
@@ -179,7 +180,7 @@ Naturalness for user simulator: 1
 Naturalness for TOD system: 1
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 24 
 Task Completion: Yes 
@@ -187,7 +188,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 25 
 Task Completion: Yes 
@@ -195,7 +196,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 26 
 Task Completion: Yes 
@@ -203,7 +204,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 27 
 Task Completion: Yes 
@@ -211,7 +212,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 2
 Coherence for user simulator: 3
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 28 
 Task Completion: Yes 
@@ -219,7 +220,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 29 
 Task Completion: Yes 
@@ -227,7 +228,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 2
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 30
 Task Completion: Yes
@@ -235,7 +236,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 
 Conversation: 31
@@ -244,7 +245,7 @@ Naturalness for user simulator: 1
 Naturalness for TOD system: 1
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 32
 Task Completion: Yes
@@ -252,7 +253,7 @@ Naturalness for user simulator: 2
 Naturalness for TOD system: 2
 Coherence for user simulator: 2
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 33
 Task Completion: Yes
@@ -260,7 +261,7 @@ Naturalness for user simulator: 1
 Naturalness for TOD system: 1
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 34
 Task Completion: Yes
@@ -268,7 +269,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 35
 Task Completion: No
@@ -276,7 +277,7 @@ Naturalness for user simulator: 2
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 36
 Task Completion: No
@@ -284,7 +285,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 37
 Task Completion: Yes
@@ -292,7 +293,7 @@ Naturalness for user simulator: 5
 Naturalness for TOD system: 4
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 38
 Task Completion: Yes
@@ -300,7 +301,7 @@ Naturalness for user simulator: 5
 Naturalness for TOD system: 4
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 39
 Task Completion: Yes
@@ -308,7 +309,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 40
 Task Completion: Yes
@@ -316,7 +317,7 @@ Naturalness for user simulator: 2
 Naturalness for TOD system: 2
 Coherence for user simulator: 2
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 41
 Task Completion: Yes
@@ -324,7 +325,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 42
 Task Completion: Yes
@@ -332,7 +333,7 @@ Naturalness for user simulator: 1
 Naturalness for TOD system: 1
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 43
 Task Completion: No
@@ -340,7 +341,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 44
 Task Completion: No
@@ -348,7 +349,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 2
 Coherence for user simulator: 2
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 45
 Task Completion: No
@@ -356,7 +357,7 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 1
 Coherence for TOD system: 1
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 46
 Task Completion: No
@@ -364,7 +365,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 47
 Task Completion: Yes
@@ -372,7 +373,7 @@ Naturalness for user simulator: 5
 Naturalness for TOD system: 5
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2
 
 Conversation: 48
 Task Completion: Yes
@@ -380,7 +381,7 @@ Naturalness for user simulator: 3
 Naturalness for TOD system: 3
 Coherence for user simulator: 2
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
 Conversation: 49
 Task Completion: Yes
@@ -388,12 +389,12 @@ Naturalness for user simulator: 4
 Naturalness for TOD system: 3
 Coherence for user simulator: 3
 Coherence for TOD system: 2
-Diversity for user simulator: 1
+Dialogue-level diversity for user simulator: 1
 
-Conversation 50
+Conversation: 50
 Task Completion: Yes
 Naturalness for user simulator: 5 
 Naturalness for TOD system: 4
 Coherence for user simulator: 3
 Coherence for TOD system: 3
-Diversity for user simulator: 2
+Dialogue-level diversity for user simulator: 2

@@ -1,0 +1,1208 @@
+{
+    "thought": {
+        "32": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "24": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "41": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "5",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "15": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "38": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "5": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "17": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "7": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "26": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "22": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "48": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "31": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "23": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "33": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "47": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "29": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "34": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "5",
+            "Naturalness for TOD system": "5",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "8": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "2": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "10": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "4": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "21": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "42": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "37": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "44": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "45": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "6": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "27": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "13": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "9": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "39": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "28": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "35": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "19": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "11": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "12": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "49": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "40": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "20": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "25": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "43": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "14": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "1": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "0": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "30": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "36": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "16": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "3": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "46": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "18": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        }
+    },
+    "vanilla": {
+        "4": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "11": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "3": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "27": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "36": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "48": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "42": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "14": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "47": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "10": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "26": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "1": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "29": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "33": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "44": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "5",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "31": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "5",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "22": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "40": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "5",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "34": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "15": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "32": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "5": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "12": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "17": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "45": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "20": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "19": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "18": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "9": {
+            "Task Completion": "Yes/No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "35": {
+            "Task Completion": "Ye",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "21": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "24": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "28": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "39": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "0": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "37": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "38": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "8": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "6": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "2": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "13": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "23": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "43": {
+            "Task Completion": "yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "46": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "30": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "16": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "7": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "25": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "49": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "41": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        }
+    },
+    "verbose": {
+        "23": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "9": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "45": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "28": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "38": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "44": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "35": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "40": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "19": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "4": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "14": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "11": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "0": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "47": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "49": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "8": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "48": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "29": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "25": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "31": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "41": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "39": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "42": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "24": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "1",
+            "Naturalness for TOD system": "1",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "13": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "34": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "36": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "15": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "30": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "12": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "3",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "46": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "7": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "2",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "20": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "26": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "18": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "21": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "6": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "32": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "37": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "2",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "10": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "17": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "27": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "5": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "1": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "3",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "22": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "33": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "3": {
+            "Task Completion": "No",
+            "Naturalness for user simulator": "2",
+            "Naturalness for TOD system": "2",
+            "Coherence for user simulator": "1",
+            "Coherence for TOD system": "1",
+            "Dialogue-level diversity for user simulator": "1"
+        },
+        "43": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "2": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        },
+        "16": {
+            "Task Completion": "Yes",
+            "Naturalness for user simulator": "4",
+            "Naturalness for TOD system": "4",
+            "Coherence for user simulator": "3",
+            "Coherence for TOD system": "3",
+            "Dialogue-level diversity for user simulator": "2"
+        }
+    }
+}
