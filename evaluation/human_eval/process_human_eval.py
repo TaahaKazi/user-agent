@@ -70,7 +70,7 @@ def main():
             txt_file.write(f'Model: {model}\n')
             for conv_id in sorted(convs.keys()):
                 txt_file.write(f'Conversation {conv_id}:\n')
-                for key, value in evals.items():
+                for key, value in convs[conv_id].items():
                     txt_file.write(f'  {key}: {value}\n')
                 txt_file.write('\n')
 

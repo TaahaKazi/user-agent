@@ -627,7 +627,7 @@
             "Dialogue-level diversity for user simulator": "1"
         },
         "9": {
-            "Task Completion": "Yes/No",
+            "Task Completion": "Yes",
             "Naturalness for user simulator": "2",
             "Naturalness for TOD system": "4",
             "Coherence for user simulator": "2",
@@ -635,7 +635,7 @@
             "Dialogue-level diversity for user simulator": "2"
         },
         "35": {
-            "Task Completion": "Ye",
+            "Task Completion": "Yes",
             "Naturalness for user simulator": "4",
             "Naturalness for TOD system": "4",
             "Coherence for user simulator": "2",

@@ -239,7 +239,7 @@ Coherence for TOD system: 1
 Dialogue-level diversity for user simulator: 1
 
 Conversation: 31
-Task Completion: Yes/No
+Task Completion: Yes
 Naturalness for user simulator: 2
 Naturalness for TOD system: 4
 Coherence for user simulator: 2
@@ -279,7 +279,7 @@ Coherence for TOD system: 3
 Dialogue-level diversity for user simulator: 1
 
 Conversation: 36
-Task Completion: Ye
+Task Completion: Yes
 Naturalness for user simulator: 4
 Naturalness for TOD system: 4
 Coherence for user simulator: 2
