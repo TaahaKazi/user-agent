@@ -1,6 +1,9 @@
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+
 
 # Function to load human evaluation data from JSON
 def load_human_eval_data(filepath):
@@ -115,3 +118,46 @@ plt.show()
 df_human.to_csv('human_evaluation_results.csv')
 df_auto.to_csv('automatic_evaluation_results.csv')
 
+
+# Indexing rows for each model
+verbose_human = df_human.iloc[:50]
+vanilla_human = df_human.iloc[50:100]
+thought_human = df_human.iloc[100:]
+
+verbose_auto = df_auto.iloc[:50]
+vanilla_auto = df_auto.iloc[50:100]
+thought_auto = df_auto.iloc[100:]
+
+# Compute mean and std for each segment
+def compute_stats(df):
+    return df.agg(['mean', 'std'])
+
+# Printing statistics
+print("Human Evaluation - Verbose Model Stats:\n", compute_stats(verbose_human))
+print("Human Evaluation - Vanilla Model Stats:\n", compute_stats(vanilla_human))
+print("Human Evaluation - Thought Model Stats:\n", compute_stats(thought_human))
+
+print("Automatic Evaluation - Verbose Model Stats:\n", compute_stats(verbose_auto))
+print("Automatic Evaluation - Vanilla Model Stats:\n", compute_stats(vanilla_auto))
+print("Automatic Evaluation - Thought Model Stats:\n", compute_stats(thought_auto))
+
+# plot distributions
+def plot_distribution(df, title):
+    plt.figure(figsize=(10, 6))
+    sns.boxplot(data=df)
+    plt.title(title)
+    plt.ylabel('Scores')
+    plt.xlabel('Metrics')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+# Plotting distributions for each model
+""" plot_distribution(verbose_human, 'Distribution of Human Eval Metrics - Verbose Model')
+plot_distribution(vanilla_human, 'Distribution of Human Eval Metrics - Vanilla Model')
+plot_distribution(thought_human, 'Distribution of Human Eval Metrics - Thought Model')
+
+plot_distribution(verbose_auto, 'Distribution of Auto Eval Metrics - Verbose Model')
+plot_distribution(vanilla_auto, 'Distribution of Auto Eval Metrics - Vanilla Model')
+plot_distribution(thought_auto, 'Distribution of Auto Eval Metrics - Thought Model')
+ """
