@@ -21,11 +21,15 @@ def read_human_eval(filename):
 
 def read_model_to_batch(filename):
     mapping = {}
+    current_model = None
     with open(filename, 'r') as file:
         for line in file:
             if '->' in line:
                 key, value = line.split('->')
-                mapping[int(key.strip())] = value.strip()
+                mapping[current_model][int(key.strip())] = value.strip()
+            elif line:
+                current_model = line.strip().split(':')[0]
+                mapping[current_model] = {}
     return mapping
 
 def read_batch_to_model(filename):
