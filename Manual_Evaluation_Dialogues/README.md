@@ -4,4 +4,6 @@ NOTE: The task completion evaluation (GSR metric) is based solely on the dialogu
 This is because the user-simulator may sometimes misinterpret or miss user goals from the initial instruction. 
 Therefore, the TOD model should be evaluated solely based on the dialogues.
 
-Also, I have added the results from the auto evaluation scripts.
+So, when evaluating the dialogues check only if the 'System:' was able to complete the 'User:'s queries 
+
+Also, I have added the results from the auto evaluation model (goal_completion_gpt4.log, goal_completion_gpt4_thought.log, goal_completion_gpt4_vanilla.log)
