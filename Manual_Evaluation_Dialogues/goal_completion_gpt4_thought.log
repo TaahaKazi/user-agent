@@ -1,0 +1,1698 @@
+1. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay in Cambridge. It should be a guesthouse with a 4-star rating and free wifi.
+tod_system: Sorry, there are no guesthouses with a 4-star rating and free wifi in Cambridge. Would you like to try a different star rating or location?
+user_agent: Okay, how about a 3-star guesthouse with free wifi in Cambridge?
+tod_system: I have found [choice] guesthouse in Cambridge that meets your criteria. [choice] is located in the [area] and offers free wifi. Would you like to book a room?
+user_agent: Yes, please book a room for me. Can I also get the postcode and phone number?
+tod_system: Your booking at [choice] is confirmed. Your reference number is [reference]. The postcode for [choice] is [postcode] and the phone number is [phone].
+user_agent: Thank you. Now, I also need some recommendations for places to go in town.
+tod_system: Sure, there are many great places to visit in Cambridge. Some popular options include the Cambridge University Botanic Garden, the Fitzwilliam Museum, and the King's College Chapel. Would you like me to provide more recommendations or make a reservation for you at [choice]?
+user_agent: Can you make a reservation for me at the Fitzwilliam Museum?
+tod_system: Your booking at [choice] is confirmed. Your reference number is [reference]. The postcode for [choice] is [postcode] and the phone number is [phone]. As for attractions, I would highly recommend visiting the Cambridge University Botanic Garden, the Fitzwilliam Museum, and the King's College Chapel. Would you like me to make a reservation for you at the Fitzwilliam Museum?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your booking at [choice] is confirmed. Your reference number is [reference]. The postcode for [choice] is [postcode] and the phone number is [phone]. As for attractions, I would highly recommend visiting the Cambridge University Botanic Garden, the Fitzwilliam Museum, and the King's College Chapel. Would you like me to make a reservation for you at the Fitzwilliam Museum?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It was able to provide information on the availability of guesthouses based on the user's criteria, make a booking for the user, provide the postcode and phone number of the booked guesthouse, recommend places to visit in Cambridge, and make a reservation for the user at one of the recommended places. However, there was a repetition in the system's responses towards the end of the conversation, but it did not affect the completion of the tasks.
+1
+2. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a hotel called Autumn House in Cambridge.
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: I need to book it for 3 people and 3 nights starting from Friday.
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+user_agent: Can you help me find a hotel that fits my criteria?
+tod_system: I'm sorry, there are no hotels matching your criteria. Would you like to search for a different hotel?
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete the tasks given to it. The user_agent asked for help in finding a hotel that fits their criteria, but the system repeatedly responded that there were no hotels matching the criteria without attempting to adjust the search or offer alternatives. The system did not show any effort to assist the user_agent in finding a suitable hotel.
+0
+3. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay with a 4-star rating and a cheap price range.
+tod_system: I have found several hotels that match your criteria. Would you like me to provide you with a list of available hotels in a specific area or price range?
+user_agent: I need a hotel with free parking included.
+tod_system: I have found [choice] hotels that match your criteria. Would you like me to provide you with a list of available hotels in a specific area or price range?
+user_agent: I want to book a hotel for 2 people and 5 nights starting from Tuesday.
+tod_system: I have found [choice] hotels that match your criteria. Would you like me to provide you with a list of available hotels in a specific area or price range?
+user_agent: Yes, please provide me with a list of available hotels in the specified area and price range.
+tod_system: The [name] is available for your requested dates. It is a [pricerange] [type] with a 4-star rating and free parking. Would you like me to book it for you?
+user_agent: Yes, please book it for me.
+tod_system: I have successfully booked a room for 2 people at [name] starting from Tuesday for 5 nights. Your reference number is [ref]. Can I assist you with anything else?
+user_agent: No, that's all. Thank you.
+tod_system: Thank you for choosing our service. Your booking was successful and your reference number is [ref]. Have a great stay!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It was able to find hotels based on the user's criteria, provide a list of available hotels, and successfully book a hotel for the user. The system also provided the user with a reference number for the booking and asked if the user needed assistance with anything else. The system was able to handle all the tasks given to it effectively and efficiently.
+1
+4. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to dine in Cambridge that serves gastropub food and is in the expensive price range.
+tod_system: The [pricerange] [food] restaurant [name] is located at [address], [postcode] and their phone number is [phone]. Would you like to book a table?
+user_agent: Yes, I would like to book a table for [number] people.
+tod_system: Sure, I have booked a table for [number] people at [name] on [bookday] at [booktime]. Your reference number is [ref].
+user_agent: Thank you. Now, I also need some places to go in town. Can you help me with that?
+tod_system: Sure, I can help you find some attractions in Cambridge. What type of attraction are you interested in? You can specify by name, area, or type.
+user_agent: I am interested in attractions in the west area.
+tod_system: There are many great attractions in the west area of Cambridge. Some popular options include the Cambridge and County Folk Museum, the Cambridge Book and Print Gallery, and Churchill College. Would you like more information on any of these attractions?
+user_agent: Yes, I would like more information on the Cambridge and County Folk Museum.
+tod_system: The Cambridge and County Folk Museum is a great choice for a museum in the west area. It is located at 2-3 Castle Street, CB3 0AQ and their phone number is 01223 355159. Would you like to book a table for [number] people?
+user_agent: No, I don't need to book a table. Thank you for the information.
+tod_system: You're welcome. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: You're welcome. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete most of the tasks given to it. It was able to provide a restaurant recommendation based on the user's preferences, book a table for the user, and suggest attractions in the specified area. However, the system made a mistake by asking the user if they wanted to book a table at the Cambridge and County Folk Museum, which is not a restaurant. This is a task that was not asked for and is not relevant to the user's request. The system also repeated the same closing statement twice, which is unnecessary and could be confusing for the user.
+0
+5. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in town, specifically colleges in the center.
+tod_system: There are a whopping 5 colleges in the centre of town. Would you like me to suggest one for you?
+user_agent: Yes, please suggest one for me.
+tod_system: I would recommend visiting [name], it is a beautiful college located on [address] and has a [pricerange] entrance fee.
+user_agent: Can you also give me the postcode for [name]?
+tod_system: [name] is located on [address] and has a [pricerange] entrance fee. The postcode for [name] is [postcode]. Can I help you with anything else today?
+user_agent: Yes, I also need to book a hotel. It's called Aylesbray Lodge Guest House.
+tod_system: Thank you for using the Cambridge TownInfo Centre. Your booking reference is 00000010. Have a great day!
+user_agent: I also need to book a taxi to commute between the two places.
+tod_system: What time do you want to leave by?
+user_agent: I need to leave by 15:30.
+tod_system: Sure, I can help you with that. The postcode for Aylesbray Lodge Guest House is CB17SR. Would you like me to book a taxi for you as well?
+user_agent: Yes, please book a taxi for me.
+tod_system: Thank you for using the Cambridge TownInfo Centre. Your booking reference is 00000010. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete most of the tasks given to it. It was able to suggest a college to the user, provide the postcode for the college, and also provide information about the entrance fee. The system was also able to book a hotel for the user and provide the postcode for the hotel. However, the system failed to complete the task of booking a taxi for the user. The user asked the system to book a taxi, but the system only asked for the time the user wanted to leave and did not confirm the booking of the taxi. Therefore, the system did not complete all the tasks given to it.
+0
+6. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need a train that goes to Stansted Airport from Cambridge on Tuesday and arrives by 14:30.
+tod_system: The train leaving Cambridge at 09:40 on Tuesday and arriving at Stansted Airport at 10:08 is available. The train id is TR8261. Would you like to book this train? If so, please provide the reference number 00001507.
+user_agent: Yes, please book this train for me.
+tod_system: Booking was successful, the total fee is 10.10 pounds payable at the station. Reference number is 00001507.
+user_agent: I also need a place to stay in the north with a 0 star rating that includes free parking.
+tod_system: The train leaving Cambridge at 09:40 on Tuesday and arriving at Stansted Airport at 10:08 is available. The train id is TR8261. Would you like to book this train? If so, please provide the reference number 00001507.
+user_agent: Yes, please book this hotel for me for 5 people and 4 nights starting from Friday.
+tod_system: Booking was successful, the total fee is 50.50 pounds payable at the station. Reference number is 00001507. I have found a hotel that meets your criteria. The City Centre North B and B is a 0 star guesthouse located in the north area with free parking. It is available for 5 people for 4 nights starting from Friday. Would you like me to book this hotel for you? If so, please provide the reference number 00000013.
+user_agent: Yes, please book this hotel for me.
+tod_system: Your train has been successfully booked. The total fee is 10.10 pounds payable at the station. Reference number is 00001507. Your hotel has also been successfully booked. The total fee is 50.50 pounds payable at the station. Reference number is 00000013. Enjoy your stay.
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to successfully complete all the tasks given to it. It was able to book a train from Cambridge to Stansted Airport on Tuesday that arrives by 14:30. The system also successfully booked a 0-star hotel in the north that includes free parking for 5 people for 4 nights starting from Friday. The system provided all the necessary information including the train id, reference numbers, and total fees for both the train and the hotel. Therefore, the system has demonstrated that it can handle multiple tasks and provide the necessary information to the user.
+1
+7. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need to find a train that leaves Cambridge on Saturday after 15:30 and goes to Stansted Airport.
+tod_system: I found 5 trains leaving Cambridge on Saturday after 15:30 and going to Stansted Airport. The earliest train leaves at 15:40 and arrives at 16:08. The latest train leaves at 19:40 and arrives at 20:08. Would you like to book a ticket for one of these trains? If so, please provide the reference number for the train you would like to book.
+user_agent: I need the price for the train ticket.
+tod_system: The price for the train ticket is [price]. Would you like to book a ticket for this train? If so, please provide the reference number [ref].
+user_agent: I also need to find a restaurant in the west that serves indian food.
+tod_system: There are five Indian restaurants in the west area. The restaurants are Tandoori Palace, Cocum, Rice Boat, Maharajah Tandoori Restaurant, and Meghna. If you would like to book a table at one of these restaurants, please provide the reference number for the restaurant you would like to book.
+user_agent: I want to book a table for one person at 10:15 today. If that's not available, then 9:15 is fine.
+tod_system: The price for the train ticket is 8.08 pounds. Would you like to book a ticket for this train? If so, please provide the reference number 00001583. There are five Indian restaurants in the west area. The restaurants are Tandoori Palace, Cocum, Rice Boat, Maharajah Tandoori Restaurant, and Meghna. If you would like to book a table at one of these restaurants, please provide the reference number 00000018 for Tandoori Palace.
+user_agent: Yes, I would like to book a ticket for the train and a table at Tandoori Palace.
+tod_system: Your train ticket has been successfully booked for the 10:08 train leaving Cambridge and arriving at Stansted Airport at 10:36. Your table at Tandoori Palace has also been successfully booked for 10:15. Your reference number for the train is 00001583 and your reference number for the restaurant is 00000018. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: Your train ticket has been successfully booked for the 10:08 train leaving Cambridge and arriving at Stansted Airport at 10:36. Your table at Tandoori Palace has also been successfully booked for 10:15. Your reference number for the train is 00001583 and your reference number for the restaurant is 00000018. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It found the train that leaves Cambridge on Saturday after 15:30 and goes to Stansted Airport, provided the price for the train ticket, found a restaurant in the west that serves Indian food, and booked a table for one person at the requested time. It also successfully booked the train ticket and provided the reference numbers for both the train and the restaurant. The system also asked if there was anything else it could assist with, indicating that it was ready to take on more tasks if needed.
+1
+8. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a restaurant in Cambridge that serves Russian food and is in the expensive price range. If there are no Russian food options, how about a British food restaurant?
+tod_system: Unfortunately, there aren't any [food] restaurants in that location. Would you like another type of food, or perhaps a different location?
+user_agent: How about a British food restaurant in the center?
+tod_system: There are [choice] British restaurants in the [area]. [choice] are [pricerange] and [choice] are [pricerange]. What is your preference, please?
+user_agent: I would like an expensive British food restaurant in the center.
+tod_system: I have found [choice] restaurants. One is [name], and the other is [name], would you like me to book one for you?
+user_agent: I also need a place to stay. The hotel should be in the same price range as the restaurant and should include free parking. It should also have a star rating of 4.
+tod_system: I have found [choice] restaurants. One is [name], and the other is [name], would you like me to book one for you? Also, I have found [choice] hotels in the [area] that match your criteria. One is [name], and the other is [name]. Would you like me to book one for you?
+user_agent: Yes, please book [hotel name] for 4 people and 5 nights starting from Sunday. Can I also get the reference number?
+tod_system: I have booked [restaurant name] for you. Your reference number is [reference]. I have also booked [hotel name] for 4 people and 5 nights starting from Sunday. Your reference number is [reference].
+user_agent: Thank you, that's all I need.
+tod_system: Thank you for using our services. Your reference number for the restaurant is [reference] and your reference number for the hotel is [reference]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It was able to provide alternatives when the initial request for a Russian restaurant was not available. It also provided options for British restaurants and hotels based on the user's preferences. The system was able to book both a restaurant and a hotel, and provided reference numbers for both bookings. The system also offered further assistance at the end of the conversation.
+1
+9. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a restaurant in the center with an expensive price range.
+tod_system: There are 5 entries that meet your request. Is there a type of food you are looking for?
+user_agent: I need the address, food type, and postcode.
+tod_system: How about [name], they serve [food] and are located at [address], [postcode]. Their phone number is [phone].
+user_agent: That sounds good. Can you make a reservation for me?
+tod_system: Certainly. The phone number for [name] is [phone], the postcode is [postcode], and the address is [address]. May I assist you with anything else today?
+user_agent: No, that's all for now. Thank you.
+tod_system: You are welcome! The phone number for [name] is [phone], the postcode is [postcode], and the address is [address]. May I assist you with anything else today?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to provide the user_agent with a restaurant that fits the requested criteria, including the address, food type, and postcode. The system also offered to make a reservation for the user_agent. However, the system repeated the same information twice at the end of the conversation, which was not requested by the user_agent. This repetition does not necessarily mean that the system did not complete all the tasks, but it does indicate a slight error in the system's responses. Despite this, the system was able to complete all the tasks given to it by the user_agent.
+1
+10. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a restaurant in the center that serves steakhouse food in the moderate price range.
+tod_system: I'm sorry, there are no restaurants in our database that match your criteria. Would you like me to search for a different type of food or price range?
+user_agent: How about a restaurant that serves Spanish food?
+tod_system: I have found 1 restaurant that serves Spanish food in the moderate price range in the center of town. The restaurant is called La Tasca and is located at 14-16 Bridge Street. Their phone number is 01223464630 and their postcode is cb21uf. Would you like me to make a booking for you?
+user_agent: Yes, please make a booking for me.
+tod_system: Your booking has been successfully made at [name]. Your reference number is [reference]. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: Thank you for using Cambridge TownInfo centre! Your booking at La Tasca has been successfully made. Your reference number is 3J4K5L6M. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It initially searched for a steakhouse restaurant in the moderate price range in the center, but couldn't find any. When the user changed the criteria to a Spanish restaurant, the system found one and provided all the necessary details. The system then made a booking for the user as requested and provided a reference number. The system also confirmed the booking and provided the reference number again at the end of the conversation.
+1
+11. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a local place in Cambridge to dine in the west that serves British food.
+tod_system: There are [choice] restaurants in the [area] that serve [food] food ranging from [pricerange] to [pricerange]. Is there a particular price range you are looking for?
+user_agent: I need the postcode, price range, and phone number.
+tod_system: There are [choice] restaurants in the [area] that serve [food] food ranging from [pricerange] to [pricerange]. I would recommend [name]. The postcode is [postcode], the price range is [pricerange], and the phone number is [phone]. Would you like a reservation?
+user_agent: Yes, I would like a reservation.
+tod_system: The restaurant I would recommend is Saint Johns Chop House. Their postcode is [postcode], their price range is [pricerange], and their phone number is [phone]. Your reservation has been successfully booked with the reference number [ref]. Is there anything else I can help you with?
+user_agent: I also need a train. The train should depart from Birmingham New Street and arrive by 21:45 on Saturday.
+tod_system: I have [choice] trains available on [day]. The train arrives at [arriveby] and the trip will take [duration]. Would you like to book a ticket?
+user_agent: Yes, I would like to book a ticket.
+tod_system: There are [choice] trains available on [day]. The train arrives at [arriveby] and the trip will take [duration]. Would you like to book a ticket?
+user_agent: Yes, please book a ticket for 4 people and provide the reference number.
+tod_system: Your booking was successful. You will owe [price] at the station and your reference number is: [ref] . Can I assist you with anything else?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your booking was successful. You will owe 60.08 pounds at the station and your reference number is: 00002244 . Can I assist you with anything else?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has not completed all the tasks given to it. The system was asked to provide specific information such as the postcode, price range, and phone number of a restaurant, and details about a train journey. However, the system repeatedly used placeholder values like [postcode], [pricerange], [phone], [choice], [day], [arriveby], [duration], and [ref] instead of providing the actual information. The system also repeated some responses verbatim without providing the requested information. Therefore, the system did not fulfill the tasks given to it.
+0
+12. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a particular attraction called Magdalene College in Cambridge.
+tod_system: I'm sorry, I couldn't find any information on Magdalene College in Cambridge. Would you like me to search for a different attraction?
+user_agent: No, that's okay. Can you help me find a train instead?
+tod_system: Sure, I can help you find a train to Magdalene College in Cambridge. Can you please specify the time of departure or arrival?
+user_agent: I need the train to depart from Bishops Stortford and arrive in Cambridge on Sunday after 21:45.
+tod_system: I found [choice] trains departing from Bishops Stortford and arriving in Cambridge on Sunday after 21:45. Would you like to book a ticket for one of these trains? If so, please provide the [reference] number for the train you would like to book.
+user_agent: Yes, I would like to book a ticket for one of those trains. Can you give me the price and arrival time for each option?
+tod_system: The trains departing from Bishops Stortford and arriving in Cambridge on Sunday after 21:45 are [trainid1], [trainid2], [trainid3], [trainid4], and [trainid5]. The prices for these trains are [price1], [price2], [price3], [price4], and [price5], respectively. The arrival times are [arriveby1], [arriveby2], [arriveby3], [arriveby4], and [arriveby5], respectively. If you would like to book a ticket, please provide the [reference] number for the train you would like to book.
+user_agent: I would like to book a ticket for train [trainid3]. Can you give me the reference number?
+tod_system: The train [trainid3] departing from Bishops Stortford and arriving in Cambridge on Sunday after 21:45 has a price of [price3] and an arrival time of [arriveby3]. If you would like to book a ticket, please provide the [reference] number for the train.
+user_agent: Yes, I would like to book a ticket for train [trainid3]. Can you give me the reference number?
+tod_system: The reference number for train [trainid3] is [ref]. Would you like to book a ticket for this train?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. The user initially asked for information about Magdalene College in Cambridge, which the system was unable to provide. However, when the user changed the task to finding a train, the system was able to successfully assist. It provided options for trains departing from Bishops Stortford and arriving in Cambridge on Sunday after 21:45, gave the price and arrival time for each option, and provided the reference number for the chosen train. The system was able to adapt to the change in task and provide the necessary information, thus completing all tasks given to it.
+1
+13. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in town. I want to visit a college and have a gastropub meal in the center.
+tod_system: There are [choice] [type] to visit in the [area]. Would you like a list of them and locations?
+user_agent: Yes, please. Also, I need the entrance fee for each option.
+tod_system: There are 5 colleges in the centre. Would you like me to list them for you? The entrance fees are: [name] - free, [name] - 2 pounds, [name] - free, [name] - free, [name] - free.
+user_agent: Thank you. Now, I need a restaurant. It should be a gastropub and in the expensive price range.
+tod_system: There are 5 colleges in the centre. Would you like me to list them for you? The entrance fees are: Christ's College - free, Corpus Christi - 2 pounds, Downing College - free, Emmanuel College - free, Gonville and Caius College - free. There are 2 gastropubs in the centre that are in the expensive price range. Would you like me to list them for you? The options are: Backstreet Bistro and The Slug and Lettuce.
+user_agent: Yes, please. I need to book a table for 7 people at 14:45 on Thursday.
+tod_system: Yes, [name] has an opening for [bookpeople] people at [booktime] on [bookday].
+user_agent: Yes, please book it for me and get me the reference number.
+tod_system: Sure, I have booked a table for [bookpeople] people at [booktime] on [bookday] at [name]. Your reference number is: [ref]. Is there anything else I can assist you with?
+user_agent: Yes, I also need a taxi to commute between the two places. I want to make sure it arrives at the restaurant by the booked time.
+tod_system: I have booked a table for 7 people at 14:45 on Thursday at Backstreet Bistro. Your reference number is: 00000017. Would you like me to book a taxi for you as well?
+user_agent: Yes, please. Can you also get me the contact number and car type?
+tod_system: Of course! The colleges in the centre are: Christ's College, Corpus Christi, Downing College, Emmanuel College, and Gonville and Caius College. The entrance fees are: Christ's College - free, Corpus Christi - 2 pounds, Downing College - free, Emmanuel College - free, Gonville and Caius College - free. The gastropubs in the centre that are in the expensive price range are: Backstreet Bistro and The Slug and Lettuce. I have booked a table for 7 people at 14:45 on Thursday at Backstreet Bistro. Your reference number is: 00000017. Would you like me to book a taxi for you as well?
+user_agent: No, that's all for now. Thank you.
+tod_system: There are 5 colleges in the centre. Would you like me to list them for you? The entrance fees are: Christ's College - free, Corpus Christi - 2 pounds, Downing College - free, Emmanuel College - free, Gonville and Caius College - free. There are 2 gastropubs in the centre that are in the expensive price range. Would you like me to list them for you? The options are: Backstreet Bistro and The Slug and Lettuce. Yes, I have booked a table for 7 people at 14:45 on Thursday at Backstreet Bistro. Your reference number is: 00000017. Would you like me to book a taxi for you as well?
+user_agent: <REPETITION>
+tod_system: There are 5 colleges in the centre. Would you like me to list them for you? The entrance fees are: Christ's College - free, Corpus Christi - 2 pounds, Downing College - free, Emmanuel College - free, Gonville and Caius College - free. There are 2 gastropubs in the centre that are in the expensive price range. Would you like me to list them for you? The options are: Backstreet Bistro and The Slug and Lettuce. Yes, I have booked a table for 7 people at 14:45 on Thursday at Backstreet Bistro. Your reference number is: 00000017. Would you like me to book a taxi for you as well? There is a yellow Honda taxi available for you to commute between the two places. The contact number is: 24252169762.
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete most of the tasks given to it. It provided a list of colleges and their entrance fees, suggested gastropubs in the expensive price range, and made a reservation for 7 people at the requested time. However, the system failed to complete the task of booking a taxi for the user-agent. Although it asked if the user-agent wanted a taxi booked, it did not confirm the booking or provide the requested information about the car type and contact number until the very end of the conversation. This is a significant omission, as the user-agent specifically requested this service. Therefore, the system did not fully meet the criteria of completing all tasks given to it.
+0
+14. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a particular attraction in Cambridge called All Saints Church. Can you help me find it?
+tod_system: Sure thing! All Saints Church is located at Jesus Lane in postcode CB58BS. The entrance is free. Is there anything else I can help you with?
+user_agent: Yes, I also need a restaurant in the centre with an expensive price range.
+tod_system: I have found a few restaurants in the centre with an expensive price range. Would you like me to provide you with their names and contact information?
+user_agent: Yes, please. Can you give me the phone number, postcode, and address for each restaurant?
+tod_system: The phone number for Curry Garden is [phone], the post code is [postcode], and the address is [address]. The phone number for Stazione Restaurant and Coffee Bar is [phone], the post code is [postcode], and the address is [address]. The phone number for Eraina is [phone], the post code is [postcode], and the address is [address]. The phone number for Backstreet Bistro is [phone], the post code is [postcode], and the address is [address]. The phone number for Darrys Cookhouse and Wine Shop is [phone], the post code is [postcode], and the address is [address]. Is there anything else I can help you with?
+user_agent: No, that's all I need. Thank you.
+tod_system: The phone number for Curry Garden is 01223302330, the post code is CB21DP, and the address is 106 Regent Street City Centre. The phone number for Stazione Restaurant and Coffee Bar is 01223352607, the post code is CB23NJ, and the address is Market Hill City Centre. The phone number for Eraina is 01223368786, the post code is CB23RH, and the address is Free School Lane City Centre. The phone number for Backstreet Bistro is 01223306306, the post code is CB12QA, and the address is 2 Sturton Street City Centre. The phone number for Darrys Cookhouse and Wine Shop is 01223505015, the post code is CB11LN, and the address is 40270 King Street City Centre. Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It provided the location of All Saints Church in Cambridge as requested by the user. It also found several restaurants in the centre with an expensive price range and provided the phone number, postcode, and address for each restaurant as requested by the user. The system also correctly used placeholder values for the phone number, postcode, and address of each restaurant. The system also correctly ended the conversation when the user indicated they had all the information they needed.
+1
+15. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm planning my trip in Cambridge and I need some recommendations for places to go in town.
+tod_system: There are many great places to visit in Cambridge. Some popular attractions in the town area include the [name], [name], and [name]. Would you like more information on any of these attractions?
+user_agent: I'm looking for a college to visit. Can you give me more information on that?
+tod_system: There are several colleges in the town area, including [name], [name], and [name]. Would you like more information on any of these colleges?
+user_agent: Can you give me the area, entrance fee, and postcode for [name] college?
+tod_system: The [name] college is located in the [area] and has an entrance fee of [entrancefee]. The postcode for this college is [postcode]. Would you like more information on this college?
+user_agent: I also need a place to stay. Can you recommend a hotel in the expensive price range with free wifi?
+tod_system: The [name] college is located in the [area] and has an entrance fee of [entrancefee]. The postcode for this college is [postcode]. Would you like me to book a room for you at one of the [pricerange] hotels with free wifi?
+user_agent: Yes, please book a room for 5 people and 3 nights starting from Saturday.
+tod_system: Yes, I have successfully booked a room for 5 people at the [name] hotel for 3 nights starting from Saturday. Your reference number is [ref]. Would you like me to provide the address, phone number, or postcode for this hotel?
+user_agent: I also need a taxi to commute between the attraction and the hotel. Can you help me with that?
+tod_system: I have successfully booked a room for 5 people at the [name] hotel for 3 nights starting from Saturday. Your reference number is [ref]. Would you like me to provide the address, phone number, or postcode for this hotel?
+user_agent: Yes, please provide the contact number and car type for the taxi.
+tod_system: Of course! The [name] college is located in the [area] and has an entrance fee of [entrancefee]. The postcode for this college is [postcode]. Would you like me to book a room for you at one of the [pricerange] hotels with free wifi?
+user_agent: No, that's all I need. Thank you.
+tod_system: Yes, I have successfully booked a room for 5 people at the [name] hotel for 3 nights starting from Saturday. Your reference number is [ref]. Would you like me to provide the address, phone number, or postcode for this hotel?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete all the tasks given to it. The user_agent asked for a taxi to commute between the attraction and the hotel, but the system did not provide any information or booking confirmation for the taxi. Also, when the user_agent asked for the contact number and car type for the taxi, the system repeated the information about the college and hotel booking, which is not relevant to the user_agent's request. Therefore, the system failed to complete all the tasks given to it.
+0
+16. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a particular restaurant called Pizza Express in Cambridge. And I also need a train to Norwich on Sunday.
+tod_system: I found a train leaving Norwich at 09:16 and arriving in Cambridge at 10:35 on Sunday. The train ID is TR0996 and the price is 14.08 pounds. Would you like to book this train?
+user_agent: Yes, please book the train for me. And I also need to book a table for 2 people at Pizza Express at 18:00 on Saturday.
+tod_system: The train has been successfully booked. Your reference number is 00000797. I have also booked a table for 2 people at Pizza Express at 18:00 on Saturday. Your reference number is 00000012.
+user_agent: Thank you for your help.
+tod_system: You are welcome. I hope you enjoy your meal at Pizza Express and have a pleasant journey to Norwich.
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It found a train from Norwich to Cambridge on Sunday and booked it upon the user's request. It also booked a table for 2 people at Pizza Express at 18:00 on Saturday as per the user's request. The system provided reference numbers for both bookings, ensuring the tasks were completed.
+1
+17. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a cheap place in Cambridge to dine in the centre.
+tod_system: I have a [food] place and a [food], which would you prefer?
+user_agent: I would like a place in the centre.
+tod_system: I have a Italian place and a Chinese, which would you prefer?
+user_agent: I would like a Chinese place in the centre.
+tod_system: [name] is in the [area] their address is [address].
+user_agent: I would like to book a table for 2 people at 13:45 on Wednesday.
+tod_system: [name] is in the [area] their address is [address]. The reference for your booking is [ref].
+user_agent: If the booking fails, how about 12:45?
+tod_system: I have found [name] in the [area] area. Their address is [address]. Would you like me to make a reservation for 2 people at 13:45 on Wednesday? The reference for your booking is [ref]. If the booking fails, how about 12:45?
+user_agent: I would also like to find a place to stay in the same area as the restaurant.
+tod_system: I have found charlie chan in the centre area. Their address is Regent Street City Centre. Would you like me to make a reservation for 2 people at 13:45 on Wednesday? The reference for your booking is 00000010. If the booking fails, how about 12:45? I have also found a few hotels in the same area. Would you like me to provide you with their information?
+user_agent: Yes, please provide me with the hotel information.
+tod_system: Sure. The hotel information is as follows: Charlie Chan is located at [address], post code [postcode]. The phone number is 01223361763. Rice House is located at [address], post code [postcode]. The phone number is 01223367755. Golden House is located at [address], post code [postcode]. The phone number is 01842753771. Can I be of further help?
+user_agent: I would like to book a hotel for the same group of people and 4 nights starting from the same day.
+tod_system: You are booked for [bookstay] nights starting [bookday] for [bookpeople] people. The reference number is [ref] . May I help you with anything else? I have found Charlie Chan in the centre area. Their address is Regent Street City Centre. Would you like me to make a reservation for 2 people at 13:45 on Wednesday? The reference for your booking is 00000010. If the booking fails, how about 12:45? I have also found a few hotels in the same area. Would you like me to provide you with their information? Sure. The hotel information is as follows: Charlie Chan is located at [address], post code [postcode]. The phone number is 01223361763. Rice House is located at [address], post code [postcode]. The phone number is 01223367755. Golden House is located at [address], post code [postcode]. The phone number is 01842753771. Can I be of further help?
+user_agent: If the booking fails, how about 1 night?
+tod_system: You are booked for 4 nights starting Wednesday for 2 people. The reference number is 11SD75ME . May I help you with anything else? I have found Charlie Chan in the centre area. Their address is Regent Street City Centre. Would you like me to make a reservation for 2 people at 13:45 on Wednesday? The reference for your booking is 00000010. If the booking fails, how about 12:45? I have also found a few hotels in the same area. Would you like me to provide you with their information? Sure. The hotel information is as follows: Charlie Chan is located at [address], post code [postcode]. The phone number is 01223361763. Rice House is located at [address], post code [postcode]. The phone number is 01223367755. Golden House is located at [address], post code [postcode]. The phone number is 01842753771. Can I be of further help?
+user_agent: No, that's all. Thank you.
+tod_system: You are booked for 4 nights starting Wednesday for 2 people. The reference number is 11SD75ME . May I help you with anything else? I have found Charlie Chan in the centre area. Their address is Regent Street City Centre. Would you like me to make a reservation for 2 people at 13:45 on Wednesday? The reference for your booking is 00000010. If the booking fails, how about 12:45? I have also found a few hotels in the same area. Would you like me to provide you with their information? Sure. The hotel information is as follows: Charlie Chan is located at [address], post code [postcode]. The phone number is 01223361763. Rice House is located at [address], post code [postcode]. The phone number is 01223367755. Golden House is located at [address], post code [postcode]. The phone number is 01842753771. Can I be of further help?
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided options for dining places, made a reservation for the user, provided alternatives in case the booking fails, found a place to stay in the same area as the restaurant, provided hotel information, and made a hotel booking for the user. However, the system seems to be repeating the same information in its responses, which is unnecessary and could be confusing for the user. Despite this, it still managed to complete all the tasks given to it.
+1
+18. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need information about a train leaving Cambridge on Wednesday after 09:15.
+tod_system: I have several trains leaving from [departure] on [day] after [leaveat]. The first one arrives at [arriveby] and the last one arrives at [arriveby]. Would you like to book a ticket for one of these trains? If so, please provide the [reference] number for the train you would like to book.
+user_agent: I also need to know the arrival time.
+tod_system: There are [num] trains leaving from [departure] on [day] after [leaveat]. The first one arrives at [arriveby] and the last one arrives at [arriveby]. Would you like to book a ticket for one of these trains? If so, please provide the [reference] number for the train you would like to book.
+user_agent: I need to go to London Liverpool Street.
+tod_system: There are 5 trains leaving from [departure] on [day] after [leaveat]. The first one arrives at [arriveby] and the last one arrives at [arriveby]. Would you like to book a ticket for one of these trains? If so, please provide the [reference] number for the train you would like to book.
+user_agent: I also want to know about places to go in the centre for entertainment.
+tod_system: There are 5 trains leaving from [departure] on [day] after [leaveat]. The first one arrives at [arriveby] and the last one arrives at [arriveby]. Would you like to book a ticket for one of these trains? If so, please provide the [reference] number for the train you would like to book. As for entertainment, there are many options in the center of London, such as theaters, museums, and restaurants. Would you like me to provide specific recommendations based on your interests?
+user_agent: Yes, I am interested in visiting a college as well.
+tod_system: The train leaving from [departure] on [day] after [leaveat] and arriving at [arriveby] is [trainid]. Would you like to book a ticket for this train? If so, please provide the [reference] number [ref]. As for entertainment, there are many options in the center of London, such as theaters, museums, and restaurants. Would you like me to provide specific recommendations based on your interests? As for colleges, there are several options in the center of London, such as [name], [name], [name], [name], and [name]. Would you like me to provide more information about any of these colleges?
+user_agent: Yes, please provide more information about [name].
+tod_system: The train leaving from [departure] on [day] after [leaveat] and arriving at [arriveby] is [trainid]. Would you like to book a ticket for this train? If so, please provide the [reference] number [ref]. As for entertainment, there are many options in the center of London, such as theaters, museums, and restaurants. Would you like me to provide specific recommendations based on your interests? As for colleges, there are several options in the center of London, such as [name], [name], [name], [name], and [name]. Would you like me to provide more information about any of these colleges? [name] is located at [address], their phone number is [phone], and their postcode is [postcode]. Would you like me to provide more information about any other colleges?
+user_agent: No, that's all the information I need. Thank you.
+tod_system: The train leaving from Cambridge on Wednesday after 09:15 and arriving at 11:27 is TR5874. Would you like to book a ticket for this train? If so, please provide the reference number 00000162. As for entertainment, there are many options in the center of London, such as theaters, museums, and restaurants. Would you like me to provide specific recommendations based on your interests? As for colleges, there are several options in the center of London, such as Christ's College, Corpus Christi, Downing College, Emmanuel College, and Gonville and Caius College. Would you like me to provide more information about any of these colleges? Christ's College is located at Saint Andrew's Street, their phone number is 01223334900, and their postcode is CB2 3BU. Would you like me to provide more information about any other colleges?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was tasked with providing information about a train leaving Cambridge on Wednesday after 09:15, its arrival time, the destination (London Liverpool Street), places for entertainment in the centre, and information about a specific college. The system was able to provide all the requested information, including the train details, entertainment options, and college information. However, the system repeatedly used placeholder values in its responses, which made the conversation confusing and less informative. Despite this, the system did complete all the tasks given to it.
+1
+19. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a restaurant in Cambridge called Meghna.
+tod_system: Meghna is located at 205 Victoria Road Chesterton. Can I help you with anything else?
+user_agent: I need to book a table for 4 people at 17:30 on Wednesday.
+tod_system: Your booking for 4 people at [name] on [bookday] at [booktime] has been successfully made. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: I also need a train. The train should go to Cambridge and should arrive by 11:00 on the same day as the restaurant booking.
+tod_system: Your booking for 4 people at [name] on [bookday] at [booktime] has been successfully made. Your reference number is [ref]. The train [trainid] will arrive at [arriveby] on [day]. Can I do anything else for you?
+user_agent: No, that's all. Thank you.
+tod_system: Your booking for 4 people at Meghna on Wednesday at 17:30 has been successfully made. Your reference number is 00000069. The train TR3810 will arrive at 11:00 on Wednesday. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided the location of the restaurant Meghna, made a booking for 4 people at the requested time, and also booked a train that arrives at the desired time. The system also confirmed the bookings and provided a reference number.
+1
+20. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a guesthouse in the east with a 4-star rating and free wifi.
+tod_system: We have [choice] guesthouses in the [area] area with a [stars] star rating and free WiFi. Would you like me to book one of these for you?
+user_agent: Yes, please. Can you also make sure it includes free wifi?
+tod_system: The [name] is a [stars] star [type] in the [area] area with free WiFi. Would you like me to book a room for you?
+user_agent: Yes, please book a room for 2 people for 4 nights starting from Monday.
+tod_system: I am sorry, there are no guesthouses in the east area with a 4-star rating and free wifi. Can I help you find another place to stay?
+user_agent: No, that's okay. Can you find a hotel with a 3-star rating and free wifi in the east?
+tod_system: I have [choice] hotels in the [area] area with a [stars] star rating and free WiFi. Would you like me to book one of these for you?
+user_agent: Yes, please. Can you also make sure it includes free wifi?
+tod_system: The [name] is a [stars] star [type] in the [area] area with free WiFi. Would you like me to book a room for you?
+user_agent: Yes, please book a room for 2 people for 4 nights starting from Monday.
+tod_system: I found [choice] hotels in the east area with a 3-star rating and free WiFi. Would you like me to book one of these for you?
+user_agent: Yes, please book a room for 2 people for 4 nights starting from Monday.
+tod_system: I am sorry, there are no [stars] star [type] in the [area] area with free WiFi. Can I help you find another place to stay?
+user_agent: No, that's okay. Can you find a hotel with a 3-star rating and free wifi in the east?
+tod_system: I have [choice] hotels in the east area with a 3-star rating and free WiFi. Would you like me to book one of these for you?
+user_agent: Yes, please. Can you also make sure it includes free wifi?
+tod_system: The [name] is a [stars] star [type] in the [area] area with free WiFi. Would you like me to book a room for 2 people for 4 nights starting from monday?
+user_agent: Yes, please book a room for 2 people for 4 nights starting from Monday.
+tod_system: I am sorry, there are no 3-star hotels in the east area with free wifi. Can I help you find another place to stay?
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete all the tasks given to it. The user_agent asked the system to book a guesthouse and then a hotel, both with specific requirements. The system initially responded positively, indicating that it had found options that met the user_agent's criteria. However, it then contradicted itself by stating that there were no options available that met the user_agent's requirements. This inconsistency indicates that the system did not successfully complete the task of booking a guesthouse or a hotel as requested by the user_agent.
+0
+21. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay in Cambridge's south area with a 4-star rating.
+tod_system: [choice], the [name] is available.
+user_agent: I need to know the price range and the reference number.
+tod_system: [choice], the [name] is available. The price range is moderate and the reference number is [reference].
+user_agent: I also need a train. The train should leave after 20:15 and should leave on sunday.
+tod_system: The Cambridge Belfry is available for your stay. The price range is moderate and the reference number is [reference]. As for the train, the TR8799 leaves at 11:00 and arrives by 11:51. Would you like to book this train?
+user_agent: Yes, please book the train for the same group of people.
+tod_system: The Cambridge Belfry is available for your stay. The price range is moderate and the reference number is [reference]. As for the train, the TR8799 leaves at 11:00 and arrives by 11:51. Would you like to book this train for the same group of people?
+user_agent: Yes, please book the train for the same group of people.
+tod_system: The Cambridge Belfry is available for your stay. The price range is moderate and the reference number is [reference]. As for the train, the TR8799 leaves at 11:00 and arrives by 11:51. Would you like to book this train for the same group of people?
+user_agent: No, that's all I need. Thank you.
+tod_system: The Cambridge Belfry is available for your stay. The price range is moderate and the reference number is [reference]. As for the train, the TR8799 leaves at 11:00 and arrives by 11:51. Would you like to book this train for the same group of people?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete all the tasks given to it. The user_agent asked for a place to stay in Cambridge's south area with a 4-star rating, the system provided a place but did not specify if it was in the south area or if it had a 4-star rating. The user_agent also asked for a train that leaves after 20:15 on Sunday, but the system provided a train that leaves at 11:00, which does not meet the user_agent's requirements. Furthermore, the system did not confirm the booking of the train for the same group of people as requested by the user_agent.
+0
+22. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay in Cambridge that includes free parking and free wifi. I prefer a guesthouse in the expensive price range, but if there isn't one, a moderate priced hotel will do.
+tod_system: I'm sorry, there are no guesthouses in the expensive price range that include free parking and wifi. However, there is a moderately priced hotel called [name] that fits your requirements. It is located in Cambridge and has free parking and wifi. Would you like to book a room?
+user_agent: Yes, I would like to book a room for 6 people and 3 nights starting from Monday.
+tod_system: I have successfully booked a room for 6 people at the Ashley Hotel, located at 74 Chesterton Road, Cambridge. The reference number is [ref]. Is there anything else I can assist you with?
+user_agent: Yes, I also need information about a particular attraction called Saint Catharine's College.
+tod_system: Saint Catharine's College is a beautiful attraction located in the heart of Cambridge. It is a short distance from the Ashley Hotel, and I can provide you with directions if needed. Is there anything else I can assist you with?
+user_agent: Yes, I also need to book a taxi to commute between the hotel and the attraction.
+tod_system: I can help you book a taxi from the Ashley Hotel to Saint Catharine's College. The taxi is a yellow Tesla and the phone number is 65517511854. Would you like me to book it for you?
+user_agent: Yes, that's all I need. Thank you.
+tod_system: You're all set! I have booked a room for 6 people at the Ashley Hotel for 3 nights starting from Monday. The reference number is [ref]. I have also booked a yellow Tesla taxi to take you from the hotel to Saint Catharine's College. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It found a suitable accommodation for the user in Cambridge, provided information about Saint Catharine's College, and also arranged for a taxi for the user. The system was able to handle all the user's requests efficiently and provided all the necessary information.
+1
+23. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to dine in Cambridge that serves indian food and is in the expensive price range in the east.
+tod_system: We have [choice] [food] restaurants in the [area], with prices ranging from [pricerange]. Do you have a preference?
+user_agent: I need a restaurant that can accommodate 3 people at 14:00 on Wednesday.
+tod_system: There are [choice] Indian restaurants in the east that fit your criteria. Would you like to book a table at [name] or [name2] for 3 people at 14:00 on Wednesday?
+user_agent: I want to book a table at [name] for 3 people at 14:00 on Wednesday.
+tod_system: Booking was successful, table will be reserved for 15 mins. Reference number is : [ref] . Anything else?
+user_agent: No, that's all. Thank you.
+tod_system: You are welcome.
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It provided options for Indian restaurants in the specified area and price range, accommodated the user's request for a reservation for 3 people at a specific time, and successfully booked the table. The system also appropriately ended the conversation when the user indicated they were finished.
+1
+24. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay in Cambridge that has free wifi and is in the moderate price range.
+tod_system: Sure, there are a few options for you. [ashley hotel], [74 chesterton road], [01223350059] or [cb41er] is a 2-star hotel with free wifi and parking. [cityroomz], [sleeperz hotel, station road], [01223304050] or [cb12tz] is a budget hotel with free wifi but no parking. [lovell lodge], [365 milton road], [01223425478] or [cb41sr] is another 2-star hotel with free wifi and parking. Can I book a room for you?
+user_agent: I need a hotel with a 3-star rating.
+tod_system: [cityroomz], [sleeperz hotel, station road], [01223304050] or [cb12tz] is a budget hotel with free wifi but no parking. Would you like to book a room?
+user_agent: Yes, I would like to book a room for 6 people and 4 nights starting from Sunday.
+tod_system: I'm sorry, but I was unable to book a room for you at [cityroomz]. Would you like to try a different hotel or change your booking details?
+user_agent: Can you book a room for 6 people and 4 nights starting from Sunday at [ashley hotel]?
+tod_system: I'm sorry, but I was unable to book a room for you at [ashley hotel]. Would you like to try a different hotel or change your booking details?
+user_agent: Can you book a room for 6 people and 4 nights starting from Sunday at [lovell lodge]?
+tod_system: Yes, I was able to book a room for 6 people at [lovell lodge] starting from Sunday for 4 nights. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: Yes, I also need information on places to go in town.
+tod_system: Your booking is confirmed. 6 people arriving on Sunday and staying for 4 nights at [lovell lodge]. Your reference number is [ref]. As for places to go in town, there are many options such as the Cambridge University Botanic Garden, the Fitzwilliam Museum, and the King's College Chapel. Would you like me to provide more information or make any reservations for you?
+user_agent: Can you provide me with the address for the Fitzwilliam Museum?
+tod_system: The Fitzwilliam Museum is located at [address] in the centre of town. Would you like me to make a reservation for you or provide information on any other attractions?
+user_agent: No, that's all I need. Thank you.
+tod_system: Your booking is confirmed. 6 people arriving on Sunday and staying for 4 nights at [lovell lodge]. Your reference number is [ref]. As for places to go in town, there are many options such as the Cambridge University Botanic Garden, the Fitzwilliam Museum, and the King's College Chapel. The Fitzwilliam Museum is located at [address] in the centre of town. Would you like me to make a reservation for you or provide information on any other attractions?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided the user with hotel options based on the user's preferences, attempted to book a room at the user's chosen hotel, and when that was unsuccessful, it was able to successfully book a room at another hotel. The system also provided information on places to visit in town and gave the address of a specific location when asked. The system was able to handle all the tasks and requests made by the user, thus completing all the tasks given to it.
+1
+25. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in Cambridge that have a swimming pool in the north.
+tod_system: There are two [type] to go to in the [area]. Would you rather go to [name] or [name]?
+user_agent: I need the address for the swimming pool.
+tod_system: The [name] is located at [address]. Is there anything else I can help you with today?
+user_agent: I also need a place to stay. It should be an expensive hotel with a 4-star rating and free parking.
+tod_system: We have [choice] choices for swimming pools in the [area]. Would you rather go to [name] or [name]? The [name] is located at [address]. As for hotels, we have [choice] options that match your preferences. Would you like to stay at [hotel_name] or [hotel_name]?
+user_agent: I want to book [hotel_name] for 5 people and 2 nights starting from Monday.
+tod_system: The [name] is located at [address]. As for hotels, we have [choice] options that match your preferences. Would you like to stay at [hotel_name] or [hotel_name]? Your booking reference is [reference]. Is there anything else I can help you with today?
+user_agent: I also need to book a taxi to commute between the two places. I want to leave the hotel by 14:00.
+tod_system: I have booked [hotel_name] for 5 people and 2 nights starting from Monday. Your booking reference is [reference]. As for taxis, I can help you book one to commute between the two places. Would you like me to book a taxi for you?
+user_agent: Yes, please book a taxi for me.
+tod_system: Your booking for [hotel_name] has been confirmed for 5 people and 2 nights starting from Monday. Your booking reference is [reference]. As for taxis, I have booked one for you to commute between the two places. The taxi is a [type] and the contact number is [phone]. Is there anything else I can help you with today?
+user_agent: No, that's all. Thank you.
+tod_system: Okay, your booking for [hotel_name] has been confirmed for 5 people and 2 nights starting from Monday. Your booking reference is [reference]. As for taxis, I have booked one for you to commute between the two places. The taxi is a [type] and the contact number is [phone]. Is there anything else I can help you with today?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided options for places with swimming pools, gave the address of the chosen place, provided options for hotels, confirmed the hotel booking, and also booked a taxi as per the user's request. However, the system's responses were not specific and contained placeholder values like [name], [address], [choice], [hotel_name], [reference], [type], and [phone] instead of actual information. But as the task was to evaluate whether the system completed all tasks or not, the placeholders do not affect the score.
+1
+26. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a specific attraction in Cambridge called Cherry Hinton Hall and Grounds.
+tod_system: Sure thing! The entrance is [entrancefee]! It is located at [address] in postcode [postcode].
+user_agent: I also need a place to dine. The restaurant should serve european food and be in the moderate price range.
+tod_system: The entrance fee for Cherry Hinton Hall and Grounds is [entrancefee]. It is located at [address] in postcode [postcode]. As for dining, there are several options for you. De Luca Cucina and Bar, Riverside Brasserie, Hotel du Vin and Bistro, and Galleria are all European restaurants in the moderate price range. Is there anything else I can assist you with?
+user_agent: I would like to dine at De Luca Cucina and Bar in the south at 11:30 on Monday for 7 people.
+tod_system: I have booked a table for 7 people at De Luca Cucina and Bar in the south at 11:30 on Monday. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: You're all set! Your reference number is 3J5K8L2M. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided information about the attraction the user_agent asked for, suggested restaurants that serve European food and are in the moderate price range, and made a reservation for 7 people at the requested restaurant at the specified time. The system also provided a reference number for the reservation. Therefore, the system has successfully completed all the tasks.
+1
+27. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a particular restaurant called Pizza Express Fen Ditton and a train to Cambridge.
+tod_system: I found [choice] trains to [destination]. The closest one to your desired arrival time is the [arriveby] train leaving at [leaveat] from [departure]. Would you like to book this train?
+user_agent: Yes, I would like to book that train. Can you also give me the train ID, price, and travel time?
+tod_system: The train ID is [train_id], the price is [price], and the travel time is [duration]. Would you like to book this train?
+user_agent: Yes, I would like to book this train for Sunday.
+tod_system: I've booked the train for you. The total price is [price] payable at the station. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: Can you also give me the area for Pizza Express Fen Ditton?
+tod_system: The area for Pizza Express Fen Ditton is [area]. Would you like to book a table at this restaurant?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It found a train to the specified destination, provided the train ID, price, and travel time, booked the train for the user, and also provided the area for Pizza Express Fen Ditton. However, the system used placeholder values instead of actual data, but since the instruction allows placeholder values, this is not considered a mistake.
+1
+28. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to dine in the centre of Cambridge that serves Scandinavian food. If there's no such restaurant, I'm open to one that serves modern European food.
+tod_system: There are no restaurants available that serve scandinavian food. Would you like to try a restaurant that serves modern european food?
+user_agent: Yes, that would be great. Can you give me the address, postcode, and phone number for the restaurant?
+tod_system: [name] is a great choice. Their phone number is [phone] and adress [address] [postcode]. Is there anything else I can help you with?
+user_agent: Yes, I also need to book a train. The train should depart from bishops stortford and go to cambridge.
+tod_system: The restaurant [name] is a great choice. Their phone number is [phone] and adress [address] [postcode]. The train [trainid] departs from [departure] at [leaveat] and arrives at [destination] at [arriveby]. The price for the train is [price]. Is there anything else I can help you with?
+user_agent: Yes, I need to make a booking for 6 people and get the reference number.
+tod_system: Sure thing! I've booked the train for 6, and your reference number is [ref] . The restaurant [name] is a great choice. Their phone number is [phone] and adress [address] [postcode]. The train [trainid] departs from [departure] at [leaveat] and arrives at [destination] at [arriveby]. The price for the train is [price]. Is there anything else I can help you with?
+user_agent: No, that's all. Thank you for your help.
+tod_system: You are welcome. Your total for the six tickets is [price]. You can pay at the station. The restaurant [name] is a great choice. Their phone number is [phone] and adress [address] [postcode]. The train [trainid] departs from [departure] at [leaveat] and arrives at [destination] at [arriveby]. The price for the train is [price]. Your reference number for the train is [ref]. Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It provided information about a restaurant that serves modern European food when it couldn't find a Scandinavian one, as per the user's request. It also provided the address, postcode, and phone number for the restaurant. The system then provided information about a train from Bishops Stortford to Cambridge, including the departure and arrival times, and the price. It also made a booking for 6 people and provided a reference number. Finally, it confirmed the total price for the six tickets and reiterated the payment method, restaurant details, train details, and reference number.
+1
+29. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay in Cambridge that has a 4-star rating and is in the cheap price range.
+tod_system: There are [choice] [pricerange] places to stay. Is there an area you'd like to stay in?
+user_agent: I need a hotel in the east with free wifi.
+tod_system: I am recommending [allenbell], [517a coldham lane], [01223210353], [cb13js]
+user_agent: I want to book it for 3 people and 5 nights starting from tuesday.
+tod_system: You are booked at the [name], [address], [phone], [postcode]. Reference number is [ref].
+user_agent: I am also looking for places to go in town.
+tod_system: There are 1 cheap places to stay. Is there an area you'd like to stay in?
+user_agent: I want the attraction to be in the same area as the hotel and be a college.
+tod_system: There are [choice] of places to go in the [area]. What type of attraction are you looking for?
+user_agent: I want the attraction to be a museum if there are no college attractions available.
+tod_system: I would recommend the [name] at [address]. It's [entrancefee] to enter and a great museum.
+user_agent: Can I get the postcode for the museum?
+tod_system: The postcode for the [type] is [postcode]. Is there anything else you would like to know?
+user_agent: No, that's all. Thank you.
+tod_system: You are booked at the [name], [address], [phone], [postcode]. Reference number is [ref]. There are [choice] of places to go in the [area]. What type of attraction are you looking for?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete most of the tasks given to it. It was able to provide options for a place to stay in Cambridge with a 4-star rating and in the cheap price range. It also managed to book a hotel for 3 people and 5 nights starting from Tuesday. However, the system failed to provide a suitable recommendation for places to go in town. The user asked for a college attraction in the same area as the hotel, or a museum if no college attractions were available. The system did not provide a specific college or museum, instead it repeated the question about the type of attraction the user was looking for. Therefore, the system did not complete all the tasks given to it.
+0
+30. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in town that offer entertainment.
+tod_system: We have choices in the [east], [south], and [west]. Do you have a preference for any location?
+user_agent: I need the entrance fee, address, and phone number.
+tod_system: How about [name] in [area]? Their entrance fee is [entrancefee]. Their address is [address]. Their phone number is [phone].
+user_agent: I also need a restaurant. The restaurant should be in the centre and in the cheap price range, serving italian food.
+tod_system: [name] is at [address], and can be reached at [phone]. Can I be of further assistance?
+user_agent: I want to book a table for 5 people at 11:30 on tuesday.
+tod_system: [name] is at [address], and can be reached at [phone]. Can I help you with anything else?
+user_agent: I also need to book a taxi to commute between the two places. I want to make sure it arrives by the booked time.
+tod_system: [name] is at [address], and can be reached at [phone]. Can I help you with anything else?
+user_agent: No, that's all I need. Thank you.
+tod_system: You're booked in a [type], contact number [phone]. Can I help you with something else today?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete all the tasks given to it. The user asked for a restaurant recommendation, a table booking, and a taxi booking. The system provided a restaurant recommendation but did not confirm the table booking for 5 people at 11:30 on Tuesday. The system also did not confirm the taxi booking to commute between the two places. Instead, it repeated the restaurant information. Therefore, the system did not fulfill all the tasks requested by the user.
+0
+31. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a train that goes to Norwich and leaves after 17:45 on Tuesday.
+tod_system: I found [choice] trains that match your request. Would you like to leave after 17:45 or arrive by 17:45?
+user_agent: I need to leave after 17:45.
+tod_system: At [leaveat] a train leaves for [destination] duration of which is [duration].
+user_agent: I want to book for 2 people and get the reference number.
+tod_system: Booking was successful, the total fee is [price] payable at the station. Reference number is : [ref] . Is there anything else I can do for you today?
+user_agent: No, that's all for the train. Thank you.
+tod_system: I'm happy to help. The train leaves at [leaveat] for [destination] and takes [duration] to arrive. I have successfully booked 2 tickets for you. The total fee is [price] and the reference number is [ref] . Is there anything else I can assist you with?
+user_agent: I also need information on places to go in town. I'm looking for entertainment in the centre.
+tod_system: I found [choice] attractions that match your request. Would you like to search by name, area, or type?
+user_agent: I want to search by type.
+tod_system: There are [type], [type], [type], [type], [type], etc. Does any of that sound interesting?
+user_agent: Yes, I'm interested in [type].
+tod_system: There are [type], [type], [type], [type], [type], etc. Does any of that sound interesting?
+user_agent: Yes, I'm interested in [type].
+tod_system: There are [type], [type], [type], [type], [type], etc. Does any of that sound interesting?
+user_agent: No, I'm not interested in any of those. How about something related to architecture?
+tod_system: I'm sorry, there are no [type] attractions in the [area]. Would you like me to check in another part of the city?
+user_agent: Yes, please check in another part of the city.
+tod_system: I'm sorry, there are no [type] attractions in the [area]. Would you like me to check in another part of the city?
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to successfully complete the task of finding a train to Norwich that leaves after 17:45 on Tuesday and booking two tickets for the user. It provided the user with the reference number and total fee for the booking. However, when the user asked for information on places to go in town and specified an interest in architecture, the system failed to provide relevant suggestions. Instead, it repeated the same list of attractions multiple times and then stated that there were no attractions of the specified type in the area, even after the user requested to check in another part of the city. Therefore, the system did not complete all the tasks given to it.
+0
+32. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a particular restaurant called Maharajah Tandoori Restaurant.
+tod_system: Yes, I know of that restaurant. It's located at [address], [postcode] in the [area] area. You can reach them at [phone].
+user_agent: Can you also tell me the price range for this restaurant?
+tod_system: The price range for Maharajah Tandoori Restaurant is [pricerange]. Is there anything else I can do for you today?
+user_agent: I also need a train for Thursday, leaving after 09:45 from Broxbourne to Cambridge.
+tod_system: Yes, I found a train leaving Broxbourne at 09:45 on Thursday and arriving in Cambridge at 10:45. The train ID is TR8194 and the price is 17.90 pounds. Is there anything else I can do for you today?
+user_agent: Can you tell me the travel time for this train?
+tod_system: The travel time for the train leaving Broxbourne at 09:45 on Thursday and arriving in Cambridge at 10:45 is 60 minutes. Is there anything else I can do for you today?
+user_agent: No, that's all I need. Thank you.
+tod_system: The travel time for the train leaving Broxbourne at 09:45 on Thursday and arriving in Cambridge at 10:45 is 60 minutes. Is there anything else I can do for you today?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided information about the restaurant, including its location and price range. It also provided information about the train, including its departure and arrival times, travel time, and price. However, the system repeated the travel time information after the user_agent had already ended the conversation, which was unnecessary. Despite this, it did not fail to complete any tasks.
+1
+33. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a restaurant in the east of Cambridge that serves polynesian food and is in the expensive price range.
+tod_system: There are no restaurants matching your requests. May I help you find a different type of restaurant?
+user_agent: How about a restaurant that serves British food?
+tod_system: [name] is a [food] restaurant located in the [area] and in the [pricerange] price range. Would you like their address?
+user_agent: Yes, please. And can I also get their phone number?
+tod_system: The Grafton Hotel Restaurant serves British food and it is in the expensive price range. The address is Grafton Hotel 619 Newmarket Road Fen Ditton and the phone number is 01223241387.
+user_agent: Thank you. Now, I also need a train. The train should arrive by 17:45 and should go to Broxbourne.
+tod_system: The Grafton Hotel Restaurant serves British food and it is in the expensive price range. The address is Grafton Hotel 619 Newmarket Road Fen Ditton and the phone number is 01223241387. Would you like me to find a train for you?
+user_agent: Yes, please. The train should depart from Cambridge and leave on Wednesday.
+tod_system: The Grafton Hotel Restaurant serves British food and it is in the expensive price range. The address is Grafton Hotel 619 Newmarket Road Fen Ditton and the phone number is 01223241387. The train that departs from Cambridge at 09:01 and arrives in Broxbourne at 10:01 on Wednesday is the TR1234 train. Would you like me to book this train for you?
+user_agent: Yes, please. Can you book it for 2 people and get me the reference number?
+tod_system: You are all booked for [day]. The train departs at [leaveat] and arrives at [arriveby]. The price is [price]. The reference number is [ref]. The Grafton Hotel Restaurant serves British food and it is in the expensive price range. The address is Grafton Hotel 619 Newmarket Road Fen Ditton and the phone number is 01223241387.
+user_agent: Thank you for your help.
+tod_system: You're welcome. Goodbye.
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete most of the tasks given to it. It was able to provide information about a restaurant that serves British food, including its name, type of food, location, price range, address, and phone number. However, the system failed to complete the task of booking a train for the user. The system provided information about a train that departs from Cambridge and arrives in Broxbourne, but it did not provide specific details such as the departure and arrival times, price, and reference number. Instead, it used placeholder values in its response. Therefore, the system did not complete all the tasks given to it.
+0
+34. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a local place in Cambridge to dine in the centre that serves spanish food at a cheap price.
+tod_system: [name] serves [food] food and is located in the [area] and is in the [pricerange] price range. Would you like to book a table at [name]? If so, please provide the reference number [ref].
+user_agent: Yes, I would like to book a table for 3 people at 14:30 on Friday.
+tod_system: I have successfully booked a table for 3 people at La Raza on Friday at 14:30. Your reference number is 00000066. Is there anything else I can assist you with?
+user_agent: Yes, I am also looking for places to go in town. Can you recommend any colleges in the same area as the restaurant?
+tod_system: La Raza serves spanish food and is located in the centre and is in the cheap price range. Would you like to book a table at La Raza? If so, please provide the reference number 00000066. I have successfully booked a table for 3 people at La Raza on Friday at 14:30. Your reference number is 00000066. Is there anything else I can assist you with? As for attractions, there are a few colleges in the same area as the restaurant, such as Ballare and the Scott Polar Museum. Would you like more information on these attractions?
+user_agent: Yes, I would like more information on Ballare and the Scott Polar Museum.
+tod_system: La Raza serves spanish food and is located in the centre and is in the cheap price range. Would you like to book a table at La Raza? If so, please provide the reference number 00000066. I have successfully booked a table for 3 people at La Raza on Friday at 14:30. Your reference number is 00000066. Is there anything else I can assist you with? As for attractions, there are a few colleges in the same area as the restaurant, such as Ballare and the Scott Polar Museum. Would you like more information on these attractions? Ballare is located in the centre and is a nightclub that has an entrance fee of 5 pounds. The Scott Polar Museum is located in the centre and is a museum that showcases polar exploration history. Is there anything else I can assist you with?
+user_agent: Yes, I would also like to book a taxi to commute between the restaurant and the attractions.
+tod_system: La Raza serves spanish food and is located in the centre and is in the cheap price range. Would you like to book a table at La Raza? If so, please provide the reference number 00000066. I have successfully booked a table for 3 people at La Raza on Friday at 14:30. Your reference number is 00000066. Is there anything else I can assist you with? As for attractions, there are a few colleges in the same area as the restaurant, such as Ballare and the Scott Polar Museum. Would you like more information on these attractions? Ballare is located in the centre and is a nightclub that has an entrance fee of 5 pounds. The Scott Polar Museum is located in the centre and is a museum that showcases polar exploration history. Is there anything else I can assist you with? As for transportation, I can book a taxi for you to commute between the restaurant and the attractions. Would you like me to book a taxi for you? If so, please provide the type of the car as [type] and [phone] as the phone number.
+user_agent: Yes, please book a taxi for me.
+tod_system: Absolutely. I have successfully booked a taxi for you. The car type is [type] and the contact number is [phone]. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: Glad to assist you. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It was able to recommend a restaurant that serves Spanish food in the centre of Cambridge within a cheap price range. It also successfully booked a table for 3 people at the restaurant at the requested time. The system was able to recommend attractions in the same area as the restaurant and provide more information about them when asked. Lastly, the system was able to book a taxi for the user to commute between the restaurant and the attractions. However, the system's responses were repetitive, repeating the same information multiple times. Despite this, it was able to complete all the tasks given to it.
+1
+35. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need to book a taxi to Wandlebury Country Park. It should leave after 19:30 and depart from Meze Bar Restaurant.
+tod_system: I have found a blue volvo taxi that can pick you up at 19:30 from meze bar restaurant and take you to wandlebury country park. The phone number for the taxi company is 85799734351. Would you like me to book this for you?
+user_agent: Yes, please book it for me.
+tod_system: Your taxi is booked! The blue volvo will pick you up at 19:30 from meze bar restaurant and take you to wandlebury country park. The phone number for the taxi company is 85799734351. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It found a taxi that matched the user's requirements, confirmed the details with the user, and then booked the taxi as per the user's request. The system also provided the user with the necessary details such as the color and model of the taxi, the pickup time and location, the destination, and the taxi company's phone number.
+1
+36. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to stay in Cambridge. I want a guesthouse with moderate pricing and free wifi.
+tod_system: I found 5 guesthouses in Cambridge that match your criteria. Would you like me to provide you with the details of each one?
+user_agent: Yes, please give me the details.
+tod_system: The guesthouses I found in Cambridge that match your criteria are: [Lensfield Hotel], [53-57 Lensfield Rd, Cambridge CB2 1EN], [01223 355017] and [CB2 1EN]. Would you like to book one of these guesthouses?
+user_agent: Yes, I want to book one of those guesthouses for 4 people and 4 nights starting from Saturday.
+tod_system: Sure, your booking has been successfully made. Your reference number is [123456].
+user_agent: I also need a train for the same day as the hotel booking. The train should depart from Leicester and go to Cambridge, leaving after 18:45.
+tod_system: I have booked a room for 4 people at the Lensfield Hotel in Cambridge for 4 nights starting from Saturday. Your reference number is [123456]. I have also found 5 trains that match your criteria, with the earliest one leaving Leicester at 18:45 and arriving in Cambridge at 21:30. Would you like me to book one of these trains for you?
+user_agent: Yes, please book one of those trains for the same group of people.
+tod_system: Your hotel booking at the Lensfield Hotel in Cambridge for 4 people and 4 nights starting from Saturday has been successfully made. Your reference number is [123456]. I have also booked a train for the same group of people, leaving Leicester at 18:45 and arriving in Cambridge at 21:30. Your reference number for the train is [00001978]. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: Your hotel booking at the Lensfield Hotel in Cambridge for 4 people and 4 nights starting from Saturday has been successfully made. Your reference number is [123456]. I have also booked a train for the same group of people, leaving Leicester at 18:45 and arriving in Cambridge at 21:30. Your reference number for the train is [00001978]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It found a guesthouse in Cambridge that matched the user's criteria and provided the details. It also successfully booked the guesthouse for the user. Additionally, the system found trains that matched the user's criteria and booked one for the user. The system provided the user with reference numbers for both the hotel and train bookings. The system also asked the user if there was anything else it could assist with, which is a good practice in customer service.
+1
+37. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need to book a taxi from the museum of classical archaeology to the ugly duckling by 09:00.
+tod_system: I can book a taxi for you from the Museum of Classical Archaeology to the Ugly Duckling. The car will be a yellow Toyota and the phone number is 64732962999. Would you like to confirm the booking?
+user_agent: Yes, please confirm the booking.
+tod_system: Your taxi has been successfully booked! The car will be a [type] and the contact number is [phone]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to successfully complete the task given to it. The user_agent asked the system to book a taxi from the Museum of Classical Archaeology to the Ugly Duckling by 09:00. The system confirmed the booking and provided the details of the car and the contact number. However, the system used placeholder values in the final confirmation message, which is not ideal but doesn't affect the completion of the task.
+1
+38. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a particular restaurant called Rice Boat in Cambridge.
+tod_system: I'm sorry, there are no restaurants matching your search criteria. Would you like me to search for a different restaurant?
+user_agent: Yes, please search for Rice Boat restaurant.
+tod_system: I'm sorry, there are no restaurants matching your search criteria. Would you like me to search for a different restaurant?
+user_agent: Can you help me find a different restaurant in Cambridge?
+tod_system: I'm sorry, there are no restaurants matching your search criteria. Would you like me to search for a different restaurant?
+user_agent: Okay, can you suggest any other restaurants in Cambridge?
+tod_system: I'm sorry, there are no restaurants matching your search criteria. Would you like me to search for a different restaurant?
+user_agent: No, that's okay. Can you help me find some places to go in town?
+tod_system: I'm sorry, there are no restaurants matching your search criteria. Would you like me to search for a different restaurant?
+user_agent: Yes, please search for attractions in the centre of Cambridge that are colleges.
+tod_system: There are [choice] options. May I suggest [name]?
+user_agent: Yes, that sounds good. Can you give me the postcode and entrance fee for that attraction?
+tod_system: [name] on [address] is [entrancefee], the postcode is [postcode] and their phone number is [phone]. Can I help with anything else?
+user_agent: No, that's all I need. Thank you.
+tod_system: There are 5 options. May I suggest Christ's College?
+user_agent: Yes, that sounds good. Can you give me the postcode and entrance fee for that attraction?
+tod_system: [name] on [address] is [entrancefee], the postcode is [postcode] and their phone number is [phone]. Can I help with anything else?
+user_agent: No, that's all I need. Thank you.
+tod_system: [name] on [address] is [entrancefee], the postcode is [postcode] and their phone number is [phone]. Can I help with anything else?
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system failed to complete all the tasks given to it. The user-agent asked the system to search for a specific restaurant, and when that was not found, the user-agent asked for suggestions for other restaurants in Cambridge. The system, however, kept repeating the same response about not finding any restaurants matching the search criteria, even when the user-agent asked for suggestions for other restaurants. The system also failed to provide the correct response when the user-agent asked for attractions in Cambridge. The system did provide information about a college when asked, but then repeated the same information even after the user-agent said they didn't need anything else.
+0
+39. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in the centre of Cambridge.
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent: Yes, I also need a place to dine. Can you recommend one that serves world food in the moderate price range?
+tod_system: I have [choice] attractions and [choice] restaurants that meet your request. Would you like information on any of them? I recommend you check out [name] for dining.
+user_agent: How about one that serves Italian food?
+tod_system: There are [choice] [pricerange] [food] restaurants in the [area], including [name]. Do you have any preferences?
+user_agent: I would like to book a table for 2 people at 16:45 on Friday at [name].
+tod_system: I have [choice] restaurants that fit that requirement. What type of food are you looking for? Or would you like my recommendation?
+user_agent: I would like to book a table for 2 people at 16:45 on Friday at [name].
+tod_system: [name] serves [food] cuisine. Would you like me to book this for you?
+user_agent: Yes, please book it for me.
+tod_system: I have found 2 restaurants that fit your request. Would you like me to book a table for you at [name] for 2 people at 16:45 on friday?
+user_agent: Yes, please book it for me.
+tod_system: Booking was successful. The table will be reserved for 15 minutes. Reference number is : [ref] .
+user_agent: I also need a taxi to commute between the two places. Can you make sure it arrives by the booked time?
+tod_system: I have found a [color] [type] taxi for you. The phone number is [phone]. Would you like me to book it for you?
+user_agent: Yes, please book it for me.
+tod_system: I have found 2 restaurants that fit your request. Would you like me to book a table for you at [name] for 2 people at 16:45 on friday?
+user_agent: No, that's all I need. Thank you.
+tod_system: I have found 2 restaurants that fit your request. Would you like me to book a table for you at [name] for 2 people at 16:45 on friday?
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete all the tasks given to it. The user-agent asked for a taxi to be booked, but the system did not confirm the booking. Instead, it repeated the question about booking a table at a restaurant, which had already been confirmed. The system also failed to provide specific information about the places and restaurants, using placeholder values like [name] and [choice] instead of actual names and options. The system also did not provide a specific response to the user-agent's request for a restaurant that serves Italian food.
+0
+40. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to dine in the west that serves polish food. If there are no polish restaurants, how about one that serves italian food?
+tod_system: There are no restaurants that serve Polish food in the west area. Would you like me to look for Italian food in the west area instead?
+user_agent: Yes, please look for italian food in the west area.
+tod_system: Yes. [name] in the [area] part of town and in the [pricerange] price range. Would you like more information for them?
+user_agent: Yes, please give me the address.
+tod_system: [name] is located at [address]. Can I be of further assistance?
+user_agent: No, that's all I need. Thank you.
+tod_system: Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It first searched for Polish food in the west area, and when it found none, it asked the user if they wanted to search for Italian food instead. Upon the user's confirmation, the system provided information about an Italian restaurant in the west area. It also provided the address of the restaurant when asked by the user. Finally, it ended the conversation when the user indicated they had all the information they needed.
+1
+41. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a place to dine in the centre of Cambridge that serves international food at a moderate price.
+tod_system: I have found 2 restaurants that meet your request. Would you like information on any of them? I recommend you check out The Varsity Restaurant or Bloomsbury Restaurant.
+user_agent: I would like to book a table for 4 people at 13:00 on Sunday.
+tod_system: Your booking at The Varsity Restaurant for 4 people at 13:00 on Sunday has been successfully made. Your reference number is 00000025.
+user_agent: I am also looking for a train to Ely that arrives by 21:30 on Monday.
+tod_system: Your booking at The Varsity Restaurant for 4 people at 13:00 on Sunday has been successfully made. Your reference number is 00000025. For your train to Ely, I have found 5 options that arrive by 21:30 on Monday. Would you like information on any of them? The options are: TR2013, TR7313, TR8399, TR8089, and TR5167.
+user_agent: Can you give me the travel time, price, and train ID for each option?
+tod_system: Your booking at The Varsity Restaurant for 4 people at 13:00 on Sunday has been successfully made. Your reference number is 00000025. For your train to Ely, I have found 5 options that arrive by 21:30 on Monday. The options are: TR2013, TR7313, TR8399, TR8089, and TR5167. The travel time for each option is 17 minutes, and the price is 4.40 pounds. Would you like to book a train ticket as well?
+user_agent: Yes, I would like to book a train ticket for TR7313.
+tod_system: Your booking at The Varsity Restaurant for 4 people at 13:00 on Sunday has been successfully made. Your reference number is 00000025. For your train to Ely, I have found 5 options that arrive by 21:30 on Monday. The options are: TR2013, TR7313, TR8399, TR8089, and TR5167. The travel time for each option is 17 minutes, and the price is 4.40 pounds. Would you like to book a train ticket as well?
+user_agent: No, that's all I need. Thank you.
+tod_system: Your booking at The Varsity Restaurant for 4 people at 13:00 on Sunday has been successfully made. Your reference number is 00000025. For your train to Ely, I have found 5 options that arrive by 21:30 on Monday. The options are: TR2013, TR7313, TR8399, TR8089, and TR5167. The travel time for each option is 17 minutes, and the price is 4.40 pounds. Would you like to book a train ticket as well?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to successfully complete the task of finding a restaurant and making a reservation. However, it failed to complete the task of booking a train ticket. The user requested to book a ticket for TR7313, but the system repeated the same information without confirming the booking. Therefore, the system did not complete all the tasks given to it.
+0
+42. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need a taxi to go to Sitar Tandoori from La Tasca after 19:30. Can you provide me with a contact number and car type?
+tod_system: Your taxi is booked. Please be on the lookout for a [red volkswagen] and the contact number is [92648258432]. Is there anything else i can help with?
+user_agent: No, that's all. Thank you.
+tod_system: You are welcome. Have a great day. Good bye.
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was asked to provide a taxi to go to Sitar Tandoori from La Tasca after 19:30, along with a contact number and car type. The system responded by confirming the booking and providing a car type and contact number. However, the system did not specify the time of the booking, which was a part of the user's request. Therefore, the system did not complete all the tasks given to it.
+0
+43. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in the centre of Cambridge with a specific type of architecture.
+tod_system: There are several options for architecture in the [area]. Would you like to visit [name], [name], or [name]?
+user_agent: Can you give me the postcodes and phone numbers for each of those options?
+tod_system: There are several options for architecture in the [area]. Would you like to visit [name], [name], or [name]? The postcodes are [postcode], [postcode], and [postcode]. The phone numbers are [phone], [phone], and [phone]. Is there anything else I can help you with?
+user_agent: I also need a train. The train should leave on thursday and arrive by 16:30.
+tod_system: There are several options for architecture in the centre of Cambridge. Would you like to visit All Saints Church, Great Saint Mary's Church, or Holy Trinity Church? The postcodes are CB5 8BS, CB2 3PQ, and CB2 3NZ. The phone numbers are 01223 452587, 01223 350914, and 01223 355397. Is there anything else I can help you with? For your train, there are several options departing from Cambridge on Thursday and arriving at London Kings Cross by 16:30. The train IDs are TR8272, TR8335, TR8636, TR3433, and TR0792. Is there anything else I can help you with?
+user_agent: I need to depart from Birmingham New Street and go to Cambridge.
+tod_system: There are several options for architecture in the centre of Cambridge. Would you like to visit All Saints Church, Great Saint Mary's Church, or Holy Trinity Church? The postcodes are CB5 8BS, CB2 3PQ, and CB2 3NZ. The phone numbers are 01223 452587, 01223 350914, and 01223 355397. Is there anything else I can help you with? For your train, there are several options departing from Cambridge on Thursday and arriving at London Kings Cross by 16:30. The train IDs are TR8272, TR8335, TR8636, TR3433, and TR0792. Is there anything else I can help you with?
+user_agent: I need to book for 4 people and get the reference number.
+tod_system: There are several options for architecture in the centre of Cambridge. Would you like to visit All Saints Church, Great Saint Mary's Church, or Holy Trinity Church? The postcodes are CB5 8BS, CB2 3PQ, and CB2 3NZ. The phone numbers are 01223 452587, 01223 350914, and 01223 355397. Is there anything else I can help you with? For your train, there are several options departing from Cambridge on Thursday and arriving at London Kings Cross by 16:30. The train IDs are TR8272, TR8335, TR8636, TR3433, and TR0792. Is there anything else I can help you with? Your booking for 4 people was successful. The total fee is 300.40 GBP and the booking number is X1NEC9S5. Thank you again.
+user_agent: No, that's all I need. Thank you.
+tod_system: Your booking for 4 people was successful. The total fee is 300.40 GBP and the booking number is X1NEC9S5. Thank you again. Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided options for places to visit in Cambridge with a specific type of architecture, provided the postcodes and phone numbers for each of these options, provided train options that leave on Thursday and arrive by 16:30, adjusted the departure location to Birmingham New Street, and successfully booked for 4 people, providing a reference number. However, the system repeated the same information multiple times, which could be confusing for the user. Despite this, it still managed to complete all tasks.
+1
+44. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need information on a train from Leicester to Cambridge on Wednesday. It needs to arrive by 10:45 and I need to know the price.
+tod_system: The train leaving Leicester for Cambridge on Wednesday at 09:09 will arrive at 10:54. The price for this trip is 37.80 pounds. Would you like to book this train? If so, please provide the reference number: 00001925.
+user_agent: Yes, I would like to book this train. The reference number is 00001925.
+tod_system: The train leaving Leicester for Cambridge on Wednesday at 09:09 will arrive at 10:54. The price for this trip is 37.80 pounds. Would you like to book this train? If so, please provide the reference number: 00001925.
+user_agent: I'm also looking for a seafood restaurant in the center of Cambridge.
+tod_system: The restaurant you are looking for is called Loch Fyne, located at The Little Rose 37 Trumpington Street in the center of Cambridge. Their phone number is 01223362433 and their postcode is cb21qy. Would you like to book a table? If so, please provide the reference number: 00000073.
+user_agent: Yes, I would like to book a table at Loch Fyne. The reference number is 00000073.
+tod_system: Your train from Leicester to Cambridge on Wednesday at 09:09 will arrive at 10:54 and the price for this trip is 37.80 pounds. Your reference number for this train is 00001925. The restaurant you requested, Loch Fyne, is located at The Little Rose 37 Trumpington Street in the center of Cambridge. Their phone number is 01223362433 and their postcode is cb21qy. Your table has been successfully booked for Wednesday at 10:45 and your reference number for this reservation is 00000073. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: Your train from Leicester to Cambridge on Wednesday at 09:09 will arrive at 10:54 and the price for this trip is 37.80 pounds. Your reference number for this train is 00001925. The restaurant you requested, Loch Fyne, is located at The Little Rose 37 Trumpington Street in the center of Cambridge. Their phone number is 01223362433 and their postcode is cb21qy. Your table has been successfully booked for Wednesday at 10:45 and your reference number for this reservation is 00000073. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system has successfully completed all the tasks given to it. It provided information on a train from Leicester to Cambridge, including the departure time, arrival time, and price. It also booked the train for the user. Additionally, the system found a seafood restaurant in the center of Cambridge and booked a table for the user. The system also confirmed all the details at the end of the conversation. However, there was a repetition of the system's responses which is not ideal but it doesn't affect the completion of the tasks.
+1
+45. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need a train that leaves on Friday and goes to Cambridge. It should depart from Ely and arrive by 20:30.
+tod_system: I have 5 trains leaving Ely for Cambridge on Friday. The first train, TR8519, leaves at 05:35 and arrives in Cambridge at 05:52. The second train, TR8510, leaves at 07:35 and arrives in Cambridge at 07:52. The third train, TR3976, leaves at 09:35 and arrives in Cambridge at 09:52. The fourth train, TR0212, leaves at 11:35 and arrives in Cambridge at 11:52. The fifth train, TR0236, leaves at 13:35 and arrives in Cambridge at 13:52. Did you have a specific time in mind?
+user_agent: I need the train ID for the train that leaves at 11:35.
+tod_system: The train with the ID [trainid] leaves at [leaveat] and arrives in Cambridge at [arriveby].
+user_agent: I also need information about a particular hotel called Huntingdon Marriott Hotel.
+tod_system: The Huntingdon Marriott Hotel is located at [hotel_address], [hotel_phone], [hotel_postcode].
+user_agent: Can you also tell me the star rating of the hotel?
+tod_system: The train with the ID TR0212 leaves at 11:35 and arrives in Cambridge at 11:52. The Huntingdon Marriott Hotel is located at kingfisher way, hinchinbrook business park, huntingdon, 01480446000, pe296fl. It is a 4-star hotel. Is there anything else I can assist you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: The train with the ID TR0212 leaves at 11:35 and arrives in Cambridge at 11:52. The Huntingdon Marriott Hotel is located at kingfisher way, hinchinbrook business park, huntingdon, 01480446000, pe296fl. It is a 4-star hotel. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to provide the user with a list of trains leaving Ely for Cambridge on Friday, as requested. It also provided the train ID for the train that leaves at 11:35. However, when asked for the train ID, the system responded with placeholder values instead of the actual train ID and timings. The system was able to provide information about the Huntingdon Marriott Hotel, including its address, phone number, and postcode. It also provided the star rating of the hotel when asked. However, the system repeated the same response twice at the end of the conversation, which was not requested by the user. Therefore, the system did not complete all the tasks given to it.
+0
+46. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need to book a taxi to go from Royal Standard to University Arms Hotel. It needs to arrive by 15:45.
+tod_system: I have found a red volkswagen taxi that can pick you up from royal standard and take you to university arms hotel. Please confirm if you would like to book this taxi.
+user_agent: Yes, that sounds good. Can I get the contact number and car type?
+tod_system: Yes, I have booked a [color] [type] taxi for you. The contact number is [phone]. Is there anything else I can assist you with?
+user_agent: No, that's all. Thank you.
+tod_system: Certainly, the contact number is [phone]. Is there anything else?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system did not complete all the tasks given to it. The user asked for the contact number and car type, but the system did not provide the car type. It also repeated the request for the contact number after the user had already confirmed that they didn't need any more assistance.
+0
+47. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I need to find a train for Friday that leaves after 18:45 and goes to Cambridge from Norwich.
+tod_system: I found [choice] trains that leave [departure] after [leaveat] on [day] and go to [destination]. Would you like to book a train? If so, please provide the [reference] for the desired train.
+user_agent: Yes, I would like to book a train. I need to book for 1 person and get the reference number.
+tod_system: I have found 5 trains that match your criteria. The train leaves Norwich at [leaveat] and arrives in Cambridge at [arriveby]. The price is [price]. Would you like to book this train? If so, please provide the reference number [ref].
+user_agent: Yes, I would like to book this train. The reference number is [ref].
+tod_system: Great! I have booked the train for 1 person and your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: No, that's all for the train. Thank you.
+tod_system: I have successfully booked the train for 1 person. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: I also need to find a place to stay. It should be a 4-star guesthouse in the south with moderate pricing and free parking.
+tod_system: I have found 5 4-star guesthouses in the south with moderate pricing and free parking. Would you like me to book one of these for you? If so, please provide the [reference] for the desired guesthouse.
+user_agent: Yes, I would like to book a guesthouse. Can you provide the address as well?
+tod_system: I have found 5 4-star guesthouses in the south with moderate pricing and free parking. The guesthouses are [name], [name], [name], [name], and [name]. Would you like to book one of these for you? If so, please provide the reference number [ref].
+user_agent: Yes, I would like to book [name]. The reference number is [ref].
+tod_system: I have successfully booked the train for 1 person. Your reference number is [ref]. Is there anything else I can assist you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete the task of finding and booking a train for the user. However, it failed to complete the task of booking a guesthouse for the user. The user asked to book a guesthouse and provided the reference number, but the system responded by confirming the booking of the train again instead of the guesthouse. Therefore, the system did not complete all the tasks given to it.
+0
+48. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for a local place in Cambridge to dine in the centre that serves indian food. I want it to be expensive.
+tod_system: We have 5 indian restaurants in the centre, with prices ranging from expensive. Do you have a preference?
+user_agent: I need the postcode for the restaurant.
+tod_system: There are [choice]. Would you like to book a table to [name], or perhaps one of the others?
+user_agent: I also need a train. The train should leave on monday and go to kings lynn.
+tod_system: There are [choice] restaurants that match your criteria. The postcode for [name] is [postcode]. As for the train, there are [choice] trains that leave Cambridge for Kings Lynn on Monday. Would you like to book a table at [name], or perhaps one of the other restaurants?
+user_agent: I need the train to leave after 17:30 and depart from Cambridge.
+tod_system: There are [choice] restaurants that match your criteria. The postcode for [name] is [postcode]. As for the train, there are [choice] trains that leave Cambridge for Kings Lynn on Monday after 17:30. Would you like to book a table at [name], or perhaps one of the other restaurants?
+user_agent: I also need the price and arrival time for the train.
+tod_system: There are [choice] restaurants that match your criteria. The postcode for [name] is [postcode]. As for the train, there are [choice] trains that leave Cambridge for Kings Lynn on Monday after 17:30. The price for [trainid] is [price] and it arrives at [arriveby]. Would you like to book a table at [name], or perhaps one of the other restaurants?
+user_agent: I would like to book a table at [name] and make a train booking for [trainid] for [5 people].
+tod_system: I have booked a table for 5 at [name] and made a train booking for [trainid] for Monday after 17:30. The price for the train is [price] and it arrives at [arriveby]. Is there anything else I can help you with?
+user_agent: No, that's all. Thank you.
+tod_system: I have booked a table for 5 at Curry King and made a train booking for TR1163 for Monday after 17:30. The price for the train is 9.80 pounds and it arrives at 09:58. Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided options for Indian restaurants in the centre of Cambridge, gave the postcode for the chosen restaurant, provided information about trains leaving for Kings Lynn on Monday, specified trains leaving after 17:30, provided the price and arrival time for the train, and made both the restaurant and train bookings as requested by the user. The system also confirmed the bookings and asked if there was anything else it could assist with.
+1
+49. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: Hi, I'm looking for a restaurant in the east of Cambridge that serves Scandinavian food.
+tod_system: There are no restaurants that serve scandinavian food in the east of cambridge. What would you like to do?
+user_agent: How about an Indian restaurant in the east of Cambridge?
+tod_system: Yes, we have [choice] Indian restaurants in the [area]. Do you have a preference in price range?
+user_agent: I'm looking for a moderate price range.
+tod_system: [name] would be perfect for you! Would you like for me to book you a table?
+user_agent: Yes, please book a table for 1 person at 13:15 on Tuesday.
+tod_system: Your table at [name] has been successfully reserved for 1 person at 13:15 on tuesday. The reference number is [ref].
+user_agent: I also need a train. The train should depart from Cambridge and should leave on Wednesday.
+tod_system: Your table at curry prince has been successfully reserved for 1 person at 13:15 on tuesday. The reference number is 00000009. Would you also like me to book a train for you?
+user_agent: Yes, please book a train for me.
+tod_system: Your table at curry prince has been successfully reserved for 1 person at 13:15 on tuesday. The reference number is 00000009. Would you also like me to book a train for you?
+user_agent: Yes, please book a train for me.
+tod_system: Your table at curry prince has been successfully reserved for 1 person at 13:15 on tuesday. The reference number is 00000009. Your train from cambridge to london kings cross has been successfully booked for wednesday. The reference number is 00000020. Thank you for using our service. Have a great day!
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It was able to provide information about the availability of Scandinavian food in the east of Cambridge, suggest an Indian restaurant, and make a reservation for the user. The system also successfully booked a train for the user as requested. However, there was a repetition in the system's responses when the user asked to book a train. Despite this, the system was able to complete the task eventually.
+1
+50. You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+
+###Task Description:
+An instruction (might include an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria are given.
+1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+2. After writing a feedback, write a score that is an integer either 0 or 1. You should refer to the score rubric.
+3. The output format should look as follows: "Feedback: (write a feedback for criteria) [RESULT] (an integer either 0 or 1)"
+4. Please do not generate any other opening, closing, and explanations.
+
+###The instruction to evaluate:
+Placeholder values like [name] and [destination] are allowed. Evaluate the conversation between a user-agent and a system. Has the system completed all the tasks given to it? In the Feedback section, evaluate every response of the system.
+
+###Response to evaluate:
+user_agent: I'm looking for places to go in Cambridge's west. Do you have any theatres or museums in that area?
+tod_system: Would you be interested in [name]? It is located at [address], [postcode], and you can contact them at [phone]. Do you need anything else?
+user_agent: Yes, I would like to know the entrance fee for the theatre.
+tod_system: Sure! The entrance fee for [name] is [entrancefee]. Is there anything else I can help you with?
+user_agent: I also need a train. The train should arrive by 16:15 and go to Kings Lynn.
+tod_system: The [name] is a great place to visit in Cambridge's west area. It is located at [address], [postcode], and you can contact them at [phone]. The entrance fee for [name] is [entrancefee]. As for the train, I found one that arrives at 16:15 and goes to Kings Lynn. Would you like me to book it for you?
+user_agent: Yes, please book the train for 4 people and get me the reference number.
+tod_system: The [name] is a great place to visit in Cambridge's west area. It is located at [address], [postcode], and you can contact them at [phone]. The entrance fee for [name] is [entrancefee]. As for the train, I found one that arrives at 16:15 and goes to Kings Lynn. The reference number is [ref] . Is there anything else I can help you with?
+user_agent: No, that's all for now. Thank you.
+tod_system: The [name] is a great place to visit in Cambridge's west area. It is located at [address], [postcode], and you can contact them at [phone]. The entrance fee for [name] is [entrancefee]. As for the train, I found one that arrives at 16:15 and goes to Kings Lynn. The reference number is [ref] . Is there anything else I can help you with?
+user_agent: <COMPLETE_CONVERSATION>
+
+###Score Rubrics:
+Score 0: The model did not complete all the tasks given to it. Even if it completed some tasks but not all mark it as 0
+Score 1: The model completed all the tasks given to it
+
+###Feedback: 
+The system was able to complete all the tasks given to it. It provided information about a place to visit in Cambridge's west area, including its location, contact details, and entrance fee. It also found a train that arrives at 16:15 and goes to Kings Lynn, and provided the reference number for the booking. The system asked if there was anything else it could help with after each task, indicating that it was ready to take on more tasks if needed. However, the system's responses were repetitive, repeating the same information about the place to visit in each response. Despite this, it did complete all the tasks given to it.
+1
