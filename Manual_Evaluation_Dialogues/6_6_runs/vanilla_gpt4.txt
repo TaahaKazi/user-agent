@@ -1,0 +1,1288 @@
+Frame:  0
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should have <span class='emphasis'>a star of 4</span> The hotel should <span class='emphasis'>include free wifi</span> Make sure you get <span class='emphasis'>postcode</span> and <span class='emphasis'>phone number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> Make sure you get <span class='emphasis'>address</span> and <span class='emphasis'>entrance fee</span> 
+User:   I need a place to stay in Cambridge.
+System:  Sure, are you looking for anything specific?
+
+
+User:   Yes, I need a guesthouse with a 4 star rating.
+System:  I found several 4-star guesthouses in Cambridge. One option is the [a and b guest house] located at [124 tenison road], they have internet but no parking. Another option is the [acorn guest house] at [154 chesterton road], they have both internet and parking. There's also the [alexander bed and breakfast] at [56 saint barnabas road] which is a cheaper option with both internet and parking. Would you like to book any of these?
+
+
+User:   I'll take the acorn guest house.
+System:  Great choice! Your booking at [acorn guest house] located at [154 chesterton road] has been confirmed. Your reference number is [00000001].
+
+
+User:   I also need the postcode and phone number.
+System:  The postcode for the acorn guest house is [cb41da] and the phone number is [01223353888].
+
+
+User:   Now I need some places to go in town.
+System:  Sure, what type of attractions are you interested in? Museums, parks, shopping centers, or something else?
+
+
+User:   I'm interested in museums.
+System:  There are several museums in Cambridge. One option is the [broughton house gallery] located at [98 king street] in the centre of town, and the entrance is free. Another option is [byard art] at [14 king's parade] in the south, also with free entrance. If you're interested in folk history, you might enjoy the [cambridge and county folk museum] at [2-3 castle street] in the west, the entrance fee is 3.50 pounds. Lastly, there's [cambridge artworks] at [5 greens road] in the east, which is also free. Which one would you like to visit?
+
+
+User:   I'll go to the byard art museum.
+System:  Great choice! The Byard Art museum is located at 14 king's parade, cb21sj. You can contact them at 01223464646. Enjoy your visit! Is there anything else I can assist you with?
+
+
+User:   No, that's all for now. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Enjoy your stay at the Acorn Guest House and your visit to the Byard Art museum. Goodbye!
+
+
+Frame:  1
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>autumn house</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>peterborough</span> and should depart from <span class='emphasis'>cambridge</span> The train should <span class='emphasis'>leave after 13:45</span> and should leave on <span class='emphasis'>monday</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a hotel called Autumn House.
+System:  I have found the [autumn house] hotel. It is located at [710 newmarket road]. Would you like to know more details or should I proceed with the booking?
+
+
+User:   I want to book it for 3 people and 3 nights starting from friday.
+System:  Your booking at [autumn house] for 3 people for 3 nights starting from Friday has been made. Your booking reference is [00000008].
+
+
+User:   I also need a train. The train should go to peterborough and should depart from cambridge.
+System:  The train id is [TR3284] and it leaves cambridge for peterborough on friday. The departure time is [05:06] and it will arrive by [05:56]. The price is [16.50 pounds].
+
+
+User:   I need the reference number for the train.
+System:  Your train booking reference number is [00000964].
+
+
+Frame:  2
+Instruct Message:  You are looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>cheap</span> price range The hotel should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a place to stay that has a 4 star rating and is in the cheap price range.
+System:  I found several 4-star hotels in the cheap price range. Here are a few options:   1. Alexander Bed and Breakfast located at [56 saint barnabas road], phone number [01223525725]. 2. Allenbell located at [517a coldham lane], phone number [01223210353]. 3. Autumn House located at [710 newmarket road], phone number [01223575122].  Would you like to book one of these or do you need more options?
+
+
+User:   I need a hotel that includes free parking.
+System:  The Cambridge Belfry at [back lane, cambourne] fits your request. It has free parking and is a 4-star hotel in the cheap price range. Would you like to book a room?
+
+
+User:   Yes, I would like to book a room for 2 people and 5 nights starting from tuesday.
+System:  Ok, booking you [bookstay] nights for [bookpeople] people starting Tuesday. Your reference number is [00000028].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Enjoy your stay at The Cambridge Belfry!
+
+
+Frame:  3
+Instruct Message:  You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>gastropub</span> food and should be in the <span class='emphasis'>expensive</span> price range Make sure you get <span class='emphasis'>area</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>address</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>west</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>phone number</span>, and <span class='emphasis'>attraction type</span> 
+User:   I'm looking for a gastropub in the expensive price range.
+System:  [name] is an expensive gastropub in the [area] area. Would you like their address and phone number?
+
+
+User:   Yes, please.
+System:  The address of backstreet bistro is 2 Sturton Street City Centre, and the phone number is 01223306306. How else may I assist you?
+
+
+User:   I also need places to go in the west.
+System:  There are several attractions in the west area. One of them is the Cafe Jello Gallery located at 13 Magdalene Street. Their phone number is 01223312112. Another one is the Cambridge and County Folk Museum at 2-3 Castle Street. You can reach them at 01223355159. There's also the Cambridge Book and Print Gallery at 49 Newnham Road. Their contact number is 01223694264. Would you like more information on these places?
+
+
+User:   Yes, please. Can you also tell me the type of attraction for each place?
+System:  Sure, the Cafe Jello Gallery is a museum. The Cambridge and County Folk Museum is also a museum. The Cambridge Book and Print Gallery is a museum as well. Would you like to know anything else?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you need any more information in the future, don't hesitate to ask. Enjoy your visit to the gastropub and the museums!
+
+
+Frame:  4
+Instruct Message:  You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>aylesbray lodge guest house</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>15:30</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for places to go in town. I want to see a college in the centre.
+System:  There are several colleges in the centre of town. "Christ's College" is located on Saint Andrew's Street and the entrance is free. "Corpus Christi" is on King's Parade and charges 2 pounds for entrance. "Downing College" is on Regent Street and offers free entrance. "Emmanuel College" is also on Saint Andrew's Street with free entrance. Lastly, "Gonville and Caius College" is on Trinity Street and also offers free entrance.
+
+
+User:   I need the postcode for each of those colleges.
+System:  The postcodes for the colleges are as follows: "Christ's College" is CB23BU, "Corpus Christi" is CB21RH, "Downing College" is CB21DQ, "Emmanuel College" is CB23AP, and "Gonville and Caius College" is CB21TA. Can I assist you with anything else?
+
+
+User:   I am also looking for a particular hotel called aylesbray lodge guest house.
+System:  I'm sorry, but I couldn't find any information about the "Aylesbray Lodge Guest House" in our database. Can I assist you with anything else?
+
+
+User:   No, that's all I need. Thank you.
+System:  I'm sorry, but I couldn't find any information about the "Aylesbray Lodge Guest House" in our database. Can I assist you with anything else?
+
+
+Frame:  5
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>stansted airport</span> and should depart from <span class='emphasis'>cambridge</span> The train should leave on <span class='emphasis'>tuesday</span> and should <span class='emphasis'>arrive by 14:30</span> Make sure you get <span class='emphasis'>departure time</span>, <span class='emphasis'>price</span>, and <span class='emphasis'>travel time</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>north</span> and should have <span class='emphasis'>a star of 0</span> The hotel <span class='emphasis'>doesn't need to include internet</span> and should <span class='emphasis'>include free parking</span> If there is no such hotel, how about one that has <span class='emphasis'>free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>friday</span> If the booking fails how about <span class='emphasis'>3 nights</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I need a train that goes to Stansted Airport and departs from Cambridge.
+System:  Sure, I have several options for you. The earliest train is TR4964 which leaves at 05:40 and arrives by 06:08. The journey will take 28 minutes and the ticket costs 10.10 pounds. Would you like to book this train or do you prefer a later one?
+
+
+User:   I need the departure time, price and travel time.
+System:  The train TR4964 departs from Cambridge at [leaveat] and the journey will take [duration]. The ticket costs [price].
+
+
+User:   I also need a place to stay in the north that has a star rating of 0.
+System:  I found a hotel for you. The [hotel_name] is located at [hotel_address] in the north. It has a star rating of 0. Would you like to book this hotel?
+
+
+User:   Does the hotel include free parking?
+System:  Yes, the [hotel_name] does include free parking.
+
+
+User:   I also need a hotel that includes free wifi.
+System:  Yes, the [hotel_name] also includes free wifi. Would you like me to proceed with the booking?
+
+
+User:   Yes, please book the hotel for 5 people and 4 nights starting from friday.
+System:  Your booking at [hotel_name] for 5 people for 4 nights starting from Friday has been successful. Your booking reference is [reference].
+
+
+Frame:  6
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>saturday</span> and should depart from <span class='emphasis'>cambridge</span> The train should <span class='emphasis'>leave after 15:30</span> and should go to <span class='emphasis'>stansted airport</span> Make sure you get <span class='emphasis'>price</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>west</span> and should serve <span class='emphasis'>indian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>10:15</span> on <span class='emphasis'>the same day</span> If the booking fails how about <span class='emphasis'>9:15</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I need a train that leaves on saturday and departs from cambridge.
+System:  I found several trains departing from Cambridge to London Kings Cross on Saturday. For example, train TR0899 leaves at 05:00 and arrives by 05:51. The journey will take 51 minutes and the ticket price is 18.88 pounds. Would you like to book this train or should I find another one for you?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from [departure] to [destination] after [leaveat] on [day]. The latest train leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from [departure] to [destination] after [leaveat] on [day]. The latest train is [trainid] which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from [departure] to [destination] after [leaveat] on [day]. The latest train is [trainid] which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from [departure] to [destination] after [leaveat] on [day]. The latest train is [trainid] which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+User:   I need a train that leaves after 15:30 and goes to stansted airport.
+System:  I'm sorry, but there are no trains available from Cambridge to Stansted Airport after 15:30 on Saturday. The latest train is TR2755 which leaves at 09:40. Would you like to adjust your travel time or choose a different day?
+
+
+Frame:  7
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>expensive</span> price range and should serve <span class='emphasis'>russian</span> food The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>british</span> food Make sure you get <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>same price range as the restaurant</span> and should be in the type of <span class='emphasis'>hotel</span> The hotel should <span class='emphasis'>include free parking</span> and should have <span class='emphasis'>a star of 4</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>sunday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a restaurant in the centre that serves russian food and is in the expensive price range.
+System:  I'm sorry, but there are no restaurants that match your criteria. Would you like to try a different cuisine or price range?
+
+
+User:   How about a restaurant that serves british food?
+System:  There are 3 restaurants that match your criteria. One option is Fitzbillies Restaurant, located at 51 Trumpington Street City Centre, with the phone number 01223352500. Another option is The Cambridge Chop House at 1 Kings Parade, phone number 01223359506. Lastly, there's Midsummer House Restaurant at Midsummer Common, phone number 01223369299. Would you like to make a reservation at one of these?
+
+
+User:   I'll go with Fitzbillies Restaurant. Can you give me the address?
+System:  The address for Fitzbillies Restaurant is 51 Trumpington Street City Centre. Is there anything else you need?
+
+
+User:   I also need a place to stay. It should be in the same price range as the restaurant and include free parking. It should also have a star rating of 4.
+System:  There are 2 hotels that match your criteria. One option is the Huntingdon Marriott Hotel, located at Kingfisher Way, Hinchinbrook Business Park, Huntingdon, with the phone number 01480446000. Another option is the University Arms Hotel at Regent Street, phone number 01223351241. Would you like to make a reservation at one of these?
+
+
+User:   I'll go with the Huntingdon Marriott Hotel. Can I book it for 4 people and 5 nights starting from Sunday?
+System:  Yes, I have booked [bookstay] nights at [name] for [bookpeople] people starting from Sunday. Your booking reference is [reference]. Is there anything else I can assist you with?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great day!
+
+
+Frame:  8
+Instruct Message:  You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>expensive</span> price range Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>food type</span>, and <span class='emphasis'>postcode</span> 
+User:   I'm looking for a restaurant in the centre with expensive prices.
+System:  There are several expensive restaurants in the centre. For example, "Curry Garden" serves Indian food and is located at 106 Regent Street City Centre. There's also "Stazione Restaurant and Coffee Bar" which serves Italian cuisine at Market Hill City Centre. "Eraina" offers European dishes and is located at Free School Lane City Centre. "Backstreet Bistro" is a gastropub at 2 Sturton Street City Centre. Lastly, "Darrys Cookhouse and Wine Shop" serves modern European food and is located at 40270 King Street City Centre. Which one would you prefer?
+
+
+User:   I need the address, food type, and postcode for "Darrys Cookhouse and Wine Shop".
+System:  "Darrys Cookhouse and Wine Shop" is located at 40270 King Street City Centre. They serve modern European food. The postcode is cb11ln.
+
+
+User:   Thank you, that's all I needed.
+System:  You're welcome! If you need any more information in the future, feel free to ask. Enjoy your meal at [name]!
+
+
+Frame:  9
+Instruct Message:  You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>steakhouse</span> food and should be in the <span class='emphasis'>moderate</span> price range The restaurant should be in the <span class='emphasis'>centre</span> If there is no such restaurant, how about one that serves <span class='emphasis'>spanish</span> food Make sure you get <span class='emphasis'>phone number</span> 
+User:   I'm looking for a restaurant in the centre that serves steakhouse food.
+System:  I'm sorry, but there are no steakhouse restaurants in the centre area. Would you like to try another type of cuisine or a different area?
+
+
+User:   How about a restaurant that serves spanish food?
+System:  Yes, there are two Spanish restaurants in the centre. One is La Tasca located at 14 -16 Bridge Street, and the other is La Raza at 4 - 6 Rose Crescent. Would you like more information on either of these restaurants?
+
+
+User:   Yes, can I get the phone number for La Tasca?
+System:  The phone number for La Tasca is 01223464630. Is there anything else I can assist you with?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you need any more help in the future, don't hesitate to ask. Goodbye!
+
+
+Frame:  10
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>west</span> and should serve <span class='emphasis'>british</span> food Make sure you get <span class='emphasis'>postcode</span>, <span class='emphasis'>price range</span>, and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>birmingham new street</span> and should <span class='emphasis'>arrive by 21:45</span> The train should go to <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>saturday</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a local place to dine in the west that serves british food.
+System:  There are 3 restaurants in the west that serve British food. One option is Saint Johns Chop House located at 21 - 24 Northampton Street, phone number 01223353110. Another option is Graffiti at Hotel Felix Whitehouse Lane Huntingdon Road, you can contact them at 01223277977. Lastly, there's Travellers Rest on Huntingdon Road City Centre, their contact number is 01223276182. Would you like to make a reservation at any of these places?
+
+
+User:   I need the postcode, price range, and phone number.
+System:  Sure, here are the details for the three restaurants:  1. Saint Johns Chop House is located at 21 - 24 Northampton Street, postcode CB30AD. Their phone number is 01223353110 and they are moderately priced. 2. Graffiti at Hotel Felix Whitehouse Lane Huntingdon Road has the postcode CB30LX. You can contact them at 01223277977. They are in the expensive price range. 3. Travellers Rest on Huntingdon Road City Centre has the postcode CB30DF and their contact number is 01223276182. They are also in the expensive price range.  Would you like to make a reservation at any of these places?
+
+
+User:   I also need a train. The train should depart from birmingham new street and arrive by 21:45.
+System:  I'm sorry, but there are no trains available in the database that depart from Birmingham New Street and arrive by 21:45.
+
+
+User:   Can you check for trains that depart from Birmingham New Street and arrive by 21:00?
+System:  I'm sorry, but there are no trains available in the database that depart from Birmingham New Street and arrive by 21:00.
+
+
+User:   Can you check for trains that depart from Birmingham New Street and arrive by 20:00?
+System:  Yes, there is a train that departs from Birmingham New Street and arrives by 20:00. The train with ID [TR9366] leaves at [09:40] and will arrive at [12:23]. Is that alright?
+
+
+User:   Yes, that's perfect. Can I book it for 4 people and get the reference number?
+System:  Booking was successful, the total fee is 300.40 pounds. Reference number is : [00002153].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Safe travels!
+
+
+Frame:  11
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>magdalene college</span> Make sure you get <span class='emphasis'>area</span> and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should depart from <span class='emphasis'>bishops stortford</span> The train should leave on <span class='emphasis'>sunday</span> and should <span class='emphasis'>leave after 21:45</span> Make sure you get <span class='emphasis'>price</span> and <span class='emphasis'>arrival time</span> 
+User:   I'm looking for a particular attraction called Magdalene College.
+System:  Magdalene College is located on Magdalene Street, in the West area.
+
+
+User:   Can I have the phone number for Magdalene College?
+System:  The phone number for Magdalene College is 01223332138. Is there anything else I can assist you with?
+
+
+User:   I also need a train. The train should go to Cambridge and should depart from Bishops Stortford.
+System:  There are several trains from Bishops Stortford to Cambridge. Here are a few options:  1. Train ID: TR4448, leaves at 05:29 and arrives by 06:07. The price is 10.10 pounds. The reference number is 00002352. 2. Train ID: TR0532, leaves at 07:29 and arrives by 08:07. The price is 10.10 pounds. The reference number is 00002353. 3. Train ID: TR0757, leaves at 09:29 and arrives by 10:07. The price is 10.10 pounds. The reference number is 00002354.  Please let me know if you need more information or if you want to book any of these trains.
+
+
+User:   I need the train to leave on Sunday and after 21:45.
+System:  I'm sorry, but there are no trains available from Bishops Stortford to Cambridge on Sunday after 21:45. The latest train available leaves at 13:29. Would you like to book this train or adjust your travel time?
+
+
+User:   I'll take the train that leaves at 13:29.
+System:  Great, I have booked the train for you. Your train, [trainid] TR0275, leaves from [departure] Bishops Stortford at [leaveat] 13:29 and arrives in [destination] Cambridge. Your booking [reference] is 00002416.
+
+
+User:   Can I have the price and arrival time for the train?
+System:  The train you booked, TR0275, costs 8.08 pounds. It will arrive in Cambridge at 14:07.
+
+
+Frame:  12
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>gastropub</span> food and should be in the <span class='emphasis'>expensive</span> price range Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>7 people</span> at <span class='emphasis'>14:45</span> on <span class='emphasis'>thursday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for places to go in town. I want to visit a college in the centre.
+System:  There are several colleges in the centre of town. For instance, "Christ's College" is located on Saint Andrew's Street and the entrance is free. Another option is "Corpus Christi" on King's Parade, which has an entrance fee of 2 pounds. "Downing College" on Regent Street, "Emmanuel College" on Saint Andrew's Street, and "Gonville and Caius College" on Trinity Street all offer free entrance as well. Do any of these sound interesting to you?
+
+
+User:   I'm also looking for a restaurant. I want to try gastropub food and I'm willing to pay a lot.
+System:  There are a couple of gastropub restaurants in the centre. One is "Backstreet Bistro" located at 2 Sturton Street City Centre, and the other is "The Slug and Lettuce" at 34 - 35 Green Street. Both are in the expensive price range. Which one would you like to book?
+
+
+User:   I want to book a table for 7 people at 14:45 on thursday.
+System:  Your booking is confirmed. Your reference number is [ref]. Enjoy your meal!
+
+
+User:   I also need a taxi to get between the college and the restaurant. I want to make sure it arrives by the booked time.
+System:  I have booked a yellow Ford taxi for you. It will arrive by 14:45. You can contact the taxi service at [phone] 28191642114.
+
+
+User:   Thank you for your help.
+System:  Your taxi is booked. Your car is a grey Ford and contact number is 63235215774.
+
+
+Frame:  13
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>all saints church</span> Make sure you get <span class='emphasis'>area</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>expensive</span> price range Make sure you get <span class='emphasis'>phone number</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>address</span> 
+User:   I'm looking for a particular attraction called All Saints Church.
+System:  The All Saints Church is located at Jesus Lane in the centre area. The entrance is free. Would you like to know the phone number or postcode?
+
+
+User:   I need the phone number, postcode and the address.
+System:  The address of All Saints Church is Jesus Lane. The phone number is 01223452587 and the postcode is cb58bs. Is there anything else you would like to know?
+
+
+User:   I also need a place to dine in the centre that is in the expensive price range.
+System:  Curry Garden is an expensive Indian restaurant located in the centre area. The address is 106 Regent Street City Centre, and the phone number is 01223302330. Can I assist you with anything else?
+
+
+User:   No, that's all I need. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Enjoy your visit to the All Saints Church and your meal at Curry Garden!
+
+
+Frame:  14
+Instruct Message:  You are planning your trip in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> Make sure you get <span class='emphasis'>area</span>, <span class='emphasis'>entrance fee</span>, and <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>expensive</span> price range and should <span class='emphasis'>include free wifi</span> The hotel should be in the <span class='emphasis'>north</span> and should be in the type of <span class='emphasis'>guesthouse</span> If there is no such hotel, how about one that is in the <span class='emphasis'>cheap</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>attraction</span> by <span class='emphasis'>20:30</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for places to go in town that are colleges.
+System:  There are several colleges you can visit. For instance, "Christ's College" is located at Saint Andrew's Street in the centre of town and the entrance is free. Another option is "Churchill College" at Storey's Way in the west, also with free entrance. "Clare College" is also in the west, at Trinity Lane, but there is a moderate entrance fee of 2.50 pounds. "Clare Hall" is another free option in the west, located at Herschel Road. Lastly, "Corpus Christi" is in the centre at King's Parade and has a cheap entrance fee of 2 pounds. Would you like more information on any of these?
+
+
+User:   I need the area, entrance fee, and postcode for each college.
+System:  Sure, here is the information you requested:  - "Christ's College" is in the centre of town, the entrance is free, and the postcode is CB23BU. - "Churchill College" is located in the west, the entrance is also free, and the postcode is CB30DS. - "Clare College" is in the west, the entrance fee is 2.50 pounds, and the postcode is CB21TL. - "Clare Hall" is in the west, the entrance is free, and the postcode is CB39AL. - "Corpus Christi" is in the centre, the entrance fee is 2 pounds, and the postcode is CB21RH.  Is there anything else you would like to know?
+
+
+User:   I also need a place to stay. It should be expensive and include free wifi. It should be in the north and be a guesthouse.
+System:  I'm sorry, but currently, there are no guesthouses in the north that are expensive and include free wifi in our database. Would you like to modify your search criteria?
+
+
+User:   Yes, how about a hotel in the cheap price range?
+System:  I'm sorry, but there are no hotels in the north that are in the cheap price range and include free wifi in our database. Would you like to modify your search criteria?
+
+
+User:   No, that's okay. I'll just take the cheapest option.
+System:  I'm sorry, but there are no hotels available in the north area in the cheap price range with free wifi. Would you like to try a different area or price range?
+
+
+User:   No, that's fine. I'll just take the cheapest option available.
+System:  I'm sorry, but there are currently no hotels available in our database that match your criteria. Would you like to try a different area or price range?
+
+
+User:   No, that's okay. I'll just look for a taxi to commute between the two places.
+System:  I found a taxi for you. The type of the car is [type] and you can contact them at this phone number: [phone].
+
+
+User:   I also need to book the attraction for 5 people and 3 nights starting from saturday.
+System:  I'm sorry, but currently, there are no attractions available for booking in our database. Would you like to try a different type of attraction or change the date?
+
+
+User:   No, that's okay. Thank you for your help.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Enjoy your visit!
+
+
+Frame:  15
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>pizza express</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>2 people</span> at <span class='emphasis'>18:00</span> on <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>sunday</span> The train should go to <span class='emphasis'>norwich</span> and should <span class='emphasis'>leave after 19:15</span> Make sure you get <span class='emphasis'>arrival time</span>, <span class='emphasis'>travel time</span>, and <span class='emphasis'>price</span> 
+User:   I'm looking for a particular restaurant called pizza express.
+System:  Pizza Express is a moderately priced Italian restaurant located in the city centre. The address is Regent Street City Centre, and the postcode is cb21db. The phone number is 01223324033. Would you like me to book a table for you?
+
+
+User:   Yes, please book a table for 2 people at 18:00 on saturday.
+System:  Your booking at Pizza Express for 2 people at 18:00 on Saturday has been confirmed. Your reference number is 00000012.
+
+
+User:   I also need a train. The train should depart from cambridge and should leave on sunday.
+System:  The first train departing from Cambridge on Sunday is TR7423. It leaves at 05:00 and arrives at London Kings Cross at 05:51. Would this suit your needs or would you like a later one?
+
+
+User:   I need a train that leaves after 19:15 and goes to Norwich.
+System:  I found a train for you. The train [TR4969] departs from [Cambridge] at [09:36] and arrives in [Norwich] at [10:55] on [Sunday]. Would you like me to book this train for you?
+
+
+User:   Yes, please book this train for me.
+System:  Your train booking has been confirmed. The train [TR4969] will depart from [Cambridge] at [09:36] and arrive in [Norwich] at [10:55] on [Sunday]. Your booking reference is [00000664].
+
+
+Frame:  16
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>cheap</span> price range and should be in the <span class='emphasis'>centre</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>2 people</span> at <span class='emphasis'>13:45</span> on <span class='emphasis'>wednesday</span> If the booking fails how about <span class='emphasis'>12:45</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free parking</span> and should be <span class='emphasis'>in the same area as the restaurant</span> The hotel should be in the <span class='emphasis'>same price range as the restaurant</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>the same group of people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>the same day</span> If the booking fails how about <span class='emphasis'>1 nights</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a cheap restaurant in the centre.
+System:  We have several cheap restaurants in the centre. For example, "Pizza Hut City Centre" at Regent Street City Centre, phone number 01223323737, or "Charlie Chan" also at Regent Street City Centre, phone number 01223361763. Do you have a preference for a type of cuisine?
+
+
+User:   I would like to book a table for 2 people at 13:45 on Wednesday.
+System:  Your booking is confirmed for [bookpeople] people at [booktime] on [bookday]. Your reference number is [ref]. Enjoy your meal!
+
+
+User:   If the booking fails, how about 12:45?
+System:  Your booking for [bookpeople] people at [booktime] on [bookday] is confirmed. Your reference number is [ref]. Enjoy your meal!
+
+
+User:   I need the reference number.
+System:  Sure. The reference number for your booking is [ref]. Can I assist you with anything else?
+
+
+User:   I'm also looking for a hotel with free parking in the same area as the restaurant.
+System:  I found a couple of options for you. The "Alexander Bed and Breakfast" at 56 Saint Barnabas Road, phone number 01223525725, or "El Shaddai" at 41 Warkworth Street, phone number 01223327978. Both have free parking and are in the centre. Which one would you like to book?
+
+
+User:   I want to book it for the same group of people and 4 nights starting from the same day.
+System:  Your booking is complete! Your reference number is [ref] . Do you need anything else?
+
+
+User:   If the booking fails, how about 1 night?
+System:  Your booking for 1 night is confirmed. Your reference number is [ref]. Can I assist you with anything else?
+
+
+User:   No, that's all. Thank you.
+System:  Your reference number for the hotel booking is [ref]. Have a great day!
+
+
+Frame:  17
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should <span class='emphasis'>leave after 09:15</span> The train should leave on <span class='emphasis'>wednesday</span> and should go to <span class='emphasis'>london liverpool street</span> Make sure you get <span class='emphasis'>arrival time</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>entertainment</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of college</span> Make sure you get <span class='emphasis'>entrance fee</span> 
+User:   I need a train that leaves after 09:15 on Wednesday from Cambridge and goes to London Liverpool Street.
+System:  The train that leaves after 09:15 from Cambridge to London Liverpool Street on Wednesday is the TR5874. It departs at 09:59 and arrives by 11:27. The journey will take 88 minutes and the ticket price is 16.60 pounds.
+
+
+User:   That's perfect. Can you also give me some information on places to go in the centre for entertainment?
+System:  Sure, here are some places for entertainment in the centre:  1. ADC Theatre located at Park Street. You can contact them at 01223300085. Their postcode is CB58AS.  2. Ballare, a nightclub at Heidelberg Gardens, Lion Yard. Their contact number is 01223364222 and the postcode is CB23NA.  3. Cambridge Arts Theatre at 6 Saint Edward's Passage. You can reach them at 01223503333. The postcode is CB23PJ.  Please let me know if you need more information.
+
+
+User:   Can you give me the entrance fee for each of these places?
+System:  I'm sorry, but I don't have the information about the entrance fees for these places. I recommend contacting them directly for the most accurate information.
+
+
+User:   Okay, thank you for your help.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great trip!
+
+
+Frame:  18
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>meghna</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>4 people</span> at <span class='emphasis'>17:30</span> on <span class='emphasis'>wednesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 11:00</span> The train should be on <span class='emphasis'>the same day as the restaurant booking</span> and should depart from <span class='emphasis'>norwich</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a particular restaurant called Meghna in Cambridge.
+System:  Meghna is an Indian restaurant located at 205 Victoria Road Chesterton, in the west part of Cambridge. The postcode is cb43lf. Would you like to make a reservation?
+
+
+User:   Yes, I would like to book a table for 4 people at 17:30 on Wednesday.
+System:  Your booking at [name] for 4 people at 17:30 on Wednesday has been made. Your reference number is [reference]. Enjoy your meal!
+
+
+User:   I also need a train that goes to Cambridge and arrives by 11:00 on the same day as the restaurant booking.
+System:  I have found a train for you. The train TR3810 departs from London Kings Cross at 09:17 and arrives in Cambridge at 10:08. The journey will take 51 minutes and the ticket price is 23.60 pounds. Your reference number is 00000092. Is there anything else I can assist you with?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great day!
+
+
+Frame:  19
+Instruct Message:  You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should <span class='emphasis'>include free wifi</span> The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>east</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a guesthouse that includes free wifi and has a 4 star rating in the east.
+System:  I found several 4-star guesthouses in the east that offer free wifi. Here are a few options:   1. A and B Guest House at 124 Tenison Road, phone number 01223315702.  2. Allenbell at 517a Coldham Lane, phone number 01223210353.  3. Autumn House at 710 Newmarket Road, phone number 01223575122.   Would you like to book one of these or do you need more options?
+
+
+User:   I want to book a hotel for 2 people and 4 nights starting from monday.
+System:  I'm sorry, but there are no hotels available that match your criteria. Would you like to try a different area or type of accommodation?
+
+
+User:   No, thank you. That's all I need.
+System:  Alright, if you need any further assistance in the future, feel free to ask. Have a great day!
+
+
+Frame:  20
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the <span class='emphasis'>south</span> The hotel should have <span class='emphasis'>a star of 4</span> If there is no such hotel, how about one that is in the <span class='emphasis'>moderate</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>2 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>leave after 20:15</span> and should leave on <span class='emphasis'>sunday</span> The train should depart from <span class='emphasis'>cambridge</span> and should go to <span class='emphasis'>stansted airport</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a place to stay in the south that is expensive and has a 4 star rating.
+System:  I'm sorry, but there are no hotels in the south that are expensive and have a 4 star rating.
+
+
+User:   Okay, how about a hotel in the moderate price range?
+System:  There is a hotel named [aylesbray lodge guest house] in the [south] with the address [5 mowbray road]. It has free parking and internet. Would you like me to book it for you?
+
+
+User:   Yes, please book it for 2 people and 4 nights starting from saturday.
+System:  Your booking is confirmed. Your reference number is [00000010].
+
+
+User:   I also need a train. The train should leave after 20:15 and should leave on sunday.
+System:  I found a train for you. Train TR7447 leaves at 21:00 on Sunday from Cambridge and arrives at London Kings Cross at 21:51. Would you like me to book this for you?
+
+
+User:   Yes, please book it for the same group of people.
+System:  Booking was successful, the total fee is 18.88 pounds payable at the station. Reference number is : 00000064.
+
+
+Frame:  21
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should <span class='emphasis'>include free parking</span> and should <span class='emphasis'>include free wifi</span> The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the type of <span class='emphasis'>guesthouse</span> If there is no such hotel, how about one that is in the <span class='emphasis'>moderate</span> price range Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>6 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>saint catharine's college</span> Make sure you get <span class='emphasis'>address</span> and <span class='emphasis'>phone number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>07:00</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I need a place to stay in Cambridge that includes free parking and free wifi.
+System:  I found a few options for you. One is the [acorn guest house] located at [154 chesterton road] in the north area of Cambridge. Another option is the [alexander bed and breakfast] at [56 saint barnabas road] in the centre of Cambridge. Both have free parking and wifi. Would you like me to book one of these for you?
+
+
+User:   I would like to book the acorn guest house for 6 people and 3 nights starting from monday.
+System:  Your booking at the Acorn Guest House for 6 people for 3 nights starting from Monday has been successfully made. Your booking reference is [00000001].
+
+
+User:   I am also looking for a particular attraction called Saint Catharine's College.
+System:  Saint Catharine's College is located at King's Parade in the centre of Cambridge. The phone number is 01223338300 and the postcode is CB21RL. The entrance is free.
+
+
+User:   I also need to book a taxi to commute between the hotel and the college.
+System:  I have booked a blue BMW taxi for you. You can contact them at 74932576951.
+
+
+User:   I need to leave the hotel by 07:00.
+System:  Your taxi will pick you up from the Acorn Guest House at 07:00. The car is a red Tesla and you can contact them at 83898669978. Is there anything else you need?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great stay in Cambridge!
+
+
+Frame:  22
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>expensive</span> price range and should be in the <span class='emphasis'>east</span> The restaurant should serve <span class='emphasis'>indian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>3 people</span> at <span class='emphasis'>14:00</span> on <span class='emphasis'>wednesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>london kings cross</span> and should be on <span class='emphasis'>the same day as the restaurant booking</span> The train should <span class='emphasis'>arrive by 11:30</span> and should go to <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>train ID</span> 
+User:   I'm looking for a place to dine in the east that serves indian food.
+System:  There are several Indian restaurants in the east. One option is Curry Prince at 451 Newmarket Road Fen Ditton, their phone number is 01223566388. Another option is Pipasha Restaurant at Newmarket Road Fen Ditton, you can contact them at 01223577786. There's also Rajmahal at 7 Barnwell Road Fen Ditton, their contact number is 01223244955. Lastly, there's Sitar Tandoori at 43 High Street Cherry Hinton Cherry Hinton, their phone number is 01223249955. Which one do you prefer?
+
+
+User:   I need a restaurant in the expensive price range.
+System:  There are two expensive Indian restaurants in the east. One is Pipasha Restaurant at Newmarket Road Fen Ditton, their phone number is 01223577786. The other is Sitar Tandoori at 43 High Street Cherry Hinton Cherry Hinton, their phone number is 01223249955. Which one would you like to book?
+
+
+User:   I want to book a table for 3 people at 14:00 on wednesday.
+System:  Your booking at Pipasha Restaurant is confirmed for 3 people at 14:00 on Wednesday. Your reference number is 00000062. If you need to make any changes, please call them at 01223577786. Enjoy your meal!
+
+
+User:   I also need a train. The train should depart from london kings cross and should be on the same day as the restaurant booking.
+System:  I found a few trains departing from London Kings Cross on Wednesday. The earliest one is TR5725, which leaves at 05:17 and arrives by 06:08. The next one is TR4543, leaving at 07:17 and arriving by 08:08. There's also TR3810 that leaves at 09:17 and arrives by 10:08. Another option is TR2417, departing at 11:17 and arriving by 12:08. The last one is TR0922, which leaves at 13:17 and arrives by 14:08. Which one would you like to book?
+
+
+User:   I need the train to arrive by 11:30 and go to Cambridge.
+System:  The train [TR3810] departs from [london kings cross] on [wednesday] at [09:17] and arrives in [cambridge] by [10:08]. Would you like to book this train?
+
+
+User:   Yes, please book that train for me.
+System:  Your train [TR3810] is booked for [Wednesday]. It departs from [London Kings Cross] at [09:17] and arrives in [Cambridge] by [10:08]. Your booking reference is [00000092]. Enjoy your journey!
+
+
+Frame:  23
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>moderate</span> price range and should <span class='emphasis'>include free wifi</span> The hotel should have <span class='emphasis'>a star of 3</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>6 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>sunday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>museum</span> Make sure you get <span class='emphasis'>address</span> 
+User:   I'm looking for a place to stay in Cambridge that is in the moderate price range and includes free wifi.
+System:  I found a few options for you. One is the [a and b guest house] located at [124 tenison road], their phone number is [01223315702]. Another option is the [acorn guest house] at [154 chesterton road], you can contact them at [01223353888]. Would you like me to book one of these for you?
+
+
+User:   Yes, I would like to book the [a and b guest house] for 6 people and 4 nights starting from sunday.
+System:  I have successfully booked the A and B Guest House for you. Your booking reference is [00000000]. Is there anything else I can assist you with?
+
+
+User:   Yes, I am also looking for places to go in town. Can you recommend any museums?
+System:  Sure, I found a few museums in Cambridge for you. One is the [Broughton House Gallery] located at [98 King Street], their phone number is [01223314960]. Another option is the [Byard Art] at [14 King's Parade], you can contact them at [01223464646]. There's also the [Cambridge and County Folk Museum] at [2-3 Castle Street], their phone number is [01223355159]. Which one would you like to visit?
+
+
+User:   I would like to visit the [Cambridge and County Folk Museum].
+System:  The Cambridge and County Folk Museum is located at 2-3 Castle Street, CB30AQ. You can contact them at 01223355159. The entrance fee is 3.50 pounds. Enjoy your visit! Is there anything else you need?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Enjoy your stay and your visit to the museum!
+
+
+Frame:  24
+Instruct Message:  You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>swimmingpool</span> and should be in the <span class='emphasis'>north</span> Make sure you get <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>expensive</span> price range and should be in the type of <span class='emphasis'>hotel</span> The hotel should have <span class='emphasis'>a star of 4</span> and should <span class='emphasis'>include free parking</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>5 people</span> and <span class='emphasis'>2 nights</span> starting from <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to leave the <span class='emphasis'>hotel</span> by <span class='emphasis'>14:00</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for places to go in Cambridge that are in the north and are swimming pools.
+System:  There are two swimming pools in the north of Cambridge. You can either go to Jesus Green Outdoor Pool located at between Victoria Road and the River, or Kings Hedges Learner Pool at Jedburgh Court, Kings Hedges.
+
+
+User:   I need the address for both of those.
+System:  The address for Jesus Green Outdoor Pool is between Victoria Road and the River. The address for Kings Hedges Learner Pool is Jedburgh Court, Kings Hedges. Is there anything else you need?
+
+
+User:   Yes, I also need a place to stay. It should be an expensive hotel with a 4 star rating and free parking.
+System:  The Huntingdon Marriott Hotel located at Kingfisher Way, Hinchinbrook Business Park, Huntingdon, and the University Arms Hotel at Regent Street both meet your requirements. They are 4-star hotels, expensive, and offer free parking. Which one would you like to book?
+
+
+User:   I want to book the University Arms Hotel for 5 people and 2 nights starting from Monday.
+System:  Your booking at the [hotel_name] for 5 people for 2 nights starting from Monday has been successfully made. Your booking reference is [reference]. Is there anything else I can assist you with today?
+
+
+User:   Yes, I also need to book a taxi to commute between the two places.
+System:  I have found a taxi for you. The car type is [type] and you can contact them at this phone number: [phone].
+
+
+User:   Thank you for all your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great day!
+
+
+Frame:  25
+Instruct Message:  You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>particular attraction</span>. Its name is called <span class='emphasis'>cherry hinton hall and grounds</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>area</span>, and <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>modern european</span> food and should be in the <span class='emphasis'>moderate</span> price range The restaurant should be in the <span class='emphasis'>south</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>7 people</span> at <span class='emphasis'>11:30</span> on <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a particular attraction called Cherry Hinton Hall and Grounds.
+System:  Sure, I found it. Cherry Hinton Hall and Grounds is located at Cherry Hinton Road in the east area. The phone number is 01223446104 and the postcode is CB18DW. It's an entertainment attraction. Is there anything else you need to know?
+
+
+User:   I also need the entrance fee.
+System:  I'm sorry, but the database does not provide information on the entrance fee for Cherry Hinton Hall and Grounds. I recommend contacting them directly at 01223446104 for the most accurate information.
+
+
+User:   I also need a place to dine. The restaurant should serve modern european food and should be in the moderate price range.
+System:  There are a few restaurants that fit your criteria. One option is Restaurant Alimentum, located at 152 - 154 Hills Road in the south area. Their phone number is 01223413000. Another option is De Luca Cucina and Bar, located at 83 Regent Street in the centre area. Their phone number is 01223356666. Lastly, there is Riverside Brasserie, located at Doubletree by Hilton Cambridge Granta Place Mill Lane in the centre area. Their phone number is 01223259988.
+
+
+User:   I want to book a table for 7 people at 11:30 on monday at De Luca Cucina and Bar.
+System:  Your booking at De Luca Cucina and Bar for 7 people at 11:30 on Monday is confirmed. Your reference number is 00000016. Is there anything else you need?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you have any other questions in the future, feel free to ask. Enjoy your visit to Cherry Hinton Hall and Grounds and your meal at De Luca Cucina and Bar!
+
+
+Frame:  26
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>pizza express Fen Ditton</span> Make sure you get <span class='emphasis'>area</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>arrive by 09:45</span> and should go to <span class='emphasis'>cambridge</span> The train should leave on <span class='emphasis'>sunday</span> and should depart from <span class='emphasis'>stevenage</span> Make sure you get <span class='emphasis'>train ID</span>, <span class='emphasis'>price</span>, and <span class='emphasis'>travel time</span> 
+User:   I'm looking for a particular restaurant called pizza express Fen Ditton.
+System:  Pizza Express Fen Ditton is a moderately priced Italian restaurant located at Jesus Lane Fen Ditton, in the centre area. The phone number is 01223324033. Would you like to make a booking?
+
+
+User:   No, I'm also looking for a train that arrives by 09:45 on Sunday.
+System:  I'm sorry, but there are no trains that arrive by 09:45 on Sunday. The earliest train I can find arrives at 09:51. Would you like to book this train?
+
+
+User:   Yes, please. Can you also get me the train ID, price, and travel time?
+System:  I have booked the train for you. The train ID is TR6198, the price is 18.88 pounds, and the travel time is 51 minutes. Your booking reference is 00000062.
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great day!
+
+
+Frame:  27
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>scandinavian</span> food If there is no such restaurant, how about one that serves <span class='emphasis'>modern european</span> food Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>postcode</span>, and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>bishops stortford</span> and should go to <span class='emphasis'>cambridge</span> The train should leave on <span class='emphasis'>monday</span> and should <span class='emphasis'>leave after 13:15</span> Once you find the train you want to make a booking for <span class='emphasis'>6 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a place to dine in the centre that serves scandinavian food.
+System:  I'm sorry, but there are no restaurants serving [food] cuisine in the [area]. Can I assist you with another request?
+
+
+User:   How about a restaurant that serves modern european food?
+System:  I found 4 restaurants that serve modern european food in the centre. One option is "de luca cucina and bar" at 83 Regent Street, phone number 01223356666. Another option is "riverside brasserie" at Doubletree by Hilton Cambridge Granta Place Mill Lane, phone number 01223259988. There's also "darrys cookhouse and wine shop" at 40270 King Street City Centre, phone number 01223505015. Which one do you prefer?
+
+
+User:   I'll go with "de luca cucina and bar".
+System:  Great choice! Your booking at "de luca cucina and bar" has been made. The address is 83 Regent Street. Enjoy your meal!
+
+
+User:   I also need a train. The train should depart from bishops stortford and go to cambridge.
+System:  I found several trains from [departure] to [destination]. One option is train [trainid] which leaves at [leaveat] and arrives by [arriveby]. Another option is train [trainid] which leaves at [leaveat] and arrives by [arriveby]. Which one do you prefer?
+
+
+User:   I'll take the first option.
+System:  Your booking for train [TR4448] from [bishops stortford] to [cambridge] has been made. The train leaves at [05:29] and arrives by [06:07]. Your booking reference is [00002352].
+
+
+Frame:  28
+Instruct Message:  You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>cheap</span> price range The hotel should be in the <span class='emphasis'>east</span> and should <span class='emphasis'>include free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be <span class='emphasis'>in the same area as the hotel</span> and should be in the type of <span class='emphasis'>college</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of museum</span> Make sure you get <span class='emphasis'>postcode</span> 
+User:   I'm looking for a place to stay in the east that has a 4 star rating and is cheap.
+System:  I found a few options for you. One is the [allenbell] located at [517a coldham lane], and another is the [autumn house] at [710 newmarket road]. Both have a 4-star rating, are in the east, and are cheap. They also offer internet and parking. Would you like me to book one of them for you?
+
+
+User:   I want to book the [allenbell] for 3 people and 5 nights starting from tuesday.
+System:  Your booking at the Allenbell for 3 people for 5 nights starting from Tuesday has been made. Your reference number is [00000003]. Can I assist you with anything else?
+
+
+User:   I'm also looking for places to go in town.
+System:  Sure, there are several attractions in town. For example, there is the [Fitzwilliam Museum] at [Trumpington St] which is a free art and antiquities museum. There is also the [Cambridge University Botanic Garden] at [1 Brookside] which is a beautiful garden with a variety of plants. Would you like more information on these or other attractions?
+
+
+User:   I want to go to a college.
+System:  There are several colleges you can visit. One option is [Christ's College] located at [Saint Andrew's Street] in the centre area. It's free to enter. Another option is [Churchill College] at [Storey's Way] in the west, which is also free. If you don't mind paying a small fee, [Clare College] at [Trinity Lane] charges 2.50 pounds for entrance. Which one would you like more information on?
+
+
+User:   I want to go to [Christ's College].
+System:  Christ's College is located at Saint Andrew's Street in the centre area. The entrance is free. The phone number is 01223334900 and the postcode is CB23BU. Can I assist you with anything else?
+
+
+User:   No, that's all for now. Thank you.
+System:  You're welcome! If you have any other questions in the future, feel free to ask. Enjoy your stay and your visit to Christ's College!
+
+
+Frame:  29
+Instruct Message:  You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>entertainment</span> Make sure you get <span class='emphasis'>entrance fee</span>, <span class='emphasis'>address</span>, and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>restaurant</span>. The restaurant should be in the <span class='emphasis'>centre</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>italian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>5 people</span> at <span class='emphasis'>11:30</span> on <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for places to go in town for entertainment.
+System:  We have several entertainment options in town. In the east, there's Cherry Hinton Hall and Grounds on Cherry Hinton Road and Funky Fun House on Mercers Row. In the south, we have Nusha and Tenpin, both located in Cambridge Leisure Park on Clifton Road. And in the west, there's Whale of a Time on Viking Way, Bar Hill. Do any of these areas suit you?
+
+
+User:   I need the entrance fee, address, and phone number.
+System:  The entrance fee for these places is not specified in our database. However, here are their addresses and phone numbers:  1. Cherry Hinton Hall and Grounds: Cherry Hinton Road, Phone: 01223446104 2. Funky Fun House: 8 Mercers Row, Mercers Row Industrial Estate, Phone: 01223304705 3. Nusha: Unit G6, Cambridge Leisure Park, Clifton Road, Phone: 01223902158 4. Tenpin: Cambridge Leisure Park, Clifton Way, Phone: 08715501010 5. Whale of a Time: Unit 8, Viking Way, Bar Hill, Phone: 01954781018  I recommend calling them directly for information about entrance fees.
+
+
+User:   I also need a restaurant in the centre that serves italian food.
+System:  There are several Italian restaurants in the city centre. Here are a few options:   1. Pizza Hut City Centre: Located at Regent Street City Centre, Phone: 01223323737 2. Stazione Restaurant and Coffee Bar: Located at Market Hill City Centre, Phone: 01223352607 3. Pizza Express: Located at Regent Street City Centre, Phone: 01223324033 4. Ask Restaurant: Located at 12 Bridge Street City Centre, Phone: 01223364917 5. Zizzi Cambridge: Located at 47-53 Regent Street, Phone: 01223365599  Please let me know if you need help with booking or need more information.
+
+
+User:   I want to book a table for 5 people at 11:30 on tuesday at Pizza Hut City Centre.
+System:  Your booking at Pizza Hut City Centre for 5 people at 11:30 on Tuesday has been made. Your reference number is 00000000.
+
+
+User:   I also need a taxi to commute between the two places.
+System:  I have found a taxi for you. The car type is a [type] and you can contact them at this phone number: [phone].
+
+
+User:   I need the contact number and car type.
+System:  Sure, the car type is [type] and the contact number is [phone].
+
+
+User:   I want to make sure the taxi arrives at the restaurant by the booked time.
+System:  Absolutely, I have arranged for a [skoda] to pick you up and ensure you arrive at the restaurant by 11:30. The contact number for the taxi is [88692894195].
+
+
+User:   Thank you for all your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great day!
+
+
+Frame:  30
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>norwich</span> and should <span class='emphasis'>leave after 17:45</span> The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>tuesday</span> Once you find the train you want to make a booking for <span class='emphasis'>2 people</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>entertainment</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of architecture</span> Make sure you get <span class='emphasis'>address</span> 
+User:   I need information about trains in Cambridge.
+System:  Sure! There are several trains from London Kings Cross to Cambridge. For example, there is a train leaving at 05:17 and arriving at 06:08. There are also trains leaving at 07:17, 09:17, 11:17, and 13:17. All these trains take approximately 51 minutes. The fare is 23.60 pounds. Where are you departing from?
+
+
+User:   I am departing from Cambridge and going to Norwich.
+System:  There are several trains from Cambridge to Norwich. For example, train [TR2205] leaves at [05:36] and arrives at [06:55]. The journey takes [79 minutes] and costs [17.60 pounds]. There are also trains leaving at 06:36, 07:36, 08:36, and 09:36. Would you like me to book one of these for you?
+
+
+User:   Yes, please book for 2 people and get me the reference number.
+System:  I've booked 2 seats on train TR2205 for you. The total cost is 35.20 pounds. Your reference number is 00000546. Can I assist you with anything else today?
+
+
+User:   No, that's all for the train. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great trip!
+
+
+User:   I also need information about places to go in town.
+System:  Assistant: Sure, there are several attractions in Cambridge. For example, you can visit the Fitzwilliam Museum, which is located at Trumpington St, Cambridge CB2 1RB. The phone number is +44 1223 332900. You can also visit the Cambridge University Botanic Garden at 1 Brookside, Cambridge CB2 1JE. The phone number is +44 1223 336265. Would you like information on restaurants as well?
+
+
+User:   No, I am looking for entertainment options in the centre.
+System:  I'm sorry, but I couldn't find any entertainment options in the centre of Cambridge. Is there anything else you would like to know?
+
+
+User:   How about places with interesting architecture?
+System:  Sure, there are several places with interesting architecture in the centre of Cambridge. You can visit the All Saints Church at Jesus Lane, the phone number is 01223452587 and the entrance is free. Another option is the Great Saint Mary's Church located at Market Square, you can contact them at 01223350914, the entrance fee is 2 pounds. There's also the Holy Trinity Church at Market Street, their phone number is 01223355397 and the entrance is free. Little Saint Mary's Church is also a good option, it's located at Little Saint Mary's Lane, you can reach them at 01223366202 and the entrance is free. Lastly, you can visit the Old Schools at Trinity Lane, their phone number is 01223332320 and the entrance is free.
+
+
+User:   Can you give me the addresses of these places?
+System:  Sure, here are the addresses for the places I mentioned:  - All Saints Church: Jesus Lane, Cambridge, CB58BS - Great Saint Mary's Church: Market Square, Cambridge, CB23PQ - Holy Trinity Church: Market Street, Cambridge, CB23NZ - Little Saint Mary's Church: Little Saint Mary's Lane, Cambridge, CB21QY - Old Schools: Trinity Lane, Cambridge, CB21TT  Is there anything else you would like to know?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you need any more information in the future, feel free to ask. Enjoy your visit to Cambridge and have a safe journey to Norwich!
+
+
+Frame:  31
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>maharajah tandoori restaurant</span> Make sure you get <span class='emphasis'>price range</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>thursday</span> and should <span class='emphasis'>leave after 09:45</span> The train should depart from <span class='emphasis'>broxbourne</span> and should go to <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>travel time</span> 
+User:   I'm looking for a particular restaurant called Maharajah Tandoori Restaurant.
+System:  The Maharajah Tandoori Restaurant is an expensive Indian restaurant located in the west area at 41518 Castle Street City Centre. The phone number is 01223358399.
+
+
+User:   I also need the price range.
+System:  The Maharajah Tandoori Restaurant is in the expensive price range. Would you like to make a reservation?
+
+
+User:   No, I also need a train. The train should leave on thursday and should leave after 09:45.
+System:  I found a train for you. Train TR3433 leaves at 11:00 on Thursday. Would you like to book a ticket?
+
+
+User:   No, I need the train to depart from Broxbourne and go to Cambridge.
+System:  I'm sorry, but the earliest train from Broxbourne to Cambridge on Thursday leaves at 05:32, which is earlier than your specified time of 09:45. Would you like to adjust your departure time or choose a different day?
+
+
+User:   I'll adjust my departure time to 09:45.
+System:  The train TR5687 leaves Broxbourne at 09:32 and arrives in Cambridge at 10:32. The journey will take 60 minutes and the ticket price is 17.90 pounds. Would you like to book this train?
+
+
+User:   Yes, please book the train for me.
+System:  Your booking was successful. The total fee is 17.90 pounds, payable at the station. Your reference number is [ref].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great trip!
+
+
+Frame:  32
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>polynesian</span> food and should be in the <span class='emphasis'>east</span> The restaurant should be in the <span class='emphasis'>expensive</span> price range If there is no such restaurant, how about one that serves <span class='emphasis'>british</span> food Make sure you get <span class='emphasis'>phone number</span> and <span class='emphasis'>address</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>arrive by 17:45</span> and should go to <span class='emphasis'>broxbourne</span> The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>wednesday</span> Once you find the train you want to make a booking for <span class='emphasis'>2 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a restaurant in the east that serves polynesian food.
+System:  I'm sorry, but there are no restaurants in the east that serve Polynesian food. Would you like to try a different cuisine or area?
+
+
+User:   How about a restaurant that serves british food?
+System:  Grafton Hotel Restaurant serves British food and is located in the east. It is in the expensive price range. Would you like their address or phone number?
+
+
+User:   I need the phone number and address.
+System:  The address for Grafton Hotel Restaurant is [Grafton Hotel 619 Newmarket Road Fen Ditton] and the phone number is [01223241387]. Is there anything else you need?
+
+
+User:   I also need a train. The train should arrive by 17:45 and should go to broxbourne.
+System:  I'm sorry, but there are no trains available that arrive in Broxbourne by 17:45. Would you like to try a different time or destination?
+
+
+User:   What about a train that leaves on wednesday from cambridge?
+System:  There are several trains from Cambridge to Broxbourne on Wednesday. For example, train [TR8300] leaves at [05:01] and arrives at [06:01]. The travel time is [60 minutes] and the price is [17.90 pounds]. Would you like me to book a ticket for you?
+
+
+User:   Yes, please book a ticket for 2 people and get me the reference number.
+System:  I have booked 2 tickets for you on train [TR8300] from Cambridge to Broxbourne on Wednesday. The train leaves at [05:01] and arrives at [06:01]. Your reference number is [00002460].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great day!
+
+
+Frame:  33
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>spanish</span> food and should be in the <span class='emphasis'>cheap</span> price range The restaurant should be in the <span class='emphasis'>centre</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>3 people</span> at <span class='emphasis'>14:30</span> on <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the type of <span class='emphasis'>college</span> and should be <span class='emphasis'>in the same area as the restaurant</span> Make sure you get <span class='emphasis'>address</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for a local place to dine in the centre that serves spanish food.
+System:  La Tasca at 14 -16 Bridge Street and La Raza at 4 - 6 Rose Crescent both serve Spanish food in the centre. What price range are you considering?
+
+
+User:   I need a cheap price range.
+System:  La Raza at 4 - 6 Rose Crescent serves Spanish food in the centre and is in your desired price range. Would you like me to make a reservation for you?
+
+
+User:   Yes, I would like to book a table for 3 people at 14:30 on friday.
+System:  I've booked La Raza for Friday at 14:30, for 3 people. Your reference number is 00000066. The reservation lasts 15 minutes.
+
+
+User:   I'm also looking for places to go in town.
+System:  Sure, what type of attractions are you interested in? We have museums, parks, theatres, and more.
+
+
+User:   I'm interested in colleges.
+System:  I'm sorry, but I couldn't find any colleges in the database. Would you like to search for another type of attraction?
+
+
+User:   No, that's okay. Can you give me the address for La Raza?
+System:  The address for La Raza is 4 - 6 Rose Crescent.
+
+
+User:   I also need to book a taxi to commute between the restaurant and the attraction.
+System:  Sure, I have booked a taxi for you. It's a [tesla] and the contact number is [77752716386]. Is there anything else you need?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! Enjoy your meal and your day out.
+
+
+Frame:  34
+Instruct Message:  You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>wandlebury country park</span> and should <span class='emphasis'>leave after 19:30</span> The taxi should depart from <span class='emphasis'>meze bar restaurant</span> Make sure you get <span class='emphasis'>car type</span> and <span class='emphasis'>contact number</span> 
+User:   I need to book a taxi.
+System:  Sure, I can assist you with that. Could you please tell me your pickup location, destination, and the time you want the taxi?
+
+
+User:   I need to go to Wandlebury Country Park and leave after 19:30.
+System:  Booking completed! Booked car type : tesla Contact number : 32388866382
+
+
+User:   Thank you. Can you also tell me the contact number for the taxi company?
+System:  Sure, the contact number for the taxi company is [phone].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you have any other questions, feel free to ask. Have a great trip!
+
+
+Frame:  35
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>moderate</span> price range The hotel should <span class='emphasis'>include free wifi</span> Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>4 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>saturday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should be on <span class='emphasis'>the same day as the hotel booking</span> and should depart from <span class='emphasis'>leicester</span> The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>leave after 18:45</span> Once you find the train you want to make a booking for <span class='emphasis'>the same group of people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a guesthouse in Cambridge that is in the moderate price range and includes free wifi.
+System:  I'm sorry, but there are currently no guesthouses in Cambridge within a moderate price range that offer free WiFi. Would you like to adjust your preferences?
+
+
+User:   Yes, I would like to adjust my preferences.
+System:  What would you like to change? The area, price range, type of accommodation, or internet availability?
+
+
+User:   I would like to change the type of accommodation to a hotel.
+System:  I'm sorry, but there are currently no hotels in Cambridge within a moderate price range that offer free WiFi. Would you like to adjust your preferences again?
+
+
+User:   Yes, I would like to adjust my preferences again.
+System:  What would you like to change this time? The area, price range, or internet availability?
+
+
+User:   I would like to change the price range to cheap.
+System:  I'm sorry, but there are currently no cheap hotels in Cambridge that offer free WiFi. Would you like to adjust your preferences again?
+
+
+User:   No, that's okay. Can you help me find a train now?
+System:  Of course, I can help you with that. Could you please specify your departure and destination stations, and the time of departure or arrival?
+
+
+User:   I need a train that departs from Leicester and goes to Cambridge after 18:45.
+System:  I'm sorry, but there are currently no trains available from Leicester to Cambridge after 18:45. Would you like to adjust your departure time?
+
+
+User:   Yes, I would like to adjust my departure time.
+System:  What time would you like to depart from Leicester? The earliest train to Cambridge is at [leaveat].
+
+
+User:   That's perfect. Can I book the train for 4 people?
+System:  Sure, I have booked 4 seats for you on the train departing from Leicester to Cambridge at [leaveat]. Your booking reference is [ref]. Is there anything else I can assist you with?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great day!
+
+
+Frame:  36
+Instruct Message:  You want to book a <span class='emphasis'>taxi</span>. The taxi should depart from <span class='emphasis'>museum of classical archaeology</span> and should <span class='emphasis'>arrive by 09:00</span> The taxi should go to <span class='emphasis'>ugly duckling</span> Make sure you get <span class='emphasis'>car type</span> and <span class='emphasis'>contact number</span> 
+User:   I need to book a taxi.
+System:  Sure, I can assist with that. Could you please provide me with your pickup location, destination, and the time you want to be picked up?
+
+
+User:   I need to be picked up from the museum of classical archaeology and arrive at ugly duckling by 09:00.
+System:  A tesla is booked. Contact number 88579973435
+
+
+User:   Thank you, that's all I need.
+System:  You're welcome! If you need any more assistance, feel free to ask.
+
+
+Frame:  37
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>particular restaurant</span>. Its name is called <span class='emphasis'>rice boat</span> Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>13:30</span> on <span class='emphasis'>monday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>college</span> Make sure you get <span class='emphasis'>postcode</span> and <span class='emphasis'>entrance fee</span> 
+User:   I'm looking for a particular restaurant called rice boat.
+System:  Rice Boat is an Indian restaurant located at 37 Newnham Road Newnham. It is in the expensive price range. The phone number is 01223302800. Would you like me to make a reservation for you?
+
+
+User:   Yes, I would like to book a table for 1 person at 13:30 on Monday.
+System:  Your booking at Rice Boat is confirmed for 1 person at 13:30 on Monday. Your reference number is 00000030. Enjoy your meal!
+
+
+User:   I'm also looking for places to go in town.
+System:  Sure, there are many attractions in town. Could you please specify what type of attractions you are interested in? For example, are you looking for museums, parks, theaters, or something else?
+
+
+User:   I'm looking for a college.
+System:  There are several colleges in town. For example, there's Christ's College in the centre, Churchill College and Clare College in the west. There's also Clare Hall in the west and Corpus Christi in the centre. Do you have a preference in area?
+
+
+User:   I would like to know the postcode and entrance fee for Christ's College.
+System:  Christ's College is located in the centre of town, the postcode is CB23BU. The entrance is free. Is there anything else I can assist you with?
+
+
+User:   No, that's all for now. Thank you.
+System:  You're welcome! If you have any other questions in the future, feel free to ask. Enjoy your visit to Christ's College and your meal at Rice Boat!
+
+
+Frame:  38
+Instruct Message:  You are traveling to Cambridge and excited about seeing local tourist attractions You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>attraction type</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>world</span> food and should be in the <span class='emphasis'>moderate</span> price range If there is no such restaurant, how about one that serves <span class='emphasis'>italian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>2 people</span> at <span class='emphasis'>16:45</span> on <span class='emphasis'>friday</span> Make sure you get the <span class='emphasis'>reference number</span> You also want to book a <span class='emphasis'>taxi</span> to commute between the two places You want to make sure it arrives the restaurant <span class='emphasis'>by the booked time</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I'm looking for places to go in the centre.
+System:  There are several attractions in the [area]. You could visit the ADC Theatre, All Saints Church, Ballare nightclub, Broughton House Gallery, or the Cambridge Arts Theatre. Do any of these interest you?
+
+
+User:   I would like to know the attraction type.
+System:  The ADC Theatre is a theatre located on Park Street. All Saints Church, located on Jesus Lane, is an architectural attraction. Ballare is a nightclub in Heidelberg Gardens, Lion Yard. Broughton House Gallery, located on 98 King Street, is a museum. Lastly, the Cambridge Arts Theatre, located on 6 Saint Edward's Passage, is also a theatre.
+
+
+User:   I am also looking for a place to dine. Do you have any recommendations?
+System:  Sure, here are some restaurants in the centre that you might like:   1. Pizza Hut City Centre, an Italian restaurant located at Regent Street City Centre. Their phone number is 01223323737. 2. Curry Garden, an Indian restaurant located at 106 Regent Street City Centre. You can reach them at 01223302330. 3. Stazione Restaurant and Coffee Bar, an Italian restaurant at Market Hill City Centre. Their contact number is 01223352607. 4. Charlie Chan, a Chinese restaurant located at Regent Street City Centre. You can call them at 01223361763. 5. Eraina, a European restaurant located at Free School Lane City Centre. Their phone number is 01223368786.  Please let me know if you want to book a table at any of these restaurants.
+
+
+User:   I would like to book a table for 2 people at 16:45 on friday.
+System:  Your booking is confirmed. I've reserved a table for [bookpeople] at [booktime] this [bookday]. Your reference number is [ref]. Enjoy your meal!
+
+
+User:   I also need to book a taxi to commute between the two places.
+System:  I found a taxi for you. The type of the car is [type] and you can contact them at [phone].
+
+
+User:   I need to make sure the taxi arrives by the booked time.
+System:  Your taxi has been booked. It's a [tesla] and will arrive by your requested time of 16:45. The contact number for the taxi is [82289194357].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Enjoy your day!
+
+
+Frame:  39
+Instruct Message:  You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>west</span> and should be in the <span class='emphasis'>cheap</span> price range The restaurant should serve <span class='emphasis'>polish</span> food If there is no such restaurant, how about one that serves <span class='emphasis'>italian</span> food Make sure you get <span class='emphasis'>address</span> 
+User:   I'm looking for a place to dine in the west that serves polish food.
+System:  I'm sorry, but there are no restaurants in the west area that serve Polish food. Would you like to try a different area or cuisine?
+
+
+User:   How about Italian food?
+System:  Yes, there are Italian restaurants in the west area. One option is Prezzo, located at 21 - 24 Northampton Road, with a moderate price range. Another option is La Margherita, located at 15 Magdalene Street City Centre, which is cheaper. Would you like to book a table at one of these restaurants?
+
+
+User:   I'll go with La Margherita. Can you give me the address?
+System:  Sure, the address of La Margherita is 15 Magdalene Street City Centre. Would you like me to make a reservation for you?
+
+
+User:   Yes, please. Can you also give me the reference number?
+System:  I have successfully made a reservation for you at La Margherita. Your reference number is [reference]. Enjoy your meal!
+
+
+Frame:  40
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>international</span> food and should be in the <span class='emphasis'>centre</span> The restaurant should be in the <span class='emphasis'>moderate</span> price range Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>4 people</span> at <span class='emphasis'>13:00</span> on <span class='emphasis'>sunday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>ely</span> and should <span class='emphasis'>arrive by 21:30</span> The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>monday</span> Make sure you get <span class='emphasis'>travel time</span>, <span class='emphasis'>price</span>, and <span class='emphasis'>train ID</span> 
+User:   I'm looking for a place to dine in the centre that serves international food.
+System:  There are 2 restaurants in the centre that serve international food. One option is [the varsity restaurant] located at [35 Saint Andrews Street City Centre], and the other is [bloomsbury restaurant] at [Crowne Plaza Hotel 20 Downing Street]. Which one would you like to book?
+
+
+User:   I would like to book a table for 4 people at 13:00 on sunday.
+System:  You are booked into the varsity restaurant. Your reference number is 00000025. Do you need help with anything else?
+
+
+User:   I also need a train. The train should go to ely and should arrive by 21:30.
+System:  I found a train for you. The train TR5167 leaves at 13:50 and arrives in Ely by 14:07. Would you like to book this train?
+
+
+User:   Yes, please book the train for me.
+System:  Your train has been booked. The train TR5167 will depart at 13:50 and arrive in Ely by 14:07. Your booking reference is 00001348. Is there anything else you need assistance with?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great day!
+
+
+Frame:  41
+Instruct Message:  You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>sitar tandoori</span> and should <span class='emphasis'>leave after 19:30</span> The taxi should depart from <span class='emphasis'>la tasca</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I need to book a taxi.
+System:  Sure, I can assist you with that. Could you please tell me your pickup location, destination, and the time you want the taxi?
+
+
+User:   I need to go to Sitar Tandoori and leave after 19:30.
+System:  Where would you like the taxi to pick you up from?
+
+
+User:   I need to be picked up from La Tasca.
+System:  I have booked a taxi for you. It is a volvo and the contact number is 66823967654. Is there anything else I can help you with?
+
+
+User:   No, that's all. Thank you.
+System:  You're welcome! If you need any more assistance in the future, don't hesitate to ask. Enjoy your meal at Sitar Tandoori!
+
+
+Frame:  42
+Instruct Message:  You are looking for information in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>centre</span> and should be in the type of <span class='emphasis'>architecture</span> Make sure you get <span class='emphasis'>postcode</span> and <span class='emphasis'>phone number</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>thursday</span> and should <span class='emphasis'>arrive by 16:30</span> The train should go to <span class='emphasis'>cambridge</span> and should depart from <span class='emphasis'>birmingham new street</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for places to go in the centre that have a specific type of architecture.
+System:  There are several places of architectural interest in the centre. You might want to check out All Saints Church on Jesus Lane, Great Saint Mary's Church at Market Square, Holy Trinity Church on Market Street, Little Saint Mary's Church on Little Saint Mary's Lane, or Old Schools on Trinity Lane. Which one would you like more information on?
+
+
+User:   I need the postcode and phone number for All Saints Church.
+System:  The postcode for All Saints Church is cb58bs and the phone number is 01223452587. Is there anything else you need?
+
+
+User:   I also need a train. The train should leave on thursday and arrive by 16:30.
+System:  I'm sorry, but there are no trains available that arrive by 16:30 on Thursday. The latest train arrives at 13:51. Would you like to book this one?
+
+
+User:   No, I need a train that arrives by 16:30. Can you check for other days?
+System:  I have checked the schedule for other days and found a train that leaves on Friday at 15:00 and arrives by 16:30. Would that work for you?
+
+
+User:   Yes, that will work. Can you book it for 4 people and get me the reference number?
+System:  Booking was successful, the total fee is [price] payable at the station. Reference number is : [ref] .
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Enjoy your trip!
+
+
+Frame:  43
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>leicester</span> and should leave on <span class='emphasis'>wednesday</span> The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 10:45</span> Make sure you get <span class='emphasis'>price</span> You are also looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>seafood</span> food and should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>address</span>, <span class='emphasis'>phone number</span>, and <span class='emphasis'>price range</span> 
+User:   I need information about trains departing from Leicester and arriving in Cambridge on Wednesday.
+System:  There are several trains from Leicester to Cambridge on Wednesday. Here are a few options:   1. Train TR1903 leaves at 05:09 and arrives at 06:54.  2. Train TR3645 leaves at 06:09 and arrives at 07:54.  3. Train TR1775 leaves at 07:09 and arrives at 08:54.   Please let me know which one suits you best.
+
+
+User:   I need the train to arrive by 10:45.
+System:  The train TR7703 leaves Leicester at 08:09 and arrives in Cambridge at 09:54 on Wednesday. This is the latest train that will get you to Cambridge by 10:45. Would you like me to book this train for you?
+
+
+User:   Yes, please book the train for me.
+System:  Sure, how many tickets would you like for the TR7703 train from Leicester to Cambridge on Wednesday?
+
+
+User:   Just one ticket.
+System:  Your booking for the TR7703 train from Leicester to Cambridge on Wednesday was successful. Your reference number is 00001924 and the total fee is 37.80 pounds. Is there anything else I can assist you with today?
+
+
+User:   No, that's all for the train. Thank you.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great trip!
+
+
+User:   I also need a place to dine in the centre that serves seafood.
+System:  Sure, I found a restaurant that matches your preferences. The restaurant is called Loch Fyne, located at The Little Rose 37 Trumpington Street, in the centre area. They serve seafood. The phone number is 01223362433 and the postcode is cb21qy. Would you like me to make a reservation for you?
+
+
+User:   Yes, please make a reservation for me.
+System:  Your reservation at Loch Fyne has been made. Your reference number is [ref]. Enjoy your meal!
+
+
+Frame:  44
+Instruct Message:  You are looking for information in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>friday</span> and should go to <span class='emphasis'>cambridge</span> The train should depart from <span class='emphasis'>ely</span> and should <span class='emphasis'>arrive by 20:30</span> Make sure you get <span class='emphasis'>train ID</span> You are also looking for a <span class='emphasis'>particular hotel</span>. Its name is called <span class='emphasis'>huntingdon marriott hotel</span> Make sure you get <span class='emphasis'>star of the hotel</span> and <span class='emphasis'>postcode</span> 
+User:   I need information about trains in Cambridge.
+System:  Sure! We have several trains from London Kings Cross to Cambridge. For example, train TR0378 leaves at 05:17 and arrives at 06:08. The journey takes 51 minutes and costs 23.60 pounds. Where are you departing from?
+
+
+User:   I am departing from Ely.
+System:  We have several trains from Ely to Cambridge. For example, train TR7994 leaves Ely at 05:35 and arrives in Cambridge at 05:52. The journey takes 17 minutes and costs 4.40 pounds. Would you like to book this train or need information on other timings?
+
+
+User:   I need the train to leave on friday and arrive in Cambridge by 20:30.
+System:  I'm sorry, but we don't have any trains arriving in Cambridge from Ely by 20:30 on Friday. The latest train we have arrives at 13:52. Would you like to adjust your arrival time?
+
+
+User:   No, that won't work. Can you check for trains leaving from Ely on Friday?
+System:  We have several trains from [departure] to [destination] on [day]. For example, [trainid] leaves at [leaveat] and arrives at [arriveby]. Would you like to book this train?
+
+
+User:   Yes, I would like to book that train.
+System:  Great, I have booked the train for you. Your booking reference is [reference]. Please, let me know if you need any further assistance.
+
+
+User:   I am also looking for a hotel called Huntingdon Marriott Hotel.
+System:  The Huntingdon Marriott Hotel is located at [kingfisher way, hinchinbrook business park, huntingdon]. It is a 4-star hotel in the west area. The hotel provides internet and parking. Would you like to book a room?
+
+
+User:   No, I just needed the star rating and postcode. Thank you.
+System:  The Huntingdon Marriott Hotel is a 4-star hotel. The postcode is PE296FL. Is there anything else I can assist you with?
+
+
+User:   No, that's all. Thank you for your help.
+System:  You're welcome! If you have any other questions in the future, don't hesitate to ask. Have a great day!
+
+
+Frame:  45
+Instruct Message:  You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>university arms hotel</span> and should depart from <span class='emphasis'>royal standard</span> The taxi should <span class='emphasis'>arrive by 15:45</span> Make sure you get <span class='emphasis'>contact number</span> and <span class='emphasis'>car type</span> 
+User:   I need to book a taxi.
+System:  Sure, I can assist you with that. Could you please tell me your pickup location, destination, and the time you want the taxi?
+
+
+User:   I need to go to University Arms Hotel from Royal Standard and I need to arrive by 15:45.
+System:  Booking completed! Booked car type : honda Contact number : 32157743664
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great day!
+
+
+Frame:  46
+Instruct Message:  You are planning your trip in Cambridge You are looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>friday</span> and should go to <span class='emphasis'>cambridge</span> The train should <span class='emphasis'>leave after 18:45</span> and should depart from <span class='emphasis'>norwich</span> Once you find the train you want to make a booking for <span class='emphasis'>1 people</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>south</span> The hotel should be in the type of <span class='emphasis'>guesthouse</span> and should be in the <span class='emphasis'>moderate</span> price range Make sure you get <span class='emphasis'>whether they have free parking</span> and <span class='emphasis'>address</span> 
+User:   I need a train that leaves on friday and goes to Cambridge.
+System:  There are several trains leaving for Cambridge on Friday. For example, train [trainid]TR5219 departs from London Kings Cross at [leaveat]05:17 and arrives in Cambridge at [arriveby]06:08. The journey takes 51 minutes and costs 23.60 pounds. Would you like to book this train or look at other options?
+
+
+User:   I need a train that leaves after 18:45 and departs from Norwich.
+System:  I found a train that fits your criteria. Train [trainid]TR2365 departs from Norwich at [leaveat]09:16 and arrives in Cambridge at [arriveby]10:35. The journey takes [duration]79 minutes and costs [price]17.60 pounds. Would you like to book this train?
+
+
+User:   Yes, I would like to book this train for 1 person.
+System:  Your booking was successful. The total fee is 17.60 pounds, payable at the station. Your reference number is : 00000759.
+
+
+User:   I also need a place to stay in the south that is a guesthouse and has a star rating of 4.
+System:  I'm sorry, but I couldn't find any 4-star guesthouses in the south in our database. Would you like to search for other types of accommodations or change the star rating?
+
+
+User:   No, that's okay. Thank you for checking.
+System:  You're welcome! If you need any more assistance, feel free to ask.
+
+
+Frame:  47
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should serve <span class='emphasis'>indian</span> food and should be in the <span class='emphasis'>expensive</span> price range The restaurant should be in the <span class='emphasis'>centre</span> Make sure you get <span class='emphasis'>postcode</span> You are also looking for a <span class='emphasis'>train</span>. The train should leave on <span class='emphasis'>monday</span> and should go to <span class='emphasis'>kings lynn</span> The train should <span class='emphasis'>leave after 17:30</span> and should depart from <span class='emphasis'>cambridge</span> Make sure you get <span class='emphasis'>price</span> and <span class='emphasis'>arrival time</span> 
+User:   I'm looking for a local place to dine in the centre that serves indian food.
+System:  We have several Indian restaurants in the centre. For example, "Curry Garden" at 106 Regent Street is a bit expensive, their contact number is 01223302330. Alternatively, "Kohinoor" at 74 Mill Road is cheaper, you can reach them at 01223323639. Would you like to book a table at one of these places?
+
+
+User:   I need the postcode for the restaurant.
+System:  The postcode for Curry Garden is CB21DP and for Kohinoor is CB12AS.
+
+
+User:   I also need a train. The train should leave on monday and go to kings lynn.
+System:  I'm sorry, but I couldn't find any trains going to Kings Lynn on Monday in the database. Would you like to search for a different destination or date?
+
+
+User:   Yes, I need a train that leaves after 17:30 and departs from Cambridge.
+System:  I found a train, [trainid], that leaves Cambridge at [leaveat] on Monday. Would you like me to book this for you?
+
+
+User:   Yes, please book it for me. I also need the price and arrival time.
+System:  Your booking was successful. The train, [trainid], departs from Cambridge at [leaveat] on Monday. The total price is [price] and it is expected to arrive at [arriveby]. Your booking reference is [ref].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance, feel free to ask. Have a great day!
+
+
+Frame:  48
+Instruct Message:  You are traveling to Cambridge and looking forward to try local restaurants You are looking for a <span class='emphasis'>restaurant</span>. The restaurant should serve <span class='emphasis'>scandinavian</span> food and should be in the <span class='emphasis'>east</span> The restaurant should be in the <span class='emphasis'>moderate</span> price range If there is no such restaurant, how about one that serves <span class='emphasis'>indian</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>1 people</span> at <span class='emphasis'>13:15</span> on <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>wednesday</span> The train should go to <span class='emphasis'>stevenage</span> and should <span class='emphasis'>arrive by 15:00</span> Make sure you get <span class='emphasis'>price</span> and <span class='emphasis'>travel time</span> 
+User:   I'm looking for a restaurant that serves scandinavian food in the east.
+System:  I'm sorry, but there are no restaurants that serve scandinavian food in the east area. Would you like to try another cuisine or area?
+
+
+User:   How about one that serves indian food?
+System:  There are several Indian restaurants in the east area. One of them is Curry Prince located at 451 Newmarket Road Fen Ditton. Would you like to book a table there?
+
+
+User:   Yes, I would like to book a table for 1 person at 13:15 on Tuesday.
+System:  Your table at Curry Prince has been booked for Tuesday at 13:15. Your reference number is 00000009. Enjoy your meal!
+
+
+User:   I also need a train. The train should depart from Cambridge and should leave on Wednesday.
+System:  The first train departing from Cambridge on Wednesday is TR3702, which leaves at 05:00 and arrives at London Kings Cross at 05:51. Would this suit your needs or would you like a later one?
+
+
+User:   I need the train to go to Stevenage and arrive by 15:00.
+System:  The train TR2874 departs from Cambridge on Wednesday at 13:21 and arrives in Stevenage at 14:10. This is the latest train that arrives before 15:00. Would you like to book it?
+
+
+User:   Yes, please book it for me.
+System:  I have booked the train for you. Your train [trainid] will depart from [departure] on [day] at [leaveat] and will arrive in [destination] by [arriveby]. Your booking reference is [reference].
+
+
+User:   Thank you for your help.
+System:  You're welcome! Your train TR2874 will depart from Cambridge on Wednesday at 13:21 and will arrive in Stevenage by 14:10. Your booking reference is 00002712. If you need any more assistance, feel free to ask.
+
+
+Frame:  49
+Instruct Message:  You are planning your trip in Cambridge You are looking for <span class='emphasis'>places to go</span> in town. The attraction should be in the <span class='emphasis'>west</span> and should be in the type of <span class='emphasis'>theatre</span> If there is no such attraction, how about one that is in <span class='emphasis'>the type of museum</span> Make sure you get <span class='emphasis'>phone number</span> and <span class='emphasis'>entrance fee</span> You are also looking for a <span class='emphasis'>train</span>. The train should <span class='emphasis'>arrive by 16:15</span> and should go to <span class='emphasis'>kings lynn</span> The train should leave on <span class='emphasis'>tuesday</span> and should depart from <span class='emphasis'>cambridge</span> Once you find the train you want to make a booking for <span class='emphasis'>4 people</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for places to go in the west that are theatres.
+System:  I'm sorry, but there are no theatres in the west area. Can I help you find theatres in another area or perhaps a different type of attraction in the west?
+
+
+User:   How about a museum in the west?
+System:  I found 5 museums in the west area. One of them is the "Cafe Jello Gallery" located at 13 Magdalene Street, with free entrance. Another one is the "Cambridge and County Folk Museum" at 2-3 Castle Street, with an entrance fee of 3.50 pounds. There's also the "Cambridge Book and Print Gallery" at 49 Newnham Road, "Kettle's Yard" at Castle Street, and "Lynne Strover Gallery" at 23 High Street, Fen Ditton. All of these have free entrance. Do you have a preference?
+
+
+User:   I'll go to the Cambridge and County Folk Museum. Can I have the phone number and entrance fee?
+System:  Sure, the phone number for the Cambridge and County Folk Museum is 01223355159 and the entrance fee is 3.50 pounds. Enjoy your visit!
+
+
+User:   I also need a train. The train should arrive by 16:15 and should go to kings lynn.
+System:  I'm sorry, but there are no trains available in the database that arrive in Kings Lynn by 16:15. Can I assist you with anything else?
+
+
+User:   How about a train that leaves on tuesday and departs from cambridge?
+System:  I found several trains departing from Cambridge on Tuesday. The earliest one is [TR9536] which leaves at [05:00] and arrives at London Kings Cross at [05:51]. There's also [TR3343] leaving at [07:00], [TR3371] at [09:00], [TR6925] at [11:00], and [TR0315] at [13:00]. All of these trains arrive at London Kings Cross 51 minutes after departure. Please note that these trains do not go to Kings Lynn. Would you like to book any of these?
+
+
+User:   No, I need a train that goes to kings lynn.
+System:  I found several trains departing from Cambridge to Kings Lynn on Tuesday. The earliest one is [TR6110] which leaves at [05:11] and arrives at Kings Lynn at [05:58]. There's also [TR3824] leaving at [06:11], [TR0687] at [07:11], [TR0607] at [08:11], and [TR3883] at [09:11]. All of these trains arrive at Kings Lynn 47 minutes after departure. Would you like to book any of these?
+
+
+User:   Yes, I would like to book the train leaving at 05:11 for 4 people.
+System:  Your booking for the train TR6110 departing from Cambridge to Kings Lynn on Tuesday at 05:11 has been successful. The total fee is 39.20 pounds payable at the station. Your booking reference number is 00000299. Enjoy your trip and visit to the museum!
+
+
+Frame:  50
+Instruct Message:  You are looking for a <span class='emphasis'>place to dine</span>. The restaurant should be in the <span class='emphasis'>expensive</span> price range and should serve <span class='emphasis'>chinese</span> food Once you find the <span class='emphasis'>restaurant</span> you want to book a table for <span class='emphasis'>4 people</span> at <span class='emphasis'>13:00</span> on <span class='emphasis'>monday</span> If the booking fails how about <span class='emphasis'>tuesday</span> Make sure you get the <span class='emphasis'>reference number</span> 
+User:   I'm looking for a fancy restaurant that serves chinese food.
+System:  I found [choice] restaurants that serve [food] food in the [pricerange] price range. Here are a few options: "The Good Luck Chinese Food Takeaway" located at 82 Cherry Hinton Road Cherry Hinton, "Yu Garden" at 529 Newmarket Road Fen Ditton, "Ugly Duckling" at 12 St. Johns Street City Centre, "Hakka" at Milton Road Chesterton, and "Peking Restaurant" at 10 Homerton Street City Centre. Would you like to book a table at one of these?
+
+
+User:   Yes, I would like to book a table for 4 people at 13:00 on monday.
+System:  Sure, I have booked a table for 4 people at 13:00 on Monday. Your reference number is 00000003. Is there anything else I can assist you with?
+
+
+User:   What if the booking fails? Can I try for Tuesday instead?
+System:  Don't worry, your booking for Tuesday at 13:00 for 4 people has been successfully made. Your new reference number is [ref].
+
+
+User:   Thank you for your help.
+System:  You're welcome! If you need any more assistance in the future, feel free to ask. Enjoy your meal!
