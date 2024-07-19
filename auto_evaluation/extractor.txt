@@ -1,0 +1,62 @@
+Go through the conversation and check if all the elements of the 'user_list' are mentioned in the 'Conversation'.
+Follow these examples for guidance:
+
+Example 1:
+user_list = ['particular hotel', 'express by holiday inn cambridge', 'star of the hotel', 'whether they have internet']
+
+Conversation:
+user_agent: I'm looking for a hotel called Express by Holiday Inn Cambridge.
+tod_system: I have [1] result. [Express by Holiday Inn Cambridge] at [15-17 Norman Way, Coldhams Business Park], [CB3 3LH]. Would you like to book this hotel?
+user_agent: I need to know the star rating and if they have internet.
+tod_system: This hotel has [2] stars and it offers free internet. Would you like to book it?
+user_agent: No, I just needed the information. Thank you.
+tod_system: You're welcome! If you need to book a hotel in the future, feel free to ask. Have a great day!
+
+Checking:
+Going over the user_list, we iterate over each element and check if it is present in the conversation.
+1. 'particular hotel' is mentioned in the conversation. Relevant dialogue (user_agent: I'm looking for a hotel called Express by Holiday Inn Cambridge.)
+2. 'express by holiday inn cambridge' is mentioned in the conversation. Relevant dialogue (user_agent: I'm looking for a hotel called Express by Holiday Inn Cambridge.)
+3. 'star of the hotel' is mentioned in the conversation. Relevant dialogue (user_agent: I need to know the star rating and if they have internet.)
+4. 'whether they have internet' is mentioned in the conversation. Relevant dialogue (user_agent: I need to know the star rating and if they have internet.)
+
+Based on this the final check_list should be:
+[1, 1, 1, 1]
+
+Example 2:
+user_list = ['train', 'cambridge', 'birmingham new street', 'leave after 08:45', 'monday', 'price', 'particular attraction', 'williams art and antiques', 'area', 'attraction type']
+
+Conversation:
+user_agent: I need a train that goes to Cambridge from Birmingham New Street on Monday after 08:45.
+tod_system: Here are the available trains from Birmingham New Street to Cambridge on Monday after 08:45:  TR9942 departing at 08:40, arriving by 11:23, £75.10 pounds, 163 minutes duration. TR9366 departing at 09:40, arriving by 12:23, £75.10 pounds, 163 minutes duration.  Would you like to book one of these trains?
+user_agent: Yes, I would like to book the train departing at 09:40.
+tod_system: Your booking for TR9366 has been confirmed. Here is your reference number: 00002153.
+user_agent: Thank you. I am also looking for a particular attraction called Williams Art and Antiques. Can you provide me with the area and type of attraction?
+tod_system: Williams Art and Antiques is a museum located in the centre of Cambridge. Would you like to know more about it, such as its address or phone number?
+user_agent: No, that's all I needed. Thank you.
+tod_system: You're all set! I've booked your train and provided information on Williams Art and Antiques. If you need help with anything else, such as restaurants or hotels near your attraction, feel free to ask!
+user_agent: <COMPLETE_CONVERSATION>
+
+Checking:
+Going over the user_list, we iterate over each element and check if it is present in the conversation.
+1. 'train' is mentioned in the conversation. Relevant dialogue (user_agent: I need a train that goes to Cambridge from Birmingham New Street on Monday after 08:45.)
+2. 'cambridge' is mentioned in the conversation. Relevant dialogue (user_agent: I need a train that goes to Cambridge from Birmingham New Street on Monday after 08:45.)
+3. 'birmingham new street' is mentioned in the conversation. Relevant dialogue (user_agent: I need a train that goes to Cambridge from Birmingham New Street on Monday after 08:45.)
+4. 'leave after 08:45' is mentioned in the conversation. Relevant dialogue (user_agent: I need a train that goes to Cambridge from Birmingham New Street on Monday after 08:45.)
+5. 'monday' is mentioned in the conversation. Relevant dialogue (user_agent: I need a train that goes to Cambridge from Birmingham New Street on Monday after 08:45.)
+6. 'price' is not mentioned in the conversation.
+7. 'particular attraction' is mentioned in the conversation. Relevant dialogue (user_agent: I am also looking for a particular attraction called Williams Art and Antiques.)
+8. 'williams art and antiques' is mentioned in the conversation. Relevant dialogue (user_agent: I am also looking for a particular attraction called Williams Art and Antiques.)
+9. 'area' is mentioned in the conversation. Relevant dialogue (tod_system: Williams Art and Antiques is a museum located in the centre of Cambridge.)
+10. 'attraction type' is mentioned in the conversation. Relevant dialogue (tod_system: Williams Art and Antiques is a museum located in the centre of Cambridge.)
+
+Based on this the final check_list should be:
+[1, 1, 1, 1, 1, 0, 1, 1, 1, 1]
+
+Now go through the conversation and check if all the elements of the 'user_list' are mentioned in the 'Conversation'.
+user_list = {list_user}
+
+Conversation:
+{conversation}
+
+Checking:
+Going over the user_list, we iterate over each element and check if it is present in the conversation.

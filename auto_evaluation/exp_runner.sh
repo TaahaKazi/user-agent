@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+python goal_completion_gpt_4.py --input_file_path  Runs/ua_gpt3_thought_tod_llama32024-06-03-02-05-27.jsonl --output_file_path Results/tod_res_ua_gpt3_thought_tod_llama32024-06-03-02-05-27.jsonl
+python goal_completion_gpt_4.py --input_file_path  Runs/ua_gpt3_vanilla_tod_llama32024-06-05-05-47-21.jsonl --output_file_path Results/tod_res_ua_gpt3_vanilla_tod_llama32024-06-05-05-47-21.jsonl
+python goal_completion_gpt_4.py --input_file_path  Runs/ua_gpt3_verbose_tod_llama32024-06-05-04-00-56.jsonl --output_file_path Results/tod_res_ua_gpt3_verbose_tod_llama32024-06-05-04-00-56.jsonl
